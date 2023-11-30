@@ -50,6 +50,11 @@
       "import": "./dist/Standalone/index.js",
       "require": "./dist/Standalone/index.cjs",
       "types": "./dist/Standalone/index.d.ts"
+    },
+    "./Illustration": {
+      "import": "./dist/Illustration/index.js",
+      "require": "./dist/Illustration/index.cjs",
+      "types": "./dist/Illustration/index.d.ts"
     }
   },
   "scripts": {
