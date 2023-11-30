@@ -11,4 +11,5 @@ export * from './react/Logo/index';
 export * from './react/Markets/index';
 export * from './react/Social/index';
 export * from './react/Standalone/index';
+export * from './react/Illustration/index';
 export * from './types/index';
