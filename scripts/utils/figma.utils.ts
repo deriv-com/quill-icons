@@ -56,6 +56,30 @@ export const getNameGeneratorByPage = (pageName: (typeof ICON_PAGES)[number]) =>
         const { subCategory } = fileDescriptor;
         return `${subCategory}`;
       };
+    case 'System':
+      return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {
+        const names: Array<string | undefined> = [];
+        const { category, variant, style } = fileDescriptor;
+
+        if (category.includes('label-paired')) {
+          const names = `${category}_${variant ?? ''}_${style ?? ''}`;
+          const variableName = makeVariableName(names);
+          return variableName;
+        }
+
+        const fileDescriptorKeys = Object.keys(fileDescriptor) as Array<
+          keyof typeof fileDescriptor
+        >;
+        fileDescriptorKeys.forEach((key) => {
+          if (fileDescriptor[key] !== undefined && !isMd(fileDescriptor[key])) {
+            names.push(fileDescriptor[key]);
+          }
+        });
+
+        const joinedNames = names.join('_');
+        const variableName = makeVariableName(joinedNames);
+        return variableName;
+      };
     default:
       return (fileDescriptor: ReturnType<typeof getFileDescriptor>) => {
         const names: Array<string | undefined> = [];

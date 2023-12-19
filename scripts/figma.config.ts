@@ -23,7 +23,9 @@ const filterComponent: ComponentFilter = (component) => {
   if (
     component.name.includes('flags /') ||
     component.name.includes('markets /') ||
-    component.name.includes('currencies /')
+    component.name.includes('currencies /') ||
+    // This is a special case because of it's design so we should return every sizes!
+    component.name.includes('label-paired /')
   ) {
     return true;
   }
