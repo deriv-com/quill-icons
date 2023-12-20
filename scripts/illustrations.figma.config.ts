@@ -9,7 +9,7 @@ import { IllustrationStoriesOptions } from './stories-configs/illustrations';
 
 dotenv.config();
 
-const fileId: string = 'Ue059kUMFtzTSIgpHqLL9H';
+const fileId: string = '4N66of3WfbhmHWkBiGvlT9';
 
 const outputters: ComponentOutputter[] = [
   outPutSvg(SvgOutPutConfig),
@@ -23,7 +23,7 @@ const outputters: ComponentOutputter[] = [
       'components',
       {
         fileId,
-        onlyFromPages: ['illustration'],
+        onlyFromPages: [],
         outputters,
       },
     ],
