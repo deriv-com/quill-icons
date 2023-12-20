@@ -1,0 +1,33 @@
+import type { Meta, StoryObj } from '@storybook/react';
+
+import { LabelPairedChartLineSmRegularIcon } from '../src/react/LabelPaired';
+
+const meta = {
+  title: 'label-paired/LabelPairedChartLineSmRegularIcon',
+  component: LabelPairedChartLineSmRegularIcon,
+  parameters: {
+    layout: 'centered',
+  },
+  argTypes: {
+    fill: { control: { type: 'color' } },
+    iconSize: {
+      control: {
+        type: 'radio',
+      },
+      options: ['sm', 'md', 'lg', 'xl', '2xl'],
+      defaultValue: 'md',
+    },
+  },
+  tags: ['autodocs'],
+} satisfies Meta<typeof LabelPairedChartLineSmRegularIcon>;
+
+export default meta;
+
+type Story = StoryObj<typeof LabelPairedChartLineSmRegularIcon>;
+
+export const Primary: Story = {
+  args: {
+    iconSize: '2xl',
+    fill: 'black',
+  },
+};

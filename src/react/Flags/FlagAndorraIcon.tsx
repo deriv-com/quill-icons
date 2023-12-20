@@ -14,32 +14,22 @@ export const FlagAndorraIcon = (
     ref={ref}
     {...props}
   >
-    <path fill='#D20636' d='M16 0h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6V0Z' />
-    <path fill='#FFE100' d='M16 0H8v16h8V0Z' />
-    <path fill='#0006AB' d='M2 0h6v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2Z' />
+    <path fill='#D20636' d='M16 0h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6z' />
+    <path fill='#FFE100' d='M16 0H8v16h8z' />
+    <path fill='#0006AB' d='M2 0h6v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2' />
     <path
       fill='#C8B47C'
       fillRule='evenodd'
-      d='M13.436 10.435A1.502 1.502 0 0 0 14.5 9V6c0-.835-.672-1.5-1.5-1.5h-2A1.5 1.5 0 0 0 9.5 6v3c0 .682.448 1.25 1.064 1.436.186.62.758 1.064 1.436 1.064.682 0 1.25-.45 1.436-1.065Z'
+      d='M13.436 10.435A1.502 1.502 0 0 0 14.5 9V6c0-.835-.672-1.5-1.5-1.5h-2A1.5 1.5 0 0 0 9.5 6v3c0 .682.448 1.25 1.064 1.436.186.62.758 1.064 1.436 1.064.682 0 1.25-.45 1.436-1.065'
       clipRule='evenodd'
     />
-    <path
-      fill='#D20636'
-      fillRule='evenodd'
-      d='M10.5 5.5h1V7h-1V5.5Zm2 2h1V9h-1V7.5Z'
-      clipRule='evenodd'
-    />
-    <path
-      fill='#FFE100'
-      fillRule='evenodd'
-      d='M12.5 5.5h1V7h-1V5.5Zm-2 2h1V9h-1V7.5Z'
-      clipRule='evenodd'
-    />
+    <path fill='#D20636' fillRule='evenodd' d='M10.5 5.5h1V7h-1zm2 2h1V9h-1z' clipRule='evenodd' />
+    <path fill='#FFE100' fillRule='evenodd' d='M12.5 5.5h1V7h-1zm-2 2h1V9h-1z' clipRule='evenodd' />
     <path
       fill='#000'
       fillOpacity={0.08}
       fillRule='evenodd'
-      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1ZM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z'
+      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
       clipRule='evenodd'
     />
   </svg>

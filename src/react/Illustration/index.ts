@@ -1,8 +1,8 @@
-export { default as DarkTwentyFourSevenSupportIcon } from './DarkTwentyFourSevenSupportIcon';
-export { default as DarkSafeAndSecureIcon } from './DarkSafeAndSecureIcon';
-export { default as DarkRegulatedIcon } from './DarkRegulatedIcon';
-export { default as DarkDependableIcon } from './DarkDependableIcon';
-export { default as LightDependableIcon } from './LightDependableIcon';
-export { default as LightSafeAndSecureIcon } from './LightSafeAndSecureIcon';
-export { default as LightRegulatedIcon } from './LightRegulatedIcon';
-export { default as LightTwentyFourSevenSupportIcon } from './LightTwentyFourSevenSupportIcon';
+export { default as DarkTwentyFourSevenSupportTestIcon } from './DarkTwentyFourSevenSupportTestIcon';
+export { default as DarkSafeAndSecureTestIcon } from './DarkSafeAndSecureTestIcon';
+export { default as DarkRegulatedTestIcon } from './DarkRegulatedTestIcon';
+export { default as DarkDependableTestIcon } from './DarkDependableTestIcon';
+export { default as LightDependableTestIcon } from './LightDependableTestIcon';
+export { default as LightSafeAndSecureTestIcon } from './LightSafeAndSecureTestIcon';
+export { default as LightRegulatedTestIcon } from './LightRegulatedTestIcon';
+export { default as LightTwentyFourSevenSupportTestIcon } from './LightTwentyFourSevenSupportTestIcon';

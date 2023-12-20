@@ -16,7 +16,7 @@ export const LabelPairedMicrosoftIcon = (
     <g clipPath='url(#a)'>
       <path
         fillOpacity={0.72}
-        d='M0 5h6.719v6.719H0V5Zm7.281 0H14v6.719H7.281V5ZM0 12.281h6.719V19H0v-6.719Zm7.281 0H14V19H7.281v-6.719Z'
+        d='M0 5h6.719v6.719H0zm7.281 0H14v6.719H7.281zM0 12.281h6.719V19H0zm7.281 0H14V19H7.281z'
       />
     </g>
     <defs>
