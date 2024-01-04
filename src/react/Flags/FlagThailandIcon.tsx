@@ -16,15 +16,15 @@ export const FlagThailandIcon = (
   >
     <path
       fill='#F12532'
-      d='M22 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2'
+      d='M22 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Z'
     />
-    <path fill='#fff' d='M24 3H0v10h24z' />
-    <path fill='#322B6C' d='M24 5H0v6h24z' />
+    <path fill='#fff' d='M24 3H0v10h24V3Z' />
+    <path fill='#322B6C' d='M24 5H0v6h24V5Z' />
     <path
       fill='#000'
       fillOpacity={0.08}
       fillRule='evenodd'
-      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
+      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1ZM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z'
       clipRule='evenodd'
     />
   </svg>

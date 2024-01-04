@@ -16,14 +16,14 @@ export const CurrencyDaiIcon = (
   >
     <path
       fill='#FCE6C5'
-      d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
+      d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16Z'
     />
-    <path fill='#FFCC80' d='M6 16h10v10z' />
-    <path fill='#FFB74D' d='M16 6v13L6 16z' />
-    <path fill='#fff' d='m9 16 7-7v4l-3 3z' />
-    <path fill='#F7C57B' d='M26 16H16v10z' />
-    <path fill='#F7B14A' d='M16 6v13l10-3z' />
-    <path fill='#fff' d='m23 16-7-7v4l3 3z' />
+    <path fill='#FFCC80' d='M6 16h10v10L6 16Z' />
+    <path fill='#FFB74D' d='M16 6v13L6 16 16 6Z' />
+    <path fill='#fff' d='m9 16 7-7v4l-3 3H9Z' />
+    <path fill='#F7C57B' d='M26 16H16v10l10-10Z' />
+    <path fill='#F7B14A' d='M16 6v13l10-3L16 6Z' />
+    <path fill='#fff' d='m23 16-7-7v4l3 3h4Z' />
   </svg>
 );
 const ForwardRef = forwardRef(CurrencyDaiIcon);

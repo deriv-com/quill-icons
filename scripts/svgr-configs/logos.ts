@@ -70,8 +70,18 @@ export const LogosSvgReactOutPutConfig: Options = {
             },
           },
         },
+        {
+          name: 'prefixIds',
+          params: { prefix: Math.random().toString(16) },
+        },
         'removeComments',
         'removeUselessStrokeAndFill',
+        {
+          name: 'removeAttrs',
+          params: {
+            attrs: ['clip-path'],
+          },
+        },
         'removeUselessDefs',
       ],
     };

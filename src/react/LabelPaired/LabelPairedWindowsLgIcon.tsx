@@ -13,7 +13,7 @@ const LabelPairedWindowsLgIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSV
     <g clipPath='url(#a)'>
       <path
         fillOpacity={0.72}
-        d='M.25 9.172v5.937h7.188V8.156zm0 12.656v-5.86h7.188v6.876zm7.969 1.094v-6.953h9.531v8.281zm0-14.844L17.75 6.75v8.36H8.219z'
+        d='M.25 9.172v5.937h7.188V8.156L.25 9.172Zm0 12.656v-5.86h7.188v6.876L.25 21.828Zm7.969 1.094v-6.953h9.531v8.281l-9.531-1.328Zm0-14.844L17.75 6.75v8.36H8.219V8.077Z'
       />
     </g>
     <defs>

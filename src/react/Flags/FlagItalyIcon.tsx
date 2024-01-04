@@ -14,14 +14,14 @@ export const FlagItalyIcon = (
     ref={ref}
     {...props}
   >
-    <path fill='#E43D4C' d='M16 0h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6z' />
-    <path fill='#fff' d='M16 0H8v16h8z' />
-    <path fill='#1BB65D' d='M2 0h6v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2' />
+    <path fill='#E43D4C' d='M16 0h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6V0Z' />
+    <path fill='#fff' d='M16 0H8v16h8V0Z' />
+    <path fill='#1BB65D' d='M2 0h6v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2Z' />
     <path
       fill='#000'
       fillOpacity={0.08}
       fillRule='evenodd'
-      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
+      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1ZM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z'
       clipRule='evenodd'
     />
   </svg>

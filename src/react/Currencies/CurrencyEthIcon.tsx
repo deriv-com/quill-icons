@@ -16,14 +16,14 @@ export const CurrencyEthIcon = (
   >
     <path
       fill='#EBF0F1'
-      d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
+      d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16Z'
     />
-    <path fill='#12100B' fillOpacity={0.8} d='M15.998 4v16.565l7.497-4.345z' />
-    <path fill='#12100B' fillOpacity={0.45} d='M15.998 4 8.5 16.22l7.498 4.35z' />
-    <path fill='#12100B' fillOpacity={0.8} d='M15.998 21.968v6.027L23.5 17.616z' />
-    <path fill='#12100B' fillOpacity={0.45} d='M15.998 27.995v-6.028L8.5 17.616z' />
-    <path fill='#12100B' fillOpacity={0.6} d='m15.998 20.573 7.497-4.353-7.497-3.348z' />
-    <path fill='#12100B' fillOpacity={0.6} d='m8.5 16.22 7.498 4.353v-7.701z' />
+    <path fill='#12100B' fillOpacity={0.8} d='M15.998 4v16.565l7.497-4.345L15.998 4Z' />
+    <path fill='#12100B' fillOpacity={0.45} d='M15.998 4 8.5 16.22l7.498 4.35V4Z' />
+    <path fill='#12100B' fillOpacity={0.8} d='M15.998 21.968v6.027L23.5 17.616l-7.502 4.352Z' />
+    <path fill='#12100B' fillOpacity={0.45} d='M15.998 27.995v-6.028L8.5 17.616l7.498 10.379Z' />
+    <path fill='#12100B' fillOpacity={0.6} d='m15.998 20.573 7.497-4.353-7.497-3.348v7.701Z' />
+    <path fill='#12100B' fillOpacity={0.6} d='m8.5 16.22 7.498 4.353v-7.701L8.5 16.22Z' />
   </svg>
 );
 const ForwardRef = forwardRef(CurrencyEthIcon);

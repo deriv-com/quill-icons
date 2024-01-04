@@ -13,7 +13,7 @@ const LabelPairedMicrosoftXlIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     <g clipPath='url(#a)'>
       <path
         fillOpacity={0.72}
-        d='M0 7.5h10.078v10.078H0zm10.922 0H21v10.078H10.922zM0 18.422h10.078V28.5H0zm10.922 0H21V28.5H10.922z'
+        d='M0 7.5h10.078v10.078H0V7.5Zm10.922 0H21v10.078H10.922V7.5ZM0 18.422h10.078V28.5H0V18.422Zm10.922 0H21V28.5H10.922V18.422Z'
       />
     </g>
     <defs>

@@ -17,12 +17,12 @@ export const MarketStocksMicrosoftIcon = (
     <g clipPath='url(#a)'>
       <path
         fill='#F6F7F8'
-        d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
+        d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16Z'
       />
-      <path fill='#F05126' d='M15.742 8H8v7.742h7.742z' />
-      <path fill='#7EBC42' d='M24 8h-7.742v7.742H24z' />
-      <path fill='#2A9FDA' d='M15.742 16.258H8V24h7.742z' />
-      <path fill='#FDB716' d='M24 16.258h-7.742V24H24z' />
+      <path fill='#F05126' d='M15.742 8H8v7.742h7.742V8Z' />
+      <path fill='#7EBC42' d='M24 8h-7.742v7.742H24V8Z' />
+      <path fill='#2A9FDA' d='M15.742 16.258H8V24h7.742v-7.742Z' />
+      <path fill='#FDB716' d='M24 16.258h-7.742V24H24v-7.742Z' />
     </g>
     <defs>
       <clipPath id='a'>

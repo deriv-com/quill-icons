@@ -14,14 +14,14 @@ export const FlagHungaryIcon = (
     ref={ref}
     {...props}
   >
-    <path fill='#5A9165' d='M2 16h20a2 2 0 0 0 2-2v-3H0v3a2 2 0 0 0 2 2' />
-    <path fill='#fff' d='M24 5H0v6h24z' />
-    <path fill='#E03D52' d='M2 0h20a2 2 0 0 1 2 2v3H0V2a2 2 0 0 1 2-2' />
+    <path fill='#5A9165' d='M2 16h20a2 2 0 0 0 2-2v-3H0v3a2 2 0 0 0 2 2Z' />
+    <path fill='#fff' d='M24 5H0v6h24V5Z' />
+    <path fill='#E03D52' d='M2 0h20a2 2 0 0 1 2 2v3H0V2a2 2 0 0 1 2-2Z' />
     <path
       fill='#000'
       fillOpacity={0.08}
       fillRule='evenodd'
-      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
+      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1ZM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z'
       clipRule='evenodd'
     />
   </svg>

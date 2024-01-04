@@ -16,19 +16,19 @@ export const FlagFinlandIcon = (
   >
     <path
       fill='#fff'
-      d='M11 0h11a2 2 0 0 1 2 2v4H11zM7 0H2a2 2 0 0 0-2 2v4h7zM0 10v4a2 2 0 0 0 2 2h5v-6zM11 16h11a2 2 0 0 0 2-2v-4H11z'
+      d='M11 0h11a2 2 0 0 1 2 2v4H11V0ZM7 0H2a2 2 0 0 0-2 2v4h7V0ZM0 10v4a2 2 0 0 0 2 2h5v-6H0ZM11 16h11a2 2 0 0 0 2-2v-4H11v6Z'
     />
     <path
       fill='#003282'
       fillRule='evenodd'
-      d='M11 0v6h13v4H11v6H7v-6H0V6h7V0z'
+      d='M11 0v6h13v4H11v6H7v-6H0V6h7V0h4Z'
       clipRule='evenodd'
     />
     <path
       fill='#000'
       fillOpacity={0.08}
       fillRule='evenodd'
-      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
+      d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1ZM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z'
       clipRule='evenodd'
     />
   </svg>

@@ -17,10 +17,13 @@ export const MarketStocksDeltaAirLinesIcon = (
     <g clipPath='url(#a)'>
       <path
         fill='#203C6A'
-        d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
+        d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16Z'
       />
-      <path fill='#fff' d='M6.625 21.375 16 7c3.605 5.553 9.375 14.375 9.375 14.375L16 17z' />
-      <path fill='#fff' d='M6 23.25h20l-10-4.375z' />
+      <path
+        fill='#fff'
+        d='M6.625 21.375 16 7c3.605 5.553 9.375 14.375 9.375 14.375L16 17l-9.375 4.375Z'
+      />
+      <path fill='#fff' d='M6 23.25h20l-10-4.375L6 23.25Z' />
     </g>
     <defs>
       <clipPath id='a'>
