@@ -75,10 +75,16 @@ export const LogosSvgReactOutPutConfig: Options = {
         {
           name: 'removeAttrs',
           params: {
-            attrs: ['clip-path', 'id'],
+            attrs: ['clip-path'],
           },
         },
         'removeUselessDefs',
+        {
+          name: 'prefixIds',
+          params: {
+            prefixIds: true,
+          },
+        },
       ],
     };
     return {
