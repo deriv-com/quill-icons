@@ -1,6 +1,9 @@
 import { pascalCase } from '@figma-export/utils';
 import * as FigmaExport from '@figma-export/types';
 import { ICON_PAGES } from './figma.constants';
+import crypto from 'crypto';
+
+export const getRandomHash = () => crypto.randomBytes(16).toString('hex');
 
 export const getFileDescriptor = (options: FigmaExport.ComponentOutputterParamOption) => {
   const { componentName } = options;

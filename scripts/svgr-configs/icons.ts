@@ -6,6 +6,7 @@ import {
   getExportTemplate,
   getFileDescriptor,
   getNameGeneratorByPage,
+  getRandomHash,
   // getVarNameByFileDC,
 } from '../utils/figma.utils';
 import { Config as OptimizeOptions } from 'svgo';
@@ -62,14 +63,12 @@ export const IconSvgReactOutPutConfig: Options = {
             },
           },
         },
+        {
+          name: 'prefixIds',
+          params: { prefix: getRandomHash() },
+        },
         'removeComments',
         'removeUselessStrokeAndFill',
-        // {
-        //   name: 'removeAttrs',
-        //   params: {
-        //     attrs: ['id'],
-        //   },
-        // },
         'removeUselessDefs',
       ],
     };
