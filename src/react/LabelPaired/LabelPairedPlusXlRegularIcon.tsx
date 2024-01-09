@@ -14,7 +14,7 @@ const LabelPairedPlusXlRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<S
       <path d='M11.25 9v8.25h8.25c.469.031.719.281.75.75-.031.469-.281.719-.75.75h-8.25V27c-.031.469-.281.719-.75.75-.469-.031-.719-.281-.75-.75v-8.25H1.5c-.469-.031-.719-.281-.75-.75.031-.469.281-.719.75-.75h8.25V9c.031-.469.281-.719.75-.75.469.031.719.281.75.75' />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='d501cf0bfee21ad025b0bcc2c13671f0__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>
