@@ -23,7 +23,7 @@ const SubBrandDerivAcademyBrandDarkIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='cfa3c2c86483f6320a65f280862283b3__a'>
         <path fill='#fff' d='M0 0h448v72H0z' />
       </clipPath>
     </defs>

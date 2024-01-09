@@ -10,7 +10,7 @@ const PaymentMethodPseBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     {...props}
   >
     <path
-      fill='url(#a)'
+      fill='url(#15e8da7d83be975a4b1ad79e7b761335__a)'
       d='M64 71.997c17.673 0 32-14.326 32-31.998C96 22.326 81.673 8 64 8 46.327 8 32 22.326 32 39.999c0 17.672 14.327 31.998 32 31.998'
     />
     <path
@@ -33,7 +33,7 @@ const PaymentMethodPseBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     />
     <defs>
       <radialGradient
-        id='a'
+        id='15e8da7d83be975a4b1ad79e7b761335__a'
         cx={0}
         cy={0}
         r={1}

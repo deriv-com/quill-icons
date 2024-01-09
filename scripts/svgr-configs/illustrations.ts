@@ -5,6 +5,7 @@ import {
   getDirName,
   getExportTemplate,
   getFileDescriptor,
+  getRandomHash,
   isMd,
   makeVariableName,
 } from '../utils/figma.utils';
@@ -72,13 +73,11 @@ export const IllustrationSvgReactOutPutConfig: Options = {
             },
           },
         },
+        {
+          name: 'prefixIds',
+          params: { prefix: getRandomHash() },
+        },
         'removeComments',
-        // {
-        //   name: 'removeAttrs',
-        //   params: {
-        //     attrs: ['id'],
-        //   },
-        // },
         'removeUselessDefs',
         'removeUselessStrokeAndFill',
       ],

@@ -17,7 +17,7 @@ const LabelPairedChevronRightMdBoldIcon = (
       <path d='M9.531 11.469c.292.354.292.708 0 1.062l-6 6c-.354.292-.708.292-1.062 0-.292-.354-.292-.708 0-1.062L7.938 12l-5.47-5.469c-.29-.354-.29-.708 0-1.062.355-.292.71-.292 1.063 0z' />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='f8fd161ec7875b9de5a290ca0c93dbca__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>

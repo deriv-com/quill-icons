@@ -14,7 +14,7 @@ const LabelPairedCheckXlBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       <path d='M20.672 10.828c.437.531.437 1.063 0 1.594L8.297 24.797c-.531.437-1.063.437-1.594 0L.328 18.422c-.437-.531-.437-1.063 0-1.594.531-.437 1.063-.437 1.594 0L7.5 22.406l11.578-11.578c.531-.437 1.063-.437 1.594 0' />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='5363083074c8e0811ec3761664d8f7eb__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

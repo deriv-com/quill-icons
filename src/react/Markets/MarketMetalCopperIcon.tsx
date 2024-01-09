@@ -14,7 +14,7 @@ export const MarketMetalCopperIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g clipPath='url(#e63823f57c41dad96785531812c6f4a8__a)'>
       <path
         fill='#F3986F'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -34,7 +34,7 @@ export const MarketMetalCopperIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='e63823f57c41dad96785531812c6f4a8__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

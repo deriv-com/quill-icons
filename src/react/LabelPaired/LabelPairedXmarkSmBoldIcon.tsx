@@ -14,7 +14,7 @@ const LabelPairedXmarkSmBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       <path d='M9.684 7.496 6.43 10.75l3.254 3.254c.255.31.255.62 0 .93-.31.255-.62.255-.93 0L5.5 11.68l-3.254 3.254c-.31.255-.62.255-.93 0-.255-.31-.255-.62 0-.93L4.57 10.75 1.316 7.496c-.255-.31-.255-.62 0-.93.31-.255.62-.255.93 0L5.5 9.82l3.254-3.254c.31-.255.62-.255.93 0 .255.31.255.62 0 .93' />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='6e77176c83ccb0fe14ee3bd31ed04865__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

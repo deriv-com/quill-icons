@@ -5,6 +5,7 @@ import {
   getDirName,
   getExportTemplate,
   getFileDescriptor,
+  getRandomHash,
   isMd,
   makeVariableName,
 } from '../utils/figma.utils';
@@ -70,12 +71,15 @@ export const LogosSvgReactOutPutConfig: Options = {
             },
           },
         },
+        {
+          name: 'prefixIds',
+          params: { prefix: getRandomHash() },
+        },
         'removeComments',
         'removeUselessStrokeAndFill',
         {
           name: 'removeAttrs',
           params: {
-            // attrs: ['clip-path', 'id'],
             attrs: ['clip-path'],
           },
         },

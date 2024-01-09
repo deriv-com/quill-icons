@@ -14,7 +14,7 @@ export const FlagJordanIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a)'>
+    <g clipPath='url(#c2baf7a209b46d89fdca7df87dd250eb__a)'>
       <path fill='#fff' d='M7.5 11 12 8 7.5 5H24v6z' />
       <path
         fill='#E6223A'
@@ -44,7 +44,7 @@ export const FlagJordanIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a'>
+      <clipPath id='c2baf7a209b46d89fdca7df87dd250eb__a'>
         <path fill='#fff' d='M0 0h24v16H0z' />
       </clipPath>
     </defs>
