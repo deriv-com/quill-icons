@@ -9,7 +9,7 @@ permissions:
   pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
   REPO_FULL_NAME: 'deriv-com/quill-icons-park'
   REPO_NAME: 'quill-icons-park'
   PR_BRANCH: 'quill-icons-update'
@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4.1.1
         with:
           repository: ${{env.REPO_FULL_NAME}}
-          token: ${{env.GH_TOKEN}}
+          token: ${{env.GITHUB_TOKEN}}
           path: ${{env.REPO_NAME}}
 
       - name: Set up Git identity
