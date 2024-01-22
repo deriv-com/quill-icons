@@ -3,10 +3,13 @@ name: PR to inform @quill-icons update
 on:
   workflow_dispatch:
 
-permissions: write-all
+permissions:
+  contents: write
+  actions: write
+  pull-requests: write
 
 env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
   REPO_FULL_NAME: 'deriv-com/quill-icons-park'
   REPO_NAME: 'quill-icons-park'
   PR_BRANCH: 'quill-icons-update'
@@ -46,5 +49,6 @@ jobs:
         if: success()
         run: |
           cd "${{env.REPO_NAME}}"
+          gh auth login --with-token <<< ${{ github.token }}
           gh pr close "${{env.PR_BRANCH}}" || true
           gh pr create --base master --head "${{env.PR_BRANCH}}" --title "${{env.PR_TITLE}}" --body "${{env.PR_BODY}}" --label "${{env.PR_LABEL}}"
