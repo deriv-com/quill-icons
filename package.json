@@ -6,12 +6,63 @@
     "dist"
   ],
   "main": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./dist/esm/index.mjs",
       "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.mjs",
       "types": "./dist/esm/index.d.ts"
+    },
+    "./Currencies": {
+      "require": "./dist/cjs/react/Currencies/index.js",
+      "import": "./dist/esm/react/Currencies/index.js",
+      "types": "./dist/esm/react/Currencies/index.d.ts"
+    },
+    "./Flags": {
+      "require": "./dist/cjs/react/Flags/index.js",
+      "import": "./dist/esm/react/Flags/index.js",
+      "types": "./dist/esm/react/Flags/index.d.ts"
+    },
+    "./Illustrative": {
+      "require": "./dist/cjs/react/Illustrative/index.js",
+      "import": "./dist/esm/react/Illustrative/index.js",
+      "types": "./dist/esm/react/Illustrative/index.d.ts"
+    },
+    "./LabelPaired": {
+      "require": "./dist/cjs/react/LabelPaired/index.js",
+      "import": "./dist/esm/react/LabelPaired/index.js",
+      "types": "./dist/esm/react/LabelPaired/index.d.ts"
+    },
+    "./Logo": {
+      "require": "./dist/cjs/react/Logo/index.js",
+      "import": "./dist/esm/react/Logo/index.js",
+      "types": "./dist/esm/react/Logo/index.d.ts"
+    },
+    "./Markets": {
+      "require": "./dist/cjs/react/Markets/index.js",
+      "import": "./dist/esm/react/Markets/index.js",
+      "types": "./dist/esm/react/Markets/index.d.ts"
+    },
+    "./Platforms": {
+      "require": "./dist/cjs/react/Platforms/index.js",
+      "import": "./dist/esm/react/Platforms/index.js",
+      "types": "./dist/esm/react/Platforms/index.d.ts"
+    },
+    "./Social": {
+      "require": "./dist/cjs/react/Social/index.js",
+      "import": "./dist/esm/react/Social/index.js",
+      "types": "./dist/esm/react/Social/index.d.ts"
+    },
+    "./Standalone": {
+      "require": "./dist/cjs/react/Standalone/index.js",
+      "import": "./dist/esm/react/Standalone/index.js",
+      "types": "./dist/esm/react/Standalone/index.d.ts"
+    },
+    "./Illustration": {
+      "require": "./dist/cjs/react/Illustration/index.js",
+      "import": "./dist/esm/react/Illustration/index.js",
+      "types": "./dist/esm/react/Illustration/index.d.ts"
     },
     "./package.json": "./package.json"
   },

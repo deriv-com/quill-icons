@@ -7,13 +7,17 @@
     "jsx": "react",
     "declaration": true,
     "esModuleInterop": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "sourceMap": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
-  "include": ["./src", "./scripts", "declarations.d.ts"],
-  "exclude": ["./node_modules"]
+  "include": ["src/**/*", "declarations.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }
