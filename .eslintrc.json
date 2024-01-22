@@ -6,8 +6,7 @@
   "extends": [
     "plugin:react/recommended",
     "standard-with-typescript",
-    "prettier",
-    "plugin:storybook/recommended"
+    "prettier"
   ],
   "settings": {
     "react": {
@@ -18,7 +17,7 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.esm.json"
   },
   "plugins": ["react"],
   "rules": {

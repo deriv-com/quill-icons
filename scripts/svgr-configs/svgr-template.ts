@@ -122,14 +122,14 @@ const SvgrTemplate: Options['template'] = (variables, { tpl }) => {
   ];
   return tpl`
     ${updatedImports};
-    import { QuillSvgProps, sizes } from 'types';
+    import { QuillSvgProps, sizes } from '../../types';
 
     ${variables.interfaces};
-    
+
     export const ${variables.componentName} = (${updatedProps}) => (
       ${variables.jsx}
     );
-  
+
     ${variables.exports};
     `;
 };

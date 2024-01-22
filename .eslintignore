@@ -6,6 +6,7 @@ package-lock.json
 dist
 barrelsby.config.json
 tsconfig.json
+tsconfig.esm.json
 tsconfig.build.json
 vercel.json
 node_modules
