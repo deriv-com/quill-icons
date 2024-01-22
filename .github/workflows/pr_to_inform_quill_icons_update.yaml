@@ -49,6 +49,5 @@ jobs:
         if: success()
         run: |
           cd "${{env.REPO_NAME}}"
-          gh auth login --with-token <<< ${{ github.token }}
           gh pr close "${{env.PR_BRANCH}}" || true
           gh pr create --base master --head "${{env.PR_BRANCH}}" --title "${{env.PR_TITLE}}" --body "${{env.PR_BODY}}" --label "${{env.PR_LABEL}}"
