@@ -1,3 +1,35 @@
+# [1.16.0](https://github.com/deriv-com/quill-icons/compare/v1.15.0...v1.16.0) (2024-01-23)
+
+
+### ♻️ 	 Chores
+
+* split into es6 modules and csj without bundling ([9bf71dd](https://github.com/deriv-com/quill-icons/commit/9bf71dd7d19a722d9aa25c42edf6eb56c3783879))
+* split into es6 modules and csj without bundling ([129338a](https://github.com/deriv-com/quill-icons/commit/129338a4d0f156dca2eac1d984988320007d5159))
+* trigger ci/cd ([caad33a](https://github.com/deriv-com/quill-icons/commit/caad33adc81bc6c8669ac90928f38ba75197e255))
+
+
+### ✨ 	 Features
+
+* :zap: adds github action ([28a38b3](https://github.com/deriv-com/quill-icons/commit/28a38b3bd4fe6eb6f425b1f607a4e74eeefcb84f))
+* :zap: adds github action ([33bc427](https://github.com/deriv-com/quill-icons/commit/33bc427ae7eed70c424f9fb84e0faafdf410ab01))
+* :zap: adds github action ([b325b98](https://github.com/deriv-com/quill-icons/commit/b325b98587bd4a4039e4f48611740d30886c9c91))
+* :zap: adds github action ([38e98a2](https://github.com/deriv-com/quill-icons/commit/38e98a2d45b87376ca188a8a78bbec6e34456fc7))
+* :zap: adds github action ([37a4ea9](https://github.com/deriv-com/quill-icons/commit/37a4ea9f84e427f5478c23d5cc3217386c70455c))
+* :zap: adds github action ([3c0f6ca](https://github.com/deriv-com/quill-icons/commit/3c0f6ca6bf63d07813c07cd3b4f8bc6d7d9da6de))
+* :zap: adds github action ([2d9de33](https://github.com/deriv-com/quill-icons/commit/2d9de33b25570632e94e6fe3c68d0b3c92fb0885))
+* :zap: adds github action ([73179c1](https://github.com/deriv-com/quill-icons/commit/73179c16849013166d0c4550d437f28322fc27d8))
+* :zap: github action ([bb958ce](https://github.com/deriv-com/quill-icons/commit/bb958ce1af611b252f7bebea171f2b25b3c4adbc))
+* :zap: github action ([fa82abb](https://github.com/deriv-com/quill-icons/commit/fa82abb55c51c6e8d711efb9f3737adcd0ffcca7))
+* :zap: github action ([7f950fe](https://github.com/deriv-com/quill-icons/commit/7f950fecade2456dacf852e1223c10375c9c4855))
+* :zap: github action ([09ef2c7](https://github.com/deriv-com/quill-icons/commit/09ef2c71de2a0eff7d2ee66e9bc17f82c4231115))
+* modifies github action, PR for quill-icons-park ([74ccc21](https://github.com/deriv-com/quill-icons/commit/74ccc21618e2c809722d21bbdce330145ae1c157))
+* modifies github action, PR for quill-icons-park ([96a900c](https://github.com/deriv-com/quill-icons/commit/96a900c4f2ecc3a5da5d2c0affd01a33545733bb))
+
+
+### 🐛 	 Bug Fixes
+
+* exports from package json ([22e2b0f](https://github.com/deriv-com/quill-icons/commit/22e2b0f36f98d2815dc209664050fb0881ccb8ea))
+
 # [1.15.0](https://github.com/deriv-com/quill-icons/compare/v1.14.1...v1.15.0) (2024-01-22)
 
 
