@@ -1,3 +1,11 @@
+## [1.16.1](https://github.com/deriv-com/quill-icons/compare/v1.16.0...v1.16.1) (2024-01-23)
+
+
+### 🐛 	 Bug Fixes
+
+* rename mjs to js ([6402601](https://github.com/deriv-com/quill-icons/commit/6402601743bdc2a921f7ae2b158b9521abe3addd))
+* rename mjs to js ([acb28fd](https://github.com/deriv-com/quill-icons/commit/acb28fd4c2fc7bab94dd26d6bc69c3ada34a7845))
+
 # [1.16.0](https://github.com/deriv-com/quill-icons/compare/v1.15.0...v1.16.0) (2024-01-23)
 
 
