@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
-import { QuillSvgProps, sizes } from 'types';
+import { QuillSvgProps, sizes } from '../../types';
 export const MarketMetalAluminiumIcon = (
   { iconSize = 'md', ...props }: QuillSvgProps,
   ref: Ref<SVGSVGElement>,

@@ -5,69 +5,69 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
   "sideEffects": false,
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.mjs",
+      "types": "./dist/esm/index.d.ts"
     },
     "./Currencies": {
-      "import": "./dist/Currencies/index.mjs",
-      "require": "./dist/Currencies/index.js",
-      "types": "./dist/Currencies/index.d.ts"
+      "require": "./dist/cjs/react/Currencies/index.js",
+      "import": "./dist/esm/react/Currencies/index.js",
+      "types": "./dist/esm/react/Currencies/index.d.ts"
     },
     "./Flags": {
-      "import": "./dist/Flags/index.mjs",
-      "require": "./dist/Flags/index.js",
-      "types": "./dist/Flags/index.d.ts"
+      "require": "./dist/cjs/react/Flags/index.js",
+      "import": "./dist/esm/react/Flags/index.js",
+      "types": "./dist/esm/react/Flags/index.d.ts"
     },
     "./Illustrative": {
-      "import": "./dist/Illustrative/index.mjs",
-      "require": "./dist/Illustrative/index.js",
-      "types": "./dist/Illustrative/index.d.ts"
+      "require": "./dist/cjs/react/Illustrative/index.js",
+      "import": "./dist/esm/react/Illustrative/index.js",
+      "types": "./dist/esm/react/Illustrative/index.d.ts"
     },
     "./LabelPaired": {
-      "import": "./dist/LabelPaired/index.mjs",
-      "require": "./dist/LabelPaired/index.js",
-      "types": "./dist/LabelPaired/index.d.ts"
+      "require": "./dist/cjs/react/LabelPaired/index.js",
+      "import": "./dist/esm/react/LabelPaired/index.js",
+      "types": "./dist/esm/react/LabelPaired/index.d.ts"
     },
     "./Logo": {
-      "import": "./dist/Logo/index.mjs",
-      "require": "./dist/Logo/index.js",
-      "types": "./dist/Logo/index.d.ts"
+      "require": "./dist/cjs/react/Logo/index.js",
+      "import": "./dist/esm/react/Logo/index.js",
+      "types": "./dist/esm/react/Logo/index.d.ts"
     },
     "./Markets": {
-      "import": "./dist/Markets/index.mjs",
-      "require": "./dist/Markets/index.js",
-      "types": "./dist/Markets/index.d.ts"
+      "require": "./dist/cjs/react/Markets/index.js",
+      "import": "./dist/esm/react/Markets/index.js",
+      "types": "./dist/esm/react/Markets/index.d.ts"
     },
     "./Platforms": {
-      "import": "./dist/Platforms/index.mjs",
-      "require": "./dist/Platforms/index.js",
-      "types": "./dist/Platforms/index.d.ts"
+      "require": "./dist/cjs/react/Platforms/index.js",
+      "import": "./dist/esm/react/Platforms/index.js",
+      "types": "./dist/esm/react/Platforms/index.d.ts"
     },
     "./Social": {
-      "import": "./dist/Social/index.mjs",
-      "require": "./dist/Social/index.js",
-      "types": "./dist/Social/index.d.ts"
+      "require": "./dist/cjs/react/Social/index.js",
+      "import": "./dist/esm/react/Social/index.js",
+      "types": "./dist/esm/react/Social/index.d.ts"
     },
     "./Standalone": {
-      "import": "./dist/Standalone/index.mjs",
-      "require": "./dist/Standalone/index.js",
-      "types": "./dist/Standalone/index.d.ts"
+      "require": "./dist/cjs/react/Standalone/index.js",
+      "import": "./dist/esm/react/Standalone/index.js",
+      "types": "./dist/esm/react/Standalone/index.d.ts"
     },
     "./Illustration": {
-      "import": "./dist/Illustration/index.mjs",
-      "require": "./dist/Illustration/index.js",
-      "types": "./dist/Illustration/index.d.ts"
+      "require": "./dist/cjs/react/Illustration/index.js",
+      "import": "./dist/esm/react/Illustration/index.js",
+      "types": "./dist/esm/react/Illustration/index.d.ts"
     },
     "./package.json": "./package.json"
   },
   "scripts": {
-    "clean": "rimraf stories src/es6 src/react src/index.ts svg storybook-static sprite",
+    "clean": "rimraf stories src/es6 src/react src/index.ts svg sprite",
     "export:icons": "ts-node ./node_modules/@figma-export/cli/bin/run use-config ./scripts/figma.config.ts",
     "export:logos": "ts-node ./node_modules/@figma-export/cli/bin/run use-config ./scripts/logo.figma.config.ts",
     "export:illustrations": "ts-node ./node_modules/@figma-export/cli/bin/run use-config ./scripts/illustrations.figma.config.ts",
@@ -76,11 +76,8 @@
     "export:barrels": "barrelsby -c barrelsby.config.json",
     "export": "npm-run-all clean export:figma export:barrels format",
     "clean:postBuild": "rimraf dist/types dist/index.d.ts dist/index.js",
-    "build": "rimraf dist && rollup -c",
+    "build": "rimraf dist && npx tsc -p tsconfig.json && npx tsc -p tsconfig.esm.json",
     "rebuild": "npm-run-all clean export build",
-    "storybook": "storybook dev -p 6006",
-    "start": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write . --config ./.prettierrc",
@@ -100,22 +97,12 @@
     "@figma-export/output-components-as-svgr": "^4.5.0",
     "@figma-export/types": "^4.5.0",
     "@figma-export/utils": "^4.0.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.5",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@storybook/addon-actions": "^7.4.2",
-    "@storybook/addon-essentials": "^7.4.2",
-    "@storybook/addon-interactions": "^7.4.2",
-    "@storybook/addon-links": "^7.4.2",
-    "@storybook/cli": "^7.4.2",
-    "@storybook/react": "^7.4.2",
-    "@storybook/react-webpack5": "^7.4.2",
-    "@storybook/testing-library": "^0.2.1",
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "@svgr/plugin-svgo": "^8.1.0",
+    "@swc/core": "^1.3.105",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/svgo": "^3.0.0",
@@ -130,17 +117,12 @@
     "eslint-plugin-n": "^15.5.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-storybook": "^0.6.13",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.4",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.0",
     "rimraf": "^3.0.2",
-    "rollup": "^4.3.0",
-    "rollup-plugin-dts": "^6.1.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
     "semantic-release": "21.1.1",
-    "storybook": "^7.4.2",
     "svgo": "^3.0.2",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",

@@ -1,25 +1,23 @@
 {
-  "ts-node": {
-    // these options are overrides used only by ts-node
-    "compilerOptions": {
-      "module": "commonjs"
-    }
-  },
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "esnext",
+    "outDir": "dist/cjs",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "es2020",
     "jsx": "react",
-    "lib": ["ES2021", "ES2021.String", "ESNext.String"],
-    "sourceMap": true,
-    "outDir": "dist",
-    "strict": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./src"
+    "rootDir": "./src",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
-  "include": ["./src", "./stories", "./scripts", "declarations.d.ts"],
-  "exclude": ["./node_modules"]
+  "include": ["src/**/*", "declarations.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }
