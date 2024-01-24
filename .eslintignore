@@ -11,3 +11,4 @@ tsconfig.build.json
 vercel.json
 node_modules
 CHANGELOG.md
+scripts

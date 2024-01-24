@@ -52,12 +52,6 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
     npm run export
     ```
 
-5.  **Run Storybook**
-
-    ```sh
-    npm start
-    ```
-
 <br />
 
 ## Figma Components Conventions
@@ -86,43 +80,3 @@ We use [rollup](https://rollupjs.org/guide/en/) for package bundling, in order t
     ```sh
     npm run export
     ```
-
-4.  **Build Storybook**
-
-        ```sh
-        npm build_and_publish
-        ```
-        the built version of the package will be in `dist` folder, in case you wanna run some auditing tool on it.
-
-    > Note: You have to change the `version` field in `package.json` file. please use [semver](https://semver.org/) versioning
-
-## Build Storybook
-
-Since we `storybooks` as visual testing of components for deployments on vercel, etc you can do:
-
-1.  **Setup .env file**
-    Configure the environment variables of the platform with these:
-    ```
-    FIGMA_TOKEN=YOUR_FIGMA_TOKEN
-    FILE_ID=XegjSl9fWXH2O7Mxo0Ctie
-    ICONS_PAGE=deriv-icons
-    ```
-2.  **Install your dependencies:**
-
-    ```sh
-    npm ci
-    ```
-
-3.  **Export:**
-
-    ```sh
-    npm run export
-    ```
-
-4.  **Build Storybook**
-
-    ```sh
-    npm build-storybook
-    ```
-
-The built static release of storybooks will be under `storybook-static` folder, you can use this folder for deployment.

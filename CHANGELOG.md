@@ -276,7 +276,6 @@
 
 * illustrations file id ([8d16d72](https://github.com/deriv-com/quill-icons/commit/8d16d7218e5d856bd8268c7ba5fd3979e614bec8))
 * label-paired icons issue ([efcc13f](https://github.com/deriv-com/quill-icons/commit/efcc13f10433f60f246a9b552d2753f74d1113a4))
-* storybook issue ([89845f1](https://github.com/deriv-com/quill-icons/commit/89845f1e1474e31ca4f1f5b20f592e5107d33c1a))
 
 # [1.1.0](https://github.com/deriv-com/quill-icons/compare/v1.0.17...v1.1.0) (2023-12-21)
 
