@@ -1,3 +1,15 @@
+# [1.17.0](https://github.com/deriv-com/quill-icons/compare/v1.16.1...v1.17.0) (2024-01-24)
+
+
+### ♻️ 	 Chores
+
+* exported icons ([540da4c](https://github.com/deriv-com/quill-icons/commit/540da4c8dfbe84e81d149faa99c460b50f2c09ec))
+
+
+### 📦 	 Code Refactoring
+
+* removed storybook from the project ([2ca3956](https://github.com/deriv-com/quill-icons/commit/2ca39566e3b8edd87bffd09e41afe08393f59f7d))
+
 ## [1.16.1](https://github.com/deriv-com/quill-icons/compare/v1.16.0...v1.16.1) (2024-01-23)
 
 
