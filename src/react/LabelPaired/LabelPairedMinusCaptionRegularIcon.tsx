@@ -14,10 +14,10 @@ const LabelPairedMinusCaptionRegularIcon = (
     {...props}
   >
     <g>
-      <path d='M10.375 9.5c-.016.234-.14.36-.375.375H1C.766 9.859.64 9.735.625 9.5c.016-.234.14-.36.375-.375h9c.234.016.36.14.375.375' />
+      <path d='M10.375 9.5q-.023.352-.375.375H1Q.648 9.852.625 9.5q.023-.352.375-.375h9q.352.023.375.375' />
     </g>
     <defs>
-      <clipPath id='476919727fae9f9b664f4693c106b2c1__a'>
+      <clipPath id='b9c4164591dd1576c88e1bb5a60c2af7__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

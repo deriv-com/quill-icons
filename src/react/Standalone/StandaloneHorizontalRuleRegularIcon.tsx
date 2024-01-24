@@ -13,7 +13,7 @@ export const StandaloneHorizontalRuleRegularIcon = (
     ref={ref}
     {...props}
   >
-    <path d='M3.5 16.5c.026-.39.234-.599.625-.625h23.75c.39.026.599.234.625.625-.026.39-.234.599-.625.625H4.125c-.39-.026-.599-.234-.625-.625' />
+    <path d='M3.5 16.5q.039-.585.625-.625h23.75q.585.039.625.625-.039.585-.625.625H4.125q-.586-.039-.625-.625' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneHorizontalRuleRegularIcon);

@@ -14,9 +14,9 @@ export const FlagBahamasIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#58758579914838261aa34903c78b0cdc__a)'>
+    <g clipPath='url(#5023da49259842bc9dba2a5460f9a5d9__a)'>
       <path fill='#FBE22B' d='M7.5 11 12 8 7.5 5H24v6z' />
-      <path fill='#333' d='M0 2v12c0 .612.275 1.16.709 1.527L12 8 .709.473A1.996 1.996 0 0 0 0 2' />
+      <path fill='#333' d='M0 2v12c0 .612.275 1.16.709 1.527L12 8 .709.473A2 2 0 0 0 0 2' />
       <path
         fill='#00ABCB'
         d='M2 0A2 2 0 0 0 .709.473L7.5 5H24V2a2 2 0 0 0-2-2zM7.5 11H24v3a2 2 0 0 1-2 2H2a2 2 0 0 1-1.291-.473z'
@@ -30,7 +30,7 @@ export const FlagBahamasIcon = (
       />
     </g>
     <defs>
-      <clipPath id='58758579914838261aa34903c78b0cdc__a'>
+      <clipPath id='5023da49259842bc9dba2a5460f9a5d9__a'>
         <path fill='#fff' d='M0 0h24v16H0z' />
       </clipPath>
     </defs>

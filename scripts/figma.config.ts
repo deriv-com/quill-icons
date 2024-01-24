@@ -2,9 +2,7 @@ import outPutSvgrComponent from '@figma-export/output-components-as-svgr';
 import outPutSvg from '@figma-export/output-components-as-svg';
 import { ComponentFilter, ComponentOutputter, FigmaExportRC } from '@figma-export/types';
 import dotenv from 'dotenv';
-import outPutStories from './outputters/stories';
 import { IconSvgReactOutPutConfig } from './svgr-configs/icons';
-import { IconStoriesOptions } from './stories-configs/icons';
 import { SvgOutPutConfig } from './svg-configs';
 import { ICON_PAGES } from './utils/figma.constants';
 
@@ -15,7 +13,6 @@ const fileId: string = 'c24yCkzAgS5Fv1x0QuEYxq';
 const outputters: ComponentOutputter[] = [
   outPutSvg(SvgOutPutConfig),
   outPutSvgrComponent(IconSvgReactOutPutConfig),
-  outPutStories(IconStoriesOptions),
 ];
 
 const filterComponent: ComponentFilter = (component) => {

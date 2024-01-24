@@ -11,10 +11,10 @@ const LabelPairedSortUpMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
     {...props}
   >
     <g>
-      <path d='M5 6.719 2.219 9.5H7.78zM4.281 5.28C4.49 5.094 4.73 5 5 5c.27 0 .51.094.719.281l4 4c.291.334.364.698.219 1.094-.188.396-.5.604-.938.625H1c-.437-.02-.75-.23-.937-.625-.146-.396-.073-.76.218-1.094z' />
+      <path d='M5 6.719 2.219 9.5H7.78zM4.281 5.28Q4.594 5.001 5 5q.405 0 .719.281l4 4q.437.5.219 1.094-.281.594-.938.625H1q-.656-.031-.937-.625-.219-.594.218-1.094z' />
     </g>
     <defs>
-      <clipPath id='c113abb69c417ac558597ad9add4e4fa__a'>
+      <clipPath id='800f6e5dc20f2c1e33dfa8941ae036b0__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>

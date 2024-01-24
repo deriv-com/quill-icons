@@ -11,10 +11,10 @@ const LabelPairedSevenMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     {...props}
   >
     <g>
-      <path d='M0 5.75c.042-.458.292-.708.75-.75h8.5c.292 0 .51.125.656.375.125.25.125.5 0 .75l-7.5 12.5c-.27.375-.614.469-1.031.281-.375-.27-.458-.614-.25-1.031L7.938 6.5H.75C.292 6.458.042 6.208 0 5.75' />
+      <path d='M0 5.75Q.063 5.063.75 5h8.5q.438 0 .656.375.188.375 0 .75l-7.5 12.5q-.405.563-1.031.281-.562-.405-.25-1.031L7.938 6.5H.75Q.063 6.437 0 5.75' />
     </g>
     <defs>
-      <clipPath id='acf4d79a8242f5c079bcbb2dcfb41dde__a'>
+      <clipPath id='965fc505640eac58b8e3f0201983b343__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>

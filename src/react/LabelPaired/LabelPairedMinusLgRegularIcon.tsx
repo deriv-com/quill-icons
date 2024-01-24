@@ -11,10 +11,10 @@ const LabelPairedMinusLgRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     {...props}
   >
     <g>
-      <path d='M17.125 15.5c-.026.39-.234.599-.625.625h-15c-.39-.026-.599-.234-.625-.625.026-.39.234-.599.625-.625h15c.39.026.599.234.625.625' />
+      <path d='M17.125 15.5q-.039.585-.625.625h-15q-.585-.039-.625-.625.039-.585.625-.625h15q.585.039.625.625' />
     </g>
     <defs>
-      <clipPath id='b07a1d2e17f586711c55f6c375e6dbf7__a'>
+      <clipPath id='f5057735ff9b5cd115bf6ccc8a06a080__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>

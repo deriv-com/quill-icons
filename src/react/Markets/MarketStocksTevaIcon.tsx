@@ -14,7 +14,7 @@ export const MarketStocksTevaIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#b8bc0a120ba8f118d38ed77be9cc0c30__a)'>
+    <g clipPath='url(#e30e7e2b95a7f836214c3ae71ffa72ac__a)'>
       <path
         fill='#D2EBDB'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -29,7 +29,7 @@ export const MarketStocksTevaIcon = (
       />
       <path
         fill='#9FD142'
-        d='m20.122 9.48 2.534-3.284a.718.718 0 0 1 .843-.245c.303.12.504.425.501.773l-.02 4.08-3.858 5.135z'
+        d='m20.122 9.48 2.534-3.284a.72.72 0 0 1 .843-.245c.303.12.504.425.501.773l-.02 4.08-3.858 5.135z'
       />
       <path
         fill='#269E75'
@@ -41,7 +41,7 @@ export const MarketStocksTevaIcon = (
       />
       <path
         fill='#204E77'
-        d='M11.878 15.939v6.492l2.517 3.274a.72.72 0 0 0 .844.245.814.814 0 0 0 .5-.773l-.012-4.117z'
+        d='M11.878 15.939v6.492l2.517 3.274a.72.72 0 0 0 .844.245.81.81 0 0 0 .5-.773l-.012-4.117z'
       />
       <path
         fill='#269E75'
@@ -49,11 +49,11 @@ export const MarketStocksTevaIcon = (
       />
       <path
         fill='#9FD142'
-        d='M11.879 9.48 9.344 6.195a.718.718 0 0 0-.843-.245.814.814 0 0 0-.501.773l.02 4.08 3.858 5.135z'
+        d='M11.879 9.48 9.344 6.195a.72.72 0 0 0-.843-.245.81.81 0 0 0-.501.773l.02 4.08 3.858 5.135z'
       />
     </g>
     <defs>
-      <clipPath id='b8bc0a120ba8f118d38ed77be9cc0c30__a'>
+      <clipPath id='e30e7e2b95a7f836214c3ae71ffa72ac__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -14,10 +14,10 @@ export const SocialGoogleBrandIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#a7c08808f14b8e463c90618c4478db10__a)'>
+    <g clipPath='url(#31f74717a601b05d87043640cecdadbc__a)'>
       <path
         fill='#3E82F1'
-        d='M32 16.375c0-1.097-.1-2.194-.294-3.273H16.325v6.186h8.787a7.343 7.343 0 0 1-3.256 4.829l5.274 4.02C30.22 25.348 32 21.248 32 16.374'
+        d='M32 16.375c0-1.097-.1-2.194-.294-3.273H16.325v6.186h8.787a7.34 7.34 0 0 1-3.256 4.829l5.274 4.02C30.22 25.348 32 21.248 32 16.374'
       />
       <path
         fill='#32A753'
@@ -25,7 +25,7 @@ export const SocialGoogleBrandIcon = (
       />
       <path
         fill='#F9BB00'
-        d='M7.19 12.966 1.735 8.82a15.773 15.773 0 0 0 0 14.377l5.457-4.145a9.354 9.354 0 0 1 0-6.087'
+        d='M7.19 12.966 1.735 8.82a15.77 15.77 0 0 0 0 14.377l5.457-4.145a9.35 9.35 0 0 1 0-6.087'
       />
       <path
         fill='#E74133'
@@ -33,7 +33,7 @@ export const SocialGoogleBrandIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a7c08808f14b8e463c90618c4478db10__a'>
+      <clipPath id='31f74717a601b05d87043640cecdadbc__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -1,12 +1,10 @@
 scripts
-.storybook
 stories
 src
 barrelsby.config.json
 rollup.config.mjs
 .env
 tsconfig*
-storybook-static
 .vscode
 .eslintrc
 .eslintignore

@@ -13,7 +13,7 @@ export const StandaloneMinusRegularIcon = (
     ref={ref}
     {...props}
   >
-    <path d='M24.125 16.5c-.026.39-.234.599-.625.625h-15c-.39-.026-.599-.234-.625-.625.026-.39.234-.599.625-.625h15c.39.026.599.234.625.625' />
+    <path d='M24.125 16.5q-.039.585-.625.625h-15q-.586-.039-.625-.625.039-.585.625-.625h15q.585.039.625.625' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneMinusRegularIcon);

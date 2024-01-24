@@ -14,7 +14,7 @@ export const PlatformsDerivAppsLightIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#ddb4bd23682fcd475796e017dd72a59a__a)'>
+    <g clipPath='url(#3d123b34c0c478cf9c853d20203a8982__a)'>
       <path
         fill='#414652'
         d='M0 6a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z'
@@ -37,11 +37,11 @@ export const PlatformsDerivAppsLightIcon = (
       />
       <path
         fill='#303541'
-        d='M6 0a6 6 0 0 0-6 6v.174l29.914-4.721A5.976 5.976 0 0 0 26 0zM30.532 2.068 25.044 32H26a6 6 0 0 0 6-6V6c0-1.504-.553-2.88-1.468-3.932'
+        d='M6 0a6 6 0 0 0-6 6v.174l29.914-4.721A5.98 5.98 0 0 0 26 0zM30.532 2.068 25.044 32H26a6 6 0 0 0 6-6V6c0-1.504-.553-2.88-1.468-3.932'
       />
     </g>
     <defs>
-      <clipPath id='ddb4bd23682fcd475796e017dd72a59a__a'>
+      <clipPath id='3d123b34c0c478cf9c853d20203a8982__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
