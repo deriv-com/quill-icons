@@ -14,10 +14,10 @@ const LabelPairedHorizontalRuleMdRegularIcon = (
     {...props}
   >
     <g>
-      <path d='M0 12c.02-.312.188-.48.5-.5h19c.313.02.48.188.5.5-.02.313-.187.48-.5.5H.5c-.312-.02-.48-.187-.5-.5' />
+      <path d='M0 12q.031-.469.5-.5h19q.47.031.5.5-.03.47-.5.5H.5q-.469-.03-.5-.5' />
     </g>
     <defs>
-      <clipPath id='2e89def629a23655bb5a4369fc348db9__a'>
+      <clipPath id='ae2421c0a38813cd04dfe39d255a09c7__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

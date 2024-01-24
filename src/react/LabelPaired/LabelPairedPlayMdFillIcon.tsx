@@ -11,10 +11,10 @@ const LabelPairedPlayMdFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     {...props}
   >
     <g>
-      <path d='m2.281 5.219 9 5.5c.459.312.698.74.719 1.281-.02.563-.26.99-.719 1.281l-9 5.5c-.5.292-1 .302-1.5.032-.5-.292-.76-.73-.781-1.313v-11c.02-.583.281-1.02.781-1.312.5-.271 1-.26 1.5.03' />
+      <path d='m2.281 5.219 9 5.5q.688.469.719 1.281-.03.845-.719 1.281l-9 5.5q-.75.438-1.5.032Q.031 18.375 0 17.5v-11q.03-.874.781-1.312.75-.406 1.5.03' />
     </g>
     <defs>
-      <clipPath id='6d09fd40ffcfdd86bbd4afc5926c6245__a'>
+      <clipPath id='476809e4159bdaeaeadd88ec1bf3df61__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

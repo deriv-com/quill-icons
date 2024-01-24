@@ -14,10 +14,10 @@ const LabelPairedChevronDownSmRegularIcon = (
     {...props}
   >
     <g>
-      <path d='M7.3 14.55c-.2.183-.4.183-.6 0L1.45 9.3c-.183-.2-.183-.4 0-.6.2-.183.4-.183.6 0L7 13.62 11.95 8.7c.2-.182.4-.182.6 0 .183.2.183.401 0 .602z' />
+      <path d='M7.3 14.55q-.3.274-.6 0L1.45 9.3q-.275-.3 0-.6.3-.274.6 0L7 13.62 11.95 8.7q.3-.273.6 0 .274.3 0 .602z' />
     </g>
     <defs>
-      <clipPath id='660bea4a7dae9282e79b5f1f9dfd14b9__a'>
+      <clipPath id='3de528f0589d049c429c084e847a0c1e__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

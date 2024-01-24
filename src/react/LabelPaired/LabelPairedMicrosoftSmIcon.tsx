@@ -14,7 +14,7 @@ const LabelPairedMicrosoftSmIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       <path d='M.375 4.625h5.879v5.879H.375zm6.371 0h5.879v5.879H6.746zM.375 10.996h5.879v5.879H.375zm6.371 0h5.879v5.879H6.746z' />
     </g>
     <defs>
-      <clipPath id='7fd9449a6876a13c3fdd0dfc10870464__a'>
+      <clipPath id='65b9d7294d8653172449cba23acdcb46__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

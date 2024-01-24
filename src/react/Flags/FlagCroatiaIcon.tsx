@@ -27,14 +27,14 @@ export const FlagCroatiaIcon = (
     <path
       fill='red'
       fillRule='evenodd'
-      d='M14.45 10c.033-.162.05-.329.05-.5V9h-1V8h1V7h-1V6h-1v1h-1V6h-1v1h-1v1h1v1h-1v.5c0 .171.017.338.05.5h.95v1H10c.142.19.31.358.5.5V11h1v.95a2.504 2.504 0 0 0 1 0V11h1v.5c.19-.142.358-.31.5-.5h-.5v-1zm-1.95 0V9h1v1zm-1 0v1h1v-1zm0-1h1V8h1V7h-1v1h-1V7h-1v1h1zm0 0h-1v1h1z'
+      d='M14.45 10q.05-.243.05-.5V9h-1V8h1V7h-1V6h-1v1h-1V6h-1v1h-1v1h1v1h-1v.5q0 .257.05.5h.95v1H10q.214.286.5.5V11h1v.95a2.5 2.5 0 0 0 1 0V11h1v.5q.286-.214.5-.5h-.5v-1zm-1.95 0V9h1v1zm-1 0v1h1v-1zm0-1h1V8h1V7h-1v1h-1V7h-1v1h1zm0 0h-1v1h1z'
       clipRule='evenodd'
     />
     <path fill='#fff' d='M12.5 9V8h-1v1z' />
     <path
       fill='#fff'
       fillRule='evenodd'
-      d='M14.5 9V8h-1V7h1V6h-1v1h-1V6h-1v1h-1V6h-1v1h1v1h-1v1h1v1h-.95c.075.37.232.71.45 1h.5v.5a2.487 2.487 0 0 0 1 .45V11h1v.95c.37-.075.71-.232 1-.45V11h.5a2.487 2.487 0 0 0 .45-1h-.95V9zm-2 0h1V8h-1V7h-1v1h-1v1h1v1h-1v1h1v-1h1v1h1v-1h-1z'
+      d='M14.5 9V8h-1V7h1V6h-1v1h-1V6h-1v1h-1V6h-1v1h1v1h-1v1h1v1h-.95c.075.37.232.71.45 1h.5v.5a2.5 2.5 0 0 0 1 .45V11h1v.95c.37-.075.71-.232 1-.45V11h.5a2.5 2.5 0 0 0 .45-1h-.95V9zm-2 0h1V8h-1V7h-1v1h-1v1h1v1h-1v1h1v-1h1v1h1v-1h-1z'
       clipRule='evenodd'
     />
     <path

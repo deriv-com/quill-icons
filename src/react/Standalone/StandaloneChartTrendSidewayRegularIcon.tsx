@@ -13,7 +13,7 @@ export const StandaloneChartTrendSidewayRegularIcon = (
     ref={ref}
     {...props}
   >
-    <path d='M4.125 16.5c0-.312.273-.625.625-.625h22.5c.313 0 .625.313.625.625a.642.642 0 0 1-.625.625H4.75a.617.617 0 0 1-.625-.625' />
+    <path d='M4.125 16.5c0-.312.273-.625.625-.625h22.5c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625H4.75a.617.617 0 0 1-.625-.625' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneChartTrendSidewayRegularIcon);
