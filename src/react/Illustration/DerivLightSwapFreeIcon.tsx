@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const DerivLightSwapFreeIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const DerivLightSwapFreeIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 120 152'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#EBECEE'
       d='M114.278 79.752c-.01 1.704-.12 6.097-1.455 11.592-.576 2.37-1.692 6.839-4.583 12.032-2.517 4.523-5.158 7.406-5.773 8.065a38.6 38.6 0 0 1-6.92 5.861q-7.63 3.692-15.26 7.385a37 37 0 0 0 4.14-2.464 37.7 37.7 0 0 0 9.197-9.021c2.904-4.038 4.257-7.615 5.2-10.167.588-1.587 2.047-5.78 2.733-11.459.276-2.295.739-7.399-.177-13.84-.175-1.23-.96-6.446-3.496-12.897a62.2 62.2 0 0 0-7.58-13.78c-2.274-3.122-5.96-8.1-12.429-12.724-5.127-3.664-9.673-5.44-11.165-5.995-2.924-1.084-9.666-3.507-18.541-2.79-5.498.441-9.625 1.912-11.294 2.585q6.044-2.968 12.089-5.934a42 42 0 0 1 4.892-1.542c5.11-1.271 9.278-1.281 11.017-1.235 7.391.198 12.872 2.5 15.866 3.79 1.095.472 6.362 2.791 12.165 7.538 2.084 1.703 6.102 5.246 10.004 10.71 2.731 3.823 4.304 7.04 5.201 8.902 3.083 6.387 4.352 11.661 4.715 13.267.579 2.547 1.482 6.637 1.456 12.12z'

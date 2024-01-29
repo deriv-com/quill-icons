@@ -14,7 +14,7 @@ const LabelPairedSquareLgBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M15.25 8.625H2.75q-.586.039-.625.625v12.5q.039.585.625.625h12.5q.585-.039.625-.625V9.25q-.039-.585-.625-.625M2.75 6.75h12.5q1.055.039 1.758.742t.742 1.758v12.5q-.039 1.055-.742 1.758-.704.703-1.758.742H2.75q-1.055-.039-1.758-.742Q.29 22.804.25 21.75V9.25q.039-1.055.742-1.758T2.75 6.75' />
     </g>
     <defs>
-      <clipPath id='c9e7c83e707f5ed5bfacaabd79148a1e__a'>
+      <clipPath id='7747cf924b5b7a48228e0f2208229978__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>

@@ -11,16 +11,16 @@ const PaymentMethodJcbBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
   >
     <path fill='#C4C4C4' d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z' />
     <path
-      fill='url(#51fd13aebc64019a9dfeabf97aa27327__a)'
+      fill='url(#9f31aeaadd9e87f71f18b29421d158b2__a)'
       d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z'
     />
     <path
-      fill='url(#51fd13aebc64019a9dfeabf97aa27327__b)'
+      fill='url(#9f31aeaadd9e87f71f18b29421d158b2__b)'
       d='M54.4 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H54.4z'
     />
     <path fill='#C4C4C4' d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z' />
     <path
-      fill='url(#51fd13aebc64019a9dfeabf97aa27327__c)'
+      fill='url(#9f31aeaadd9e87f71f18b29421d158b2__c)'
       d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z'
     />
     <g fill='#fff'>
@@ -34,7 +34,7 @@ const PaymentMethodJcbBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     </g>
     <defs>
       <linearGradient
-        id='51fd13aebc64019a9dfeabf97aa27327__a'
+        id='9f31aeaadd9e87f71f18b29421d158b2__a'
         x1={76.834}
         x2={96.051}
         y1={36.628}
@@ -47,7 +47,7 @@ const PaymentMethodJcbBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
         <stop offset={1} stopColor='#5CB531' />
       </linearGradient>
       <linearGradient
-        id='51fd13aebc64019a9dfeabf97aa27327__b'
+        id='9f31aeaadd9e87f71f18b29421d158b2__b'
         x1={54.289}
         x2={73.241}
         y1={39.958}
@@ -61,7 +61,7 @@ const PaymentMethodJcbBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
         <stop offset={1} stopColor='#E60039' />
       </linearGradient>
       <linearGradient
-        id='51fd13aebc64019a9dfeabf97aa27327__c'
+        id='9f31aeaadd9e87f71f18b29421d158b2__c'
         x1={32.033}
         x2={51.547}
         y1={40.002}

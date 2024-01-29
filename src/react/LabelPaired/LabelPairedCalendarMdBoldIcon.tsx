@@ -14,7 +14,7 @@ const LabelPairedCalendarMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       <path d='M4.75 4.75V6h4.5V4.75q.063-.687.75-.75.687.063.75.75V6H12q.844.03 1.406.594Q13.97 7.156 14 8v10q-.03.844-.594 1.406-.563.563-1.406.594H2q-.843-.03-1.406-.594Q.032 18.844 0 18V8q.03-.843.594-1.406Q1.157 6.032 2 6h1.25V4.75Q3.313 4.063 4 4q.687.063.75.75M1.5 10v8q.031.47.5.5h10q.47-.03.5-.5v-8z' />
     </g>
     <defs>
-      <clipPath id='36982430ac5a34a3bb3149f8df0483a2__a'>
+      <clipPath id='eeaee9c005e39cc5b9c8e0f6b4704bcb__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

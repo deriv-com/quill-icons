@@ -14,7 +14,7 @@ const LabelPairedPlayMdFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
       <path d='m2.281 5.219 9 5.5q.688.469.719 1.281-.03.845-.719 1.281l-9 5.5q-.75.438-1.5.032Q.031 18.375 0 17.5v-11q.03-.874.781-1.312.75-.406 1.5.03' />
     </g>
     <defs>
-      <clipPath id='476809e4159bdaeaeadd88ec1bf3df61__a'>
+      <clipPath id='05e8b9c8e8dc94c7a1321e6ff841f071__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

@@ -14,7 +14,7 @@ const LabelPairedInfoLgRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<S
       <path d='M2.75 8q0-.547.352-.898.35-.352.898-.352.547 0 .898.352.352.35.352.898 0 .547-.352.898-.35.352-.898.352-.547 0-.898-.352Q2.75 8.548 2.75 8M.875 12.375q.039-.585.625-.625H4q.585.039.625.625V23h2.5q.585.039.625.625-.039.585-.625.625H.875q-.585-.039-.625-.625.039-.585.625-.625h2.5V13H1.5q-.585-.039-.625-.625' />
     </g>
     <defs>
-      <clipPath id='4ddf04ae4d2d9ca13eb266f4aba4b081__a'>
+      <clipPath id='a1f0f00e491be7bb32d91a34ff3b8f29__a'>
         <path d='M0 0h8v30H0z' />
       </clipPath>
     </defs>

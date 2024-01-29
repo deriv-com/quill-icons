@@ -17,7 +17,7 @@ const LabelPairedHorizontalRuleCaptionBoldIcon = (
       <path d='M0 9.5q.047-.516.563-.562h13.875q.514.045.562.562-.047.515-.562.563H.563Q.046 10.015 0 9.5' />
     </g>
     <defs>
-      <clipPath id='fd70b0b164bb1e16e79851051768ede4__a'>
+      <clipPath id='df481530846b8a732448b4daeee26db7__a'>
         <path d='M0 0h15v18H0z' />
       </clipPath>
     </defs>

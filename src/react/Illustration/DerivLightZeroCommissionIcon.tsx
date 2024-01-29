@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const DerivLightZeroCommissionIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const DerivLightZeroCommissionIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 120 152'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#EBECEE'
       d='m85.125 126.862 13.657-8.487a22 22 0 0 0 1.757-1.717c.583-.636 2.348-2.636 3.834-5.75 1.364-2.86 1.823-5.255 2.077-6.63.424-2.299.503-4.282.479-5.75l-.02-40.115a33 33 0 0 0-.26-5.052c-.102-.802-.44-3.214-1.478-6.43-2.365-7.33-6.31-12.475-6.969-13.318-1.246-1.597-3.47-4.407-7.187-7.188-1.097-.82-5.135-3.742-11.202-5.67a39 39 0 0 0-3.695-.979l-15.781-3.98a24.6 24.6 0 0 0-4.1-.691c-1.343-.112-3.928-.306-7.11.452-2.445.583-4.235 1.488-5.59 2.184a30 30 0 0 0-2.743 1.597l-9.528 5.853 22.147 10.067c6.019 2.752 15.119 7.885 23.482 17.145A71 71 0 0 1 87.118 67.1a178.205 178.205 0 0 0-1.997 59.763z'

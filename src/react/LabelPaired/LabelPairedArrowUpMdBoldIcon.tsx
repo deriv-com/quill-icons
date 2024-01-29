@@ -14,7 +14,7 @@ const LabelPairedArrowUpMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<S
       <path d='M6.531 5.219v.031l5.25 5.5q.438.531 0 1.031-.562.438-1.062 0L6.75 7.625V18.25q-.063.687-.75.75-.687-.063-.75-.75V7.625L1.281 11.75q-.5.47-1.062.031-.438-.5 0-1.062l5.25-5.5A.72.72 0 0 1 6 5q.312 0 .531.219' />
     </g>
     <defs>
-      <clipPath id='4cdceacbed05cad148e252e8c01957bc__a'>
+      <clipPath id='2c256b45072b201f0a9c42fbbf9dbbf6__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

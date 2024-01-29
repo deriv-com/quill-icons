@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const DerivLightRegulatedIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const DerivLightRegulatedIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 120 152'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#CED0D6'
       d='M60.839 92.323a12.3 12.3 0 0 1-2.876 3.246c-3.912 3.079-8.431 2.707-9.638 2.608-5.848-.48-9.466-4.328-10.702-5.644-1.011-1.075-3.262-3.53-4.26-7.507-.324-1.29-1.092-4.532.16-8.36.372-1.138 1.748-5.145 5.75-7.508a11.7 11.7 0 0 1 2.385-1.068 15 15 0 0 0-1.544 3.344c-1.252 3.828-.484 7.07-.16 8.36.998 3.979 3.25 6.433 4.26 7.508 1.238 1.316 4.854 5.163 10.703 5.644.83.068 3.23.265 5.922-.623'

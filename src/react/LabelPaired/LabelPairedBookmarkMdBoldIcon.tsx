@@ -14,7 +14,7 @@ const LabelPairedBookmarkMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       <path d='M0 5.5q.03-.625.438-1.062A1.63 1.63 0 0 1 1.5 4v13.781l4.063-2.875a.75.75 0 0 1 .875 0l4.062 2.875V5.5h-9V4h9q.624.03 1.063.438.405.436.437 1.062v13.75q0 .438-.406.656a.8.8 0 0 1-.781-.031L6 16.438l-4.812 3.437a.8.8 0 0 1-.782.031A.78.78 0 0 1 0 19.25z' />
     </g>
     <defs>
-      <clipPath id='52556bd5581a856bafea6c04a131071f__a'>
+      <clipPath id='3f95f88c84540920bf18a8a1d086e3cf__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

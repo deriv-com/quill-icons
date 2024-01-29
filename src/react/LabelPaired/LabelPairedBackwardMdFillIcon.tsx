@@ -14,7 +14,7 @@ const LabelPairedBackwardMdFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       <path d='M14.375 17.781 9 13.313v-2.625l5.375-4.47q.47-.374 1.063-.124.53.281.562.906v10q-.03.626-.562.906-.594.25-1.063-.125M8 15v2q-.03.626-.562.906-.594.25-1.063-.125l-6-5A.98.98 0 0 1 0 12q0-.469.375-.781l6-5q.47-.375 1.063-.125.53.281.562.906v8' />
     </g>
     <defs>
-      <clipPath id='f11c1f93f7644db31d9b074fef27271c__a'>
+      <clipPath id='6e7b146cb689c6a861dcd1d04504702d__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

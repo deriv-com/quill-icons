@@ -14,7 +14,7 @@ const LabelPairedGooglePlayLgIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='m12.695 14.64 2.344-2.343-10.937-6.29zM1.835 5.5l10.04 10-10.04 10q-.819-.43-.858-1.367V6.867q.039-.937.859-1.367m16.603 8.828q.585.43.585 1.172t-.546 1.172l-2.344 1.367-2.54-2.539 2.54-2.5zM4.102 24.992l8.593-8.633 2.344 2.344z' />
     </g>
     <defs>
-      <clipPath id='21c7c591ba81a9937e2cbd01906b4b5f__a'>
+      <clipPath id='fcee8e0fcbb3a9f96a300c842cd62c64__a'>
         <path d='M0 0h20v30H0z' />
       </clipPath>
     </defs>

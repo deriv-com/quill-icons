@@ -14,7 +14,7 @@ const LabelPairedDerivCaptionIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M9.938 3.898 12.28 3.5l-1.64 9.375C10.383 14.328 9 15.5 7.523 15.5h-1.78c-2.016 0-3.352-1.617-3-3.61l.163-.867c.352-1.992 2.25-3.632 4.266-3.632h2.133zm-1.524 8.649.516-3H7.055c-.914 0-1.758.75-1.922 1.64l-.094.54c-.164.89.445 1.617 1.336 1.617h1.102c.445 0 .843-.352.937-.797' />
     </g>
     <defs>
-      <clipPath id='37a32c9786c20022f7414f94dc3e0785__a'>
+      <clipPath id='6ebaf4f9ee62fc1a45a249b4275ff419__a'>
         <path d='M0 0h15v18H0z' />
       </clipPath>
     </defs>
