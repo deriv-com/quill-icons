@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodBitcoinWhiteIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodBitcoinWhiteIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#fff'>
       <path d='M88.621 36.585a7.5 7.5 0 0 0-1.796-.195q-1.61 0-2.915.593a6.6 6.6 0 0 0-2.223 1.617 7.2 7.2 0 0 0-1.408 2.397 8.6 8.6 0 0 0-.49 2.92q0 1.024.28 1.96.277.935.904 1.631c.416.464.945.83 1.585 1.108q.96.408 2.345.41c.701 0 1.305-.067 1.812-.192q.757-.198 1.384-.448l-.247-2.713a5.95 5.95 0 0 1-2.325.478q-1.315 0-1.808-.717-.493-.719-.492-1.882 0-1.962.972-3.125c.65-.774 1.522-1.163 2.626-1.163q.693 0 1.172.149.48.148.927.33l1.14-2.646a7 7 0 0 0-1.443-.513' />
       <path

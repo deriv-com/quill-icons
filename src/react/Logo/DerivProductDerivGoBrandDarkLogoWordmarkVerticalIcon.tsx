@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const DerivProductDerivGoBrandDarkLogoWordmarkVerticalIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -10,8 +14,10 @@ const DerivProductDerivGoBrandDarkLogoWordmarkVerticalIcon = (
     viewBox='0 0 152 72'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path
         fill='#FF444F'
@@ -41,7 +47,7 @@ const DerivProductDerivGoBrandDarkLogoWordmarkVerticalIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='6ab2fa6d0395d6ceb6f1c04b10976166__a'>
+      <clipPath id='847fca5acc4e1cfb3641823c6dc48233__a'>
         <path fill='#fff' d='M0 0h152v72H0z' />
       </clipPath>
     </defs>

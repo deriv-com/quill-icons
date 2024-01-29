@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const IllustrativeDefinePositionIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const IllustrativeDefinePositionIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M26.567 7.84a.67.67 0 0 0-.167.927A12.6 12.6 0 0 1 28.667 16c0 6.987-5.68 12.667-12.667 12.667S3.333 22.987 3.333 16 9.013 3.333 16 3.333c2.607 0 5.113.787 7.24 2.274.3.206.72.133.927-.167.213-.3.14-.72-.167-.927A13.93 13.93 0 0 0 16 2C8.28 2 2 8.28 2 16s6.28 14 14 14 14-6.28 14-14c0-2.88-.867-5.64-2.507-7.993a.67.67 0 0 0-.926-.167' />
       <path d='M21.893 7.7a.67.67 0 0 0-.22-.92A10.83 10.83 0 0 0 16 5.173c-5.967 0-10.827 4.86-10.827 10.827S10.027 26.827 16 26.827 26.827 21.973 26.827 16c0-2.007-.554-3.973-1.6-5.673a.67.67 0 0 0-.92-.22.67.67 0 0 0-.22.92A9.5 9.5 0 0 1 25.493 16c0 5.233-4.26 9.493-9.493 9.493S6.507 21.233 6.507 16 10.767 6.507 16 6.507c1.76 0 3.48.486 4.973 1.406a.67.67 0 0 0 .92-.22z' />

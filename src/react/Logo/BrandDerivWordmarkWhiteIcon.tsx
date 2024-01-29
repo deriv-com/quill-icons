@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const BrandDerivWordmarkWhiteIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const BrandDerivWordmarkWhiteIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 217 72'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path
         fill='#fff'
@@ -16,7 +25,7 @@ const BrandDerivWordmarkWhiteIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       />
     </g>
     <defs>
-      <clipPath id='e9d833142ae176d3ebc07a41bf5919ee__a'>
+      <clipPath id='e927df43bc2a0f7cb55875b0ca3fd72f__a'>
         <path fill='#fff' d='M0 0h217v72H0z' />
       </clipPath>
     </defs>

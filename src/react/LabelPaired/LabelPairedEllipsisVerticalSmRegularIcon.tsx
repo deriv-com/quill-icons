@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedEllipsisVerticalSmRegularIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedEllipsisVerticalSmRegularIcon = (
     viewBox='0 0 4 22'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M2 14.25q.383 0 .629.246a.85.85 0 0 1 .246.629.85.85 0 0 1-.246.629A.85.85 0 0 1 2 16a.85.85 0 0 1-.629-.246.85.85 0 0 1-.246-.629q0-.383.246-.629A.85.85 0 0 1 2 14.25m0-4.375q.383 0 .629.246a.85.85 0 0 1 .246.629.85.85 0 0 1-.246.629.85.85 0 0 1-.629.246.85.85 0 0 1-.629-.246.85.85 0 0 1-.246-.629q0-.383.246-.629A.85.85 0 0 1 2 9.875m.875-3.5a.85.85 0 0 1-.246.629A.85.85 0 0 1 2 7.25a.85.85 0 0 1-.629-.246.85.85 0 0 1-.246-.629q0-.383.246-.629A.85.85 0 0 1 2 5.5q.383 0 .629.246a.85.85 0 0 1 .246.629' />
     </g>
     <defs>
-      <clipPath id='b4c7be7040ecdde6bf41cf008f4c56ea__a'>
+      <clipPath id='843d4851944c78b32de2b128e3c6fa4f__a'>
         <path d='M0 0h4v22H0z' />
       </clipPath>
     </defs>

@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const DerivLightGlobalAccessIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const DerivLightGlobalAccessIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 120 152'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#fff' d='M70.376 32.5q-5.888 2.775-11.774 5.552l4.572-7.348 7.202 1.798z' />
     <path
       fill='#000'

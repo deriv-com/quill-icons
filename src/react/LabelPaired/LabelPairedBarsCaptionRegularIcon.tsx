@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedBarsCaptionRegularIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedBarsCaptionRegularIcon = (
     viewBox='0 0 11 18'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M.25 5.375Q.273 5.023.625 5h9.75q.352.023.375.375-.023.352-.375.375H.625Q.273 5.727.25 5.375m0 3.75q.023-.352.375-.375h9.75q.352.023.375.375-.023.352-.375.375H.625Q.273 9.477.25 9.125m10.5 3.75q-.023.352-.375.375H.625q-.352-.023-.375-.375.023-.352.375-.375h9.75q.352.023.375.375' />
     </g>
     <defs>
-      <clipPath id='359e3095c01a62f2f7e8571a9243482f__a'>
+      <clipPath id='d9bb9e2a10401262b6d4334d6d891573__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

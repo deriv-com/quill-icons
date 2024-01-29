@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedSortDownLgBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedSortDownLgBoldIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={13}
@@ -8,13 +15,15 @@ const LabelPairedSortDownLgBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     viewBox='0 0 13 30'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='m6.5 22.102 3.477-3.477H3.023zm-.898 1.796-5-5q-.547-.624-.274-1.367.352-.742 1.172-.781h10q.82.04 1.172.781.273.742-.274 1.367l-5 5q-.39.352-.898.352t-.898-.352' />
     </g>
     <defs>
-      <clipPath id='5392af79ef13fa2743ee7301bfe8a2e6__a'>
+      <clipPath id='d737bda9ef6d9b6d706c51356496ea23__a'>
         <path d='M0 0h13v30H0z' />
       </clipPath>
     </defs>

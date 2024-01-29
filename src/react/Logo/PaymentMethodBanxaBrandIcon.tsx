@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodBanxaBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodBanxaBrandIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#101730'>
       <path
         fillRule='evenodd'
@@ -18,14 +27,14 @@ const PaymentMethodBanxaBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M55.122 50.42a.93.93 0 0 1-.928-.928V30.928c0-.512.415-.928.928-.928h1.328c.255 0 .5.105.675.29l12.848 13.605V30.928c0-.512.415-.928.928-.928h1.856c.513 0 .928.416.928.928v18.564a.93.93 0 0 1-.928.928H71.43a.93.93 0 0 1-.675-.29L57.906 36.525v12.966a.93.93 0 0 1-.928.928zM79.018 31.496l6.734 8.714-6.734 8.714a.928.928 0 0 0 .735 1.496h2.546c.295 0 .572-.14.747-.377l5.159-6.993 5.158 6.993a.93.93 0 0 0 .747.377h2.547a.928.928 0 0 0 .734-1.496l-6.734-8.714 6.734-8.714A.928.928 0 0 0 96.657 30H94.11a.93.93 0 0 0-.747.377l-5.158 6.993-5.159-6.993A.93.93 0 0 0 82.3 30h-2.547a.928.928 0 0 0-.734 1.496' />
     </g>
     <path
-      fill='url(#23cf1f1f5ad7c1324ea537ca863cd1a7__a)'
+      fill='url(#24ccd5d9159400093b8910c3a28c68a3__a)'
       fillRule='evenodd'
       d='M111.862 30c.674 0 1.295.366 1.623.955l9.281 16.707a1.856 1.856 0 0 1-1.622 2.758H102.58a1.857 1.857 0 0 1-1.623-2.758l9.282-16.707c.327-.59.949-.955 1.623-.955m-6.127 16.707h12.254l-6.127-11.028z'
       clipRule='evenodd'
     />
     <defs>
       <linearGradient
-        id='23cf1f1f5ad7c1324ea537ca863cd1a7__a'
+        id='24ccd5d9159400093b8910c3a28c68a3__a'
         x1={100.459}
         x2={113.453}
         y1={50.42}

@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodQiwiBlackIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodQiwiBlackIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#000'>
       <path d='M56.867 62.837c-4.61-4.08-8.774-5.394-12.613-5.394-2.336 0-4.265.17-6.014.325-1.449.128-2.774.245-4.104.245-11.061 0-20.028-8.958-20.028-20.007S23.075 18 34.136 18s20.028 8.957 20.028 20.006c0 3.754-1.034 7.267-2.836 10.27-.058.097-.206.063-.222-.05-.687-4.916-3.694-7.625-8.07-8.416-.38-.068-.451-.302.051-.345 1.335-.116 3.238-.096 4.205.078q.086-.756.084-1.537c0-7.304-5.928-13.225-13.24-13.225s-13.24 5.921-13.24 13.225 5.928 13.225 13.24 13.225h.11q.258.002.512-.007a18 18 0 0 1-.249-3.576c.033-.807.197-.918.561-.29 1.832 3.154 4.462 6.027 9.572 7.152 4.179.92 8.369 2.007 12.899 7.72.402.508-.212 1.016-.674.607' />
       <path

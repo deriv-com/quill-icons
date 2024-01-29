@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodBeyonicBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodBeyonicBrandIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#004361' d='m31.734 23 6.29 27.242L10.438 56.6 4 29.21z' />
     <g fill='#B6CDED'>
       <path d='M108.646 47.894h-4.457V31.853h4.457zM106.368 29.7c1.585 0 2.873-1.173 2.873-2.64s-1.288-2.641-2.873-2.641c-1.584 0-2.872 1.173-2.872 2.64s1.288 2.642 2.872 2.642' />

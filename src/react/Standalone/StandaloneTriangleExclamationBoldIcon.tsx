@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const StandaloneTriangleExclamationBoldIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const StandaloneTriangleExclamationBoldIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path d='M15.688 9.781 7.953 22.516a.56.56 0 0 0-.078.312q.039.508.586.547h15.117q.508-.039.547-.547a.7.7 0 0 0-.078-.312L16.312 9.78A.37.37 0 0 0 16 9.625a.37.37 0 0 0-.312.156m-1.602-.976Q14.789 7.789 16 7.75q1.25.04 1.914 1.055l7.734 12.734q.352.585.352 1.29-.039 1.015-.703 1.718-.703.664-1.719.703H8.461q-1.055-.039-1.758-.703-.664-.703-.703-1.719 0-.703.352-1.289zm3.164 12.07q0 .547-.352.898-.35.352-.898.352-.547 0-.898-.352-.352-.35-.352-.898 0-.547.352-.898.35-.352.898-.352.547 0 .898.352.352.35.352.898m-.312-7.187v3.75q-.079.858-.938.937-.86-.078-.937-.937v-3.75q.078-.86.937-.938.859.078.938.938' />
   </svg>
 );

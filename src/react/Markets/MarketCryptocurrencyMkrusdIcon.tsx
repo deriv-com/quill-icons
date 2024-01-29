@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketCryptocurrencyMkrusdIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,12 +16,14 @@ export const MarketCryptocurrencyMkrusdIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#4ec49a38ea78b2d736d3012d898ea659__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#ddd22b947dbf22eef1afa4cdb6b96237__a)'>
       <path fill='#0090FF' d='M20 11a8.999 8.999 0 1 1-17.998 0A8.999 8.999 0 0 1 20 11' />
       <path
-        fill='url(#4ec49a38ea78b2d736d3012d898ea659__b)'
+        fill='url(#ddd22b947dbf22eef1afa4cdb6b96237__b)'
         d='M20 11a8.999 8.999 0 1 1-17.998 0A8.999 8.999 0 0 1 20 11'
       />
       <path
@@ -46,7 +52,7 @@ export const MarketCryptocurrencyMkrusdIcon = (
     />
     <defs>
       <linearGradient
-        id='4ec49a38ea78b2d736d3012d898ea659__b'
+        id='ddd22b947dbf22eef1afa4cdb6b96237__b'
         x1={11.001}
         x2={11.001}
         y1={2.001}
@@ -56,7 +62,7 @@ export const MarketCryptocurrencyMkrusdIcon = (
         <stop stopColor='#4FA89B' />
         <stop offset={1} stopColor='#6ACEBB' />
       </linearGradient>
-      <clipPath id='4ec49a38ea78b2d736d3012d898ea659__a'>
+      <clipPath id='ddd22b947dbf22eef1afa4cdb6b96237__a'>
         <path fill='#fff' d='M2.002 2.001H20v17.998H2.002z' />
       </clipPath>
     </defs>

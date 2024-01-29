@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const FlagUsaIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,8 +16,10 @@ export const FlagUsaIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#fff'
       d='M0 8.568v1.224h24V8.568zM11.5 7.344H24V6.12H11.5zM11.5 4.896H24V3.672H11.5zM11.5 2.448H24V2c0-.275-.055-.537-.156-.776H11.5zM24 11.016H0v1.224h24zM0 13.464h24V14q-.002.364-.122.688H.121A2 2 0 0 1 0 14z'

@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedSignalSmRegularIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedSignalSmRegularIcon = (
     viewBox='0 0 18 22'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M16.438 4.188v13.125q-.028.41-.438.437-.41-.027-.437-.437V4.188q.027-.411.437-.438.41.027.438.438M12.5 6.374q.41.027.438.438v10.5q-.028.41-.438.437-.41-.027-.437-.437v-10.5q.027-.411.437-.438M9.438 9.438v7.874q-.028.411-.438.438-.41-.027-.437-.437V9.438Q8.59 9.027 9 9q.41.027.438.438M5.5 11.625q.41.027.438.438v5.25q-.029.41-.438.437-.41-.027-.437-.437v-5.25q.027-.411.437-.438M2 14.25q.41.027.438.438v2.624q-.029.411-.438.438-.41-.027-.437-.437v-2.625q.027-.411.437-.438' />
     </g>
     <defs>
-      <clipPath id='fe3a765ddf6a8f96504d60703c8ce5fc__a'>
+      <clipPath id='b50416627730b6bf10e7df000c77b0c5__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const DerivLightTwentyFourSevenSupportIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -10,8 +14,10 @@ const DerivLightTwentyFourSevenSupportIcon = (
     viewBox='0 0 120 152'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#fff'
       d='M62.806 67.988 99.4 80.737c1.573.762 4.198 2.322 5.938 5.264a12.5 12.5 0 0 1 1.757 6.27l.11 28.664c-.112 2.416-1.47 4.512-3.495 5.362-1.836.771-3.556.239-4.063.059l-7.429-2.615-7.48 6.55-.037-9.155-23.053-8.088a13.2 13.2 0 0 1-4.164-3.643c-2.282-3.076-2.549-6.3-2.586-7.588l.054-28.334c-.011-.41-.025-2.485 1.584-4.18.323-.34 1.695-1.701 3.847-1.783a5.5 5.5 0 0 1 2.423.47z'

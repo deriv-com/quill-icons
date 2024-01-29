@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const IllustrativeFastTransactionIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const IllustrativeFastTransactionIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M13.333 14.293V14c0-.367-.3-.667-.666-.667S12 13.633 12 14v.293c0 .367.3.667.667.667.366 0 .666-.3.666-.667M7.333 18.667c-.366 0-.666.3-.666.666s.3.667.666.667h.294c.366 0 .666-.3.666-.667 0-.366-.3-.666-.666-.666zM12 24.373v.294c0 .366.3.666.667.666.366 0 .666-.3.666-.666v-.294c0-.366-.3-.666-.666-.666s-.667.3-.667.666M18 18.667h-.293c-.367 0-.667.3-.667.666s.3.667.667.667H18c.367 0 .667-.3.667-.667 0-.366-.3-.666-.667-.666' />
       <path d='M12.667 26.667a7.34 7.34 0 0 1-7.334-7.334A7.34 7.34 0 0 1 12.667 12c1.58 0 3.086.493 4.353 1.433.3.22.713.154.933-.14a.664.664 0 0 0-.14-.933 8.6 8.6 0 0 0-5.146-1.693C7.887 10.667 4 14.553 4 19.333S7.887 28 12.667 28s8.666-3.887 8.666-8.667c0-.24-.006-.473-.026-.713-.027-.367-.36-.633-.72-.613a.67.67 0 0 0-.614.72c.014.2.027.4.027.6a7.34 7.34 0 0 1-7.333 7.333z' />

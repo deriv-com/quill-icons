@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const DerivLightPairsIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const DerivLightPairsIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 120 152'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#fff'
       d='M42.194 100.757c-1.068-12.848 5.34-22.126 7.88-25.692 1.704-2.388 14.826-20.173 35.397-18.583 1.918.148 17.455 1.596 25.838 14.35 4.175 6.352 4.718 12.683 4.952 15.84 1.002 13.584-5.84 23.805-8.607 27.437-1.39 1.826-13.199 16.821-32.368 16.893-3.706.014-12.874-.085-21.14-6.575-10.685-8.392-11.739-21.084-11.953-23.668z'

@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketDerivedBullIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const MarketDerivedBullIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#090c6cb68df3ad9edaf2f36eb863a924__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#c940e898b6e30499147a8cf1de2638e4__a)'>
       <path fill='#414652' d='M32 24a8 8 0 1 1-16 0 8 8 0 0 1 16 0' />
       <path
         fill='#fff'
@@ -23,7 +29,7 @@ export const MarketDerivedBullIcon = (
       <path fill='#0AA0B0' d='M32 0h-8v2h4.586L19 11.586l-5-5-14 14v2.828l14-14 5 5 11-11V8h2z' />
     </g>
     <defs>
-      <clipPath id='090c6cb68df3ad9edaf2f36eb863a924__a'>
+      <clipPath id='c940e898b6e30499147a8cf1de2638e4__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketCommodityGoldeurIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const MarketCommodityGoldeurIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#0086ee0c53c88097650c201bf48cb308__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#92ffe1e0ac1e01953c6b6dab76276007__a)'>
       <path fill='#FFDA5B' d='M20 11a8.999 8.999 0 1 1-17.998 0A8.999 8.999 0 0 1 20 11' />
       <path
         fill='#FDF1CA'
@@ -36,7 +42,7 @@ export const MarketCommodityGoldeurIcon = (
       d='m21.199 14.464-.22-.675-.22.675h-.71l.575.417-.22.675.575-.417.575.417-.22-.675.575-.417zM21.199 27.208l-.22-.676-.22.676h-.71l.575.417-.22.675.575-.417.575.417-.22-.675.575-.417zM24.477 14.919l.219.675h.71l-.575.417.22.675-.574-.417-.575.417.22-.675-.575-.417h.71zM27.082 17.948l-.22-.675-.219.675h-.71l.575.417-.22.675.575-.417.574.417-.22-.675.575-.417zM26.92 23.22l.219.676h.71l-.575.417.22.675-.575-.417-.574.417.22-.675-.575-.417h.71zM15.401 17.948l-.22-.675-.218.675h-.71l.574.417-.22.675.575-.417.574.417-.22-.675.575-.417zM27.416 20.11l.219.675h.71l-.574.417.219.675-.574-.417-.575.417.22-.675-.575-.418h.71zM14.859 20.785l-.22-.675-.219.675h-.71l.574.417-.219.675.575-.417.574.417-.22-.675.575-.418zM15.105 23.22l.22.676h.709l-.574.417.219.675-.574-.417-.574.417.219-.675-.574-.417h.71zM24.799 26.35l-.22-.675-.219.675h-.71l.575.418-.22.675.575-.417.574.417-.22-.675.575-.418zM17.595 14.919l.22.675h.71l-.575.417.22.675-.575-.417-.574.417.22-.675-.575-.417h.71zM17.555 26.308l-.219-.676-.22.676h-.71l.575.417-.22.675.575-.417.574.417-.219-.675.574-.417z'
     />
     <defs>
-      <clipPath id='0086ee0c53c88097650c201bf48cb308__a'>
+      <clipPath id='92ffe1e0ac1e01953c6b6dab76276007__a'>
         <path fill='#fff' d='M2.002 2.001H20v17.998H2.002z' />
       </clipPath>
     </defs>

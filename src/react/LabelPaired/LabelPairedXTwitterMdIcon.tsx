@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedXTwitterMdIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedXTwitterMdIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={16}
@@ -8,13 +15,15 @@ const LabelPairedXTwitterMdIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     viewBox='0 0 16 24'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M12.156 5.5h2.219L9.563 11l5.656 7.5H10.78l-3.469-4.531L3.345 18.5H1.125l5.156-5.875L.844 5.5h4.531l3.156 4.156zm-.781 11.688h1.25L4.719 6.75H3.406z' />
     </g>
     <defs>
-      <clipPath id='656cf2382f70c69430836e03095d75f1__a'>
+      <clipPath id='c6a451049b70b78db731dff217673f4a__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

@@ -1,16 +1,25 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodPseBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodPseBrandIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
-      fill='url(#4785fc3daf659110b6248fd2672d23ad__a)'
+      fill='url(#29a157c267e1aaf95b7919bd62e1d796__a)'
       d='M64 71.997c17.673 0 32-14.326 32-31.998S81.673 8 64 8 32 22.326 32 39.999s14.327 31.998 32 31.998'
     />
     <path
@@ -33,7 +42,7 @@ const PaymentMethodPseBrandIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
     />
     <defs>
       <radialGradient
-        id='4785fc3daf659110b6248fd2672d23ad__a'
+        id='29a157c267e1aaf95b7919bd62e1d796__a'
         cx={0}
         cy={0}
         r={1}

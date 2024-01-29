@@ -91,6 +91,7 @@ export const LogosSvgReactOutPutConfig: Options = {
       svgProps: {
         role: 'img',
       },
+      titleProp: true,
       typescript: true,
       svgo: true,
       plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],

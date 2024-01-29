@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedHorizontalRuleXlBoldIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedHorizontalRuleXlBoldIcon = (
     viewBox='0 0 30 36'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M0 18q.095-1.03 1.125-1.125h27.75Q29.907 16.969 30 18q-.093 1.032-1.125 1.125H1.125Q.095 19.032 0 18' />
     </g>
     <defs>
-      <clipPath id='8c1ce9380a552d1f9399e83d6b5fd693__a'>
+      <clipPath id='4dc174488b7e4c0e730c0d26ac9c5501__a'>
         <path d='M0 0h30v36H0z' />
       </clipPath>
     </defs>

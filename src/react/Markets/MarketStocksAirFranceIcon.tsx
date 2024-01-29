@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketStocksAirFranceIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,15 +16,17 @@ export const MarketStocksAirFranceIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#d17149e950ce47fdf232c70f9f7f491b__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#a6c64266ca769540d1be2d89084054d2__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#d17149e950ce47fdf232c70f9f7f491b__b)'
+        fill='url(#a6c64266ca769540d1be2d89084054d2__b)'
         d='m26.016 12.164-3.448 5.044c-.524.758-1.206 1.562-2.233 1.64v.12l2.706-.001c1.176 0 2.017-1.345 2.598-2.188l3.215-4.637z'
       />
       <path
@@ -36,7 +42,7 @@ export const MarketStocksAirFranceIcon = (
     </g>
     <defs>
       <linearGradient
-        id='d17149e950ce47fdf232c70f9f7f491b__b'
+        id='a6c64266ca769540d1be2d89084054d2__b'
         x1={20.904}
         x2={20.904}
         y1={-2.903}
@@ -50,7 +56,7 @@ export const MarketStocksAirFranceIcon = (
         <stop offset={0.955} stopColor='#931116' />
         <stop offset={1} stopColor='#800F14' />
       </linearGradient>
-      <clipPath id='d17149e950ce47fdf232c70f9f7f491b__a'>
+      <clipPath id='a6c64266ca769540d1be2d89084054d2__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

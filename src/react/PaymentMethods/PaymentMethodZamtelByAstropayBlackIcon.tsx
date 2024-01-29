@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const PaymentMethodZamtelByAstropayBlackIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -10,8 +14,10 @@ const PaymentMethodZamtelByAstropayBlackIcon = (
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#000'>
       <path d='M79.289 32.006h-3.69c.315-.807 1.024-1.358 1.84-1.358.827 0 1.535.561 1.85 1.358M56.06 32.931a2.02 2.02 0 0 1-2.017 2.027 2.02 2.02 0 0 1-2.017-2.027c0-1.122.905-2.027 2.017-2.027s2.017.905 2.017 2.027' />
       <path

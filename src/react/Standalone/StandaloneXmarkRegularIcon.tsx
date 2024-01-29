@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const StandaloneXmarkRegularIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const StandaloneXmarkRegularIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path d='M21.195 22.555 16 17.398l-5.156 5.157q-.469.351-.899 0-.351-.43 0-.86l5.157-5.195-5.157-5.156q-.351-.469 0-.899.43-.351.899 0L16 15.602l5.195-5.157q.43-.351.86 0 .351.43 0 .899L16.898 16.5l5.157 5.195q.351.43 0 .86-.43.351-.86 0' />
   </svg>
 );

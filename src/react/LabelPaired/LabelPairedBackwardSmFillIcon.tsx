@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedBackwardSmFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedBackwardSmFillIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={14}
@@ -8,13 +15,15 @@ const LabelPairedBackwardSmFillIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     viewBox='0 0 14 22'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='m12.578 15.809-4.703-3.91V9.601l4.703-3.91q.411-.33.93-.11.465.246.492.793v8.75q-.027.547-.492.793-.519.22-.93-.11M7 13.375v1.75q-.027.547-.492.793-.52.22-.93-.11l-5.25-4.374A.85.85 0 0 1 0 10.75q0-.41.328-.684l5.25-4.375q.41-.328.93-.109.465.246.492.793v7' />
     </g>
     <defs>
-      <clipPath id='194e94a41ec8a3ee7c6ee5a7cce49c4e__a'>
+      <clipPath id='7d51bf120cc3742a63b750592a230b88__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

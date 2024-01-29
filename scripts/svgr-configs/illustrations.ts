@@ -88,6 +88,7 @@ export const IllustrationSvgReactOutPutConfig: Options = {
         role: 'img',
       },
       typescript: true,
+      titleProp: true,
       svgo: true,
       icon: true,
       plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx', '@svgr/plugin-prettier'],

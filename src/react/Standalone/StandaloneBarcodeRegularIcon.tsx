@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const StandaloneBarcodeRegularIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const StandaloneBarcodeRegularIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path d='M6 8.375q.039-.585.625-.625.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625zm2.5 0q.039-.585.625-.625.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625zm3.125-.625q.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625V8.375q.039-.585.625-.625m3.125.625q.039-.585.625-.625.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625zm3.125-.625q.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625V8.375q.039-.585.625-.625M21 8.375q.039-.585.625-.625.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625zm4.375-.625q.585.039.625.625v16.25q-.039.585-.625.625-.585-.039-.625-.625V8.375q.039-.585.625-.625' />
   </svg>
 );
