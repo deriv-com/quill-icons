@@ -1,3 +1,12 @@
+## [1.17.1](https://github.com/deriv-com/quill-icons/compare/v1.17.0...v1.17.1) (2024-01-29)
+
+
+### ♻️ 	 Chores
+
+* added title props to illustrations icons ([c386580](https://github.com/deriv-com/quill-icons/commit/c386580debea1b79ddf509bee135fa1c1203b3b2))
+* added title props to logos ([5932bd5](https://github.com/deriv-com/quill-icons/commit/5932bd58d9ee89e1599ede1bca8ffad13d04c90f))
+* added title props to other icons ([2dfbcee](https://github.com/deriv-com/quill-icons/commit/2dfbceed42870217201637ce952798f8dad51fc6))
+
 # [1.17.0](https://github.com/deriv-com/quill-icons/compare/v1.16.1...v1.17.0) (2024-01-24)
 
 
