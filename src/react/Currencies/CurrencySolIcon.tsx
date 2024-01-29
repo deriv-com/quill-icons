@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const CurrencySolIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,29 +16,31 @@ export const CurrencySolIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#5ab8ac5f0384026578c7a6beebe7469a__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#25402163046f314613274f820ee8f7e8__a)'>
       <path
         fill='#000'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#5ab8ac5f0384026578c7a6beebe7469a__b)'
+        fill='url(#25402163046f314613274f820ee8f7e8__b)'
         d='M9.924 9.12a.6.6 0 0 1 .417-.173h14.364c.262 0 .393.317.208.502l-2.838 2.838a.6.6 0 0 1-.416.172H7.295a.294.294 0 0 1-.208-.502z'
       />
       <path
-        fill='url(#5ab8ac5f0384026578c7a6beebe7469a__c)'
+        fill='url(#25402163046f314613274f820ee8f7e8__c)'
         d='M9.924 19.714a.6.6 0 0 1 .417-.172h14.364c.262 0 .393.317.208.502l-2.838 2.838a.6.6 0 0 1-.416.172H7.295a.294.294 0 0 1-.208-.503z'
       />
       <path
-        fill='url(#5ab8ac5f0384026578c7a6beebe7469a__d)'
+        fill='url(#25402163046f314613274f820ee8f7e8__d)'
         d='M21.659 14.21c.158 0 .308.064.416.173l2.838 2.837a.294.294 0 0 1-.208.503H10.34a.6.6 0 0 1-.417-.172l-2.837-2.838a.294.294 0 0 1 .208-.502z'
       />
     </g>
     <defs>
       <linearGradient
-        id='5ab8ac5f0384026578c7a6beebe7469a__b'
+        id='25402163046f314613274f820ee8f7e8__b'
         x1={21.145}
         x2={11.204}
         y1={6.11}
@@ -45,7 +51,7 @@ export const CurrencySolIcon = (
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
       <linearGradient
-        id='5ab8ac5f0384026578c7a6beebe7469a__c'
+        id='25402163046f314613274f820ee8f7e8__c'
         x1={21.145}
         x2={11.204}
         y1={6.11}
@@ -56,7 +62,7 @@ export const CurrencySolIcon = (
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
       <linearGradient
-        id='5ab8ac5f0384026578c7a6beebe7469a__d'
+        id='25402163046f314613274f820ee8f7e8__d'
         x1={21.145}
         x2={11.204}
         y1={6.11}
@@ -66,7 +72,7 @@ export const CurrencySolIcon = (
         <stop stopColor='#00FFA3' />
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
-      <clipPath id='5ab8ac5f0384026578c7a6beebe7469a__a'>
+      <clipPath id='25402163046f314613274f820ee8f7e8__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

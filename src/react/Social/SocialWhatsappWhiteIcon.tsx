@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const SocialWhatsappWhiteIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,8 +16,10 @@ export const SocialWhatsappWhiteIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#fff'>
       <path d='m0 32 2.261-8.113a15.86 15.86 0 0 1-2.123-7.96C.138 7.143 7.288 0 16.073 0c4.262 0 8.265 1.658 11.267 4.667A15.8 15.8 0 0 1 32 15.935c0 8.785-7.15 15.928-15.935 15.928h-.008c-2.666 0-5.286-.673-7.616-1.94zm8.838-4.965.482.29a13.3 13.3 0 0 0 6.737 1.849h.008c7.295 0 13.238-5.936 13.238-13.239 0-3.537-1.375-6.86-3.873-9.365a13.14 13.14 0 0 0-9.365-3.881c-7.303 0-13.246 5.935-13.246 13.238 0 2.498.695 4.935 2.024 7.044l.313.504-1.336 4.881z' />
       <path

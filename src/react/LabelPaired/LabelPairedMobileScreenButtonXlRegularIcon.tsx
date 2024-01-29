@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedMobileScreenButtonXlRegularIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedMobileScreenButtonXlRegularIcon = (
     viewBox='0 0 18 36'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M13.5 7.5h-9q-.656 0-1.078.422Q3 8.343 3 9v12h12V9q0-.656-.422-1.078Q14.157 7.5 13.5 7.5m1.5 15H3V27q0 .657.422 1.078.421.422 1.078.422h9q.657 0 1.078-.422Q15 27.657 15 27zM4.5 6h9q1.266.047 2.11.89.843.844.89 2.11v18q-.047 1.266-.89 2.11-.844.843-2.11.89h-9q-1.266-.047-2.11-.89-.843-.844-.89-2.11V9q.047-1.266.89-2.11.844-.843 2.11-.89m2.25 19.5q.046-.704.75-.75h3q.703.046.75.75-.047.704-.75.75h-3q-.703-.046-.75-.75' />
     </g>
     <defs>
-      <clipPath id='6a17ffcf1fd3959dbfa972e9c2013518__a'>
+      <clipPath id='9dcd239c9960a9de91f24f8c15e3647f__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

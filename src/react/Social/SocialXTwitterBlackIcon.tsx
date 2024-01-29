@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const SocialXTwitterBlackIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,16 +16,18 @@ export const SocialXTwitterBlackIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#b14f17dd0ef1baa20e39c5fc74671c83__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#0f8b007c71acfdcc418a7ae5d0f0d5b6__a)'>
       <path
         fill='#000'
         d='M19.044 13.55 30.957 0h-2.823L17.79 11.765 9.53 0H0l12.493 17.79L0 32h2.823l10.923-12.424L22.471 32H32zM3.84 2.08h4.336l19.96 27.935h-4.337z'
       />
     </g>
     <defs>
-      <clipPath id='b14f17dd0ef1baa20e39c5fc74671c83__a'>
+      <clipPath id='0f8b007c71acfdcc418a7ae5d0f0d5b6__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

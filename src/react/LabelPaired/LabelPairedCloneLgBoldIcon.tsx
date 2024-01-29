@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedCloneLgBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedCloneLgBoldIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={20}
@@ -8,13 +15,15 @@ const LabelPairedCloneLgBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     viewBox='0 0 20 30'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M2.5 23.625h8.75q.585-.039.625-.625v-2.5h1.875V23q-.039 1.055-.742 1.758t-1.758.742H2.5q-1.055-.039-1.758-.742Q.04 24.054 0 23v-8.75q.039-1.055.742-1.758T2.5 11.75H5v1.875H2.5q-.585.039-.625.625V23q.039.585.625.625m6.25-6.25h8.75q.585-.039.625-.625V8q-.039-.585-.625-.625H8.75q-.585.039-.625.625v8.75q.039.585.625.625m-2.5-.625V8q.039-1.055.742-1.758.704-.703 1.758-.742h8.75q1.055.039 1.758.742T20 8v8.75q-.039 1.055-.742 1.758-.704.703-1.758.742H8.75q-1.055-.039-1.758-.742-.703-.704-.742-1.758' />
     </g>
     <defs>
-      <clipPath id='89b2fe6cd269bd7288f792e57dae9486__a'>
+      <clipPath id='7008e0da68713db510d045447a69bcb9__a'>
         <path d='M0 0h20v30H0z' />
       </clipPath>
     </defs>

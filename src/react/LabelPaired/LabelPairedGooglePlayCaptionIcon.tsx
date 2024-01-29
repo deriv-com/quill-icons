@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedGooglePlayCaptionIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedGooglePlayCaptionIcon = (
     viewBox='0 0 12 18'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='m7.617 8.984 1.406-1.406-6.562-3.773zM1.102 3.5l6.023 6-6.023 6a.91.91 0 0 1-.516-.82V4.32a.91.91 0 0 1 .516-.82m9.96 5.297a.83.83 0 0 1 .352.703q0 .445-.328.703l-1.406.82L8.156 9.5 9.68 8zm-8.601 6.398 5.156-5.18 1.406 1.407z' />
     </g>
     <defs>
-      <clipPath id='b54432a3946f4bd3f769f460efffe173__a'>
+      <clipPath id='1daa39ffd59891f89f168be9ae6189f8__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

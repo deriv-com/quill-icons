@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const CurrencySingleCollateralDaiIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const CurrencySingleCollateralDaiIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#edbd91990fea6bd6cf79a241a3984e60__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#fb48a831bee3358305b926aebfeddc89__a)'>
       <path
         fill='#F5AC37'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -29,7 +35,7 @@ export const CurrencySingleCollateralDaiIcon = (
       <path fill='#F7B14A' d='M16 9V6l10 10-10 3v-6l3 3h4z' />
     </g>
     <defs>
-      <clipPath id='edbd91990fea6bd6cf79a241a3984e60__a'>
+      <clipPath id='fb48a831bee3358305b926aebfeddc89__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

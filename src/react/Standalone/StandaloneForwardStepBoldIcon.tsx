@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const StandaloneForwardStepBoldIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const StandaloneForwardStepBoldIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path d='M19.125 9.938q.078-.86.938-.938.858.078.937.938v13.125q-.078.858-.937.937-.86-.079-.938-.937V18.96l-6.914 4.844q-.312.195-.664.195-.508 0-.82-.352-.352-.312-.352-.82V10.172q0-.508.352-.82.312-.352.82-.352.39 0 .664.195l6.914 4.844zm0 6.718v-.312l-6.875-4.805V21.5z' />
   </svg>
 );

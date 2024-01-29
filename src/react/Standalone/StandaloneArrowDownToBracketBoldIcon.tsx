@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const StandaloneArrowDownToBracketBoldIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const StandaloneArrowDownToBracketBoldIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path d='m21.664 14.977-5 5q-.664.546-1.328 0l-5-5q-.548-.664 0-1.329.664-.546 1.328 0l3.399 3.399v-9.61q.078-.859.937-.937.859.078.938.938v9.609l3.398-3.399q.664-.546 1.328 0 .547.664 0 1.329m-12.539 4.96v3.125q0 .665.469 1.094.428.47 1.094.469h10.625q.663 0 1.093-.469.47-.429.469-1.093v-3.125q.078-.86.938-.938.858.078.937.938v3.125q-.04 1.445-1.016 2.421-.975.977-2.422 1.016H10.688q-1.444-.04-2.421-1.016-.977-.975-1.016-2.422v-3.125q.078-.858.938-.937.858.078.937.938' />
   </svg>
 );

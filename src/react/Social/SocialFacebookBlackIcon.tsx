@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const SocialFacebookBlackIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const SocialFacebookBlackIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#14d217057bba95fd156960a345fe74ff__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#3e58168bfbdafe28baa5200700dc13ec__a)'>
       <path
         fill='#000'
         fillRule='evenodd'
@@ -23,7 +29,7 @@ export const SocialFacebookBlackIcon = (
       />
     </g>
     <defs>
-      <clipPath id='14d217057bba95fd156960a345fe74ff__a'>
+      <clipPath id='3e58168bfbdafe28baa5200700dc13ec__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const StandaloneEllipsisVerticalBoldIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const StandaloneEllipsisVerticalBoldIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path d='M16 20.875q1.055.039 1.64.938.47.938 0 1.875-.585.898-1.64.937-1.055-.039-1.64-.937-.47-.937 0-1.875.585-.9 1.64-.938m0-6.25q1.055.038 1.64.938.47.937 0 1.874-.585.9-1.64.938-1.055-.039-1.64-.937-.47-.937 0-1.875.585-.9 1.64-.938m1.875-4.375q-.039 1.055-.937 1.64-.937.47-1.875 0-.9-.585-.938-1.64.038-1.055.938-1.64.937-.47 1.874 0 .9.585.938 1.64' />
   </svg>
 );

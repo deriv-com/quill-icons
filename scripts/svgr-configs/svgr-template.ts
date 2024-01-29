@@ -100,6 +100,32 @@ const SvgrTemplate: Options['template'] = (variables, { tpl }) => {
           },
         },
         {
+          type: 'ObjectProperty',
+          shorthand: true,
+          computed: false,
+          key: {
+            type: 'Identifier',
+            name: 'title',
+          },
+          value: {
+            type: 'Identifier',
+            name: 'title',
+          },
+        },
+        {
+          type: 'ObjectProperty',
+          shorthand: true,
+          computed: false,
+          key: {
+            type: 'Identifier',
+            name: 'titleId',
+          },
+          value: {
+            type: 'Identifier',
+            name: 'titleId',
+          },
+        },
+        {
           type: 'RestElement',
           argument: {
             type: 'Identifier',
@@ -113,7 +139,7 @@ const SvgrTemplate: Options['template'] = (variables, { tpl }) => {
           type: 'TSTypeReference',
           typeName: {
             type: 'Identifier',
-            name: 'QuillSvgProps',
+            name: 'QuillSvgProps & SVGRProps',
           },
         },
       },

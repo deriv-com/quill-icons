@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const PlatformsDmt5DerivedIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const PlatformsDmt5DerivedIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#a6e0e2de6091f8e6aecb30796f85897c__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#aa880de2eb11701fea303604d8495685__a)'>
       <path fill='#0364B9' d='M26 0H6a6 6 0 0 0-6 6v17.5h32V6a6 6 0 0 0-6-6' />
       <path
         fill='#0A559E'
@@ -27,7 +33,7 @@ export const PlatformsDmt5DerivedIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a6e0e2de6091f8e6aecb30796f85897c__a'>
+      <clipPath id='aa880de2eb11701fea303604d8495685__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

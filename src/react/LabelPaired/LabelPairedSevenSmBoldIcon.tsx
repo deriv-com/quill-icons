@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedSevenSmBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedSevenSmBoldIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={9}
@@ -8,13 +15,15 @@ const LabelPairedSevenSmBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
     viewBox='0 0 9 22'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M.125 5.281q.054-.601.656-.656H8.22q.382 0 .574.328.165.329 0 .656L2.23 16.547q-.355.492-.902.246-.491-.356-.219-.902L7.07 5.938H.781Q.18 5.882.125 5.28' />
     </g>
     <defs>
-      <clipPath id='175b2d637190bfa76020a03ef691e1c8__a'>
+      <clipPath id='c909a47f016bb4dac47290cfc16c2532__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

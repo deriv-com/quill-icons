@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketStocksJohnsonAndJohnsonIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const MarketStocksJohnsonAndJohnsonIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#ec83ecf023987e240c618752ecd3c250__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#2f673a8a365f3eb08d27d602f03bc196__a)'>
       <path
         fill='#E92431'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -25,7 +31,7 @@ export const MarketStocksJohnsonAndJohnsonIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ec83ecf023987e240c618752ecd3c250__a'>
+      <clipPath id='2f673a8a365f3eb08d27d602f03bc196__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

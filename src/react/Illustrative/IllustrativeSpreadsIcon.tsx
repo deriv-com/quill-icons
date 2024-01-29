@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const IllustrativeSpreadsIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,8 +15,10 @@ export const IllustrativeSpreadsIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M19.375 6.013a.664.664 0 0 0-.94 0L15.288 9.16a.664.664 0 0 0 .474 1.133c.173 0 .34-.066.473-.193l3.147-3.147c.26-.26.26-.68 0-.94zM15.755 7.267a.79.79 0 0 0 .787-.787.79.79 0 0 0-.787-.787.79.79 0 0 0-.787.787c0 .433.354.787.787.787M18.902 8.847a.79.79 0 0 0-.787.786c0 .434.353.787.787.787a.79.79 0 0 0 .786-.787.79.79 0 0 0-.786-.786' />
       <path d='M20.715 13.447c1.1 0 2-.9 2-2v-6.78c0-1.1-.9-2-2-2h-6.78c-1.1 0-2 .9-2 2v6.78c0 1.1.9 2 2 2h1.547v1.693c0 .267.16.513.413.613a.66.66 0 0 0 .727-.14l2.166-2.166zm-2.673-1.14-1.22 1.22v-.754c0-.366-.3-.666-.667-.666h-2.213a.67.67 0 0 1-.667-.667V4.667c0-.367.3-.667.667-.667h6.78c.366 0 .666.3.666.667v6.78c0 .366-.3.666-.666.666h-2.2a.7.7 0 0 0-.474.194zM25.528 24.333a.664.664 0 1 0-.94.94l3.48 3.48c.134.134.3.194.474.194a.664.664 0 0 0 .473-1.133l-3.48-3.48z' />

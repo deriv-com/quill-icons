@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const SocialTiktokBrandIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,8 +16,10 @@ export const SocialTiktokBrandIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#25F4EE'
       d='M12.872 12.6v-1.25a10 10 0 0 0-1.308-.095c-5.35 0-9.702 4.352-9.702 9.702a9.7 9.7 0 0 0 4.142 7.944 9.66 9.66 0 0 1-2.606-6.606c0-5.273 4.23-9.573 9.474-9.696'

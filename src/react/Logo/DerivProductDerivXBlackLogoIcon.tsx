@@ -37,7 +37,7 @@ const DerivProductDerivXBlackLogoIcon = (
       />
     </g>
     <defs>
-      <clipPath id='de311e0d43ec690c6635541f007ba528__a'>
+      <clipPath id='ecaf76a594510bb7ce59afb9b89cfc93__a'>
         <path fill='#fff' d='M0 0h72v72H0z' />
       </clipPath>
     </defs>

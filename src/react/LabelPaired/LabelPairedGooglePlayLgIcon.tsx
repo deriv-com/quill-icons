@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedGooglePlayLgIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedGooglePlayLgIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={20}
@@ -8,13 +15,15 @@ const LabelPairedGooglePlayLgIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
     viewBox='0 0 20 30'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='m12.695 14.64 2.344-2.343-10.937-6.29zM1.835 5.5l10.04 10-10.04 10q-.819-.43-.858-1.367V6.867q.039-.937.859-1.367m16.603 8.828q.585.43.585 1.172t-.546 1.172l-2.344 1.367-2.54-2.539 2.54-2.5zM4.102 24.992l8.593-8.633 2.344 2.344z' />
     </g>
     <defs>
-      <clipPath id='089fdfc552a99669e40823c560257efd__a'>
+      <clipPath id='1ad94add01d6886ecbc426f1162b9208__a'>
         <path d='M0 0h20v30H0z' />
       </clipPath>
     </defs>

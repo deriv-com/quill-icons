@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedMobileNotchXlRegularIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedMobileNotchXlRegularIcon = (
     viewBox='0 0 18 36'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M12 7.5v.75q0 .657-.422 1.078-.421.422-1.078.422h-3q-.656 0-1.078-.422Q6 8.907 6 8.25V7.5H4.5q-.656 0-1.078.422Q3 8.343 3 9v18q0 .657.422 1.078.421.422 1.078.422h9q.657 0 1.078-.422Q15 27.657 15 27V9q0-.656-.422-1.078Q14.157 7.5 13.5 7.5zm-1.5 0h-3v.75h3zM1.5 9q.047-1.266.89-2.11.844-.843 2.11-.89h9q1.266.047 2.11.89.843.844.89 2.11v18q-.047 1.266-.89 2.11-.844.843-2.11.89h-9q-1.266-.047-2.11-.89-.843-.844-.89-2.11z' />
     </g>
     <defs>
-      <clipPath id='693923c1980315d4e72070740a62884d__a'>
+      <clipPath id='9728421e89e33118a1e7ce30551a484a__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

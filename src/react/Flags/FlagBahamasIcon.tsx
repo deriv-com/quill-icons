@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const FlagBahamasIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,9 +16,11 @@ export const FlagBahamasIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#7c7076b26d1c19b2bbed0f3b0da79d87__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#e29463e5866d1b64d8e40000b26e9843__a)'>
       <path fill='#FBE22B' d='M7.5 11 12 8 7.5 5H24v6z' />
       <path fill='#333' d='M0 2v12c0 .612.275 1.16.709 1.527L12 8 .709.473A2 2 0 0 0 0 2' />
       <path
@@ -30,7 +36,7 @@ export const FlagBahamasIcon = (
       />
     </g>
     <defs>
-      <clipPath id='7c7076b26d1c19b2bbed0f3b0da79d87__a'>
+      <clipPath id='e29463e5866d1b64d8e40000b26e9843__a'>
         <path fill='#fff' d='M0 0h24v16H0z' />
       </clipPath>
     </defs>

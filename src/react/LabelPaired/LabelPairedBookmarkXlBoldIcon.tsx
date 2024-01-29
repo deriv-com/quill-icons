@@ -1,6 +1,13 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const LabelPairedBookmarkXlBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedBookmarkXlBoldIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={18}
@@ -8,13 +15,15 @@ const LabelPairedBookmarkXlBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
     viewBox='0 0 18 36'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M0 8.25q.047-.937.656-1.594A2.45 2.45 0 0 1 2.25 6v20.672l6.094-4.313q.656-.42 1.312 0l6.094 4.313V8.25H2.25V6h13.5q.937.047 1.594.656.61.657.656 1.594v20.625q0 .657-.61.984-.609.282-1.171-.047L9 24.657l-7.219 5.157q-.562.328-1.172.046A1.17 1.17 0 0 1 0 28.875z' />
     </g>
     <defs>
-      <clipPath id='3d9ae3f34166377b0494cb649f211e5b__a'>
+      <clipPath id='79a75f5aee71b21feca500844c2afca4__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

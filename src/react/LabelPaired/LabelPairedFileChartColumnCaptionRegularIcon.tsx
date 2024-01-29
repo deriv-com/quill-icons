@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const LabelPairedFileChartColumnCaptionRegularIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -11,13 +15,15 @@ const LabelPairedFileChartColumnCaptionRegularIcon = (
     viewBox='0 0 9 18'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path d='M7.5 14.75a.73.73 0 0 0 .54-.21.73.73 0 0 0 .21-.54V8H5.625a1.22 1.22 0 0 1-.797-.328 1.22 1.22 0 0 1-.328-.797V4.25h-3a.73.73 0 0 0-.54.21.73.73 0 0 0-.21.54v9q0 .328.21.54.212.21.54.21zm-1.875-7.5H8.25a.6.6 0 0 0-.117-.164L5.414 4.367a.35.35 0 0 0-.164-.094v2.602q.023.352.375.375M1.5 3.5h3.656q.469 0 .797.328l2.719 2.719Q9 6.875 9 7.344V14a1.52 1.52 0 0 1-.445 1.055q-.422.421-1.055.445h-6a1.52 1.52 0 0 1-1.055-.445A1.52 1.52 0 0 1 0 14V5q.024-.632.445-1.055Q.868 3.524 1.5 3.5m3.375 5.625v4.5q-.023.352-.375.375-.352-.023-.375-.375v-4.5q.023-.352.375-.375.352.023.375.375m2.25 1.5v3q-.023.352-.375.375-.352-.023-.375-.375v-3q.023-.352.375-.375.352.023.375.375m-4.5 1.5v1.5q-.023.352-.375.375-.352-.023-.375-.375v-1.5q.023-.352.375-.375.352.023.375.375' />
     </g>
     <defs>
-      <clipPath id='9cff1e8bb5c1299cfd571972c2c0430c__a'>
+      <clipPath id='fa942510204dac312d2b3079bc2c5554__a'>
         <path d='M0 0h9v18H0z' />
       </clipPath>
     </defs>

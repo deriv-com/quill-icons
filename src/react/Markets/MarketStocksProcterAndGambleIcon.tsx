@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketStocksProcterAndGambleIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,15 +16,17 @@ export const MarketStocksProcterAndGambleIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#3476b8c6f46dc74288ef79178c1ecc33__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#288a9ca0c7a1e392c27f066fe0274de9__a)'>
       <path
-        fill='url(#3476b8c6f46dc74288ef79178c1ecc33__b)'
+        fill='url(#288a9ca0c7a1e392c27f066fe0274de9__b)'
         d='M18.5.194C10.85 1.394 5 8.014 5 16s5.85 14.606 13.5 15.806C26.15 30.606 32 23.986 32 16S26.15 1.394 18.5.194'
       />
       <path
-        fill='url(#3476b8c6f46dc74288ef79178c1ecc33__c)'
+        fill='url(#288a9ca0c7a1e392c27f066fe0274de9__c)'
         d='M18.5.194A16 16 0 0 0 16 0C7.163 0 0 7.163 0 16s7.163 16 16 16a16 16 0 0 0 2.5-.194C10.85 30.606 5 23.986 5 16S10.85 1.394 18.5.194'
       />
       <path
@@ -42,7 +48,7 @@ export const MarketStocksProcterAndGambleIcon = (
     </g>
     <defs>
       <radialGradient
-        id='3476b8c6f46dc74288ef79178c1ecc33__c'
+        id='288a9ca0c7a1e392c27f066fe0274de9__c'
         cx={0}
         cy={0}
         r={1}
@@ -53,7 +59,7 @@ export const MarketStocksProcterAndGambleIcon = (
         <stop offset={1} stopColor='#0098DA' />
       </radialGradient>
       <linearGradient
-        id='3476b8c6f46dc74288ef79178c1ecc33__b'
+        id='288a9ca0c7a1e392c27f066fe0274de9__b'
         x1={18.963}
         x2={18.963}
         y1={-0.197}
@@ -63,7 +69,7 @@ export const MarketStocksProcterAndGambleIcon = (
         <stop stopColor='#0093D7' />
         <stop offset={1} stopColor='#002A78' />
       </linearGradient>
-      <clipPath id='3476b8c6f46dc74288ef79178c1ecc33__a'>
+      <clipPath id='288a9ca0c7a1e392c27f066fe0274de9__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Ref, forwardRef } from 'react';
 import { QuillSvgProps, sizes } from '../../types';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 export const MarketStocksPaypalIcon = (
-  { iconSize = 'md', ...props }: QuillSvgProps,
+  { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -12,15 +16,17 @@ export const MarketStocksPaypalIcon = (
     {...sizes[iconSize]}
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
-    <g clipPath='url(#a06203134a3a4bb0b08697d53a3d4d8b__a)'>
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g clipPath='url(#1c1c99cffc44cb4aed6577e1355751d8__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#a06203134a3a4bb0b08697d53a3d4d8b__b)'
+        fill='url(#1c1c99cffc44cb4aed6577e1355751d8__b)'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
@@ -38,7 +44,7 @@ export const MarketStocksPaypalIcon = (
     </g>
     <defs>
       <linearGradient
-        id='a06203134a3a4bb0b08697d53a3d4d8b__b'
+        id='1c1c99cffc44cb4aed6577e1355751d8__b'
         x1={32}
         x2={0}
         y1={0}
@@ -48,7 +54,7 @@ export const MarketStocksPaypalIcon = (
         <stop stopColor='#004090' />
         <stop offset={1} stopColor='#009EDF' />
       </linearGradient>
-      <clipPath id='a06203134a3a4bb0b08697d53a3d4d8b__a'>
+      <clipPath id='1c1c99cffc44cb4aed6577e1355751d8__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
