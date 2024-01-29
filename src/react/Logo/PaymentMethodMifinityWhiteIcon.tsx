@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const PaymentMethodMifinityWhiteIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -10,8 +14,10 @@ const PaymentMethodMifinityWhiteIcon = (
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#fff'>
       <path d='M101.693 19.624q.19.259.35.537a14.3 14.3 0 0 0-1.288-3.41c-4.724-8.662-17.85-6.07-30.945 3.74a49.4 49.4 0 0 0-9.218 8.979c1.629.884 3.104 2.132 4.528 3.195a19 19 0 0 0 2.763 1.677c.83-.961 1.691-1.91 2.595-2.843 11.665-12.02 26.51-18.137 31.215-11.875' />
       <path d='M65.95 29.56c-1.211-1.02-2.436-1.989-3.567-3.086a58.7 58.7 0 0 1-7.498 7.39c-11.683 9.664-24.269 12.85-28.112 7.143a3 3 0 0 1-.167-.284 12 12 0 0 1-1.623-3.528 13.46 13.46 0 0 1 .122-7.333c-1.78 3.607-2.274 7.177-1.151 10.233 2.99 8.063 16.233 9.422 29.586 3.032 6.222-2.976 11.37-7.105 14.78-11.494-.79-.694-1.554-1.396-2.37-2.072' />

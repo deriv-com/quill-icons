@@ -14,7 +14,7 @@ const LabelPairedSortUpSmBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M4.5 6.129 2.066 8.563h4.868zM3.871 4.87a.91.91 0 0 1 .629-.246q.356 0 .629.246l3.5 3.5q.383.437.191.957a.9.9 0 0 1-.82.547H1a.9.9 0 0 1-.82-.547q-.192-.519.191-.957z' />
     </g>
     <defs>
-      <clipPath id='845050c9376fc252c620526a5982e167__a'>
+      <clipPath id='5d86be1ddb9aba9bd0f91cd9ea057a36__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

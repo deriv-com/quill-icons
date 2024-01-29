@@ -14,7 +14,7 @@ const LabelPairedTabletMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M2 5.5q-.469.031-.5.5v12q.031.47.5.5h10q.47-.03.5-.5V6q-.03-.469-.5-.5zM0 6q.03-.843.594-1.406Q1.157 4.032 2 4h10q.844.03 1.406.594Q13.97 5.156 14 6v12q-.03.844-.594 1.406-.563.563-1.406.594H2q-.843-.03-1.406-.594Q.032 18.844 0 18zm6 10.5h2q.47.031.5.5-.03.47-.5.5H6q-.469-.03-.5-.5.031-.469.5-.5' />
     </g>
     <defs>
-      <clipPath id='b175c311bd5e5543e340feb8040ed908__a'>
+      <clipPath id='49157988c8405a50ef8a0967d4f3e09f__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

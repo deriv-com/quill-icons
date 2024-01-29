@@ -14,7 +14,7 @@ export const PlatformsDmt5CFDsIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#5396863edf07a13f640222bb18dbe127__a)'>
+    <g clipPath='url(#7a1d390279fa41fae2e2694adbc5f0f3__a)'>
       <path fill='#0364B9' d='M26 0H6a6 6 0 0 0-6 6v17.5h32V6a6 6 0 0 0-6-6' />
       <path
         fill='#0A559E'
@@ -27,7 +27,7 @@ export const PlatformsDmt5CFDsIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5396863edf07a13f640222bb18dbe127__a'>
+      <clipPath id='7a1d390279fa41fae2e2694adbc5f0f3__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

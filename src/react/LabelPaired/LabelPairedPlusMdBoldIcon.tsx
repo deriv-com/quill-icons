@@ -14,7 +14,7 @@ const LabelPairedPlusMdBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGS
       <path d='M7.75 6.25v5h5q.687.063.75.75-.063.687-.75.75h-5v5q-.063.687-.75.75-.687-.063-.75-.75v-5h-5Q.563 12.687.5 12q.063-.687.75-.75h5v-5q.063-.687.75-.75.687.063.75.75' />
     </g>
     <defs>
-      <clipPath id='c8ece1621e3356889a5395e987edaa2b__a'>
+      <clipPath id='bd6d916d0202ade451029305c228f2a1__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

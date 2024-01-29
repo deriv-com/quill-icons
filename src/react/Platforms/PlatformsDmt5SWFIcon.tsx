@@ -14,7 +14,7 @@ export const PlatformsDmt5SWFIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#e3045766ed49b9d23a24432fd27621c4__a)'>
+    <g clipPath='url(#915004116453866e9f8387bc6627bdc4__a)'>
       <path fill='#0364B9' d='M26 0H6a6 6 0 0 0-6 6v17.5h32V6a6 6 0 0 0-6-6' />
       <path
         fill='#0A559E'
@@ -27,7 +27,7 @@ export const PlatformsDmt5SWFIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e3045766ed49b9d23a24432fd27621c4__a'>
+      <clipPath id='915004116453866e9f8387bc6627bdc4__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

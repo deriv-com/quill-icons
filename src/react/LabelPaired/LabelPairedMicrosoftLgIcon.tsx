@@ -14,7 +14,7 @@ const LabelPairedMicrosoftLgIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       <path d='M.25 6.75h8.398v8.398H.25zm9.102 0h8.398v8.398H9.352zM.25 15.852h8.398v8.398H.25zm9.102 0h8.398v8.398H9.352z' />
     </g>
     <defs>
-      <clipPath id='d1862a1dae87c22f412ca4263d5232bc__a'>
+      <clipPath id='5245d4f2b25a3792d294f544a561ee21__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>

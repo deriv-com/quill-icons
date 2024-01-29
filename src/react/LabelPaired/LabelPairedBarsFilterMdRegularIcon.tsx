@@ -17,7 +17,7 @@ const LabelPairedBarsFilterMdRegularIcon = (
       <path d='M0 6.5q.031-.469.5-.5h13q.47.031.5.5-.03.47-.5.5H.5q-.469-.03-.5-.5m2 5q.031-.469.5-.5h9q.47.031.5.5-.03.47-.5.5h-9q-.469-.03-.5-.5m7 5q-.03.47-.5.5h-3q-.469-.03-.5-.5.031-.469.5-.5h3q.47.031.5.5' />
     </g>
     <defs>
-      <clipPath id='ecc0bda416592cf0164315ea068e98f8__a'>
+      <clipPath id='761de3b60c057dda748a51e210c8f164__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

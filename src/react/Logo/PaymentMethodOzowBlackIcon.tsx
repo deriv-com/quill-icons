@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodOzowBlackIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodOzowBlackIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#000'>
       <path d='M88.214 30.964a9.036 9.036 0 1 0 0 18.071 9.036 9.036 0 0 0 0-18.07m0 14.17a5.126 5.126 0 1 1 .03-10.253 5.126 5.126 0 0 1-.03 10.253M52.477 30.964a9.036 9.036 0 1 0-.004 18.072 9.036 9.036 0 0 0 .004-18.072m0 14.17a5.125 5.125 0 1 1 .025-10.251 5.125 5.125 0 0 1-.025 10.25M78.19 48.584H62.914v-2.966l9.228-10.51h-7.457a1.77 1.77 0 0 1-1.771-1.77v-1.964h15.274v3.038l-9.653 10.447h7.885a1.77 1.77 0 0 1 1.768 1.772zM118.276 48.617h-4.101l-3.381-10.137-3.414 10.137h-4.101l-5.722-17.243h2.771a2.4 2.4 0 0 1 2.282 1.661l2.878 8.926L109 31.374h3.552l3.517 10.62 2.879-8.954a2.4 2.4 0 0 1 2.281-1.663H124zM35.937 39.513a1.425 1.425 0 0 1-1.592-1.236 13.712 13.712 0 0 0-23.351-7.928 1.425 1.425 0 0 1-2.015-2.015 16.564 16.564 0 0 1 28.196 9.58 1.426 1.426 0 0 1-1.236 1.59z' />
       <path d='M20.734 45.262a5.263 5.263 0 1 1-.005-10.525 5.263 5.263 0 0 1 .005 10.525m0-7.674a2.412 2.412 0 1 0 0 4.823 2.412 2.412 0 0 0 0-4.823' />

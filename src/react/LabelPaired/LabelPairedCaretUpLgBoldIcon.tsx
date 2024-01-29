@@ -14,7 +14,7 @@ const LabelPairedCaretUpLgBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<S
       <path d='m6.5 12.648-3.477 3.477h6.954zm-.898-1.796q.39-.352.898-.352t.898.352l5 5q.547.624.274 1.367-.352.742-1.172.781h-10q-.82-.04-1.172-.781-.273-.742.274-1.367z' />
     </g>
     <defs>
-      <clipPath id='568900b2e0056b64b852d61c71c73367__a'>
+      <clipPath id='9f0d7610cb93c147d6c8f50c9aa59f4f__a'>
         <path d='M0 0h13v30H0z' />
       </clipPath>
     </defs>

@@ -14,7 +14,7 @@ const LabelPairedWindowsMdIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSV
       <path d='M0 6.938v4.75h5.75V6.125zm0 10.125v-4.688h5.75v5.5zm6.375.875v-5.563H14V19zm0-11.875L14 5v6.688H6.375z' />
     </g>
     <defs>
-      <clipPath id='efc704eedd8f462eeda152898c8130a7__a'>
+      <clipPath id='8ba591c43de84816ed6b53e0010481dd__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

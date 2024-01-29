@@ -14,7 +14,7 @@ const LabelPairedMinusXlRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       <path d='M20.25 18q-.046.704-.75.75h-18Q.797 18.704.75 18q.047-.704.75-.75h18q.704.046.75.75' />
     </g>
     <defs>
-      <clipPath id='7f1ced878fdef5f530c24c76cd2ccefd__a'>
+      <clipPath id='c87346f626554f8233a64e23820bab7b__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

@@ -14,7 +14,7 @@ const LabelPairedXmarkSmRegularIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       <path d='M9.137 14.988 5.5 11.378l-3.61 3.61q-.327.246-.628 0-.246-.3 0-.601l3.61-3.637-3.61-3.61q-.246-.328 0-.628.3-.246.629 0l3.609 3.61 3.637-3.61q.3-.246.601 0 .246.3 0 .629l-3.61 3.609 3.61 3.637q.246.3 0 .601-.3.246-.601 0' />
     </g>
     <defs>
-      <clipPath id='bf8a7708e423347cb5950ef643c3cdf2__a'>
+      <clipPath id='113be286dabcb2439b29c6a7108841e0__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

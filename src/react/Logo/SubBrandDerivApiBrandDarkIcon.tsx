@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const SubBrandDerivApiBrandDarkIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const SubBrandDerivApiBrandDarkIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 268 58'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g>
       <path
         fill='#FF444F'
@@ -20,7 +29,7 @@ const SubBrandDerivApiBrandDarkIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<
       />
     </g>
     <defs>
-      <clipPath id='07e160f0c9592f5448cae9477c4176cd__a'>
+      <clipPath id='1cffcbd6ac6f302cc0ca9bfb09106bad__a'>
         <path fill='#fff' d='M0 0h268v58H0z' />
       </clipPath>
     </defs>

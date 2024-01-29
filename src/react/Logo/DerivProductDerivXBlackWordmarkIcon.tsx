@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const DerivProductDerivXBlackWordmarkIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -10,8 +14,10 @@ const DerivProductDerivXBlackWordmarkIcon = (
     viewBox='0 0 140 36'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#414652'>
       <path
         fillRule='evenodd'
@@ -27,7 +33,7 @@ const DerivProductDerivXBlackWordmarkIcon = (
       <path d='M89.639 26.563c2.899-5.216 6.095-12.06 7.427-15.106h6.395c-2.177 5.788-7.165 15.633-11.998 22.902h-6.39c-2.218-6.919-3.65-16.559-3.924-22.902h6.39c.116 2.07 1.042 9.744 2.1 15.106M130.585 35.182a88 88 0 0 0-3.024-5.528 61 61 0 0 0-3.733-5.765 52 52 0 0 0-1.701 2.363 117 117 0 0 0-2.032 3.213 758 758 0 0 0-1.89 3.26q-.897 1.56-1.323 2.457h-8.41a118 118 0 0 1 4.819-8.032 283 283 0 0 1 6.19-8.93L108.944 2.437h8.93l6.379 10.206 6.237-10.206h8.411l-10.395 15.876q3.97 5.15 6.662 9.544 2.694 4.348 4.253 7.324z' />
     </g>
     <defs>
-      <clipPath id='e845ae9052df6afb4ce838fa9c28b73a__a'>
+      <clipPath id='af819dc2294b396d0f18922af3f7c95e__a'>
         <path fill='#fff' d='M0 0h140v36H0z' />
       </clipPath>
     </defs>

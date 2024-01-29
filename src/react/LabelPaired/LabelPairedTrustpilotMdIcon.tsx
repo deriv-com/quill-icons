@@ -14,7 +14,7 @@ const LabelPairedTrustpilotMdIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SV
       <path d='M13.656 15.281 10 16.25 15.188 20zm4.75-5.156L10 16.25 4.781 20l2-6.094-5.218-3.781H8L10 4l1.969 6.125z' />
     </g>
     <defs>
-      <clipPath id='4e422a57f92c4d4020e53e52de0d74a2__a'>
+      <clipPath id='0cccd2ca34f1f3ffb9d2587eea92a7be__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

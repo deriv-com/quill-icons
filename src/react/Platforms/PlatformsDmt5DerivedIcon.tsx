@@ -14,7 +14,7 @@ export const PlatformsDmt5DerivedIcon = (
     ref={ref}
     {...props}
   >
-    <g clipPath='url(#116f2904e2c3467cd141f409b69f4747__a)'>
+    <g clipPath='url(#a6e0e2de6091f8e6aecb30796f85897c__a)'>
       <path fill='#0364B9' d='M26 0H6a6 6 0 0 0-6 6v17.5h32V6a6 6 0 0 0-6-6' />
       <path
         fill='#0A559E'
@@ -27,7 +27,7 @@ export const PlatformsDmt5DerivedIcon = (
       />
     </g>
     <defs>
-      <clipPath id='116f2904e2c3467cd141f409b69f4747__a'>
+      <clipPath id='a6e0e2de6091f8e6aecb30796f85897c__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

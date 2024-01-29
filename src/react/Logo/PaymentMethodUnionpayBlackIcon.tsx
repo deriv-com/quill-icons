@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
 const PaymentMethodUnionpayBlackIcon = (
-  props: SVGProps<SVGSVGElement>,
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
   <svg
@@ -10,8 +14,10 @@ const PaymentMethodUnionpayBlackIcon = (
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#000'>
       <path d='M82.395 53.152h-2.248l-.64 2.169h2.247zM83.508 49.297h-2.203l-.776 2.563q.64-.328 1.315-.574c.472-.1 1.124-.19 1.124-.19zM84.598 45.6h-2.214l-.753 2.472q.637-.291 1.303-.506.556-.127 1.124-.168zM72.786 48.612h-4.372l-.27.887h3.788q.287-.027.573 0l.281-.876zM73.697 45.746H69.29l-.64 2.079a4.84 4.84 0 0 1 2.315-1.034c.337-.067 2.416 0 2.416 0zM90.15 33.62c-.956 0-1.327 1.168-1.653 2.54q-.173.674-.19 1.37c.022.866.606.866.707.866a1.65 1.65 0 0 0 1.124-.562q.187-.34.333-.697a132 132 0 0 0 .495-2.09c.042-.908-.27-1.427-.816-1.427M60.02 33.44c-.945 0-1.327 1.169-1.642 2.573a5.5 5.5 0 0 0-.19 1.371c.01.888.606.888.707.888.38-.03.718-.25.9-.584a6.2 6.2 0 0 0 .64-1.967c.337-1.416.281-2.281-.416-2.281M80.53 27.686h-.405v.393c.011-.011-.978 4.293-.978 4.293v.225h.54a5.2 5.2 0 0 0 2.247-.36 3.19 3.19 0 0 0 1.641-2.158l-.045-.045a1.71 1.71 0 0 0-.91-2.169z' />
       <path

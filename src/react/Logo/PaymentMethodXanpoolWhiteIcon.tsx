@@ -1,14 +1,23 @@
 import * as React from 'react';
 import { SVGProps, Ref, forwardRef } from 'react';
-const PaymentMethodXanpoolWhiteIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const PaymentMethodXanpoolWhiteIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     fill='none'
     viewBox='0 0 128 80'
     role='img'
     ref={ref}
+    aria-labelledby={titleId}
     {...props}
   >
+    {title ? <title id={titleId}>{title}</title> : null}
     <g fill='#fff'>
       <path d='M25.845 53h-5.972c-.608 0-1.215-.31-1.519-.826L15.5 47.658l-2.854 4.516c-.304.516-.911.826-1.519.826H5.155a1.151 1.151 0 0 1-.91-1.86l6.712-10.668-6.774-10.716C3.677 28.93 4.285 28 5.196 28h6.275c.506 0 .911.207 1.114.62l2.915 4.633 2.915-4.633c.203-.413.608-.62 1.114-.62h6.275c.911 0 1.519.93 1.013 1.756l-6.774 10.716 6.713 10.669c.607.826 0 1.859-.911 1.859' />
       <path

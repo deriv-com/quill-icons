@@ -14,7 +14,7 @@ const LabelPairedMinusXlBoldIcon = (props: SVGProps<SVGSVGElement>, ref: Ref<SVG
       <path d='M20.25 18q-.093 1.032-1.125 1.125H1.875Q.845 19.032.75 18q.095-1.03 1.125-1.125h17.25q1.032.094 1.125 1.125' />
     </g>
     <defs>
-      <clipPath id='8d7e75b01e22795532fc0ddd853c2f74__a'>
+      <clipPath id='2b53a2821db547b82bd9b09cc3f8fc0c__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>
