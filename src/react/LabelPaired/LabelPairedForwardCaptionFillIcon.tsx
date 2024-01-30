@@ -23,7 +23,7 @@ const LabelPairedForwardCaptionFillIcon = (
       <path d='M1.242 13.836q-.375.281-.82.094-.398-.21-.422-.68v-7.5q.023-.469.422-.68.445-.187.82.094L5.25 8.516v1.968zM6 11.75v-6q.024-.469.422-.68.445-.187.82.094l4.5 3.75A.76.76 0 0 1 12 9.5q0 .351-.258.586l-4.5 3.75q-.375.281-.82.094-.399-.21-.422-.68z' />
     </g>
     <defs>
-      <clipPath id='f408181cda7f6efc585e6c35be4c51d5__a'>
+      <clipPath id='996eea09de1ff9d9b37a51d52c2d437e__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>
