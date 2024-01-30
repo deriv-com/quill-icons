@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/deriv-com/quill-icons/compare/v1.17.1...v1.17.2) (2024-01-30)
+
+
+### ♻️ 	 Chores
+
+* export p2p icons from figma ([42299ba](https://github.com/deriv-com/quill-icons/commit/42299ba631267b66fddfd0a7386e84fcc7968dcb))
+
 ## [1.17.1](https://github.com/deriv-com/quill-icons/compare/v1.17.0...v1.17.1) (2024-01-29)
 
 
