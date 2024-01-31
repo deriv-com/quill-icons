@@ -19,19 +19,10 @@ const PaymentMethodJcbBrandIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#C4C4C4' d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z' />
-    <path
-      fill='url(#e6c163dacc3e0c5c00b819fb653a9931__a)'
-      d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z'
-    />
-    <path
-      fill='url(#e6c163dacc3e0c5c00b819fb653a9931__b)'
-      d='M54.4 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H54.4z'
-    />
+    <path fill='url(#117ec60a181722bc__a)' d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z' />
+    <path fill='url(#117ec60a181722bc__b)' d='M54.4 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H54.4z' />
     <path fill='#C4C4C4' d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z' />
-    <path
-      fill='url(#e6c163dacc3e0c5c00b819fb653a9931__c)'
-      d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z'
-    />
+    <path fill='url(#117ec60a181722bc__c)' d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z' />
     <g fill='#fff'>
       <path d='M54.4 35.39c2.023-1.716 5.542-2.815 11.216-2.551 3.035.132 6.29.968 6.29.968v3.386c-1.628-.835-3.563-1.583-6.07-1.759-4.31-.308-6.906 1.803-6.906 5.498 0 3.74 2.595 5.85 6.906 5.499 2.507-.176 4.442-.968 6.07-1.76v3.387s-3.211.836-6.29.968c-5.674.264-9.193-.836-11.216-2.55z' />
       <path
@@ -43,7 +34,7 @@ const PaymentMethodJcbBrandIcon = (
     </g>
     <defs>
       <linearGradient
-        id='e6c163dacc3e0c5c00b819fb653a9931__a'
+        id='117ec60a181722bc__a'
         x1={76.834}
         x2={96.051}
         y1={36.628}
@@ -56,7 +47,7 @@ const PaymentMethodJcbBrandIcon = (
         <stop offset={1} stopColor='#5CB531' />
       </linearGradient>
       <linearGradient
-        id='e6c163dacc3e0c5c00b819fb653a9931__b'
+        id='117ec60a181722bc__b'
         x1={54.289}
         x2={73.241}
         y1={39.958}
@@ -70,7 +61,7 @@ const PaymentMethodJcbBrandIcon = (
         <stop offset={1} stopColor='#E60039' />
       </linearGradient>
       <linearGradient
-        id='e6c163dacc3e0c5c00b819fb653a9931__c'
+        id='117ec60a181722bc__c'
         x1={32.033}
         x2={51.547}
         y1={40.002}

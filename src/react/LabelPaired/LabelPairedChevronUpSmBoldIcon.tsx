@@ -23,7 +23,7 @@ const LabelPairedChevronUpSmBoldIcon = (
       <path d='M6.535 6.785q.465-.383.93 0l5.25 5.25q.383.465 0 .93-.465.383-.93 0L7 8.18l-4.785 4.785q-.465.383-.93 0-.383-.465 0-.93z' />
     </g>
     <defs>
-      <clipPath id='3fc0543a07e7dfb00ac82e09d5d1f80c__a'>
+      <clipPath id='8de130252aa891a8__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>
