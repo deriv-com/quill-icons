@@ -82,3 +82,7 @@ export { default as FlagUnitedKingdomIcon } from './FlagUnitedKingdomIcon';
 export { default as FlagUsaIcon } from './FlagUsaIcon';
 export { default as FlagVietnamIcon } from './FlagVietnamIcon';
 export { default as FlagCroatiaIcon } from './FlagCroatiaIcon';
+export { default as FlagVanuatuIcon } from './FlagVanuatuIcon';
+export { default as FlagChannelIslandsIcon } from './FlagChannelIslandsIcon';
+export { default as FlagCaymanIslandsIcon } from './FlagCaymanIslandsIcon';
+export { default as FlagBritishVirginIslandsIcon } from './FlagBritishVirginIslandsIcon';

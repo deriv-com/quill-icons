@@ -44,10 +44,10 @@
       "import": "./dist/esm/react/Markets/index.js",
       "types": "./dist/esm/react/Markets/index.d.ts"
     },
-    "./Platforms": {
-      "require": "./dist/cjs/react/Platforms/index.js",
-      "import": "./dist/esm/react/Platforms/index.js",
-      "types": "./dist/esm/react/Platforms/index.d.ts"
+    "./Accounts": {
+      "require": "./dist/cjs/react/Accounts/index.js",
+      "import": "./dist/esm/react/Accounts/index.js",
+      "types": "./dist/esm/react/Accounts/index.d.ts"
     },
     "./Social": {
       "require": "./dist/cjs/react/Social/index.js",
