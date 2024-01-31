@@ -1,3 +1,10 @@
+## [1.17.3](https://github.com/deriv-com/quill-icons/compare/v1.17.2...v1.17.3) (2024-01-31)
+
+
+### ♻️ 	 Chores
+
+* reduce the hash number ([1d6ad2a](https://github.com/deriv-com/quill-icons/commit/1d6ad2ac110e291f16c54dcdc096e105cb03abfc))
+
 ## [1.17.2](https://github.com/deriv-com/quill-icons/compare/v1.17.1...v1.17.2) (2024-01-30)
 
 
