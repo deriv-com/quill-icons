@@ -1,0 +1,25 @@
+name: Run GitHub Actions workflows - Transformer
+description: Transform the "Run GitHub Actions workflows" payload
+
+inputs:
+  fileKey:
+    description: Figma file key
+    required: true
+  page:
+    description: Stringified selected page (id, name)
+    required: true
+  selection:
+    description: Stringified array of the selected nodes (id, name)
+    required: true
+
+outputs:
+  fileKey:
+    description: Figma file key
+  page:
+    description: Selected page name
+  selection:
+    description: Selected node ids
+
+runs:
+  using: node16
+  main: main.js
