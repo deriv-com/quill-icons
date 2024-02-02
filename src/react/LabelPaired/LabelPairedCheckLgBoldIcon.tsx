@@ -23,7 +23,7 @@ const LabelPairedCheckLgBoldIcon = (
       <path d='M17.477 9.523q.546.665 0 1.329L7.164 21.164q-.664.547-1.328 0L.523 15.852q-.546-.664 0-1.329.665-.546 1.329 0L6.5 19.172l9.648-9.649q.665-.546 1.329 0' />
     </g>
     <defs>
-      <clipPath id='68a244701e850071__a'>
+      <clipPath id='1edec3f3abd64fe0138ed914bf1ab52f__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>
