@@ -1,3 +1,10 @@
+## [1.17.4](https://github.com/deriv-com/quill-icons/compare/v1.17.3...v1.17.4) (2024-02-02)
+
+
+### ♻️ 	 Chores
+
+* export all of the icons ([bde8650](https://github.com/deriv-com/quill-icons/commit/bde8650fb3d8f4a1528033529212f1b8ce39c3c3))
+
 ## [1.17.3](https://github.com/deriv-com/quill-icons/compare/v1.17.2...v1.17.3) (2024-01-31)
 
 
