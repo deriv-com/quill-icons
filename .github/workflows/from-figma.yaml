@@ -1,0 +1,45 @@
+name: From Figma
+
+on:
+  workflow_dispatch:
+    inputs:
+      fileKey:
+        description: Figma file key
+        type: string
+        required: true
+      page:
+        description: Stringified selected page (id, name)
+        type: string
+        default: '{}'
+        required: true
+      selection:
+        description: Stringified array of the selected nodes (id, name)
+        type: string
+        default: '[]'
+        required: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Transform 🧬
+        id: transform
+        uses: ./.github/actions/run-github-actions-workflows-transformer
+        with:
+          fileKey: ${{ github.event.inputs.fileKey }}
+          page: ${{ github.event.inputs.page }}
+          selection: ${{ github.event.inputs.selection }}
+
+      - name: Log ℹ️
+        run: |
+          echo "fileKey: $fileKey"
+          echo "page: $page"
+          echo "selection: $selection"
+        env:
+          fileKey: ${{ steps.transform.outputs.fileKey }}
+          page: ${{ steps.transform.outputs.page }}
+          selection: ${{ steps.transform.outputs.selection }}
