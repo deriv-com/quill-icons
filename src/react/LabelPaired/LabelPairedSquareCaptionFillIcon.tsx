@@ -23,7 +23,7 @@ const LabelPairedSquareCaptionFillIcon = (
       <path d='M.25 5.75q.024-.632.445-1.055.422-.421 1.055-.445h7.5q.633.024 1.055.445.421.423.445 1.055v7.5a1.52 1.52 0 0 1-.445 1.055q-.422.421-1.055.445h-7.5a1.52 1.52 0 0 1-1.055-.445A1.52 1.52 0 0 1 .25 13.25z' />
     </g>
     <defs>
-      <clipPath id='d3cd42d95f3b575c6896b1a8968f1d0c__a'>
+      <clipPath id='a9a44902d783d021__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

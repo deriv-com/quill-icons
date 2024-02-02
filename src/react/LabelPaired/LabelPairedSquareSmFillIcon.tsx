@@ -23,7 +23,7 @@ const LabelPairedSquareSmFillIcon = (
       <path d='M.375 6.375q.027-.738.52-1.23.492-.493 1.23-.52h8.75q.738.027 1.23.52.493.492.52 1.23v8.75q-.027.738-.52 1.23-.492.493-1.23.52h-8.75q-.738-.027-1.23-.52-.493-.492-.52-1.23z' />
     </g>
     <defs>
-      <clipPath id='18d5e24d84314d1f4c043dea28c17d32__a'>
+      <clipPath id='e2655c44d63088a4__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>
