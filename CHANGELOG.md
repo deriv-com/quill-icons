@@ -1,3 +1,11 @@
+## [1.17.7](https://github.com/deriv-com/quill-icons/compare/v1.17.6...v1.17.7) (2024-02-05)
+
+
+### ♻️ 	 Chores
+
+* removed extra ts configs ([258ad5a](https://github.com/deriv-com/quill-icons/commit/258ad5af79b0feb61cbeece028955a9f8df6005f))
+* removed extra ts configs ([0bd8e34](https://github.com/deriv-com/quill-icons/commit/0bd8e34faf5c9e384c05adeb72425a622775ee12))
+
 ## [1.17.6](https://github.com/deriv-com/quill-icons/compare/v1.17.5...v1.17.6) (2024-02-05)
 
 
