@@ -1,3 +1,11 @@
+## [1.17.6](https://github.com/deriv-com/quill-icons/compare/v1.17.5...v1.17.6) (2024-02-05)
+
+
+### ♻️ 	 Chores
+
+* added a script for listing all of the icons names ([72746de](https://github.com/deriv-com/quill-icons/commit/72746de039cc15ac6db60e4a2e7c8f4181018653))
+* added a script for listing all of the icons names ([b598652](https://github.com/deriv-com/quill-icons/commit/b5986521aade599baecfbd1db7d26cd624bbec5a))
+
 ## [1.17.5](https://github.com/deriv-com/quill-icons/compare/v1.17.4...v1.17.5) (2024-02-05)
 
 
