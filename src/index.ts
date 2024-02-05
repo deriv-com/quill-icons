@@ -14,3 +14,4 @@ export * from './react/PaymentMethods/index';
 export * from './react/Social/index';
 export * from './react/Standalone/index';
 export * from './types/index';
+export * from './react/allIconsNames';

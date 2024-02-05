@@ -23,7 +23,7 @@ const LabelPairedMicrosoftMdIcon = (
       <path d='M0 5h6.719v6.719H0zm7.281 0H14v6.719H7.281zM0 12.281h6.719V19H0zm7.281 0H14V19H7.281z' />
     </g>
     <defs>
-      <clipPath id='fd3d5f3efb2b1f6cb49c78d6c9bc0043__a'>
+      <clipPath id='8429c4b71767797f56e9ba9a7cf3eec6__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

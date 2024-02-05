@@ -23,7 +23,7 @@ const LabelPairedSquareXlFillIcon = (
       <path d='M0 10.5q.047-1.266.89-2.11.844-.843 2.11-.89h15q1.266.047 2.11.89.843.844.89 2.11v15q-.047 1.266-.89 2.11-.844.843-2.11.89H3q-1.266-.047-2.11-.89-.843-.844-.89-2.11z' />
     </g>
     <defs>
-      <clipPath id='a029a1e07ced385e2f9dab169bcfa48f__a'>
+      <clipPath id='297e0abf0be60a228c70f149e7bfa4de__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>
