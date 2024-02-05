@@ -77,10 +77,11 @@
     "export": "npm-run-all clean export:figma export:barrels format",
     "clean:postBuild": "rimraf dist/types dist/index.d.ts dist/index.js",
     "build": "rimraf dist && npx tsc -p tsconfig.json && npx tsc -p tsconfig.esm.json",
-    "rebuild": "npm-run-all clean export build",
+    "rebuild": "npm-run-all clean export allIconsNames build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write . --config ./.prettierrc",
+    "allIconsNames": "cd ./src/react && tree -J > allIconsNames.json",
     "prepare": "husky install",
     "prepublish": "npm run build"
   },

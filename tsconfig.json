@@ -11,6 +11,7 @@
     "sourceMap": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./src",
@@ -18,6 +19,6 @@
       "*": ["src/*"]
     }
   },
-  "include": ["src/**/*", "declarations.d.ts"],
+  "include": ["src/**/*", "declarations.d.ts", "src/**/*/allIconsNames.json"],
   "exclude": ["node_modules", "dist"]
 }
