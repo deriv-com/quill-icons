@@ -81,7 +81,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write . --config ./.prettierrc",
-    "allIconsNames": "cd ./src/react && tree -J > allIconsNames.json",
+    "allIconsNames": "cd ./src/react && tree -J > allIconsNames.ts",
     "prepare": "husky install",
     "prepublish": "npm run build"
   },
