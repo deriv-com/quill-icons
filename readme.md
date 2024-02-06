@@ -1,11 +1,11 @@
-# [@deriv/quill-icons](https://quill-icons-park.pages.dev/)
+# [Deriv Quill Icons](https://quill-icons-park.pages.dev/)
 
 [npm-image]: https://img.shields.io/npm/v/@deriv/quill-icons.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/@deriv/quill-icons
 
 [![npm][npm-image]][npm-url]
 
-Include all of the [Deriv](https://deriv.com/) icons, which exports SVG and React Components from a simple Figma Icon project.
+Explore and integrate the complete set of icons from [Deriv](https://deriv.com/) with easy-to-use React components. These icons are exported from a Figma Icon project.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Include all of the [Deriv](https://deriv.com/) icons, which exports SVG and Reac
 npm i @deriv/quill-icons
 ```
 
-**example usage**
+**Usage**
 
 ```jsx
 import { CurrencyAlgoIcon } from '@deriv/quill-icons';
@@ -35,11 +35,10 @@ We use [@figma-export](https://www.npmjs.com/package/@figma-export/cli) to expor
 
 With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export to handle `SVG` creation for each `Figma Component` and then with [transform-svg-with-svgo](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/transform-svg-with-svgo) we optimize the exported `SVG`s. this is a transformer and you can add/remove/update `SVG` attributes with it.
 
-## Out Putters
+## OutPutters
 
 - [@figma-export/output-components-as-svg](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svg):
   We use this to generate `SVG` files, you can check them in `svg` folder.
-
 - [@figma-export/output-components-as-svgr](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svgr):
   We use this to generate `React` Components based on `transformed (optimized) SVG` files. you can check them in `src/react` folder.
 
@@ -82,33 +81,20 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
 
 ## Figma Components Conventions
 
-For now we don't have any conventions yet, but after coordintating with design team will update this section.
+Currently, we don't have specific conventions. We will update this section in coordination with the design team.
 
-## Steps for exporting the new icons
+## Exporting New Icons
 
-For exporting new icons you just need to run `npm run rebuild` command, it will automatically export all of the SVGs and optimise them and convert them to the React components, after it finished the process you just need to commit the changes and create a new PR for it.
+To export new icons, run `npm run rebuild`. It will automatically export, optimize, and convert SVGs to React components. Afterward, just commit the changes and create a new PR.
 
 ## Build and Publish
 
-We are using **[semantic-release](https://semantic-release.gitbook.io/semantic-release/)** inside quill-icons which automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the package.
+We use **[semantic-release](https://semantic-release.gitbook.io/semantic-release/)** for automating the release workflow. Commit messages determine the release type. Refer to the table below for guidelines.
 
-**semantic-release** uses the commit messages to determine the consumer impact of changes in the codebase. Following formalized conventions for commit messages, semantic-release automatically determines the next semantic version number, generates a changelog and publishes the release.
-
-> **So base on this it is really important to add a suitable commit message.**
-
-The table below shows which commit message gets you which release type when semantic-release runs:
-
-<br />
-
-| Commit message               | Release type              |
-| ---------------------------- | ------------------------- |
-| **build**: commit message    | **patch** Fix Release     |
-| **ci**: commit message       | **patch** Fix Release     |
-| **chore**: commit message    | **patch** Fix Release     |
-| **docs**: commit message     | **patch** Fix Release     |
-| **style**: commit message    | **patch** Fix Release     |
-| **test**: commit message     | **patch** Fix Release     |
-| **refactor**: commit message | **Minor** Feature Release |
+| Commit message                      | Release type                |
+| ----------------------------------- | --------------------------- |
+| build, ci, chore, docs, style, test | **Patch** (Fix Release)     |
+| refactor                            | **Minor** (Feature Release) |
 
 **Triggering a release**
 
