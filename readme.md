@@ -1,3 +1,5 @@
+<img src="./svg/Logo/LogoBrandDerivLogoCoral.svg" alt="Deriv Quill Icons">
+
 # [Deriv Quill Icons](https://quill-icons-park.pages.dev/)
 
 [npm-image]: https://img.shields.io/npm/v/@deriv/quill-icons.svg?style=flat-square
