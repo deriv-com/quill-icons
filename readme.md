@@ -7,6 +7,18 @@
 
 Explore and integrate the complete set of icons from [Deriv](https://deriv.com/) with easy-to-use React components. These icons are exported from a Figma Icon project.
 
+## The motivation of creating this library
+
+We developed the Deriv Quill Icons library to address several critical considerations across our projects:
+
+1. **Consistency across all of our projects:** By creating Deriv Quill Icons we ensure a consistent design language across all of our applications. All icons will have a similar style, size, and color.
+2. **Easy Maintenance:** Managing all of the icons in a centralised library makes it easier to update or modify them. If we decide to change the design or add new icons, we only need to make changes in one place, and the updates will be reflected throughout all of our applications.
+3. **Reuse and Efficiency:** We can easily reuse the same set of icons across different components and pages in our applications. This promotes code reusability and reduces redundancy, as we don't have to duplicate icon assets or styles.
+4. **Customisation:** It allows us to customise our icons globally. For example, we can change the color scheme, size, or other visual aspects of all icons in one place without modifying individual components. Also we can easily apply optimisations to all of our icons in one place.
+5. **Developer Productivity:** It enhances our developer productivity. Developers can easily find and use the icons they need without having to search for or create new assets each time.
+
+and ...
+
 ## Installation
 
 ```bash
@@ -35,7 +47,7 @@ We use [@figma-export](https://www.npmjs.com/package/@figma-export/cli) to expor
 
 With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export to handle `SVG` creation for each `Figma Component` and then with [transform-svg-with-svgo](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/transform-svg-with-svgo) we optimize the exported `SVG`s. this is a transformer and you can add/remove/update `SVG` attributes with it.
 
-## OutPutters
+## Outputters
 
 - [@figma-export/output-components-as-svg](https://github.com/marcomontalbano/figma-exporter/blob/HEAD/packages/cli/packages/output-components-as-svg):
   We use this to generate `SVG` files, you can check them in `svg` folder.
@@ -48,7 +60,7 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
 - npm >=7.21.0
 - git (for `contribution`)
 - Figma Token (Check [This](https://www.figma.com/developers/api#authentication) to set it up for yourself)
-- Figma File Id
+- Figma File ID
 - Figma icons page
 
 ## Quick start
