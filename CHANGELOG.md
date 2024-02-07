@@ -1,3 +1,17 @@
+## [1.17.8](https://github.com/deriv-com/quill-icons/compare/v1.17.7...v1.17.8) (2024-02-07)
+
+
+### 🐛 	 Bug Fixes
+
+* review comments ([72a4d23](https://github.com/deriv-com/quill-icons/commit/72a4d2352345cddd8f7c88b4614c2fdf028bb06e))
+
+
+### 📚 	 Documentation
+
+* added additional information ([c365ced](https://github.com/deriv-com/quill-icons/commit/c365ced0b4453c5365caee55cc412e6352f8634b))
+* added additional information ([0f20855](https://github.com/deriv-com/quill-icons/commit/0f2085568b0d93890ee6943dfc7ee26fb333e301))
+* improved the main document of the project ([bf24144](https://github.com/deriv-com/quill-icons/commit/bf241448523fa31e831ec1891a48de7b95b8e142))
+
 ## [1.17.7](https://github.com/deriv-com/quill-icons/compare/v1.17.6...v1.17.7) (2024-02-05)
 
 
