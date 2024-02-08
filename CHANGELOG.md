@@ -1,3 +1,15 @@
+## [1.17.12](https://github.com/deriv-com/quill-icons/compare/v1.17.11...v1.17.12) (2024-02-08)
+
+
+### ♻️ 	 Chores
+
+* added emoji to release message:) ([964c853](https://github.com/deriv-com/quill-icons/commit/964c85306b8ae82ad3c95a1a5ffb4b8f88b094c2))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* fix get version step ([61fd222](https://github.com/deriv-com/quill-icons/commit/61fd2226b837ce941f5b23fb437f24b09e982ca7))
+
 ## [1.17.11](https://github.com/deriv-com/quill-icons/compare/v1.17.10...v1.17.11) (2024-02-08)
 
 
