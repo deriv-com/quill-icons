@@ -1,3 +1,10 @@
+## [1.17.11](https://github.com/deriv-com/quill-icons/compare/v1.17.10...v1.17.11) (2024-02-08)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* fix get version step ([d331545](https://github.com/deriv-com/quill-icons/commit/d331545e2a64bf0334cb558b1a6fdd243544293c))
+
 ## [1.17.10](https://github.com/deriv-com/quill-icons/compare/v1.17.9...v1.17.10) (2024-02-08)
 
 
