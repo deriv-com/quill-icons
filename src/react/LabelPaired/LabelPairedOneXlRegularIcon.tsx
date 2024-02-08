@@ -23,7 +23,7 @@ const LabelPairedOneXlRegularIcon = (
       <path d='M6.75 8.25V27h4.5q.703.046.75.75-.047.704-.75.75H.75q-.703-.046-.75-.75.047-.704.75-.75h4.5V9.656L1.922 11.86q-.61.33-1.031-.187-.33-.61.187-1.031l4.5-3a.8.8 0 0 1 .797-.047q.375.234.375.656' />
     </g>
     <defs>
-      <clipPath id='36ff810c60d684ab676e4e3a5e693faa__a'>
+      <clipPath id='799133d5bc8b49a350951a40f15837bd__a'>
         <path d='M0 0h12v36H0z' />
       </clipPath>
     </defs>
