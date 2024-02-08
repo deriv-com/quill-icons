@@ -67,3 +67,7 @@ export { default as DerivDarkTypoEmailIcon } from './DerivDarkTypoEmailIcon';
 export { default as DerivDarkWrongEmailIcon } from './DerivDarkWrongEmailIcon';
 export { default as DerivDarkUnreadEmailIcon } from './DerivDarkUnreadEmailIcon';
 export { default as DerivDarkResetIcon } from './DerivDarkResetIcon';
+export { default as DerivLightTeamworkIcon } from './DerivLightTeamworkIcon';
+export { default as DerivLightCompetenceIcon } from './DerivLightCompetenceIcon';
+export { default as DerivLightCustomerFocusIcon } from './DerivLightCustomerFocusIcon';
+export { default as DerivLightIntegrityIcon } from './DerivLightIntegrityIcon';
