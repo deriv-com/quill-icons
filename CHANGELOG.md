@@ -1,3 +1,11 @@
+## [1.17.10](https://github.com/deriv-com/quill-icons/compare/v1.17.9...v1.17.10) (2024-02-08)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* added a step for getting the version ([3b52ed4](https://github.com/deriv-com/quill-icons/commit/3b52ed4970f83883c7c0782c8312b76fc978da3a))
+* added slack notification workflow ([5dd8029](https://github.com/deriv-com/quill-icons/commit/5dd80298d003fee9250f7155b47ed8cc43171440))
+
 ## [1.17.9](https://github.com/deriv-com/quill-icons/compare/v1.17.8...v1.17.9) (2024-02-08)
 
 
