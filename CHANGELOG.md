@@ -1,3 +1,10 @@
+## [1.17.9](https://github.com/deriv-com/quill-icons/compare/v1.17.8...v1.17.9) (2024-02-08)
+
+
+### ♻️ 	 Chores
+
+* rebuild everything for fixing sourcemap issue ([3b28073](https://github.com/deriv-com/quill-icons/commit/3b280737ee9c0625d26cf2ad69ca2f15ed65dd95))
+
 ## [1.17.8](https://github.com/deriv-com/quill-icons/compare/v1.17.7...v1.17.8) (2024-02-07)
 
 
