@@ -19,7 +19,7 @@ const DerivDarkChooseCountryIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <mask
-      id='be46f4db26005e5064b1cdf18b5b881e__a'
+      id='77cad9fce6cc612d69a21436ea9dc373__a'
       width={20}
       height={20}
       x={2}
@@ -34,7 +34,7 @@ const DerivDarkChooseCountryIcon = (
         d='M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10'
       />
     </mask>
-    <g mask='url(#be46f4db26005e5064b1cdf18b5b881e__a)'>
+    <g mask='url(#77cad9fce6cc612d69a21436ea9dc373__a)'>
       <path
         fill='#242828'
         d='M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10'

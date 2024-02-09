@@ -23,7 +23,7 @@ const LabelPairedBackwardStepCaptionRegularIcon = (
       <path d='M1.75 5.375v3.188L5.945 5.14A.6.6 0 0 1 6.344 5q.28 0 .468.188A.64.64 0 0 1 7 5.656v7.688a.64.64 0 0 1-.187.469.64.64 0 0 1-.47.187.6.6 0 0 1-.398-.14L1.75 10.437v3.187q-.023.352-.375.375-.352-.023-.375-.375v-8.25q.023-.352.375-.375.352.023.375.375m4.5.492L1.773 9.5l4.477 3.633z' />
     </g>
     <defs>
-      <clipPath id='7848d886a50f5fec0933c5a624bcaba5__a'>
+      <clipPath id='4e89b3a69f4d83a9d2e1d6f1b8fd75fe__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>
