@@ -1,3 +1,10 @@
+## [1.17.26](https://github.com/deriv-com/quill-icons/compare/1.17.25...1.17.26) (2024-02-09)
+
+
+### ♻️ 	 Chores
+
+* improved scripts ([0e6e6f6](https://github.com/deriv-com/quill-icons/commit/0e6e6f6ab8c93ec2cc8d373728f406182a6b389d))
+
 ## [1.17.25](https://github.com/deriv-com/quill-icons/compare/1.17.24...1.17.25) (2024-02-09)
 
 
