@@ -76,7 +76,7 @@ module.exports = {
     '@semantic-release/exec',
     {
       prepareCmd:
-        'echo version=ci: release(version): Release ${nextRelease.version} >> $GITHUB_ENV',
+        'echo "RELEASE_VERSION=ci: release(version): Release ${nextRelease.version}" >> $GITHUB_OUTPUT',
     },
   ],
 };

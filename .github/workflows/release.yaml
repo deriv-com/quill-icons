@@ -20,7 +20,7 @@ jobs:
       pull-requests: write # to be able to comment on released pull requests
       id-token: write # to enable use of OIDC for npm provenance
     outputs:
-      RELEASE_VERSION: ${{ steps.extract_version.outputs.RELEASE_VERSION }}
+      RELEASE_VERSION: ${{ steps.release_and_extract_version.outputs.RELEASE_VERSION }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -37,15 +37,13 @@ jobs:
         if: success()
         run: npm audit signatures
       - name: Release
+        id: release_and_extract_version
         if: success()
         env:
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
         run: npx semantic-release
-      - name: Extract version
-        id: extract_version
-        run: echo "RELEASE_VERSION=${version}" >> $GITHUB_OUTPUT
       - name: Trigger Quill Icons Park release
         if: success()
         env:
