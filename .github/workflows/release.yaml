@@ -19,8 +19,6 @@ jobs:
       issues: write # to be able to comment on released issues
       pull-requests: write # to be able to comment on released pull requests
       id-token: write # to enable use of OIDC for npm provenance
-    outputs:
-      RELEASE_VERSION: ${{ steps.extract_version.outputs.RELEASE_VERSION }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -43,13 +41,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
         run: npx semantic-release
-      - name: Versioning
-        uses: './.github/actions/versioning'
-        with:
-          RELEASE_TYPE: ${{ env.RELEASE_TYPE }}
-      - name: Extract version
-        id: extract_version
-        run: echo "RELEASE_VERSION=${version}" >> $GITHUB_OUTPUT
       - name: Trigger Quill Icons Park release
         if: success()
         env:
@@ -76,9 +67,9 @@ jobs:
         id: create_slack_message
         run: |
           if [ "${{ env.WORKFLOW_CONCLUSION }}" == "success" ]; then
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons with version ${{ needs.Release.outputs.RELEASE_VERSION }} 🥳" >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons 🥳" >> $GITHUB_OUTPUT
           else
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release failed for @deriv/quill-icons with version ${{ needs.Release.outputs.RELEASE_VERSION }} 🤨" >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release failed for @deriv/quill-icons 🤨" >> $GITHUB_OUTPUT
           fi
       - name: Send Slack Notification
         uses: './.github/actions/send_slack_notifications'
