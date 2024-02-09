@@ -1,3 +1,15 @@
+## [1.17.18](https://github.com/deriv-com/quill-icons/compare/v1.17.17...v1.17.18) (2024-02-09)
+
+
+### ♻️ 	 Chores
+
+* see the files list ([15e06db](https://github.com/deriv-com/quill-icons/commit/15e06dba1b0c7b4f4aee19cd2e0df4ddbb924bff))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* extract the release version ([33cc83f](https://github.com/deriv-com/quill-icons/commit/33cc83fcfcb74facf8c78761bd60bf5443025a2d))
+
 ## [1.17.17](https://github.com/deriv-com/quill-icons/compare/v1.17.16...v1.17.17) (2024-02-09)
 
 
