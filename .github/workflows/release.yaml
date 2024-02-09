@@ -45,7 +45,9 @@ jobs:
         run: npx semantic-release
       - name: Extract version
         id: extract_version
-        run: echo "RELEASE_VERSION=$(cat version.txt)" >> $GITHUB_OUTPUT
+        run: |
+          ls -a
+          echo "RELEASE_VERSION=$(cat version.txt)" >> $GITHUB_OUTPUT
       - name: Trigger Quill Icons Park release
         if: success()
         env:
