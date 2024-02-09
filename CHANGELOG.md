@@ -1,3 +1,10 @@
+## [1.17.25](https://github.com/deriv-com/quill-icons/compare/1.17.24...1.17.25) (2024-02-09)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* extract the release version ([ce13048](https://github.com/deriv-com/quill-icons/commit/ce13048386e8d95aa1c543dec5cb32416e119cd3))
+
 ## [1.17.24](https://github.com/deriv-com/quill-icons/compare/1.17.23...1.17.24) (2024-02-09)
 
 
