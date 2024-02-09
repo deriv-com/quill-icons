@@ -20,7 +20,7 @@ jobs:
       pull-requests: write # to be able to comment on released pull requests
       id-token: write # to enable use of OIDC for npm provenance
     outputs:
-      RELEASE_VERSION: ${{ steps.extract_version.outputs.RELEASE_VERSION }}
+      new_tag_version: ${{ steps.tag_version.outputs.new_tag_version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,18 +36,18 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         if: success()
         run: npm audit signatures
+      - name: Dry run to get the next release version
+        id: tag_version
+        run: |
+          export NEXT_TAG_VERSION=$(npx semantic-release --dry-run | grep 'The next release version is' | sed -E 's/.* ([[:digit:].]+)$/\1/')
+          echo "new_tag_version=${NEXT_TAG_VERSION}" >> $GITHUB_OUTPUT
       - name: Release
         if: success()
         env:
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
-        run: npx semantic-release
-      - name: Extract version
-        id: extract_version
-        run: |
-          export NEXT_TAG_VERSION=$(npx semantic-release --dry-run | grep 'The next release version is' | sed -E 's/.* ([[:digit:].]+)$/\1/')
-          echo "RELEASE_VERSION=${NEXT_TAG_VERSION}" >> $GITHUB_OUTPUT
+        run: npx semantic-release -t \${version}
       - name: Trigger Quill Icons Park release
         if: success()
         env:
@@ -74,9 +74,9 @@ jobs:
         id: create_slack_message
         run: |
           if [ "${{ env.WORKFLOW_CONCLUSION }}" == "success" ]; then
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} 🥳🤩" >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons with version ${{ needs.release.outputs.new_tag_version }} 🥳🤩" >> $GITHUB_OUTPUT
           else
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release failed for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} 🤨🥸" >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release failed for @deriv/quill-icons with version ${{ needs.release.outputs.new_tag_version }} 🤨🥸" >> $GITHUB_OUTPUT
           fi
       - name: Send Slack Notification
         uses: './.github/actions/send_slack_notifications'
