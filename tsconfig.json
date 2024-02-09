@@ -8,7 +8,6 @@
     "declaration": true,
     "esModuleInterop": true,
     "baseUrl": ".",
-    "sourceMap": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
