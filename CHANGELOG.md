@@ -1,3 +1,16 @@
+## [1.17.17](https://github.com/deriv-com/quill-icons/compare/v1.17.16...v1.17.17) (2024-02-09)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* extract the release version ([ad2c24e](https://github.com/deriv-com/quill-icons/commit/ad2c24ee7abf46f2c66bcd071ca874511b01daf7))
+
+
+### 🛠 	 Builds
+
+* added [@semantic-release](https://github.com/semantic-release)/exec package ([3b1ec80](https://github.com/deriv-com/quill-icons/commit/3b1ec8099711fc002cca5e9712a31998ef4842ed))
+* added [@semantic-release](https://github.com/semantic-release)/exec package ([fff8f17](https://github.com/deriv-com/quill-icons/commit/fff8f17bd21e7e1c4d9394bc58a1ea57f76296b9))
+
 ## [1.17.16](https://github.com/deriv-com/quill-icons/compare/v1.17.15...v1.17.16) (2024-02-09)
 
 
