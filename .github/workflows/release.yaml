@@ -74,7 +74,7 @@ jobs:
         id: create_slack_message
         run: |
           if [ "${{ env.WORKFLOW_CONCLUSION }}" == "success" ]; then
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons with version ${{ needs.release.outputs.new_tag_version }} 🥳🤩" >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons with version ${{ needs.release.outputs.new_tag_version }} 😱" >> $GITHUB_OUTPUT
           else
             echo "MESSAGE=${{ env.RELEASE_TYPE }} Release failed for @deriv/quill-icons with version ${{ needs.release.outputs.new_tag_version }} 🤨🥸" >> $GITHUB_OUTPUT
           fi
