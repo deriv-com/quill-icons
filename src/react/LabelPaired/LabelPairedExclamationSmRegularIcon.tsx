@@ -23,7 +23,7 @@ const LabelPairedExclamationSmRegularIcon = (
       <path d='M1.438 5.063v8.312q-.028.41-.438.438-.41-.028-.437-.438V5.063Q.59 4.652 1 4.625q.41.027.438.438M1 16.656Q.398 16.602.344 16q.054-.602.656-.656.602.054.656.656-.054.602-.656.656' />
     </g>
     <defs>
-      <clipPath id='6b377a366b101670b5d2ba65a8e176cd__a'>
+      <clipPath id='17bde5009e4333a6794b2a4787f6c544__a'>
         <path d='M0 0h2v22H0z' />
       </clipPath>
     </defs>

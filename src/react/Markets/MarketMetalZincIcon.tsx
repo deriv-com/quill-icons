@@ -20,7 +20,7 @@ export const MarketMetalZincIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b77fb52218955910371f526303243045__a)'>
+    <g clipPath='url(#6700a59ccf7f716b72e4fc76866870a9__a)'>
       <path
         fill='#889CBB'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -40,7 +40,7 @@ export const MarketMetalZincIcon = (
       />
     </g>
     <defs>
-      <clipPath id='b77fb52218955910371f526303243045__a'>
+      <clipPath id='6700a59ccf7f716b72e4fc76866870a9__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
