@@ -73,5 +73,9 @@ module.exports = {
       },
     ],
     '@semantic-release/github',
+    '@semantic-release/exec',
+    {
+      prepareCmd: 'echo ci: release(version): Release ${nextRelease.version} > version.txt',
+    },
   ],
 };
