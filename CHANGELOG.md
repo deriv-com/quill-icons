@@ -1,3 +1,10 @@
+## [1.17.27](https://github.com/deriv-com/quill-icons/compare/1.17.26...1.17.27) (2024-02-13)
+
+
+### ♻️ 	 Chores
+
+* improved documents and added the icon type ([637945e](https://github.com/deriv-com/quill-icons/commit/637945e577bcbaf72dbf0d4380da1ae2b620bf55))
+
 ## [1.17.26](https://github.com/deriv-com/quill-icons/compare/1.17.25...1.17.26) (2024-02-09)
 
 
