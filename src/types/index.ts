@@ -1,4 +1,4 @@
-import { SVGProps } from 'react';
+import { SVGProps, ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type IconSize = 'sm' | 'md' | 'lg' | 'xl' | '2xl';
 
@@ -35,3 +35,12 @@ export const sizes: SvgSize = {
     height: 96,
   },
 };
+
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+
+export type IconTypes = ForwardRefExoticComponent<
+  Omit<QuillSvgProps & SVGRProps, 'ref'> & RefAttributes<SVGSVGElement>
+>;

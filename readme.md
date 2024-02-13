@@ -91,11 +91,47 @@ With [@figma-export](https://www.npmjs.com/package/@figma-export/cli) we export 
     npm run export
     ```
 
-<br />
+## Icons Naming Conventions
 
-## Figma Components Conventions
+In the Quill Design System, we utilise naming conventions to store and locate components in their respective groups easily. The naming conventions differ slightly between **Quill Icons**, **Quill Logos** and **Quill Illustrations**. This is to cater specifically to their specific needs.
 
-Currently, we don't have specific conventions. We will update this section in coordination with the design team.
+### Quill Icons: [Category name] / [Size] / [Icon name] / [Style]
+
+- **"Category name"** refers to the broad number of categories the icons reside in—such as currency, flag, and market icons.
+- _(Only if applicable)_ The **"Size"** part of the naming convention is only added when the icons are provided in multiple different sizes.
+- **"Icon name"** is the distinct name for each icon that differentiates one icon from another.
+- _(Only if applicable)_ Applied to icons that have variations—such as regular/bold and white/black.
+
+**Examples of icons using this naming convention:**
+
+1. **illustrative / md / derived-md** = [Category name] / [Size] / [Icon name]
+2. **flags / flag-malysia** = [Category name] / [Icon name]
+3. **standalone / sm / grips-dots-vertical-sm / regular** = [Category name] / [Size] / [Icon name] / [Style]
+
+### Quill Logos : [Category name] / [Subcategory name] / [Logo name] / [Style]
+
+- **"Category name"** refers to the general category that encapsulates all logos, hence, the name "logo".
+- **"Subcategory name"** refers to the specific categories that further divide logos into—such as brands, sub-brands, and payment methods.
+- **"Logo name"** is the distinct name for each logo that differentiates one logo from another.
+- **"Styles"** are variations of the logo, in terms of colour, alignment, etc.
+
+**Examples of logos using this naming convention:**
+
+1. **logo / brand / deriv-wordmark / coral** = [Category name] / [Subcategory name] / [Logo name] / [Style]
+2. **logo / payment method / visa / brand** = [Category name] / [Subcategory name] / [Logo name] / [Style]
+
+### Quill Illustration : [Category name] / [Subcategory name] / [Style] / [Illustration name]
+
+- **"Category name"** refers to the general category that encapsulates all illustrations, hence, the name "illustration".
+- **"Subcategory name"** refers to the specific categories that further divide illustrations into.
+- **"Styles"** are variations of the illustration, in terms of colour, theme, etc.
+- **"Illustration name"** is the distinct name for each illustration that differentiates one illustration from another.
+
+**Examples of illustrations using this naming convention:**
+
+1. **illustration / deriv / light / pairs** = [Category name] / [Subcategory name] / [Style] / [Illustration name]
+2. **illustration / deriv / light / ic-cashier-locked** = [Category name] / [Subcategory name] / [Style] / [Illustration name]
+3. **illustration / deriv / dark / positions-history** = [Category name] / [Subcategory name] / [Style] / [Illustration name]
 
 ## Exporting New Icons
 
