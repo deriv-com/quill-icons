@@ -23,7 +23,7 @@ const LabelPairedWindowMinimizeCaptionRegularIcon = (
       <path d='M.375 14h11.25q.352.023.375.375-.023.352-.375.375H.375q-.352-.023-.375-.375.023-.352.375-.375' />
     </g>
     <defs>
-      <clipPath id='eaeae06e9255632fb276094df0f2acec__a'>
+      <clipPath id='c2e41dece397bb9709c6fa63ee11fd5b__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>
