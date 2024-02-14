@@ -23,7 +23,7 @@ const LabelPairedExclamationXlRegularIcon = (
       <path d='M2.25 8.25V22.5q-.046.704-.75.75-.703-.046-.75-.75V8.25q.047-.703.75-.75.704.046.75.75M1.5 28.125Q.47 28.032.375 27 .47 25.97 1.5 25.875q1.032.094 1.125 1.125-.093 1.032-1.125 1.125' />
     </g>
     <defs>
-      <clipPath id='218914e2a6ba213bde5531e38c3017f8__a'>
+      <clipPath id='8d14c32ac25e67519194c62e89608d22__a'>
         <path d='M0 0h3v36H0z' />
       </clipPath>
     </defs>

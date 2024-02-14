@@ -20,7 +20,7 @@ export const SocialFacebookBlackIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#64c7975a047440004911163c0a0295d6__a)'>
+    <g clipPath='url(#73922cbd5cb92ec2279a938badab7199__a)'>
       <path
         fill='#000'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const SocialFacebookBlackIcon = (
       />
     </g>
     <defs>
-      <clipPath id='64c7975a047440004911163c0a0295d6__a'>
+      <clipPath id='73922cbd5cb92ec2279a938badab7199__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
