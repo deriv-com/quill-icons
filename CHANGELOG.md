@@ -1,3 +1,31 @@
+## [1.17.21](https://github.com/deriv-com/quill-icons/compare/v1.17.20...v1.17.21) (2024-02-14)
+
+
+### ♻️ 	 Chores
+
+* improved documents and added the icon type ([637945e](https://github.com/deriv-com/quill-icons/commit/637945e577bcbaf72dbf0d4380da1ae2b620bf55))
+* improved scripts ([0e6e6f6](https://github.com/deriv-com/quill-icons/commit/0e6e6f6ab8c93ec2cc8d373728f406182a6b389d))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* extract the release version ([e617bb4](https://github.com/deriv-com/quill-icons/commit/e617bb45eeb1d9426b79a1c0fa8ed1ab8758a1be))
+* extract the release version ([75a01fb](https://github.com/deriv-com/quill-icons/commit/75a01fb768f285de726d04950164c3cfdb4527fe))
+* extract the release version ([ce13048](https://github.com/deriv-com/quill-icons/commit/ce13048386e8d95aa1c543dec5cb32416e119cd3))
+* extract the release version ([d2fde6c](https://github.com/deriv-com/quill-icons/commit/d2fde6c8a6b762b3f843bb91c0b94b298880ed6f))
+* extract the release version ([db94956](https://github.com/deriv-com/quill-icons/commit/db949568413d5c995dee3aab69d56a9193a70d56))
+* extract the release version ([aab7323](https://github.com/deriv-com/quill-icons/commit/aab732309499530c0775ba7faa5fa9ad403845a4))
+* extract the release version ([d918e90](https://github.com/deriv-com/quill-icons/commit/d918e901a03522adefb1316f260939af43e3a3b9))
+* extract the release version ([6acee6a](https://github.com/deriv-com/quill-icons/commit/6acee6a893a700260111126fee5ff9bf8249932f))
+* extract the release version ([5006aaa](https://github.com/deriv-com/quill-icons/commit/5006aaa1165b45c11d52f4cd849897e6185d68ff))
+* release(version): Release 1.17.21 [skip ci] ([1abf1ed](https://github.com/deriv-com/quill-icons/commit/1abf1ed5723d6d1d9786477548c255c45814246e))
+* release(version): Release 1.17.22 [skip ci] ([192cf2d](https://github.com/deriv-com/quill-icons/commit/192cf2d57df8f27b01af35b747cbef6dfd59bde4))
+* release(version): Release 1.17.23 [skip ci] ([cee9ee5](https://github.com/deriv-com/quill-icons/commit/cee9ee53590853dbe1263ec76598762a72fc5f79))
+* release(version): Release 1.17.24 [skip ci] ([1e51766](https://github.com/deriv-com/quill-icons/commit/1e5176609c1e66ebe9cc03530d5ab4a12ddbd804))
+* release(version): Release 1.17.25 [skip ci] ([fa85804](https://github.com/deriv-com/quill-icons/commit/fa85804dab0d02e25b287a2d2862d24f6d59dc1c))
+* release(version): Release 1.17.26 [skip ci] ([1ddefad](https://github.com/deriv-com/quill-icons/commit/1ddefad6b150c39feb23c66b9329a8a83617af1d))
+* release(version): Release 1.17.27 [skip ci] ([46046f2](https://github.com/deriv-com/quill-icons/commit/46046f2cef100becbaaba1a7cde8d64100e87f8f))
+
 ## [1.17.27](https://github.com/deriv-com/quill-icons/compare/1.17.26...1.17.27) (2024-02-13)
 
 
