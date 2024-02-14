@@ -61,7 +61,7 @@ jobs:
   send_slack_notification:
     name: Send Release Slack notification
     runs-on: ubuntu-latest
-    if: cancelled()
+    if: always()
     needs: [release]
     steps:
       - name: Checkout
@@ -72,12 +72,7 @@ jobs:
         id: create_slack_message
         run: |
           if [ "${{ env.WORKFLOW_CONCLUSION }}" == "success" ]; then
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} TEST release (${{ needs.release.outputs.RELEASE_VERSION }}) is now available." >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} ✅ The release for @deriv/quill-icons was successful, and the new version (${{ needs.release.outputs.RELEASE_VERSION }}) is now available." >> $GITHUB_OUTPUT
           else
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} TEST RELEASAE ${{ needs.release.outputs.RELEASE_VERSION }} was unsuccessful." >> $GITHUB_OUTPUT
+            echo "MESSAGE=${{ env.RELEASE_TYPE }} 🤨 The release attempt for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} was unsuccessful." >> $GITHUB_OUTPUT
           fi
-      - name: Send Slack Notification
-        uses: './.github/actions/send_slack_notifications'
-        with:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          MESSAGE: ${{ steps.create_slack_message.outputs.MESSAGE }}
