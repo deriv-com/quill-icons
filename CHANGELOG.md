@@ -1,3 +1,37 @@
+## [1.18.3](https://github.com/deriv-com/quill-icons/compare/v1.18.2...v1.18.3) (2024-02-14)
+
+
+### ♻️ 	 Chores
+
+* exported new icons ([b6b835c](https://github.com/deriv-com/quill-icons/commit/b6b835ceb374fadbf555a01f3c939054b8b3e77d))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* extract the release version ([b78ecbe](https://github.com/deriv-com/quill-icons/commit/b78ecbeda5d4ef64752d7f1a727405f7cf0774fa))
+
+
+### 🐛 	 Bug Fixes
+
+* extracting version issue in ci ([f3d68b1](https://github.com/deriv-com/quill-icons/commit/f3d68b10cf3876e122545daf4e605efdf274ab02))
+* version issue ([3d06f8a](https://github.com/deriv-com/quill-icons/commit/3d06f8a4dfaa749e9049f1de555c1b316dae5718))
+* version issue ([fac86f0](https://github.com/deriv-com/quill-icons/commit/fac86f0095a3a3ae721e75e89096d2110783ac69))
+* version issue ([8caf007](https://github.com/deriv-com/quill-icons/commit/8caf007f24721a3343caa2dcc71546b9f173468c))
+* version issue ([c8a4b0d](https://github.com/deriv-com/quill-icons/commit/c8a4b0dd04ff089d06a4a73e874118f1284dea47))
+* version issue ([cc080db](https://github.com/deriv-com/quill-icons/commit/cc080db74f3793c7d65febddc94c6099a2c3712e))
+* version issue ([4794b2b](https://github.com/deriv-com/quill-icons/commit/4794b2b9d92da7fb76f04bec7f8f9445a5941659))
+* version issue ([18dfcca](https://github.com/deriv-com/quill-icons/commit/18dfcca7d0147865d21bc8ff88e4ffeb91bf82e5))
+* version issue ([19d3ddc](https://github.com/deriv-com/quill-icons/commit/19d3ddcb066498c46f0f73a924f6c47793487dd6))
+* version issue ([c531a81](https://github.com/deriv-com/quill-icons/commit/c531a81252c5de8e95d7a4726785a5c8df91d77a))
+* version issue ([ee1ffe7](https://github.com/deriv-com/quill-icons/commit/ee1ffe72edac3fb329a342ae1a3ba83d20fbd21e))
+* version issue ([daf49df](https://github.com/deriv-com/quill-icons/commit/daf49dfa0806982b68b80f6c7160d6f458359679))
+* version issue ([fd4ce70](https://github.com/deriv-com/quill-icons/commit/fd4ce70d189b9f07fc1ece48faf49c62898bced2))
+* version issue ([246b1f0](https://github.com/deriv-com/quill-icons/commit/246b1f01e9309819bb56e5e4bc918c3ecc614b0e))
+* version issue ([80227ff](https://github.com/deriv-com/quill-icons/commit/80227ff61b4fc925a99e36d5a625b2c1eb465d77))
+* version issue ([b0cd38d](https://github.com/deriv-com/quill-icons/commit/b0cd38dcd17215d966b813711e9e4264db47c8f8))
+* version issue ([067523b](https://github.com/deriv-com/quill-icons/commit/067523bf921ce536d7560f6a9f9d3ef9a0ddd679))
+* version issue ([288b057](https://github.com/deriv-com/quill-icons/commit/288b0572a8ecac2b0d19cea4b5b4168108a516cf))
+
 ## [1.18.2](https://github.com/deriv-com/quill-icons/compare/v1.18.1...v1.18.2) (2024-02-14)
 
 
