@@ -1,3 +1,11 @@
+# [1.18.0](https://github.com/deriv-com/quill-icons/compare/v1.17.22...v1.18.0) (2024-02-14)
+
+
+### 📦 	 Code Refactoring
+
+* updated version ([6d52c8b](https://github.com/deriv-com/quill-icons/commit/6d52c8b92bb6ee0610465d1d17ecdc0fcc519be4))
+* updated version ([63b7abb](https://github.com/deriv-com/quill-icons/commit/63b7abb8205e4c5b3444cbd0137c417361923541))
+
 ## [1.17.22](https://github.com/deriv-com/quill-icons/compare/v1.17.21...v1.17.22) (2024-02-14)
 
 
