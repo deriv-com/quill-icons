@@ -84,7 +84,7 @@
     "allIconsNames": "cd ./src/react && tree -J > allIconsNames.ts && bash -c 'echo -e \"export const allIconsNames = $(cat allIconsNames.ts)\" > allIconsNames.ts'",
     "prepare": "husky install",
     "prepublish": "npm run build",
-    "app:version": "echo RELEASE_VERSION=$npm_package_version"
+    "app:version": "echo $npm_package_version"
   },
   "keywords": [],
   "devDependencies": {

@@ -46,7 +46,11 @@ jobs:
       - name: Extract Version
         id: extract_version
         run: |
-          version="red"
+          version=$(cat package.json \
+          | grep version \
+          | head -1 \
+          | awk -F: '{ print $2 }' \
+          | sed 's/[",]//g')
           echo "RELEASE_VERSION=${version}" >> "$GITHUB_OUTPUT"
       - name: Trigger Quill Icons Park release
         if: success()
