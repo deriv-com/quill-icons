@@ -46,7 +46,7 @@ jobs:
       - name: Extract Version
         id: extract_version
         run: |
-          echo "RELEASE_VERSION='$(npm run app:version)'" >> $GITHUB_OUTPUT
+          version=$(npm run app:version)
       - name: Trigger Quill Icons Park release
         if: success()
         env:
@@ -62,7 +62,7 @@ jobs:
   send_slack_notification:
     name: Send Release Slack notification
     runs-on: ubuntu-latest
-    if: success()
+    if: cancelled()
     needs: [release]
     steps:
       - name: Checkout
