@@ -19,8 +19,6 @@ jobs:
       issues: write # to be able to comment on released issues
       pull-requests: write # to be able to comment on released pull requests
       id-token: write # to enable use of OIDC for npm provenance
-    outputs:
-      NEW_TAG_VERSION: ${{ steps.tag_version.outputs.NEW_TAG_VERSION }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,22 +34,16 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         if: success()
         run: npm audit signatures
-      - name: Dry run to get the next release version
-        id: tag_version
-        env:
-          CI: true
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
-        run: |
-          export NEXT_TAG_VERSION=$(npx semantic-release --dry-run | grep 'The next release version is' | sed -E 's/.* ([[:digit:].]+)$/\1/')
-          echo "NEW_TAG_VERSION=${NEXT_TAG_VERSION}" >> $GITHUB_OUTPUT
       - name: Release
         if: success()
         env:
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN}}
-        run: npx semantic-release -t \${version}
+        run: npx semantic-release
+      - name: Extract Version
+        id: extract_version
+        run: npm run app:version
       - name: Trigger Quill Icons Park release
         if: success()
         env:
@@ -63,27 +55,3 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{github.repository}}/actions/workflows/${{env.QUILL_ICONS_PARK_WORK_FLOW_FILE}}/dispatches \
             -d '{"ref":"main"}'
-
-  send_slack_notification:
-    name: Send Release Slack notification
-    runs-on: ubuntu-latest
-    if: always()
-    needs: [release]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-      - name: Conclusion
-        uses: technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5
-      - name: Create Slack Message
-        id: create_slack_message
-        run: |
-          if [ "${{ env.WORKFLOW_CONCLUSION }}" == "success" ]; then
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release succeeded for @deriv/quill-icons with version ${{ needs.release.outputs.NEW_TAG_VERSION }} 🥳🤩" >> $GITHUB_OUTPUT
-          else
-            echo "MESSAGE=${{ env.RELEASE_TYPE }} Release failed for @deriv/quill-icons with version ${{ needs.release.outputs.NEW_TAG_VERSION }} 🤨🥸" >> $GITHUB_OUTPUT
-          fi
-      - name: Send Slack Notification
-        uses: './.github/actions/send_slack_notifications'
-        with:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          MESSAGE: ${{ steps.create_slack_message.outputs.MESSAGE }}
