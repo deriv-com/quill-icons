@@ -7,7 +7,6 @@ import {
   getFileDescriptor,
   getNameGeneratorByPage,
   getRandomHash,
-  // getVarNameByFileDC,
 } from '../utils/figma.utils';
 import { Config as OptimizeOptions } from 'svgo';
 import SvgrTemplate from './svgr-template';
