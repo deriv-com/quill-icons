@@ -47,7 +47,7 @@ jobs:
         id: extract_version
         run: |
           release_version=$(npm run app:version)
-          echo "RELEASE_VERSION=$release_version" >> "$GITHUB_OUTPUT"
+          echo "RELEASE_VERSION=$release_version" >> $GITHUB_OUTPUT
       - name: Trigger Quill Icons Park release
         if: success()
         env:
