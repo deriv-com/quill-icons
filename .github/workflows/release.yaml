@@ -1,6 +1,6 @@
 name: Release
 on:
-  push:
+  pull_request:
     branches:
       - main
       - beta
@@ -45,7 +45,7 @@ jobs:
         run: npx semantic-release
       - name: Extract Version
         id: extract_version
-        run: echo "RELEASE_VERSION=$(echo $npm_package_version)" >> $GITHUB_OUTPUT
+        run: echo "RELEASE_VERSION=$(npm run app:version)" >> $GITHUB_OUTPUT
       - name: Trigger Quill Icons Park release
         if: success()
         env:
