@@ -18,9 +18,9 @@ const DerivLightIcNoDataIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#066d0091e478c99393fb8c923a378034__a)'>
+    <g clipPath='url(#2829384760fe2c960f72113fd73c7078__a)'>
       <mask
-        id='066d0091e478c99393fb8c923a378034__b'
+        id='2829384760fe2c960f72113fd73c7078__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightIcNoDataIcon = (
       >
         <path fill='#fff' d='M0 0h128v128H0z' />
       </mask>
-      <g mask='url(#066d0091e478c99393fb8c923a378034__b)'>
+      <g mask='url(#2829384760fe2c960f72113fd73c7078__b)'>
         <path
           stroke='#BBCCCE'
           strokeDasharray='4 4'
@@ -54,7 +54,7 @@ const DerivLightIcNoDataIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='066d0091e478c99393fb8c923a378034__a'>
+      <clipPath id='2829384760fe2c960f72113fd73c7078__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

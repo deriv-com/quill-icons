@@ -382,6 +382,14 @@ export const allIconsNames = [
       },
       {
         type: 'directory',
+        name: 'Image',
+        contents: [
+          { type: 'file', name: 'DerivLightIcPoiDetailsIcon.tsx' },
+          { type: 'file', name: 'index.ts' },
+        ],
+      },
+      {
+        type: 'directory',
         name: 'LabelPaired',
         contents: [
           { type: 'file', name: 'LabelPairedAndroidCaptionIcon.tsx' },
@@ -4515,5 +4523,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 12, files: 4417 },
+  { type: 'report', directories: 13, files: 4419 },
 ];

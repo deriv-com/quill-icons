@@ -20,7 +20,7 @@ const outputters: ComponentOutputter[] = [
       'components',
       {
         fileId,
-        onlyFromPages: [],
+        onlyFromPages: ['Images', 'Illustrations'],
         outputters,
       },
     ],
