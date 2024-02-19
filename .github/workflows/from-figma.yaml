@@ -1,0 +1,55 @@
+name: Export new icons from Figma
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  pull-requests: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+  REPO_FULL_NAME: 'deriv-com/quill-icons'
+  REPO_NAME: 'quill-icons'
+  PR_BRANCH: 'update-icons'
+  PR_TITLE: '[Figma] Exported new changes'
+  PR_BODY: 'This automated pull request is prompted by recent updates in our Figma files.
+    Please consider merging this PR if everything meets your approval, allowing us to integrate the latest icons and changes.
+    [Generated on $(date)]'
+
+jobs:
+  Export-icons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
+        with:
+          repository: ${{env.REPO_FULL_NAME}}
+          token: ${{env.GITHUB_TOKEN}}
+          path: ${{env.REPO_NAME}}
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "x-squadquill@deriv.com"
+          git config --global user.name "Quill Squad"
+      - name: Create a new branch
+        run: |
+          cd "${{env.REPO_NAME}}"
+          git checkout -b "${{env.PR_BRANCH}}"
+          git pull origin main
+      - name: Install dependencies
+        run: npm clean-install
+      - name: Build
+        run: npm run rebuild
+      - name: Commit changes
+        if: success()
+        run: |
+          git add .
+          git commit -m "chore: exported new changes"
+          git push --set-upstream -f origin "${{env.PR_BRANCH}}"
+      - name: Create Pull Request
+        if: success()
+        run: |
+          cd $(git rev-parse --show-toplevel)
+          gh pr close "${{env.PR_BRANCH}}" || true
+          gh pr create --base main --head "${{env.PR_BRANCH}}" --title "${{env.PR_TITLE}}" --body "${{env.PR_BODY}}"
