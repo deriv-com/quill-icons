@@ -1,3 +1,10 @@
+## [1.18.4](https://github.com/deriv-com/quill-icons/compare/v1.18.3...v1.18.4) (2024-02-23)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* setup figma workflow ([d8b2913](https://github.com/deriv-com/quill-icons/commit/d8b2913891503a872abd5fd7f07de08159be9252))
+
 ## [1.18.3](https://github.com/deriv-com/quill-icons/compare/v1.18.2...v1.18.3) (2024-02-14)
 
 
