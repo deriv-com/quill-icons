@@ -2,6 +2,23 @@ name: Export new icons from Figma
 
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: version
+        type: string
+      message:
+        type: string
+      fileKey:
+        description: Figma file key
+        type: string
+      page:
+        description: Stringified selected page (id, name)
+        type: string
+        default: '{}'
+      selection:
+        description: Stringified array of the selected nodes (id, name)
+        type: string
+        default: '[]'
 
 permissions:
   contents: write
