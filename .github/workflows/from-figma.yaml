@@ -15,6 +15,13 @@ on:
         type: string
         default: '[]'
 
+env:
+  PR_BRANCH: 'update-icons'
+  PR_TITLE: '[Figma] Exported new changes'
+  PR_BODY: 'This automated pull request is prompted by recent updates in our Figma files.
+    Please consider merging this PR if everything meets your approval, allowing us to integrate the latest icons and changes.
+    [Generated on $(date)]'
+
 jobs:
   Export-icons:
     name: Export Icons
@@ -26,10 +33,18 @@ jobs:
       id-token: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.1.1
         with:
           fetch-depth: 0
           token: ${{ secrets.CI_GITHUB_TOKEN }}
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "x-squadquill@deriv.com"
+          git config --global user.name "Quill Squad"
+      - name: Create a new branch
+        run: |
+          git checkout -b "${{env.PR_BRANCH}}" | git checkout "${{env.PR_BRANCH}}"
+          git pull origin main
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -40,3 +55,16 @@ jobs:
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
         run: npm run rebuild
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git add .
+          git commit -m "chore: exported new changes"
+          git push --set-upstream -f origin "${{env.PR_BRANCH}}"
+      - name: Create Pull Request
+        if: success()
+        run: |
+          cd $(git rev-parse --show-toplevel)
+          gh pr close "${{env.PR_BRANCH}}" || true
+          gh pr create --base main --head "${{env.PR_BRANCH}}" --title "${{env.PR_TITLE}}" --body "${{env.PR_BODY}}"
