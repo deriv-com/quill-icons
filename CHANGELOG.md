@@ -1,3 +1,13 @@
+## [1.18.6](https://github.com/deriv-com/quill-icons/compare/v1.18.5...v1.18.6) (2024-02-28)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* added figma inputs ([163cb6b](https://github.com/deriv-com/quill-icons/commit/163cb6b01d0ab8da4b2759ba0ee6fa61b89eeb63))
+* added figma inputs ([cbe0326](https://github.com/deriv-com/quill-icons/commit/cbe0326cf13348aad98b1bf652f1b20038dd6c6a))
+* added figma inputs ([ff97a82](https://github.com/deriv-com/quill-icons/commit/ff97a82c95e704696622ff469d53d609f611df4e))
+* added figma inputs ([82fa029](https://github.com/deriv-com/quill-icons/commit/82fa029b782929001cb3c538b44fed144274f053))
+
 ## [1.18.5](https://github.com/deriv-com/quill-icons/compare/v1.18.4...v1.18.5) (2024-02-28)
 
 
