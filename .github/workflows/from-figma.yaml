@@ -33,15 +33,6 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - name: Set up Git identity
-        run: |
-          git config --global user.email "x-squadquill@deriv.com"
-          git config --global user.name "Quill Squad"
-      - name: Create a new branch
-        run: |
-          cd "${{env.REPO_NAME}}"
-          git checkout -b "${{env.PR_BRANCH}}" | git checkout "${{env.PR_BRANCH}}"
-          git pull origin main
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -53,6 +44,15 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: npm clean-install
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "x-squadquill@deriv.com"
+          git config --global user.name "Quill Squad"
+      - name: Create a new branch
+        run: |
+          cd "${{env.REPO_NAME}}"
+          git checkout -b "${{env.PR_BRANCH}}" | git checkout "${{env.PR_BRANCH}}"
+          git pull origin main
       - name: Build
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
