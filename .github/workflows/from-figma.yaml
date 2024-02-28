@@ -16,6 +16,8 @@ on:
         default: '[]'
 
 env:
+  GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+  REPO_FULL_NAME: 'deriv-com/quill-icons'
   REPO_NAME: 'quill-icons'
   PR_BRANCH: 'update-icons'
   PR_TITLE: '[Figma] Exported new changes'
@@ -33,17 +35,13 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4.1.1
         with:
           fetch-depth: 0
-          token: ${{ secrets.CI_GITHUB_TOKEN }}
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 'lts/*'
-      - name: Install dependencies
-        run: npm clean-install
+          repository: ${{env.REPO_FULL_NAME}}
+          token: ${{env.GITHUB_TOKEN}}
+          path: ${{env.REPO_NAME}}
       - name: Set up Git identity
         run: |
           git config --global user.email "x-squadquill@deriv.com"
@@ -53,6 +51,12 @@ jobs:
           cd "${{env.REPO_NAME}}"
           git checkout -b "${{env.PR_BRANCH}}" | git checkout "${{env.PR_BRANCH}}"
           git pull origin main
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+      - name: Install dependencies
+        run: npm clean-install
       - name: Build
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
