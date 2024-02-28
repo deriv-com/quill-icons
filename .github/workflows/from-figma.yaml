@@ -3,11 +3,6 @@ name: Export new icons from Figma
 on:
   workflow_dispatch:
     inputs:
-      version:
-        description: version
-        type: string
-      message:
-        type: string
       fileKey:
         description: Figma file key
         type: string
@@ -55,7 +50,7 @@ jobs:
           git checkout -b "${{env.PR_BRANCH}}"
           git pull origin main
       - name: Install dependencies
-        run: npm clean-install
+        run: npm i
       - name: Build
         run: npm run rebuild
       - name: Commit changes
