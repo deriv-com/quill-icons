@@ -40,6 +40,10 @@ jobs:
           repository: ${{env.REPO_FULL_NAME}}
           token: ${{env.GITHUB_TOKEN}}
           path: ${{env.REPO_NAME}}
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
       - name: Set up Git identity
         run: |
           git config --global user.email "x-squadquill@deriv.com"
@@ -49,6 +53,8 @@ jobs:
           cd "${{env.REPO_NAME}}"
           git checkout -b "${{env.PR_BRANCH}}"
           git pull origin main
+      - name: Install dependencies
+        run: npm clean-install
       - name: Build
         run: npm run rebuild
       - name: Commit changes
