@@ -34,9 +34,10 @@ jobs:
   Export-icons:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4.1.1
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           repository: ${{env.REPO_FULL_NAME}}
           token: ${{env.GITHUB_TOKEN}}
           path: ${{env.REPO_NAME}}
@@ -44,6 +45,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
+      - name: Install dependencies
+        run: npm clean-install
       - name: Set up Git identity
         run: |
           git config --global user.email "x-squadquill@deriv.com"
@@ -53,8 +56,6 @@ jobs:
           cd "${{env.REPO_NAME}}"
           git checkout -b "${{env.PR_BRANCH}}"
           git pull origin main
-      - name: Install dependencies
-        run: npm clean-install
       - name: Build
         run: npm run rebuild
       - name: Commit changes
