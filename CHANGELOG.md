@@ -1,3 +1,11 @@
+## [1.18.14](https://github.com/deriv-com/quill-icons/compare/v1.18.13...v1.18.14) (2024-02-28)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* fix figma workflow error ([ab549a1](https://github.com/deriv-com/quill-icons/commit/ab549a1753127cd4d480ae7baa5e57fd5dc0f22a))
+* fix figma workflow error ([4818272](https://github.com/deriv-com/quill-icons/commit/481827226a277daa0822294ee6a06b739a05cc6d))
+
 ## [1.18.13](https://github.com/deriv-com/quill-icons/compare/v1.18.12...v1.18.13) (2024-02-28)
 
 
