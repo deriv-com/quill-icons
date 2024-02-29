@@ -381,7 +381,6 @@ export { default as PaymentMethodPayLivreBrandIcon } from './PaymentMethodPayLiv
 export { default as PaymentMethodPaymentAgentBrandIcon } from './PaymentMethodPaymentAgentBrandIcon';
 export { default as PaymentMethodPaymeroBrandIcon } from './PaymentMethodPaymeroBrandIcon';
 export { default as PaymentMethodPaypalBrandIcon } from './PaymentMethodPaypalBrandIcon';
-export { default as PaymentMethodPayretailersBrandIcon } from './PaymentMethodPayretailersBrandIcon';
 export { default as PaymentMethodPaysafecardBrandIcon } from './PaymentMethodPaysafecardBrandIcon';
 export { default as PaymentMethodPaytrust88BrandIcon } from './PaymentMethodPaytrust88BrandIcon';
 export { default as PaymentMethodPerfectMoneyBrandIcon } from './PaymentMethodPerfectMoneyBrandIcon';
@@ -477,7 +476,6 @@ export { default as PaymentMethodPayLivreBlackIcon } from './PaymentMethodPayLiv
 export { default as PaymentMethodPaymentAgentBlackIcon } from './PaymentMethodPaymentAgentBlackIcon';
 export { default as PaymentMethodPaymeroBlackIcon } from './PaymentMethodPaymeroBlackIcon';
 export { default as PaymentMethodPaypalBlackIcon } from './PaymentMethodPaypalBlackIcon';
-export { default as PaymentMethodPayretailersBlackIcon } from './PaymentMethodPayretailersBlackIcon';
 export { default as PaymentMethodPaysafecardBlackIcon } from './PaymentMethodPaysafecardBlackIcon';
 export { default as PaymentMethodPaytrust88BlackIcon } from './PaymentMethodPaytrust88BlackIcon';
 export { default as PaymentMethodPerfectMoneyBlackIcon } from './PaymentMethodPerfectMoneyBlackIcon';
@@ -573,7 +571,6 @@ export { default as PaymentMethodPayLivreWhiteIcon } from './PaymentMethodPayLiv
 export { default as PaymentMethodPaymentAgentWhiteIcon } from './PaymentMethodPaymentAgentWhiteIcon';
 export { default as PaymentMethodPaymeroWhiteIcon } from './PaymentMethodPaymeroWhiteIcon';
 export { default as PaymentMethodPaypalWhiteIcon } from './PaymentMethodPaypalWhiteIcon';
-export { default as PaymentMethodPayretailersWhiteIcon } from './PaymentMethodPayretailersWhiteIcon';
 export { default as PaymentMethodPaysafecardWhiteIcon } from './PaymentMethodPaysafecardWhiteIcon';
 export { default as PaymentMethodPaytrust88WhiteIcon } from './PaymentMethodPaytrust88WhiteIcon';
 export { default as PaymentMethodPerfectMoneyWhiteIcon } from './PaymentMethodPerfectMoneyWhiteIcon';
