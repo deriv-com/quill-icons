@@ -23,7 +23,7 @@ const LabelPairedCircleCaptionFillIcon = (
       <path d='M6 15.5a6.14 6.14 0 0 1-3-.797A6.2 6.2 0 0 1 .797 12.5 6.1 6.1 0 0 1 0 9.5q0-1.57.797-3A6.2 6.2 0 0 1 3 4.297 6.14 6.14 0 0 1 6 3.5a6.14 6.14 0 0 1 3 .797A6.2 6.2 0 0 1 11.203 6.5Q12 7.93 12 9.5a6.1 6.1 0 0 1-.797 3A6.2 6.2 0 0 1 9 14.703a6.14 6.14 0 0 1-3 .797' />
     </g>
     <defs>
-      <clipPath id='2305715ad2dbd893bb8c481a66780a1b__a'>
+      <clipPath id='2d81d3e33a39ccbe6bbddf0806bf1e16__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

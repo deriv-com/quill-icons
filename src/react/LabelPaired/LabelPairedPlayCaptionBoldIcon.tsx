@@ -23,7 +23,7 @@ const LabelPairedPlayCaptionBoldIcon = (
       <path d='M1.125 13.625 7.875 9.5l-6.75-4.125zm-.54-9.234q.563-.305 1.126.023L8.46 8.54q.515.329.539.961-.023.633-.54.96l-6.75 4.126q-.562.328-1.124.023A1.12 1.12 0 0 1 0 13.625v-8.25q.023-.656.586-.984' />
     </g>
     <defs>
-      <clipPath id='8973d15baaa6a1da6a8794e161362011__a'>
+      <clipPath id='a4a164129004b3487645015b06c4cab2__a'>
         <path d='M0 0h9v18H0z' />
       </clipPath>
     </defs>

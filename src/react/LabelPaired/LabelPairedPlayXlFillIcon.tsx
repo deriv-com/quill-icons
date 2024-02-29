@@ -23,7 +23,7 @@ const LabelPairedPlayXlFillIcon = (
       <path d='m3.422 7.828 13.5 8.25Q17.953 16.782 18 18q-.046 1.266-1.078 1.922l-13.5 8.25q-1.125.656-2.25.047Q.048 27.562 0 26.25V9.75q.047-1.312 1.172-1.969 1.125-.609 2.25.047' />
     </g>
     <defs>
-      <clipPath id='b74db102972e57c424cfdb65810b1190__a'>
+      <clipPath id='98065fe4856c2443fd6d1ffc9d948b4d__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>
