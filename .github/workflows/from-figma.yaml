@@ -16,7 +16,7 @@ on:
         default: '[]'
 
 env:
-  PR_BRANCH: 'update-icons-$(date)'
+  PR_BRANCH: 'update-icons'
   PR_TITLE: '[Figma] Exported new changes'
   PR_BODY: 'This automated pull request is prompted by recent updates in our Figma files.
     Please consider merging this PR if everything meets your approval, allowing us to integrate the latest icons and changes.
