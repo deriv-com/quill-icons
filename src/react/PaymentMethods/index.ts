@@ -1,5 +1,8 @@
 export { default as PaymentMethodDiscoverBrandDarkIcon } from './PaymentMethodDiscoverBrandDarkIcon';
 export { default as PaymentMethodZamtelByAstropayBrandDarkIcon } from './PaymentMethodZamtelByAstropayBrandDarkIcon';
+export { default as PaymentMethodPayretailersBrandDarkIcon } from './PaymentMethodPayretailersBrandDarkIcon';
+export { default as PaymentMethodSolanaBrandDarkIcon } from './PaymentMethodSolanaBrandDarkIcon';
+export { default as PaymentMethodPolygonBrandDarkIcon } from './PaymentMethodPolygonBrandDarkIcon';
 export { default as PaymentMethod1voucherBrandIcon } from './PaymentMethod1voucherBrandIcon';
 export { default as PaymentMethodAirtelBrandIcon } from './PaymentMethodAirtelBrandIcon';
 export { default as PaymentMethodDiscoverBrandIcon } from './PaymentMethodDiscoverBrandIcon';
@@ -10,6 +13,12 @@ export { default as PaymentMethodTigoBrandIcon } from './PaymentMethodTigoBrandI
 export { default as PaymentMethodVnpayBrandIcon } from './PaymentMethodVnpayBrandIcon';
 export { default as PaymentMethodXrpBrandIcon } from './PaymentMethodXrpBrandIcon';
 export { default as PaymentMethodZamtelByAstropayBrandIcon } from './PaymentMethodZamtelByAstropayBrandIcon';
+export { default as PaymentMethodEquitelBrandIcon } from './PaymentMethodEquitelBrandIcon';
+export { default as PaymentMethodPayretailersBrandIcon } from './PaymentMethodPayretailersBrandIcon';
+export { default as PaymentMethodUpineoBrandIcon } from './PaymentMethodUpineoBrandIcon';
+export { default as PaymentMethodSolanaBrandIcon } from './PaymentMethodSolanaBrandIcon';
+export { default as PaymentMethodJetoncashBrandIcon } from './PaymentMethodJetoncashBrandIcon';
+export { default as PaymentMethodPolygonBrandIcon } from './PaymentMethodPolygonBrandIcon';
 export { default as PaymentMethod1voucherBlackIcon } from './PaymentMethod1voucherBlackIcon';
 export { default as PaymentMethodAirtelBlackIcon } from './PaymentMethodAirtelBlackIcon';
 export { default as PaymentMethodDiscoverBlackIcon } from './PaymentMethodDiscoverBlackIcon';
@@ -19,6 +28,12 @@ export { default as PaymentMethodOrangeBlackIcon } from './PaymentMethodOrangeBl
 export { default as PaymentMethodTigoBlackIcon } from './PaymentMethodTigoBlackIcon';
 export { default as PaymentMethodVnpayBlackIcon } from './PaymentMethodVnpayBlackIcon';
 export { default as PaymentMethodZamtelByAstropayBlackIcon } from './PaymentMethodZamtelByAstropayBlackIcon';
+export { default as PaymentMethodEquitelBlackIcon } from './PaymentMethodEquitelBlackIcon';
+export { default as PaymentMethodPayretailersBlackIcon } from './PaymentMethodPayretailersBlackIcon';
+export { default as PaymentMethodUpineoBlackIcon } from './PaymentMethodUpineoBlackIcon';
+export { default as PaymentMethodSolanaBlackIcon } from './PaymentMethodSolanaBlackIcon';
+export { default as PaymentMethodJetoncashBlackIcon } from './PaymentMethodJetoncashBlackIcon';
+export { default as PaymentMethodPolygonBlackIcon } from './PaymentMethodPolygonBlackIcon';
 export { default as PaymentMethod1voucherWhiteIcon } from './PaymentMethod1voucherWhiteIcon';
 export { default as PaymentMethodAirtelWhiteIcon } from './PaymentMethodAirtelWhiteIcon';
 export { default as PaymentMethodDiscoverWhiteIcon } from './PaymentMethodDiscoverWhiteIcon';
@@ -29,3 +44,9 @@ export { default as PaymentMethodTigoWhiteIcon } from './PaymentMethodTigoWhiteI
 export { default as PaymentMethodVnpayWhiteIcon } from './PaymentMethodVnpayWhiteIcon';
 export { default as PaymentMethodXrpWhiteIcon } from './PaymentMethodXrpWhiteIcon';
 export { default as PaymentMethodZamtelByAstropayWhiteIcon } from './PaymentMethodZamtelByAstropayWhiteIcon';
+export { default as PaymentMethodEquitelWhiteIcon } from './PaymentMethodEquitelWhiteIcon';
+export { default as PaymentMethodPayretailersWhiteIcon } from './PaymentMethodPayretailersWhiteIcon';
+export { default as PaymentMethodUpineoWhiteIcon } from './PaymentMethodUpineoWhiteIcon';
+export { default as PaymentMethodSolanaWhiteIcon } from './PaymentMethodSolanaWhiteIcon';
+export { default as PaymentMethodJetoncashWhiteIcon } from './PaymentMethodJetoncashWhiteIcon';
+export { default as PaymentMethodPolygonWhiteIcon } from './PaymentMethodPolygonWhiteIcon';

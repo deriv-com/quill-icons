@@ -7,6 +7,10 @@ export { default as IllustrativeCryptocurrenciesIcon } from './IllustrativeCrypt
 export { default as IllustrativeCfdsIcon } from './IllustrativeCfdsIcon';
 export { default as IllustrativeMultipliersIcon } from './IllustrativeMultipliersIcon';
 export { default as IllustrativeOptionsIcon } from './IllustrativeOptionsIcon';
+export { default as IllustrativeDigitalOptionsIcon } from './IllustrativeDigitalOptionsIcon';
+export { default as IllustrativeAccumulatorOptionsIcon } from './IllustrativeAccumulatorOptionsIcon';
+export { default as IllustrativeVanillaOptionsIcon } from './IllustrativeVanillaOptionsIcon';
+export { default as IllustrativeTurboOptionsIcon } from './IllustrativeTurboOptionsIcon';
 export { default as IllustrativeCryptoPairsIcon } from './IllustrativeCryptoPairsIcon';
 export { default as IllustrativeTrading247Icon } from './IllustrativeTrading247Icon';
 export { default as IllustrativeChartsIcon } from './IllustrativeChartsIcon';

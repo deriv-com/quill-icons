@@ -29,7 +29,7 @@ const SubBrandDerivPrimeBrandLightIcon = (
       />
     </g>
     <defs>
-      <clipPath id='bcd7073b97a7a13b4e57768b65bd715b__a'>
+      <clipPath id='982ba6430a26ae482213ed0f4d162d77__a'>
         <path fill='#fff' d='M0 0h347v72H0z' />
       </clipPath>
     </defs>
