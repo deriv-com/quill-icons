@@ -18,9 +18,9 @@ const DerivLightMt5SuccessPasswordResetIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0cd2a79228bf02df98de2831ffd4d50a__a)'>
+    <g clipPath='url(#86541193f6c4e22ff60ae92ca6428e52__a)'>
       <mask
-        id='0cd2a79228bf02df98de2831ffd4d50a__b'
+        id='86541193f6c4e22ff60ae92ca6428e52__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightMt5SuccessPasswordResetIcon = (
       >
         <path fill='#fff' d='M128 0H0v128h128z' />
       </mask>
-      <g mask='url(#0cd2a79228bf02df98de2831ffd4d50a__b)'>
+      <g mask='url(#86541193f6c4e22ff60ae92ca6428e52__b)'>
         <path
           fill='#85ACB0'
           fillRule='evenodd'
@@ -53,7 +53,7 @@ const DerivLightMt5SuccessPasswordResetIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='0cd2a79228bf02df98de2831ffd4d50a__a'>
+      <clipPath id='86541193f6c4e22ff60ae92ca6428e52__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

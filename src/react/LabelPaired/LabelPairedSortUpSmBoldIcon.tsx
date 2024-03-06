@@ -23,7 +23,7 @@ const LabelPairedSortUpSmBoldIcon = (
       <path d='M4.5 6.129 2.066 8.563h4.868zM3.871 4.87a.91.91 0 0 1 .629-.246q.356 0 .629.246l3.5 3.5q.383.437.191.957a.9.9 0 0 1-.82.547H1a.9.9 0 0 1-.82-.547q-.192-.519.191-.957z' />
     </g>
     <defs>
-      <clipPath id='00942bebf33ef8e6745b8218ca1f70d2__a'>
+      <clipPath id='2551c5cd58fa637d2b147767e3592209__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>
