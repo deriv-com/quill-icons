@@ -23,7 +23,7 @@ const LabelPairedPlusMdBoldIcon = (
       <path d='M7.75 6.25v5h5q.687.063.75.75-.063.687-.75.75h-5v5q-.063.687-.75.75-.687-.063-.75-.75v-5h-5Q.563 12.687.5 12q.063-.687.75-.75h5v-5q.063-.687.75-.75.687.063.75.75' />
     </g>
     <defs>
-      <clipPath id='c7a1b18ded7941f73e57dea20bd8138c__a'>
+      <clipPath id='ef3cd7061226d36e10261d2c686e65e2__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

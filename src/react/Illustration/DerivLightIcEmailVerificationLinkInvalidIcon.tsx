@@ -18,9 +18,9 @@ const DerivLightIcEmailVerificationLinkInvalidIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b5145cce715a19261d66c118b1da91dc__a)'>
+    <g clipPath='url(#d133ae2c4b7a2658797faa73cbd576d1__a)'>
       <mask
-        id='b5145cce715a19261d66c118b1da91dc__b'
+        id='d133ae2c4b7a2658797faa73cbd576d1__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightIcEmailVerificationLinkInvalidIcon = (
       >
         <path fill='#fff' d='M0 0h128v128H0z' />
       </mask>
-      <g mask='url(#b5145cce715a19261d66c118b1da91dc__b)'>
+      <g mask='url(#d133ae2c4b7a2658797faa73cbd576d1__b)'>
         <path
           fill='#BBCCCE'
           d='M13 44.626v14.087l37.62 31.59 6.565-5.582 6.565-5.583 6.46 5.831 6.46 5.831L115 58.048V45.063a1.985 1.985 0 0 0-.94-1.688L66.11 13.602a4.02 4.02 0 0 0-4.23 0L14 42.93c-.612.35-.992.995-1 1.697'
@@ -75,7 +75,7 @@ const DerivLightIcEmailVerificationLinkInvalidIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='b5145cce715a19261d66c118b1da91dc__a'>
+      <clipPath id='d133ae2c4b7a2658797faa73cbd576d1__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

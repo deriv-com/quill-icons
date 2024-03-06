@@ -23,7 +23,7 @@ const LabelPairedWindowMinimizeXlBoldIcon = (
       <path d='M1.125 26.25h21.75q1.032.094 1.125 1.125-.093 1.032-1.125 1.125H1.125Q.095 28.407 0 27.375q.095-1.03 1.125-1.125' />
     </g>
     <defs>
-      <clipPath id='9db4f2fb755a227f2fe1e89c65acbf9c__a'>
+      <clipPath id='8ae16a338e954aab6beb935a569defd3__a'>
         <path d='M0 0h24v36H0z' />
       </clipPath>
     </defs>

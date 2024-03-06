@@ -23,7 +23,7 @@ const LabelPairedSevenSmBoldIcon = (
       <path d='M.125 5.281q.054-.601.656-.656H8.22q.382 0 .574.328.165.329 0 .656L2.23 16.547q-.355.492-.902.246-.491-.356-.219-.902L7.07 5.938H.781Q.18 5.882.125 5.28' />
     </g>
     <defs>
-      <clipPath id='95b1ad3d5c4171bba0f84d2709756b94__a'>
+      <clipPath id='542d8daf7fee151c485dc2d40462221c__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

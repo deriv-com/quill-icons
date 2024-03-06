@@ -51,7 +51,7 @@ const DerivProductDerivXBrandLightLogoWordmarkIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='b5f03d96a0c66a54190941a0052f1eae__a'>
+      <clipPath id='227149ebad7ae2c97fac405ff0938d1b__a'>
         <path fill='#fff' d='M0 0h228v72H0z' />
       </clipPath>
     </defs>
