@@ -23,7 +23,7 @@ const LabelPairedGooglePlayCaptionIcon = (
       <path d='m7.617 8.984 1.406-1.406-6.562-3.773zM1.102 3.5l6.023 6-6.023 6a.91.91 0 0 1-.516-.82V4.32a.91.91 0 0 1 .516-.82m9.96 5.297a.83.83 0 0 1 .352.703q0 .445-.328.703l-1.406.82L8.156 9.5 9.68 8zm-8.601 6.398 5.156-5.18 1.406 1.407z' />
     </g>
     <defs>
-      <clipPath id='cf150d309a228200823a1ec08f8e065c__a'>
+      <clipPath id='4470d921f5d6ffe4b72b92004cfef9fc__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

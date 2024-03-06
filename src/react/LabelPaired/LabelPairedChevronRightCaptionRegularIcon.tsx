@@ -23,7 +23,7 @@ const LabelPairedChevronRightCaptionRegularIcon = (
       <path d='M7.258 9.242q.234.258 0 .516l-4.5 4.5q-.258.234-.516 0-.234-.258 0-.516L6.461 9.5 2.242 5.258q-.234-.258 0-.516.258-.234.516 0z' />
     </g>
     <defs>
-      <clipPath id='3b71961a05d6511380f292b230323679__a'>
+      <clipPath id='ab91617466509ea4a5f17f43419ffbf1__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

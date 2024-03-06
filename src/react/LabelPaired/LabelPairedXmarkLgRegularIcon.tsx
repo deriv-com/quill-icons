@@ -23,7 +23,7 @@ const LabelPairedXmarkLgRegularIcon = (
       <path d='M12.695 21.555 7.5 16.398l-5.156 5.157q-.469.351-.899 0-.351-.43 0-.86L6.602 15.5l-5.157-5.156q-.351-.469 0-.899.43-.351.899 0L7.5 14.602l5.195-5.157q.43-.351.86 0 .351.43 0 .899L8.398 15.5l5.157 5.195q.351.43 0 .86-.43.351-.86 0' />
     </g>
     <defs>
-      <clipPath id='aada813c0a944007eaf830e95d4ca38f__a'>
+      <clipPath id='9646021b94985bedcfd08bdf34ece6ed__a'>
         <path d='M0 0h15v30H0z' />
       </clipPath>
     </defs>
