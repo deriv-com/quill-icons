@@ -100,7 +100,15 @@ export { default as DerivLightIcBlurryDocumentIcon } from './DerivLightIcBlurryD
 export { default as DerivLightIcCroppedDocumentIcon } from './DerivLightIcCroppedDocumentIcon';
 export { default as DerivLightIcDocumentAddressMismatchIcon } from './DerivLightIcDocumentAddressMismatchIcon';
 export { default as DerivLightIcDocumentNameMismatchIcon } from './DerivLightIcDocumentNameMismatchIcon';
-export { default as DerivLightIcEnvelopIcon } from './DerivLightIcEnvelopIcon';
+export { default as DerivLightIcEnvelopeIcon } from './DerivLightIcEnvelopeIcon';
 export { default as DerivLightIcOldIssuedDocumentIcon } from './DerivLightIcOldIssuedDocumentIcon';
 export { default as DerivLightIcPoaLockDemoIcon } from './DerivLightIcPoaLockDemoIcon';
 export { default as DerivLightIcPoaLockIcon } from './DerivLightIcPoaLockIcon';
+export { default as DerivLightNameDobPoiIcon } from './DerivLightNameDobPoiIcon';
+export { default as DerivLightDobPoiIcon } from './DerivLightDobPoiIcon';
+export { default as DerivLightNamePoiIcon } from './DerivLightNamePoiIcon';
+export { default as DerivLightTradeInAnyDirectionIcon } from './DerivLightTradeInAnyDirectionIcon';
+export { default as DerivLightSpreadRiskIcon } from './DerivLightSpreadRiskIcon';
+export { default as DerivLightDiversifiedPortfolioIcon } from './DerivLightDiversifiedPortfolioIcon';
+export { default as DerivLightInflationHedgeIcon } from './DerivLightInflationHedgeIcon';
+export { default as DerivLightPromotionalToolsIcon } from './DerivLightPromotionalToolsIcon';

@@ -20,10 +20,10 @@ const LabelPairedMinusMdBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M13.5 12q-.063.687-.75.75H1.25Q.563 12.687.5 12q.063-.687.75-.75h11.5q.687.063.75.75' />
+      <path d='M13.5 12a.74.74 0 0 1-.75.75H1.25A.72.72 0 0 1 .5 12a.74.74 0 0 1 .75-.75h11.5a.76.76 0 0 1 .75.75' />
     </g>
     <defs>
-      <clipPath id='32eed9a21a2617055cda759a33f06821__a'>
+      <clipPath id='257b887d33de527a6db3a05e86272253__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

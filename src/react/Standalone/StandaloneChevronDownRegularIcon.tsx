@@ -19,7 +19,7 @@ export const StandaloneChevronDownRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M16.43 21.93q-.43.39-.86 0l-7.5-7.5q-.39-.43 0-.86.43-.39.86 0L16 20.602l7.07-7.032q.43-.39.86 0 .39.43 0 .86z' />
+    <path d='M16.43 21.969a.66.66 0 0 1-.899 0l-7.5-7.5a.66.66 0 0 1 0-.899.66.66 0 0 1 .899 0L16 20.64l7.031-7.07a.66.66 0 0 1 .899 0 .66.66 0 0 1 0 .899z' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneChevronDownRegularIcon);

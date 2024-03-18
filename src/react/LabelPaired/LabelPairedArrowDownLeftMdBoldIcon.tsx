@@ -20,10 +20,10 @@ const LabelPairedArrowDownLeftMdBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M1.75 17q-.687-.063-.75-.75v-7.5q.063-.687.75-.75.687.063.75.75v5.688l7.219-7.22q.531-.435 1.062 0 .438.533 0 1.063L3.562 15.5H9.25q.687.063.75.75-.063.687-.75.75z' />
+      <path d='M1.75 17a.72.72 0 0 1-.75-.75v-7.5A.74.74 0 0 1 1.75 8a.76.76 0 0 1 .75.75v5.719l7.219-7.25a.736.736 0 0 1 1.031 0c.313.312.313.781 0 1.062L3.531 15.5H9.25a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75z' />
     </g>
     <defs>
-      <clipPath id='29b8c0afbac5cdccb7104671fd570cdb__a'>
+      <clipPath id='739e3eda4130f6f7c1f39db433019568__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

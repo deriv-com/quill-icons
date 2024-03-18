@@ -19,7 +19,7 @@ export const StandaloneCheckBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M24.477 10.523q.546.664 0 1.329L14.164 22.164q-.664.547-1.328 0l-5.313-5.312q-.546-.665 0-1.329.665-.546 1.329 0l4.648 4.649 9.648-9.649q.665-.546 1.329 0' />
+    <path d='M24.477 10.523c.351.391.351.977 0 1.329L14.164 22.164c-.39.39-.976.39-1.328 0l-5.313-5.312a.856.856 0 0 1 0-1.29.856.856 0 0 1 1.29 0l4.648 4.649 9.687-9.688a.92.92 0 0 1 1.29 0z' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneCheckBoldIcon);

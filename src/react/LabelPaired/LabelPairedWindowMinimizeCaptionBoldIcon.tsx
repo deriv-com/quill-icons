@@ -20,10 +20,10 @@ const LabelPairedWindowMinimizeCaptionBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M.563 13.625h10.875q.514.047.562.563-.047.514-.562.562H.563q-.516-.047-.563-.562.047-.516.563-.563' />
+      <path d='M.563 13.625h10.875a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H.563A.54.54 0 0 1 0 14.188c0-.305.234-.563.563-.563' />
     </g>
     <defs>
-      <clipPath id='76724fc64e76dbbc73a0833b3d255fe6__a'>
+      <clipPath id='92cd14902a908788f29769975109d85d__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

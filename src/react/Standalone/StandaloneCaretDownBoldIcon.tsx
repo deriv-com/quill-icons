@@ -19,7 +19,7 @@ export const StandaloneCaretDownBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='m16 19.352 3.477-3.477h-6.954zm.898 1.796q-.39.352-.898.352t-.898-.352l-5-5q-.547-.624-.274-1.367Q10.18 14.04 11 14h10q.82.04 1.172.781.273.742-.274 1.367z' />
+    <path d='m16 19.39 3.477-3.515h-6.993zm.86 1.758a1.205 1.205 0 0 1-1.758 0l-5-5a1.26 1.26 0 0 1-.274-1.367A1.28 1.28 0 0 1 11 14h10c.469 0 .938.313 1.133.781a1.26 1.26 0 0 1-.274 1.367z' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneCaretDownBoldIcon);

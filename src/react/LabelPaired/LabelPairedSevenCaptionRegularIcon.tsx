@@ -20,10 +20,10 @@ const LabelPairedSevenCaptionRegularIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M.25 4.625q.023-.352.375-.375h6.75q.21 0 .328.188a.4.4 0 0 1 0 .375l-6 9.75q-.21.28-.516.14-.28-.21-.117-.515L6.695 5H.625Q.273 4.977.25 4.625' />
+      <path d='M.25 4.625c0-.187.164-.375.375-.375h6.75c.117 0 .258.094.328.21a.42.42 0 0 1-.023.376l-6 9.75a.37.37 0 0 1-.516.117c-.164-.117-.234-.328-.117-.515L6.695 5H.625a.37.37 0 0 1-.375-.375' />
     </g>
     <defs>
-      <clipPath id='8e0c67c9f6a3c9f06de93c9b009271f3__a'>
+      <clipPath id='6aa56cf7f1fd65a172b81fb09a8410d3__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

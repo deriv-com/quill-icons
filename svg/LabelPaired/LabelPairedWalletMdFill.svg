@@ -1,0 +1,10 @@
+<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / wallet-md / fill" clip-path="url(#clip0_2556_14644)">
+<path id="icon" d="M2 5H14C14.5312 5 15 5.46875 15 6C15 6.5625 14.5312 7 14 7H2.5C2.21875 7 2 7.25 2 7.5C2 7.78125 2.21875 8 2.5 8H14C15.0938 8 16 8.90625 16 10V17C16 18.125 15.0938 19 14 19H2C0.875 19 0 18.125 0 17V7C0 5.90625 0.875 5 2 5ZM13 12.5C12.4375 12.5 12 12.9688 12 13.5C12 14.0625 12.4375 14.5 13 14.5C13.5312 14.5 14 14.0625 14 13.5C14 12.9688 13.5312 12.5 13 12.5Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_14644">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

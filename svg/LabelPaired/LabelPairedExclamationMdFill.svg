@@ -1,0 +1,10 @@
+<svg width="2" height="24" viewBox="0 0 2 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / exclamation-md / fill" clip-path="url(#clip0_2556_14989)">
+<path id="icon" d="M2 6V14C2 14.5625 1.53125 15 1 15C0.4375 15 0 14.5625 0 14V6C0 5.46875 0.4375 5 1 5C1.53125 5 2 5.46875 2 6ZM1 19C0.53125 19 0.125 18.7812 -0.09375 18.375C-0.3125 18 -0.3125 17.5312 -0.09375 17.125C0.125 16.75 0.53125 16.5 1 16.5C1.4375 16.5 1.84375 16.75 2.0625 17.125C2.28125 17.5312 2.28125 18 2.0625 18.375C1.84375 18.7812 1.4375 19 1 19Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_14989">
+<rect width="2" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

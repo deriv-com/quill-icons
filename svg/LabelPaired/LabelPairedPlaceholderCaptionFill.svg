@@ -1,0 +1,10 @@
+<svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / caption / placeholder-caption / fill" clip-path="url(#clip0_2556_10362)">
+<path id="icon" d="M2.5 4.25H3.25V5.75H2.5C2.07812 5.75 1.75 6.10156 1.75 6.5V7.25H0.25V6.5C0.25 5.25781 1.25781 4.25 2.5 4.25ZM0.25 8H1.75V11H0.25V8ZM9.25 8H10.75V11H9.25V8ZM10.75 7.25H9.25V6.5C9.25 6.10156 8.89844 5.75 8.5 5.75H7.75V4.25H8.5C9.74219 4.25 10.75 5.25781 10.75 6.5V7.25ZM10.75 11.75V12.5C10.75 13.7422 9.74219 14.75 8.5 14.75H7.75V13.25H8.5C8.89844 13.25 9.25 12.9219 9.25 12.5V11.75H10.75ZM1.75 11.75V12.5C1.75 12.9219 2.07812 13.25 2.5 13.25H3.25V14.75H2.5C1.25781 14.75 0.25 13.7422 0.25 12.5V11.75H1.75ZM4 14.75V13.25H7V14.75H4ZM4 5.75V4.25H7V5.75H4Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_10362">
+<rect width="11" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg>

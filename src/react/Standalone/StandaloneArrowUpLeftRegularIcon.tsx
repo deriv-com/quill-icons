@@ -19,7 +19,7 @@ export const StandaloneArrowUpLeftRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M10.375 10.25h8.75q.585.039.625.625-.039.585-.625.625h-7.227l10.157 10.195q.39.43 0 .86-.43.39-.86 0L11 12.398v7.227q-.039.585-.625.625-.585-.039-.625-.625v-8.75q.039-.585.625-.625' />
+    <path d='M10.375 10.25h8.75c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625h-7.266l10.196 10.195a.66.66 0 0 1 0 .899.66.66 0 0 1-.899 0L11 12.398v7.227a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625v-8.75c0-.312.273-.625.625-.625' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneArrowUpLeftRegularIcon);

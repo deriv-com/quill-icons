@@ -20,10 +20,10 @@ const LabelPairedSortUpCaptionBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M4 5.54 1.914 7.624h4.172zm-.54-1.08A.78.78 0 0 1 4 4.25q.305 0 .54.21l3 3q.327.375.163.821A.77.77 0 0 1 7 8.75H1a.77.77 0 0 1-.703-.469q-.165-.445.164-.82z' />
+      <path d='M4 5.54 1.89 7.624h4.196zm-.54-1.056a.723.723 0 0 1 1.056 0l3 3c.21.211.28.54.164.82a.74.74 0 0 1-.68.47H1a.77.77 0 0 1-.703-.47.76.76 0 0 1 .164-.82z' />
     </g>
     <defs>
-      <clipPath id='1b4e1c43a1b280667f2463ab8a22dafa__a'>
+      <clipPath id='83c6c7938a24e7fa1d434a82f9cc9af6__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

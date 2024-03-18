@@ -19,7 +19,7 @@ export const StandaloneWindowMinimizeBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M6.938 23.375h18.125q.858.078.937.938-.079.858-.937.937H6.938q-.86-.079-.938-.937.078-.86.938-.938' />
+    <path d='M6.938 23.375h18.125a.95.95 0 0 1 .937.938c0 .546-.43.937-.937.937H6.938c-.547 0-.938-.39-.938-.937 0-.508.39-.938.938-.938' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneWindowMinimizeBoldIcon);

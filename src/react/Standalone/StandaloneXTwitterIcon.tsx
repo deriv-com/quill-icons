@@ -19,7 +19,7 @@ export const StandaloneXTwitterIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M21.195 8.375h2.774l-6.016 6.875 7.07 9.375h-5.546l-4.336-5.664-4.961 5.664H7.406l6.446-7.344-6.797-8.906h5.664l3.945 5.195zm-.976 14.61h1.562L11.898 9.937h-1.64z' />
+    <path d='M21.195 8.375h2.735l-6.016 6.914 7.11 9.336h-5.547l-4.375-5.664-4.961 5.664H7.367l6.446-7.344-6.797-8.906h5.703l3.906 5.195zm-.976 14.61h1.523L11.898 9.937h-1.64z' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneXTwitterIcon);

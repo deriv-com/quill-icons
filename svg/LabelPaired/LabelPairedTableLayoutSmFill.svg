@@ -1,0 +1,10 @@
+<svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / sm / table-layout-sm / fill" clip-path="url(#clip0_2556_12412)">
+<path id="icon" d="M1.75 4.625H12.25C13.207 4.625 14 5.41797 14 6.375V15.125C14 16.1094 13.207 16.875 12.25 16.875H1.75C0.765625 16.875 0 16.1094 0 15.125V6.375C0 5.41797 0.765625 4.625 1.75 4.625ZM12.25 6.375H1.75V8.125H12.25V6.375ZM1.75 9.875V15.125H3.5V9.875H1.75ZM12.25 9.875H5.25V15.125H12.25V9.875Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_12412">
+<rect width="14" height="22" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -20,10 +20,10 @@ const LabelPairedCaretUpSmBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='m4.5 8.754-2.434 2.434h4.868zm-.629-1.258A.91.91 0 0 1 4.5 7.25q.356 0 .629.246l3.5 3.5q.383.437.191.957A.9.9 0 0 1 8 12.5H1a.9.9 0 0 1-.82-.547q-.192-.519.191-.957z' />
+      <path d='m4.5 8.754-2.46 2.434h4.894zm-.629-1.23a.843.843 0 0 1 1.23 0l3.5 3.5a.89.89 0 0 1 .192.957A.83.83 0 0 1 8 12.5H1c-.355 0-.684-.191-.82-.52a.89.89 0 0 1 .191-.957z' />
     </g>
     <defs>
-      <clipPath id='112ed102728583f2416defdbc1986357__a'>
+      <clipPath id='668ba64833f3ede6fda9fc2b4e1eafbd__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

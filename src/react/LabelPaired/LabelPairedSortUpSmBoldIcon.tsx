@@ -20,10 +20,10 @@ const LabelPairedSortUpSmBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M4.5 6.129 2.066 8.563h4.868zM3.871 4.87a.91.91 0 0 1 .629-.246q.356 0 .629.246l3.5 3.5q.383.437.191.957a.9.9 0 0 1-.82.547H1a.9.9 0 0 1-.82-.547q-.192-.519.191-.957z' />
+      <path d='M4.5 6.129 2.04 8.563h4.894zm-.629-1.23a.843.843 0 0 1 1.23 0l3.5 3.5a.88.88 0 0 1 .192.956.86.86 0 0 1-.793.547H1a.9.9 0 0 1-.82-.547.88.88 0 0 1 .191-.957z' />
     </g>
     <defs>
-      <clipPath id='2551c5cd58fa637d2b147767e3592209__a'>
+      <clipPath id='fa310c73c88fab0bc4706ee2cbad33a6__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

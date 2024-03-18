@@ -1,0 +1,10 @@
+<svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / tablet-md / fill" clip-path="url(#clip0_2556_15100)">
+<path id="icon" d="M2 4H12C13.0938 4 14 4.90625 14 6V18C14 19.125 13.0938 20 12 20H2C0.875 20 0 19.125 0 18V6C0 4.90625 0.875 4 2 4ZM5.5 17.5C5.21875 17.5 5 17.75 5 18C5 18.2812 5.21875 18.5 5.5 18.5H8.5C8.75 18.5 9 18.2812 9 18C9 17.75 8.75 17.5 8.5 17.5H5.5Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_15100">
+<rect width="14" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

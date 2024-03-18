@@ -20,10 +20,10 @@ const LabelPairedMinusCaptionBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M10.375 9.5q-.047.515-.562.563H1.188Q.672 10.015.625 9.5q.047-.516.563-.562h8.625q.514.045.562.562' />
+      <path d='M10.375 9.5a.555.555 0 0 1-.562.563H1.188A.54.54 0 0 1 .625 9.5c0-.305.234-.562.563-.562h8.625a.57.57 0 0 1 .562.562' />
     </g>
     <defs>
-      <clipPath id='46dbe074f061100cca219556708d651a__a'>
+      <clipPath id='649166cf65cfb2909fd8dfbfdda8e9f3__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

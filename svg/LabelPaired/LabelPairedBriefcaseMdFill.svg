@@ -1,0 +1,10 @@
+<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / briefcase-md / fill" clip-path="url(#clip0_2556_14591)">
+<path id="icon" d="M5.75 5.5C5.59375 5.5 5.5 5.625 5.5 5.75V7H10.5V5.75C10.5 5.625 10.375 5.5 10.25 5.5H5.75ZM4 5.75C4 4.8125 4.78125 4 5.75 4H10.25C11.1875 4 12 4.8125 12 5.75V7H14C15.0938 7 16 7.90625 16 9V12H10H6H0V9C0 7.90625 0.875 7 2 7H4V5.75ZM16 13V17C16 18.125 15.0938 19 14 19H2C0.875 19 0 18.125 0 17V13H6V14C6 14.5625 6.4375 15 7 15H9C9.53125 15 10 14.5625 10 14V13H16Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_14591">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -20,10 +20,10 @@ const LabelPairedChevronLeftLgRegularIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M1.07 15.93q-.39-.43 0-.86l7.5-7.5q.43-.39.86 0 .39.43 0 .86L2.398 15.5l7.032 7.07q.39.43 0 .86-.43.39-.86 0z' />
+      <path d='M1.031 15.969a.66.66 0 0 1 0-.899l7.5-7.5a.66.66 0 0 1 .899 0 .66.66 0 0 1 0 .899L2.36 15.5l7.07 7.07a.66.66 0 0 1 0 .899.66.66 0 0 1-.899 0z' />
     </g>
     <defs>
-      <clipPath id='199ae44818b09dfe96c7804ba8e0d22a__a'>
+      <clipPath id='e86ca49be652ed76a52e621f405385c2__a'>
         <path d='M0 0h13v30H0z' />
       </clipPath>
     </defs>

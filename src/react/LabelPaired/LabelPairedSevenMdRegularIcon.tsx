@@ -20,10 +20,10 @@ const LabelPairedSevenMdRegularIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M0 5.5q.031-.469.5-.5h9a.49.49 0 0 1 .438.25.53.53 0 0 1 0 .5l-8 13q-.282.375-.688.188-.375-.282-.156-.688L8.594 6H.5q-.469-.03-.5-.5' />
+      <path d='M0 5.5c0-.25.219-.5.5-.5h9c.156 0 .344.125.438.281a.57.57 0 0 1-.032.5l-8 13a.494.494 0 0 1-.687.157C1 18.78.906 18.5 1.062 18.25L8.595 6H.5a.494.494 0 0 1-.5-.5' />
     </g>
     <defs>
-      <clipPath id='312530f0b4962f32d4e1e10a1626cabf__a'>
+      <clipPath id='0ec4750e9f176f28d0eccb788ed1f9a7__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>

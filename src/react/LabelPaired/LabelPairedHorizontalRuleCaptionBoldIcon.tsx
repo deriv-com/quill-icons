@@ -20,10 +20,10 @@ const LabelPairedHorizontalRuleCaptionBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M0 9.5q.047-.516.563-.562h13.875q.514.045.562.562-.047.515-.562.563H.563Q.046 10.015 0 9.5' />
+      <path d='M0 9.5c0-.305.234-.562.563-.562h13.875A.57.57 0 0 1 15 9.5a.555.555 0 0 1-.562.563H.563A.54.54 0 0 1 0 9.5' />
     </g>
     <defs>
-      <clipPath id='780de493771fede7deaf4c8b61525b8a__a'>
+      <clipPath id='2a521b191ba8a56fe6fd9a24b3adb178__a'>
         <path d='M0 0h15v18H0z' />
       </clipPath>
     </defs>

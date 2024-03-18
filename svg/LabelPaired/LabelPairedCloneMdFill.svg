@@ -1,0 +1,10 @@
+<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / clone-md / fill" clip-path="url(#clip0_2556_14737)">
+<path id="icon" d="M9 18V16H11V18C11 19.125 10.0938 20 9 20H2C0.875 20 0 19.125 0 18V11C0 9.90625 0.875 9 2 9H4V11H2V18H9ZM7 15C5.875 15 5 14.125 5 13V6C5 4.90625 5.875 4 7 4H14C15.0938 4 16 4.90625 16 6V13C16 14.125 15.0938 15 14 15H7Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_14737">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

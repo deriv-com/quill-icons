@@ -1,0 +1,10 @@
+<svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / mobile-screen-button-md / fill" clip-path="url(#clip0_2556_15235)">
+<path id="icon" d="M0.5 6C0.5 4.90625 1.375 4 2.5 4H9.5C10.5938 4 11.5 4.90625 11.5 6V18C11.5 19.125 10.5938 20 9.5 20H2.5C1.375 20 0.5 19.125 0.5 18V6ZM4.5 18C4.5 18.2812 4.71875 18.5 5 18.5H7C7.25 18.5 7.5 18.2812 7.5 18C7.5 17.75 7.25 17.5 7 17.5H5C4.71875 17.5 4.5 17.75 4.5 18ZM9.5 6H2.5V16H9.5V6Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_15235">
+<rect width="12" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

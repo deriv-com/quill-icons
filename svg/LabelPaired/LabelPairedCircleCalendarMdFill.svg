@@ -1,0 +1,10 @@
+<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / circle-calendar-md / fill" clip-path="url(#clip0_2556_15171)">
+<path id="icon" d="M8 20C5.125 20 2.5 18.5 1.0625 16C-0.375 13.5312 -0.375 10.5 1.0625 8C2.5 5.53125 5.125 4 8 4C10.8438 4 13.4688 5.53125 14.9062 8C16.3438 10.5 16.3438 13.5312 14.9062 16C13.4688 18.5 10.8438 20 8 20ZM6.5 7C6.21875 7 6 7.25 6 7.5V8H5C4.4375 8 4 8.46875 4 9V10H12V9C12 8.46875 11.5312 8 11 8H10V7.5C10 7.25 9.75 7 9.5 7C9.21875 7 9 7.25 9 7.5V8H7V7.5C7 7.25 6.75 7 6.5 7ZM4 15C4 15.5625 4.4375 16 5 16H11C11.5312 16 12 15.5625 12 15V11H4V15Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_15171">
+<rect width="16" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
