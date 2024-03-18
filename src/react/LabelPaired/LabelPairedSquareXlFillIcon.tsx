@@ -20,10 +20,10 @@ const LabelPairedSquareXlFillIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M0 10.5q.047-1.266.89-2.11.844-.843 2.11-.89h15q1.266.047 2.11.89.843.844.89 2.11v15q-.047 1.266-.89 2.11-.844.843-2.11.89H3q-1.266-.047-2.11-.89-.843-.844-.89-2.11z' />
+      <path d='M0 10.5c0-1.64 1.313-3 3-3h15c1.64 0 3 1.36 3 3v15c0 1.688-1.36 3-3 3H3c-1.687 0-3-1.312-3-3z' />
     </g>
     <defs>
-      <clipPath id='9f433f6aeb74b48736bd65d8573dd61f__a'>
+      <clipPath id='0839db2acd50d24d555d5c21ca44bdbf__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

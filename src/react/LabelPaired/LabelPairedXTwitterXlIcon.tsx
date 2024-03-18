@@ -20,10 +20,10 @@ const LabelPairedXTwitterXlIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M18.234 8.25h3.328l-7.218 8.25 8.484 11.25h-6.656l-5.203-6.797-5.953 6.797H1.688l7.734-8.812L1.266 8.25h6.797l4.734 6.234zm-1.172 17.531h1.875L7.079 10.125H5.11z' />
+      <path d='M18.234 8.25h3.282l-7.22 8.297 8.532 11.203h-6.656l-5.25-6.797-5.953 6.797H1.64l7.734-8.812L1.219 8.25h6.844l4.687 6.234zm-1.172 17.531h1.829L7.078 10.125H5.11z' />
     </g>
     <defs>
-      <clipPath id='f70acd9dc139528f1090e6fa6d47da89__a'>
+      <clipPath id='ec908f044dbf6008ab2eba6fe877b866__a'>
         <path d='M0 0h24v36H0z' />
       </clipPath>
     </defs>

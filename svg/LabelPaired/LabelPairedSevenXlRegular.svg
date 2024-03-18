@@ -1,9 +1,9 @@
 <svg width="15" height="36" viewBox="0 0 15 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="label-paired / xl / seven-xl / regular" clip-path="url(#clip0_1731_6056)">
-<path id="icon" d="M0 8.25C0.03125 7.78125 0.28125 7.53125 0.75 7.5H14.25C14.5312 7.5 14.75 7.625 14.9062 7.875C15.0312 8.125 15.0312 8.375 14.9062 8.625L2.90625 28.125C2.625 28.5 2.28125 28.5938 1.875 28.4062C1.5 28.125 1.42188 27.7812 1.64062 27.375L12.8906 9H0.75C0.28125 8.96875 0.03125 8.71875 0 8.25Z" fill="black" fill-opacity="0.72"/>
+<g id="label-paired / xl / seven-xl / regular" clip-path="url(#clip0_2556_19573)">
+<path id="icon" d="M0 8.25C0 7.875 0.328125 7.5 0.75 7.5H14.25C14.4844 7.5 14.7656 7.6875 14.9062 7.92188C15 8.15625 15 8.4375 14.8594 8.67188L2.85938 28.1719C2.67188 28.5 2.20312 28.6406 1.82812 28.4062C1.5 28.1719 1.35938 27.75 1.59375 27.375L12.8906 9H0.75C0.328125 9 0 8.67188 0 8.25Z" fill="black" fill-opacity="0.72"/>
 </g>
 <defs>
-<clipPath id="clip0_1731_6056">
+<clipPath id="clip0_2556_19573">
 <rect width="15" height="36" fill="white"/>
 </clipPath>
 </defs>

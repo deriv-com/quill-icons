@@ -1,0 +1,10 @@
+<svg width="15" height="30" viewBox="0 0 15 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / lg / mobile-screen-button-lg / fill" clip-path="url(#clip0_2556_17644)">
+<path id="icon" d="M0.625 8C0.625 6.63281 1.71875 5.5 3.125 5.5H11.875C13.2422 5.5 14.375 6.63281 14.375 8V23C14.375 24.4062 13.2422 25.5 11.875 25.5H3.125C1.71875 25.5 0.625 24.4062 0.625 23V8ZM5.625 23C5.625 23.3516 5.89844 23.625 6.25 23.625H8.75C9.0625 23.625 9.375 23.3516 9.375 23C9.375 22.6875 9.0625 22.375 8.75 22.375H6.25C5.89844 22.375 5.625 22.6875 5.625 23ZM11.875 8H3.125V20.5H11.875V8Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_17644">
+<rect width="15" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>

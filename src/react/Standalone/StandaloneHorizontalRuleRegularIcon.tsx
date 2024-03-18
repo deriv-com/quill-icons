@@ -19,7 +19,7 @@ export const StandaloneHorizontalRuleRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M3.5 16.5q.039-.585.625-.625h23.75q.585.039.625.625-.039.585-.625.625H4.125q-.586-.039-.625-.625' />
+    <path d='M3.5 16.5c0-.312.273-.625.625-.625h23.75c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625H4.125A.617.617 0 0 1 3.5 16.5' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneHorizontalRuleRegularIcon);

@@ -20,10 +20,10 @@ const LabelPairedCheckCaptionRegularIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M10.633 5.867q.234.258 0 .516l-6.375 6.375q-.258.234-.516 0L.367 9.383q-.234-.258 0-.516.258-.234.516 0L4 11.961l6.117-6.094q.258-.234.516 0' />
+      <path d='M10.633 5.867c.14.14.14.399 0 .54L4.258 12.78a.397.397 0 0 1-.54 0L.345 9.406a.397.397 0 0 1 0-.539c.14-.14.398-.14.539 0L4 11.984l6.094-6.117c.14-.14.398-.14.539 0' />
     </g>
     <defs>
-      <clipPath id='7fdbc0bdb257e885db755f20b8e31b0c__a'>
+      <clipPath id='7de8940d4bf8f68da0882d6061e421d0__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

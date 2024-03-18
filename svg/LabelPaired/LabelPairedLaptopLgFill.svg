@@ -1,0 +1,10 @@
+<svg width="25" height="30" viewBox="0 0 25 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / lg / laptop-lg / fill" clip-path="url(#clip0_2556_17192)">
+<path id="icon" d="M5 6.75H20C21.3672 6.75 22.5 7.88281 22.5 9.25V19.25H20V9.25H5V19.25H2.5V9.25C2.5 7.88281 3.59375 6.75 5 6.75ZM0.742188 20.5H24.2188C24.6484 20.5 25 20.8516 25 21.2812C25 22.9219 23.6328 24.25 21.9922 24.25H2.96875C1.32812 24.25 0 22.9219 0 21.2812C0 20.8516 0.3125 20.5 0.742188 20.5Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_17192">
+<rect width="25" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>

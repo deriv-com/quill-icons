@@ -19,7 +19,7 @@ export const StandaloneChevronUpBoldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M15.336 10.836q.664-.548 1.328 0l7.5 7.5q.547.664 0 1.328-.664.547-1.328 0L16 12.828l-6.836 6.836q-.664.547-1.328 0-.548-.664 0-1.328z' />
+    <path d='M15.336 10.836a.92.92 0 0 1 1.289 0l7.54 7.5c.35.39.35.977 0 1.328-.392.39-.977.39-1.33 0L16 12.828l-6.836 6.836c-.39.39-.976.39-1.328 0a.856.856 0 0 1 0-1.289z' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneChevronUpBoldIcon);

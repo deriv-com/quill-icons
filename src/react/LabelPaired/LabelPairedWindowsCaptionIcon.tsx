@@ -20,10 +20,10 @@ const LabelPairedWindowsCaptionIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M.25 5.703v3.563h4.313V5.094zm0 7.594V9.78h4.313v4.125zm4.781.656V9.781h5.719v4.969zm0-8.906 5.719-.797v5.016H5.031z' />
+      <path d='M.25 5.703v3.563h4.29V5.117zm0 7.617V9.805h4.29v4.101zm4.758.657V9.805h5.742v4.945zm0-8.93 5.742-.797v5.016H5.008z' />
     </g>
     <defs>
-      <clipPath id='e3949cf5f04330bc78e9d9a38fdda2ca__a'>
+      <clipPath id='b5bb8d8accef3901285416da91dbe0cb__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

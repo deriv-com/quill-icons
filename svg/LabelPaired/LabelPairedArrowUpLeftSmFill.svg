@@ -1,0 +1,10 @@
+<svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / sm / arrow-up-left-sm / fill" clip-path="url(#clip0_2556_12691)">
+<path id="icon" d="M2 6.375H8.125C8.58984 6.375 9 6.78516 9 7.25C9 7.74219 8.58984 8.125 8.125 8.125H4.10547L9.60156 13.6484C9.95703 13.9766 9.95703 14.5508 9.60156 14.8789C9.27344 15.2344 8.69922 15.2344 8.37109 14.8789L2.875 9.38281V13.375C2.875 13.8672 2.46484 14.25 2 14.25C1.50781 14.25 1.125 13.8672 1.125 13.375V7.25C1.125 6.78516 1.50781 6.375 2 6.375Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_12691">
+<rect width="11" height="22" fill="white"/>
+</clipPath>
+</defs>
+</svg>

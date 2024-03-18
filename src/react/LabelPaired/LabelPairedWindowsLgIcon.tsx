@@ -20,10 +20,10 @@ const LabelPairedWindowsLgIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M.25 9.172v5.937h7.188V8.156zm0 12.656v-5.86h7.188v6.876zm7.969 1.094v-6.953h9.531v8.281zm0-14.844L17.75 6.75v8.36H8.219z' />
+      <path d='M.25 9.172v5.937h7.148V8.195zm0 12.695v-5.86h7.148v6.837zm7.93 1.094v-6.953h9.57v8.242zm0-14.883 9.57-1.328v8.36H8.18z' />
     </g>
     <defs>
-      <clipPath id='3d48f4f00ba7d990d3e98d94bdc9e0a7__a'>
+      <clipPath id='4ef10f92568997cdb337d1b497e8c188__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>

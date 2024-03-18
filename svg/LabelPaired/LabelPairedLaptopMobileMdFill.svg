@@ -1,0 +1,10 @@
+<svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / md / laptop-mobile-md / fill" clip-path="url(#clip0_2556_15022)">
+<path id="icon" d="M4 4H14C15.0938 4 16 4.90625 16 6V7H14V6H4V13H11V16H2.375C1.0625 16 0 14.9375 0 13.625C0 13.2812 0.25 13 0.59375 13H2V6C2 4.90625 2.875 4 4 4ZM14 18H18V10H14V18ZM12 9.5C12 8.6875 12.6562 8 13.5 8H18.5C19.3125 8 20 8.6875 20 9.5V18.5C20 19.3438 19.3125 20 18.5 20H13.5C12.6562 20 12 19.3438 12 18.5V9.5Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_15022">
+<rect width="20" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

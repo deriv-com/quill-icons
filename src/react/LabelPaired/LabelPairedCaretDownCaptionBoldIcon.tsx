@@ -20,10 +20,10 @@ const LabelPairedCaretDownCaptionBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='m4 11.21 2.086-2.085H1.914zm.54 1.08a.78.78 0 0 1-.54.21.78.78 0 0 1-.54-.21l-3-3q-.327-.375-.163-.821A.77.77 0 0 1 1 8h6a.77.77 0 0 1 .703.469q.165.445-.164.82z' />
+      <path d='m4 11.234 2.086-2.109H1.89zm.516 1.055a.723.723 0 0 1-1.055 0l-3-3a.76.76 0 0 1-.164-.82A.77.77 0 0 1 1 8h6a.76.76 0 0 1 .68.469.76.76 0 0 1-.164.82z' />
     </g>
     <defs>
-      <clipPath id='6af7ed66b5ea4e102bdd2efbdedffb75__a'>
+      <clipPath id='9f452dcd1d33fc161526095fd5c87134__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

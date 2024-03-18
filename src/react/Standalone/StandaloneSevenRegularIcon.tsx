@@ -19,7 +19,7 @@ export const StandaloneSevenRegularIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M9.75 8.375q.039-.585.625-.625h11.25q.352 0 .547.313a.66.66 0 0 1 0 .624l-10 16.25q-.352.47-.86.235-.468-.352-.195-.86L20.492 9H10.375q-.585-.039-.625-.625' />
+    <path d='M9.75 8.375c0-.312.273-.625.625-.625h11.25c.195 0 .43.156.547.352a.7.7 0 0 1-.04.625l-10 16.25a.62.62 0 0 1-.859.195c-.273-.195-.39-.547-.195-.86L20.492 9H10.375a.617.617 0 0 1-.625-.625' />
   </svg>
 );
 const ForwardRef = forwardRef(StandaloneSevenRegularIcon);

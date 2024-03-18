@@ -20,10 +20,10 @@ const LabelPairedChevronRightXlBoldIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g>
-      <path d='M14.297 17.203q.656.797 0 1.594l-9 9q-.797.656-1.594 0-.655-.797 0-1.594L11.906 18 3.703 9.797q-.655-.797 0-1.594.797-.656 1.594 0z' />
+      <path d='M14.297 17.203c.422.469.422 1.172 0 1.594l-9 9c-.469.469-1.172.469-1.594 0a1.027 1.027 0 0 1 0-1.547l8.203-8.203-8.203-8.25a1.027 1.027 0 0 1 0-1.547 1.027 1.027 0 0 1 1.547 0z' />
     </g>
     <defs>
-      <clipPath id='8e556e9dacfbd48711a5cd89233ad401__a'>
+      <clipPath id='580420d281d0f032e84acc0e63bdacc6__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

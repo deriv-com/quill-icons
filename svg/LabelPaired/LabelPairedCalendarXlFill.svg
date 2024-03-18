@@ -1,0 +1,10 @@
+<svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / xl / calendar-xl / fill" clip-path="url(#clip0_2556_19882)">
+<path id="icon" d="M4.5 7.5C4.5 6.70312 5.15625 6 6 6C6.79688 6 7.5 6.70312 7.5 7.5V9H13.5V7.5C13.5 6.70312 14.1562 6 15 6C15.7969 6 16.5 6.70312 16.5 7.5V9H18.75C19.9688 9 21 10.0312 21 11.25V13.5H0V11.25C0 10.0312 0.984375 9 2.25 9H4.5V7.5ZM21 15V27.75C21 29.0156 19.9688 30 18.75 30H2.25C0.984375 30 0 29.0156 0 27.75V15H21Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2556_19882">
+<rect width="21" height="36" fill="white"/>
+</clipPath>
+</defs>
+</svg>
