@@ -1,3 +1,11 @@
+## [1.19.5](https://github.com/deriv-com/quill-icons/compare/v1.19.4...v1.19.5) (2024-03-19)
+
+
+### ♻️ 	 Chores
+
+* added payment methods category ([114fb0b](https://github.com/deriv-com/quill-icons/commit/114fb0b44c1aec8bdc2f7b2c944fa155a77e3fba))
+* added payment methods category ([f2046a8](https://github.com/deriv-com/quill-icons/commit/f2046a8ee5c2e3ae4832e95ad60653c6755705d2))
+
 ## [1.19.4](https://github.com/deriv-com/quill-icons/compare/v1.19.3...v1.19.4) (2024-03-18)
 
 
