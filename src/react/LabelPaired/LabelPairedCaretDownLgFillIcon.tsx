@@ -23,7 +23,7 @@ const LabelPairedCaretDownLgFillIcon = (
       <path d='m5.602 20.148-5-5a1.26 1.26 0 0 1-.274-1.367A1.28 1.28 0 0 1 1.5 13h10c.508 0 .938.313 1.133.781a1.26 1.26 0 0 1-.274 1.367l-5 5a1.205 1.205 0 0 1-1.757 0' />
     </g>
     <defs>
-      <clipPath id='f4834a5a7455ac4ba2826bad28ab0749__a'>
+      <clipPath id='664aff003e6da144896f80a0741513f6__a'>
         <path d='M0 0h13v30H0z' />
       </clipPath>
     </defs>

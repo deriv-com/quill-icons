@@ -44,6 +44,11 @@
       "import": "./dist/esm/react/Markets/index.js",
       "types": "./dist/esm/react/Markets/index.d.ts"
     },
+    "./PaymentMethods": {
+      "require": "./dist/cjs/react/PaymentMethods/index.js",
+      "import": "./dist/esm/react/PaymentMethods/index.js",
+      "types": "./dist/esm/react/PaymentMethods/index.d.ts"
+    },
     "./Accounts": {
       "require": "./dist/cjs/react/Accounts/index.js",
       "import": "./dist/esm/react/Accounts/index.js",
