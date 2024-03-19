@@ -23,7 +23,7 @@ const LabelPairedHorizontalRuleSmBoldIcon = (
       <path d='M.25 10.75c0-.355.273-.656.656-.656h16.188c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H.906a.63.63 0 0 1-.656-.656' />
     </g>
     <defs>
-      <clipPath id='ef239c831546be83efe61086700b75ba__a'>
+      <clipPath id='2f0c11a7086f3c5d5e76146055f6d4a7__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>
