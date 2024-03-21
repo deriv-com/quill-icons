@@ -1,3 +1,11 @@
+## [1.19.6](https://github.com/deriv-com/quill-icons/compare/v1.19.5...v1.19.6) (2024-03-21)
+
+
+### 🐛 	 Bug Fixes
+
+* review comments ([234f76d](https://github.com/deriv-com/quill-icons/commit/234f76de4f07bd08804e429111370768c7190ce0))
+* security risks in the workflows ([14c65c7](https://github.com/deriv-com/quill-icons/commit/14c65c7a404e16af12f79b91701a830489e36a39))
+
 ## [1.19.5](https://github.com/deriv-com/quill-icons/compare/v1.19.4...v1.19.5) (2024-03-19)
 
 
