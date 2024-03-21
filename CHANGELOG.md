@@ -1,3 +1,11 @@
+## [1.19.7](https://github.com/deriv-com/quill-icons/compare/v1.19.6...v1.19.7) (2024-03-21)
+
+
+### 🐛 	 Bug Fixes
+
+* slack action ([224746c](https://github.com/deriv-com/quill-icons/commit/224746ce35788622837f701156f5f77d38ef3033))
+* slack action ([420df78](https://github.com/deriv-com/quill-icons/commit/420df782b3368022bbcd4362bf0a4635978ef6af))
+
 ## [1.19.6](https://github.com/deriv-com/quill-icons/compare/v1.19.5...v1.19.6) (2024-03-21)
 
 
