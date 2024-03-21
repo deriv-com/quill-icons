@@ -7,6 +7,9 @@ inputs:
   MESSAGE:
     description: 'Status message'
     required: true
+env:
+  SLACK_WEBHOOK_URL: ${{ inputs.SLACK_WEBHOOK_URL }}
+  MESSAGE: ${{ inputs.MESSAGE }}
 runs:
   using: composite
   steps:
@@ -14,7 +17,7 @@ runs:
       run: |
         curl -X POST -H 'Content-type: application/json' \
         --data '{
-        "text": "${{ inputs.MESSAGE }}"
+        "text": "$MESSAGE"
         }' \
-          ${{ inputs.SLACK_WEBHOOK_URL }}
+          $SLACK_WEBHOOK_URL
       shell: bash
