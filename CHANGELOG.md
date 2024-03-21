@@ -1,3 +1,11 @@
+## [1.19.8](https://github.com/deriv-com/quill-icons/compare/v1.19.7...v1.19.8) (2024-03-21)
+
+
+### 🐛 	 Bug Fixes
+
+* slcak message workflow ([ffa2b98](https://github.com/deriv-com/quill-icons/commit/ffa2b980ad344e7c27523740a91284afe83af8cb))
+* slcak message workflow ([1a271cc](https://github.com/deriv-com/quill-icons/commit/1a271cc0b989aca0c12c1ef15b4f234ea9e6105d))
+
 ## [1.19.7](https://github.com/deriv-com/quill-icons/compare/v1.19.6...v1.19.7) (2024-03-21)
 
 
