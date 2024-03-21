@@ -27,9 +27,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4.1.1
         with:
-          repository: $REPO_FULL_NAME
-          token: $GITHUB_TOKEN
-          path: $REPO_NAME
+          repository: ${{env.REPO_FULL_NAME}}
+          token: ${{env.GITHUB_TOKEN}}
+          path: ${{env.REPO_NAME}}
 
       - name: Set up Git identity
         run: |
