@@ -16,5 +16,5 @@ runs:
         --data '{
         "text": "${{ inputs.MESSAGE }}"
         }' \
-          ${{ inputs.SLACK_WEBHOOK_URL }}
+          $SLACK_WEBHOOK_URL
       shell: bash
