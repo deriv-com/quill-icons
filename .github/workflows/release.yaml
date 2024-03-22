@@ -72,7 +72,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": '${{ job.status }}' === 'success' ? ":white_check_mark: The release for @deriv/quill-icons was successful, and the new version (${{ needs.release.outputs.RELEASE_VERSION }}) is now available." : ":face_with_raised_eyebrow: The release attempt for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} was unsuccessful."
+                    "text": '${{ job.status }}' === 'success' ? "The release for @deriv/quill-icons was successful, and the new version (${{ needs.release.outputs.RELEASE_VERSION }}) is now available." : "The release attempt for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} was unsuccessful."
                   }
                 }
               ]
