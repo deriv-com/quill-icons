@@ -1,3 +1,12 @@
+## [1.19.10](https://github.com/deriv-com/quill-icons/compare/v1.19.9...v1.19.10) (2024-03-22)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* updated the slack notification message ([e3254b2](https://github.com/deriv-com/quill-icons/commit/e3254b2bc1b91424e90a7d3b5c4e1214430e0462))
+* updated the slack notification message ([afb6652](https://github.com/deriv-com/quill-icons/commit/afb6652d0328c47f7316fa9d29dbe66fe7a442c7))
+* updated the slack notification message ([91e493f](https://github.com/deriv-com/quill-icons/commit/91e493f1a65261a78bfd79a512e3720966ae9fa7))
+
 ## [1.19.9](https://github.com/deriv-com/quill-icons/compare/v1.19.8...v1.19.9) (2024-03-22)
 
 
