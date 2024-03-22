@@ -60,8 +60,7 @@ jobs:
             https://api.github.com/repos/${{github.repository}}/actions/workflows/${{env.QUILL_ICONS_PARK_WORK_FLOW_FILE}}/dispatches \
             -d '{"ref":"main"}'
 
-      - name: Send custom JSON data to Slack workflow
-        id: slack
+      - name: Send Release Slack notification
         uses: slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001 # v1.25.0
         with:
           # For posting a rich message using Block Kit
