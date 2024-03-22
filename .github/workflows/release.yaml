@@ -66,13 +66,13 @@ jobs:
           # For posting a rich message using Block Kit
           payload: |
             {
-              "text": "GitHub Action build result[test]: ${{ job.status }}",
+              "text": "@deriv/quill-icons",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "GitHub Action build result[TEST]: ${{ job.status }}"
+                    "text": '${{ job.status }}' === 'success' ? "The release for @deriv/quill-icons was successful, and the new version (${{ needs.release.outputs.RELEASE_VERSION }}) is now available." : "The release attempt for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} was unsuccessful."
                   }
                 }
               ]
