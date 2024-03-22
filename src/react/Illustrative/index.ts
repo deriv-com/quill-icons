@@ -1,4 +1,4 @@
-export { default as IllustrativeStocksAndIndicesIcon } from './IllustrativeStocksAndIndicesIcon';
+export { default as IllustrativeStocksIcon } from './IllustrativeStocksIcon';
 export { default as IllustrativeDerivedIcon } from './IllustrativeDerivedIcon';
 export { default as IllustrativeForexIcon } from './IllustrativeForexIcon';
 export { default as IllustrativeEtfIcon } from './IllustrativeEtfIcon';
@@ -117,3 +117,4 @@ export { default as IllustrativeSupport247Icon } from './IllustrativeSupport247I
 export { default as IllustrativeFastExecutionIcon } from './IllustrativeFastExecutionIcon';
 export { default as IllustrativeLiquidityIcon } from './IllustrativeLiquidityIcon';
 export { default as IllustrativeExecutionSpeedIcon } from './IllustrativeExecutionSpeedIcon';
+export { default as IllustrativeStockIndicesIcon } from './IllustrativeStockIndicesIcon';

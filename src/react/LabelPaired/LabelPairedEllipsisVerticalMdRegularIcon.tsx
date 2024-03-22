@@ -23,7 +23,7 @@ const LabelPairedEllipsisVerticalMdRegularIcon = (
       <path d='M2 16c.531 0 1 .469 1 1 0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1m0-5c.531 0 1 .469 1 1 0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1m1-4c0 .563-.469 1-1 1-.562 0-1-.437-1-1 0-.531.438-1 1-1 .531 0 1 .469 1 1' />
     </g>
     <defs>
-      <clipPath id='bf9aa45b68b2b9c3509fb501ab17982b__a'>
+      <clipPath id='53f2c41312e2eb24ec1fdee1726c54d5__a'>
         <path d='M0 0h4v24H0z' />
       </clipPath>
     </defs>

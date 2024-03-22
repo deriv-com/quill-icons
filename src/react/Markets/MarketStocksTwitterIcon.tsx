@@ -20,7 +20,7 @@ export const MarketStocksTwitterIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#c0d4e29a55d331ec933593ad10ac5126__a)'>
+    <g clipPath='url(#b4b35191d17d0793c49e44cc046d58f5__a)'>
       <path
         fill='#60AADD'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -31,7 +31,7 @@ export const MarketStocksTwitterIcon = (
       />
     </g>
     <defs>
-      <clipPath id='c0d4e29a55d331ec933593ad10ac5126__a'>
+      <clipPath id='b4b35191d17d0793c49e44cc046d58f5__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

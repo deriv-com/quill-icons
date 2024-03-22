@@ -23,7 +23,7 @@ const LabelPairedWindowMinimizeSmFillIcon = (
       <path d='M.875 15.125h12.25A.9.9 0 0 1 14 16c0 .492-.41.875-.875.875H.875A.864.864 0 0 1 0 16c0-.465.383-.875.875-.875' />
     </g>
     <defs>
-      <clipPath id='63b137a2cae82e77d601f5fce3fd5e62__a'>
+      <clipPath id='add76438d050cec6dd0b88ade1ff07c0__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

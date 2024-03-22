@@ -23,7 +23,7 @@ const LabelPairedCheckCaptionBoldIcon = (
       <path d='M10.586 5.914c.21.234.21.586 0 .797l-6.188 6.187c-.234.235-.585.235-.796 0L.414 9.711a.513.513 0 0 1 0-.774.513.513 0 0 1 .774 0l2.789 2.79 5.812-5.813c.211-.21.563-.21.774 0z' />
     </g>
     <defs>
-      <clipPath id='4abfd2697e21d0e488a6f8b73fb8b3b6__a'>
+      <clipPath id='719271f677f5ee30868a24ab2c44cafd__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

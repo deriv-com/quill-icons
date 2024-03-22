@@ -23,7 +23,7 @@ const LabelPairedForwardStepSmFillIcon = (
       <path d='M1.547 15.809a.83.83 0 0 1-.93.109.85.85 0 0 1-.492-.793v-8.75c0-.328.191-.629.492-.793a.89.89 0 0 1 .93.137l5.25 4.375.328.246V6.375c0-.465.383-.875.875-.875a.9.9 0 0 1 .875.875v8.75c0 .492-.41.875-.875.875a.864.864 0 0 1-.875-.875V11.16l-.328.274z' />
     </g>
     <defs>
-      <clipPath id='b553a2fb158e9ffcdf23eb71debb3d12__a'>
+      <clipPath id='7e2538b250711e805acd2620c4e5b2ae__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

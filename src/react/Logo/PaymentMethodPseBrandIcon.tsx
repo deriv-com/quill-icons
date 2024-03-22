@@ -19,7 +19,7 @@ const PaymentMethodPseBrandIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      fill='url(#cb6882b7b8633bb8dfce8d4d8498e27d__a)'
+      fill='url(#9c4047007bad094e12b3ef63324374ca__a)'
       d='M64 71.997c17.673 0 32-14.326 32-31.998S81.673 8 64 8 32 22.326 32 39.999s14.327 31.998 32 31.998'
     />
     <path
@@ -42,7 +42,7 @@ const PaymentMethodPseBrandIcon = (
     />
     <defs>
       <radialGradient
-        id='cb6882b7b8633bb8dfce8d4d8498e27d__a'
+        id='9c4047007bad094e12b3ef63324374ca__a'
         cx={0}
         cy={0}
         r={1}
