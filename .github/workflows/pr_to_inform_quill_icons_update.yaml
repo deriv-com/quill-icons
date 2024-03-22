@@ -39,15 +39,15 @@ jobs:
       - name: Commit to mediator branch
         if: success()
         run: |
-          cd "${{env.REPO_NAME}}"
-          git checkout -b "${{env.PR_BRANCH}}"
+          cd "$REPO_NAME"
+          git checkout -b "$PR_BRANCH"
           git pull origin master
           npm version patch -m "build: 🚀 %s installs latest quill icons"
-          git push --set-upstream -f origin "${{env.PR_BRANCH}}"
+          git push --set-upstream -f origin "$PR_BRANCH"
 
       - name: Create Pull Request
         if: success()
         run: |
-          cd "${{env.REPO_NAME}}"
-          gh pr close "${{env.PR_BRANCH}}" || true
-          gh pr create --base master --head "${{env.PR_BRANCH}}" --title "${{env.PR_TITLE}}" --body "${{env.PR_BODY}}" --label "${{env.PR_LABEL}}"
+          cd "$REPO_NAME"
+          gh pr close "$PR_BRANCH" || true
+          gh pr create --base master --head "$PR_BRANCH" --title "$PR_TITLE" --body "$PR_BODY" --label "$PR_LABEL"
