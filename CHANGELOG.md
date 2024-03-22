@@ -1,3 +1,21 @@
+## [1.19.9](https://github.com/deriv-com/quill-icons/compare/v1.19.8...v1.19.9) (2024-03-22)
+
+
+### ♻️ 	 Chores
+
+* improve slack job names ([f085aed](https://github.com/deriv-com/quill-icons/commit/f085aed984b501aecd364b7fdae0bebe4a6e64d2))
+* reverted everything ([54f5fdb](https://github.com/deriv-com/quill-icons/commit/54f5fdbbddf4de703baacaf10b92c7d78dea01a7))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* changed slack notification job ([c08bab9](https://github.com/deriv-com/quill-icons/commit/c08bab92ff3a5c30e27eca8def0957476867217d))
+
+
+### 🐛 	 Bug Fixes
+
+* security risks in the workflows ([046c64f](https://github.com/deriv-com/quill-icons/commit/046c64fc79470cca331317202133cd926d5b7700))
+
 ## [1.19.8](https://github.com/deriv-com/quill-icons/compare/v1.19.7...v1.19.8) (2024-03-21)
 
 
