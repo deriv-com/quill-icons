@@ -43,7 +43,7 @@ jobs:
           git config --global user.name "Quill Squad"
       - name: Create a new branch
         run: |
-          git checkout -b "$PR_BRANCH"
+          git checkout -b "${{env.PR_BRANCH}}"
           git pull origin main
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -61,12 +61,12 @@ jobs:
         run: |
           git add .
           git commit -m "chore: exported new changes"
-          git push --set-upstream -f origin "$PR_BRANCH"
+          git push --set-upstream -f origin "${{env.PR_BRANCH}}"
       - name: Create Pull Request
         if: success()
         env:
           GH_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
         run: |
           cd $(git rev-parse --show-toplevel)
-          gh pr close "$PR_BRANCH" || true
-          gh pr create --base main --head "$PR_BRANCH" --title "$PR_TITLE" --body "$PR_BODY"
+          gh pr close "${{env.PR_BRANCH}}" || true
+          gh pr create --base main --head "${{env.PR_BRANCH}}" --title "${{env.PR_TITLE}}" --body "${{env.PR_BODY}}"
