@@ -22,6 +22,7 @@ runs:
         # For posting a rich message using Block Kit
         payload: |
           {
+            "text": ${{ env.MESSAGE }},
             "blocks": [
               {
                 "type": "section",
