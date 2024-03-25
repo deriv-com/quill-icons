@@ -1,3 +1,11 @@
+## [1.19.15](https://github.com/deriv-com/quill-icons/compare/v1.19.14...v1.19.15) (2024-03-25)
+
+
+### 🐛 	 Bug Fixes
+
+* action path ([c41c2e7](https://github.com/deriv-com/quill-icons/commit/c41c2e71cc21a4c1b1f974a8d230383150069c58))
+* action path ([8fd0992](https://github.com/deriv-com/quill-icons/commit/8fd099206066a5550ce53e351ebed60bdcf411c2))
+
 ## [1.19.14](https://github.com/deriv-com/quill-icons/compare/v1.19.13...v1.19.14) (2024-03-25)
 
 
