@@ -1,3 +1,13 @@
+## [1.19.12](https://github.com/deriv-com/quill-icons/compare/v1.19.11...v1.19.12) (2024-03-25)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* fix invalid payload ([3b92a30](https://github.com/deriv-com/quill-icons/commit/3b92a3045ae5065ef39d45acce711249686570fb))
+* fix invalid payload ([cff3033](https://github.com/deriv-com/quill-icons/commit/cff30337a36bdd9fab05bd060ede97f17ce4e05a))
+* fix invalid payload ([5a7ee14](https://github.com/deriv-com/quill-icons/commit/5a7ee14f23aa5e3b5197c3eaacb311cb0b33ac3e))
+* fix invalid payload ([9c35719](https://github.com/deriv-com/quill-icons/commit/9c35719b59214f7613c7de88c8fe3b2b1c4133c1))
+
 ## [1.19.11](https://github.com/deriv-com/quill-icons/compare/v1.19.10...v1.19.11) (2024-03-25)
 
 
