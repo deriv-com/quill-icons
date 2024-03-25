@@ -58,23 +58,17 @@ jobs:
             https://api.github.com/repos/${{github.repository}}/actions/workflows/$QUILL_ICONS_PARK_WORK_FLOW_FILE/dispatches \
             -d '{"ref":"main"}'
 
-      - name: Send Release Slack notification
-        uses: slackapi/slack-github-action@6c661ce58804a1a20f6dc5fbee7f0381b469e001 # v1.25.0
+      - name: Create Slack Message
+        id: create_slack_message
+        run: |
+          if [ $WORKFLOW_CONCLUSION == "success" ]; then
+            echo "MESSAGE=$RELEASE_TYPE ✅ The release for @deriv/quill-icons was successful, and the new version (${{ steps.extract_version.outputs.RELEASE_VERSION }}) is now available." >> $GITHUB_OUTPUT
+          else
+            echo "MESSAGE=$RELEASE_TYPE 🤨 The release attempt for @deriv/quill-icons with version ${{ steps.extract_version.outputs.RELEASE_VERSION }} was unsuccessful." >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Slack Notification
+        uses: './.github/actions/send_slack_notifications'
         with:
-          # For posting a rich message using Block Kit
-          payload: |
-            {
-              "text": "@deriv/quill-icons",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "@deriv/quill-icons@v${{ steps.extract_version.outputs.RELEASE_VERSION }} release: ${{ job.status }}"
-                  }
-                }
-              ]
-            }
-        env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+          MESSAGE: ${{ steps.create_slack_message.outputs.MESSAGE }}
