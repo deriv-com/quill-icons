@@ -79,7 +79,7 @@ jobs:
             echo "MESSAGE=$RELEASE_TYPE 🤨 The release attempt for @deriv/quill-icons with version ${{ needs.release.outputs.RELEASE_VERSION }} was unsuccessful." >> $GITHUB_OUTPUT
           fi
       - name: Send Slack Notification
-        uses: './.github/actions/send_slack_notification'
+        uses: 'deriv-com/shared-actions/.github/actions/send_slack_notification@master'
         with:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           MESSAGE: ${{ steps.create_slack_message.outputs.MESSAGE }}
