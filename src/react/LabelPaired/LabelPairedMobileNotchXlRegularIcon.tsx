@@ -23,7 +23,7 @@ const LabelPairedMobileNotchXlRegularIcon = (
       <path d='M12 7.5v.75c0 .844-.703 1.5-1.5 1.5h-3A1.48 1.48 0 0 1 6 8.25V7.5H4.5C3.656 7.5 3 8.203 3 9v18c0 .844.656 1.5 1.5 1.5h9c.797 0 1.5-.656 1.5-1.5V9c0-.797-.703-1.5-1.5-1.5zm-1.5 0h-3v.75h3zM1.5 9c0-1.64 1.313-3 3-3h9c1.64 0 3 1.36 3 3v18c0 1.688-1.36 3-3 3h-9c-1.687 0-3-1.312-3-3z' />
     </g>
     <defs>
-      <clipPath id='72d778e814c9f58bb20a22d0f674da0f__a'>
+      <clipPath id='2dce222df1dc0c30a6c84a46d6070758__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>
