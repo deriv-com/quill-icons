@@ -68,7 +68,7 @@ jobs:
           fi
 
       - name: Send Slack Notification
-        uses: './.github/actions/send_slack_notifications'
+        uses: './.github/actions/send_slack_notification'
         with:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           MESSAGE: ${{ steps.create_slack_message.outputs.MESSAGE }}
