@@ -1,3 +1,10 @@
+## [1.19.20](https://github.com/deriv-com/quill-icons/compare/v1.19.19...v1.19.20) (2024-03-25)
+
+
+### ⚙️ 	 Continuous Integrations
+
+* replaced local action with shared library ([b6ec245](https://github.com/deriv-com/quill-icons/commit/b6ec24509f40f52d400b0c8ab03a364129eabc37))
+
 ## [1.19.19](https://github.com/deriv-com/quill-icons/compare/v1.19.18...v1.19.19) (2024-03-25)
 
 
