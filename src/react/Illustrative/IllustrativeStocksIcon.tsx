@@ -5,7 +5,7 @@ interface SVGRProps {
   title?: string;
   titleId?: string;
 }
-export const IllustrativeStocksAndIndicesIcon = (
+export const IllustrativeStocksIcon = (
   { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
@@ -24,5 +24,5 @@ export const IllustrativeStocksAndIndicesIcon = (
     </g>
   </svg>
 );
-const ForwardRef = forwardRef(IllustrativeStocksAndIndicesIcon);
+const ForwardRef = forwardRef(IllustrativeStocksIcon);
 export default ForwardRef;

@@ -20,7 +20,7 @@ export const MarketStocksCitigroupIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#8eabb409e7d3573fcce2163489b746d1__a)'>
+    <g clipPath='url(#f7a3445c18b28e9ea39f8669343b4b4b__a)'>
       <path
         fill='#33347E'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -37,7 +37,7 @@ export const MarketStocksCitigroupIcon = (
       />
     </g>
     <defs>
-      <clipPath id='8eabb409e7d3573fcce2163489b746d1__a'>
+      <clipPath id='f7a3445c18b28e9ea39f8669343b4b4b__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

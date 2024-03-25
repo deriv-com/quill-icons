@@ -112,3 +112,9 @@ export { default as DerivLightSpreadRiskIcon } from './DerivLightSpreadRiskIcon'
 export { default as DerivLightDiversifiedPortfolioIcon } from './DerivLightDiversifiedPortfolioIcon';
 export { default as DerivLightInflationHedgeIcon } from './DerivLightInflationHedgeIcon';
 export { default as DerivLightPromotionalToolsIcon } from './DerivLightPromotionalToolsIcon';
+export { default as DerivLightCashierNoBalanceIcon } from './DerivLightCashierNoBalanceIcon';
+export { default as DerivLightAccountIcon } from './DerivLightAccountIcon';
+export { default as DerivLightDiverseInstrumentsIcon } from './DerivLightDiverseInstrumentsIcon';
+export { default as DerivLightTrustedPartnershipIcon } from './DerivLightTrustedPartnershipIcon';
+export { default as DerivLightConsistentIcon } from './DerivLightConsistentIcon';
+export { default as DerivLightEffortlessIcon } from './DerivLightEffortlessIcon';
