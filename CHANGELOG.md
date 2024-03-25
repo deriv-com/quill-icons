@@ -1,3 +1,11 @@
+## [1.19.16](https://github.com/deriv-com/quill-icons/compare/v1.19.15...v1.19.16) (2024-03-25)
+
+
+### 🐛 	 Bug Fixes
+
+* invalid payload in slack action ([66da58d](https://github.com/deriv-com/quill-icons/commit/66da58d3c21dec682a6a1ad978660ed284eabf35))
+* invalid payload in slack action ([8ae5b74](https://github.com/deriv-com/quill-icons/commit/8ae5b740161053934d739c9d7c66999dc9c65254))
+
 ## [1.19.15](https://github.com/deriv-com/quill-icons/compare/v1.19.14...v1.19.15) (2024-03-25)
 
 
