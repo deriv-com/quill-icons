@@ -70,7 +70,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "@deriv/quill-icons@v${{ extract_version.outputs.RELEASE_VERSION }} release: ${{ job.status }}"
+                    "text": "@deriv/quill-icons@v${{ steps.extract_version.outputs.RELEASE_VERSION }} release: ${{ job.status }}"
                   }
                 }
               ]
