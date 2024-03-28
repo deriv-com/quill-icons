@@ -195,6 +195,7 @@ export const allIconsNames = [
           { type: 'file', name: 'DerivLightBeTransparentIcon.tsx' },
           { type: 'file', name: 'DerivLightCashierNoBalanceIcon.tsx' },
           { type: 'file', name: 'DerivLightClientMoneyProtectionIcon.tsx' },
+          { type: 'file', name: 'DerivLightCommissionsIcon.tsx' },
           { type: 'file', name: 'DerivLightCompetenceIcon.tsx' },
           { type: 'file', name: 'DerivLightConsistentIcon.tsx' },
           { type: 'file', name: 'DerivLightCustomerFocusIcon.tsx' },
@@ -270,6 +271,7 @@ export const allIconsNames = [
           { type: 'file', name: 'DerivLightPromotionalToolsIcon.tsx' },
           { type: 'file', name: 'DerivLightProvenTrackRecordIcon.tsx' },
           { type: 'file', name: 'DerivLightRegulatedIcon.tsx' },
+          { type: 'file', name: 'DerivLightResponsibleIcon.tsx' },
           { type: 'file', name: 'DerivLightSafeAndSecureIcon.tsx' },
           { type: 'file', name: 'DerivLightSearchIcon.tsx' },
           { type: 'file', name: 'DerivLightSetLimitIcon.tsx' },
@@ -6106,5 +6108,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 12, files: 6008 },
+  { type: 'report', directories: 12, files: 6010 },
 ];

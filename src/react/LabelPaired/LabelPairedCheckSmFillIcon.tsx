@@ -23,7 +23,7 @@ const LabelPairedCheckSmFillIcon = (
       <path d='M12.352 6.648a.843.843 0 0 1 0 1.23l-7 7a.843.843 0 0 1-1.23 0l-3.5-3.5a.843.843 0 0 1 0-1.23.843.843 0 0 1 1.23 0L4.75 13.02l6.371-6.372a.843.843 0 0 1 1.23 0' />
     </g>
     <defs>
-      <clipPath id='e03f9cdddb09d191885d0646fbabc3a8__a'>
+      <clipPath id='35a83f75a7301e5fa17ded309cc9b01b__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>
