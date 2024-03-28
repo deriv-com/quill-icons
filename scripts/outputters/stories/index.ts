@@ -36,7 +36,7 @@ const outPutStories = ({
         //   IconName,
         //   dirName,
         //   category,
-        // });
+        // }); ---
         const storybook = getStorybookGenerator({
           IconName,
           dirName,
