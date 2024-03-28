@@ -16,7 +16,7 @@ const outputters: ComponentOutputter[] = [
 ];
 
 const filterComponent: ComponentFilter = (component) => {
-  // pages without sm/md/lg/xl sizes we get all icons
+  // pages without sm/md/lg/xl sizes we get all icons --
   if (
     component.name.includes('flags /') ||
     component.name.includes('markets /') ||
