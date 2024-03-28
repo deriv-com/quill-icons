@@ -23,7 +23,7 @@ const LabelPairedLockXlFillIcon = (
       <path d='M6.75 12.75V15h7.5v-2.25A3.76 3.76 0 0 0 10.5 9a3.73 3.73 0 0 0-3.75 3.75m-3 2.25v-2.25c0-3.703 3-6.75 6.75-6.75 3.703 0 6.75 3.047 6.75 6.75V15H18c1.64 0 3 1.36 3 3v9c0 1.688-1.36 3-3 3H3c-1.687 0-3-1.312-3-3v-9c0-1.64 1.313-3 3-3z' />
     </g>
     <defs>
-      <clipPath id='953fd6ca0c02ae8cc760af13f000f072__a'>
+      <clipPath id='453d3db3d4cfb78e376b8e5e7b8cccd4__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

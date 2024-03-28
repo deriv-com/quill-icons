@@ -23,7 +23,7 @@ const LabelPairedChartTrendUpLgRegularIcon = (
       <path d='M24.023 6.203c.313.156.43.547.274.86l-3.75 7.5a.62.62 0 0 1-.547.312h-5.898l-4.805 9.688a.64.64 0 0 1-.86.273l-7.5-3.75a.64.64 0 0 1-.273-.86.64.64 0 0 1 .86-.273l6.914 3.477 4.726-9.453c.117-.196.313-.352.586-.352h5.86l3.554-7.148a.64.64 0 0 1 .86-.274' />
     </g>
     <defs>
-      <clipPath id='b780c6e6e4c82ca8afaf5e8e5a3be2e7__a'>
+      <clipPath id='49fbc4e16beef00c852c441c02794917__a'>
         <path d='M0 0h25v30H0z' />
       </clipPath>
     </defs>

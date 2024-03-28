@@ -23,7 +23,7 @@ const LabelPairedPlayXlBoldIcon = (
       <path d='M2.25 26.25 15.75 18 2.25 9.75zM1.125 7.828a2.24 2.24 0 0 1 2.297 0l13.5 8.25C17.578 16.5 18 17.25 18 18c0 .797-.422 1.547-1.078 1.922l-13.5 8.25a2.14 2.14 0 0 1-2.297.047C.422 27.844 0 27.094 0 26.25V9.75c0-.797.422-1.547 1.125-1.922' />
     </g>
     <defs>
-      <clipPath id='e447923ab28ffe1e1d6d447ca2e7a4bb__a'>
+      <clipPath id='91cf36c32dea294b76e61ebf27db30cc__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

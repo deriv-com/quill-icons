@@ -18,9 +18,9 @@ const DerivLightIcDocumentAddressMismatchIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g filter='url(#b8a5fd5d5a66935f6b1d6e5af16e6ead__a)'>
+    <g filter='url(#516fbc1f2f6e67ba693e42439e7c81e4__a)'>
       <mask
-        id='b8a5fd5d5a66935f6b1d6e5af16e6ead__b'
+        id='516fbc1f2f6e67ba693e42439e7c81e4__b'
         width={128}
         height={158}
         x={85}
@@ -35,7 +35,7 @@ const DerivLightIcDocumentAddressMismatchIcon = (
           d='M209 2H89a4 4 0 0 0-4 4v150a4 4 0 0 0 4 4h120a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4'
         />
       </mask>
-      <g mask='url(#b8a5fd5d5a66935f6b1d6e5af16e6ead__b)'>
+      <g mask='url(#516fbc1f2f6e67ba693e42439e7c81e4__b)'>
         <path
           fill='#fff'
           d='M209 2H89a4 4 0 0 0-4 4v150a4 4 0 0 0 4 4h120a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4'
@@ -130,7 +130,7 @@ const DerivLightIcDocumentAddressMismatchIcon = (
     />
     <defs>
       <filter
-        id='b8a5fd5d5a66935f6b1d6e5af16e6ead__a'
+        id='516fbc1f2f6e67ba693e42439e7c81e4__a'
         width={133.021}
         height={163.021}
         x={82.49}

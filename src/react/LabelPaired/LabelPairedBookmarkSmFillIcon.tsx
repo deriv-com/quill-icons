@@ -23,7 +23,7 @@ const LabelPairedBookmarkSmFillIcon = (
       <path d='M.25 5.063c0-.711.574-1.313 1.313-1.313h7.875c.71 0 1.312.602 1.312 1.313v12.03c0 .384-.3.657-.684.657a.63.63 0 0 1-.382-.11L5.5 14.688l-4.21 2.954a.63.63 0 0 1-.384.109.63.63 0 0 1-.656-.656z' />
     </g>
     <defs>
-      <clipPath id='94b839c8b8e6f1f3ed9c1cdbc86efb8a__a'>
+      <clipPath id='adc269191666424c3ead687f2cd2ceb2__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

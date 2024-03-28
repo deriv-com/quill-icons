@@ -29,7 +29,7 @@ const SubBrandDerivApiBrandDarkIcon = (
       />
     </g>
     <defs>
-      <clipPath id='0c55cd6ff227f80a3c1476767950b71c__a'>
+      <clipPath id='ae5350368ce550e3636362ca759b380d__a'>
         <path fill='#fff' d='M0 0h268v58H0z' />
       </clipPath>
     </defs>

@@ -23,7 +23,7 @@ const LabelPairedSquareMdRegularIcon = (
       <path d='M12 6H2c-.562 0-1 .469-1 1v10c0 .563.438 1 1 1h10c.531 0 1-.437 1-1V7c0-.531-.469-1-1-1M2 5h10c1.094 0 2 .906 2 2v10c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2' />
     </g>
     <defs>
-      <clipPath id='acea6d5158045d52b2fb95dadc7c1a05__a'>
+      <clipPath id='1d8ac521fd866c9fbf1a865af419e562__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

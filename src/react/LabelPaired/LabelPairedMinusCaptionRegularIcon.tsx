@@ -23,7 +23,7 @@ const LabelPairedMinusCaptionRegularIcon = (
       <path d='M10.375 9.5c0 .21-.187.375-.375.375H1A.37.37 0 0 1 .625 9.5c0-.187.164-.375.375-.375h9c.188 0 .375.188.375.375' />
     </g>
     <defs>
-      <clipPath id='bb1148fc33d1f9f4a112847788c6b95f__a'>
+      <clipPath id='350982461e1dc0064e623b4ee7fcc465__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>
