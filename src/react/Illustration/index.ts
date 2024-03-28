@@ -118,3 +118,5 @@ export { default as DerivLightDiverseInstrumentsIcon } from './DerivLightDiverse
 export { default as DerivLightTrustedPartnershipIcon } from './DerivLightTrustedPartnershipIcon';
 export { default as DerivLightConsistentIcon } from './DerivLightConsistentIcon';
 export { default as DerivLightEffortlessIcon } from './DerivLightEffortlessIcon';
+export { default as DerivLightCommissionsIcon } from './DerivLightCommissionsIcon';
+export { default as DerivLightResponsibleIcon } from './DerivLightResponsibleIcon';
