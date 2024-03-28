@@ -6108,5 +6108,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 12, files: 6010 },
+  { type: 'report', directories: 11, files: 6010 },
 ];

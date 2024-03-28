@@ -23,7 +23,7 @@ const LabelPairedMinusSmFillIcon = (
       <path d='M12.188 10.75c0 .492-.41.875-.876.875H1.688a.864.864 0 0 1-.875-.875c0-.465.382-.875.875-.875h9.625a.9.9 0 0 1 .874.875' />
     </g>
     <defs>
-      <clipPath id='c90f44adf273120618504c92cb26c524__a'>
+      <clipPath id='53e29b2ac9e469c3889b7f23c26a20cd__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>
