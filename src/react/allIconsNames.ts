@@ -188,6 +188,7 @@ export const allIconsNames = [
           { type: 'file', name: 'DerivDarkTypoEmailIcon.tsx' },
           { type: 'file', name: 'DerivDarkUnreadEmailIcon.tsx' },
           { type: 'file', name: 'DerivDarkWrongEmailIcon.tsx' },
+          { type: 'file', name: 'DerivLight0PlaceholderIcon.tsx' },
           { type: 'file', name: 'DerivLightAccountIcon.tsx' },
           { type: 'file', name: 'DerivLightApprovedPoaIcon.tsx' },
           { type: 'file', name: 'DerivLightApprovedPoiIcon.tsx' },
@@ -6108,5 +6109,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 12, files: 6010 },
+  { type: 'report', directories: 12, files: 6011 },
 ];
