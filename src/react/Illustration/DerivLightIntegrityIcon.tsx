@@ -18,7 +18,7 @@ const DerivLightIntegrityIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#1ada8c53d4c2d44fa50a6b787df84a7f__a)'>
+    <g clipPath='url(#a43165de6d1193897c948b725ec78800__a)'>
       <path
         fill='#FF444F'
         d='M46.156 66.479q-4.824-5.41-9.643-10.82a29 29 0 0 1-.887-1.089c-.557-.72-1.547-2.01-2.48-3.791a22.8 22.8 0 0 1-1.917-5.103 22.5 22.5 0 0 1-.645-4.557 21 21 0 0 1 0-1.473l-.021-13.883q5.004 5.7 10.004 11.403c-.051 2.768-.158 9.571 0 14.56.017.54.052 1.487.222 2.723.494 3.574 1.657 6.138 1.997 6.857a22.7 22.7 0 0 0 3.37 5.173'
@@ -101,7 +101,7 @@ const DerivLightIntegrityIcon = (
       />
     </g>
     <defs>
-      <clipPath id='1ada8c53d4c2d44fa50a6b787df84a7f__a'>
+      <clipPath id='a43165de6d1193897c948b725ec78800__a'>
         <path fill='#fff' d='M0 0h120v152H0z' />
       </clipPath>
     </defs>
