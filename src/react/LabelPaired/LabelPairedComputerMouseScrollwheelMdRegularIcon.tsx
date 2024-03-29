@@ -23,7 +23,7 @@ const LabelPairedComputerMouseScrollwheelMdRegularIcon = (
       <path d='M11 15V9c0-2.187-1.812-4-4-4H5C2.781 5 1 6.813 1 9v6c0 2.219 1.781 4 4 4h2c2.188 0 4-1.781 4-4M0 9c0-2.75 2.219-5 5-5h2c2.75 0 5 2.25 5 5v6c0 2.781-2.25 5-5 5H5c-2.781 0-5-2.219-5-5zm6.5-1.5v2c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5v-2c0-.25.219-.5.5-.5.25 0 .5.25.5.5' />
     </g>
     <defs>
-      <clipPath id='70c19064ea7822a4c042cb62c2f8be2d__a'>
+      <clipPath id='e0d8540fa66f38eeaf0c48a2ad02c5be__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>
