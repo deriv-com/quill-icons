@@ -120,3 +120,4 @@ export { default as DerivLightConsistentIcon } from './DerivLightConsistentIcon'
 export { default as DerivLightEffortlessIcon } from './DerivLightEffortlessIcon';
 export { default as DerivLightCommissionsIcon } from './DerivLightCommissionsIcon';
 export { default as DerivLightResponsibleIcon } from './DerivLightResponsibleIcon';
+export { default as DerivLight0PlaceholderIcon } from './DerivLight0PlaceholderIcon';

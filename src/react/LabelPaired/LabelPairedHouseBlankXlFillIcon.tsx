@@ -23,7 +23,7 @@ const LabelPairedHouseBlankXlFillIcon = (
       <path d='M26.953 18c0 .844-.703 1.5-1.5 1.5h-1.5L24 27c0 1.688-1.312 3.047-3 3.047H6c-1.687 0-3-1.36-3-3V19.5H1.5A1.48 1.48 0 0 1 0 18c0-.422.14-.797.469-1.125l12-10.5C12.797 6.047 13.172 6 13.5 6s.703.094.984.328l11.954 10.547c.375.328.562.703.515 1.125' />
     </g>
     <defs>
-      <clipPath id='a337419dae6dd0bdb264f26c1be532f0__a'>
+      <clipPath id='25f1a9de63ae1cd3ceeb0782296073cc__a'>
         <path d='M0 0h27v36H0z' />
       </clipPath>
     </defs>
