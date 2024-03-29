@@ -23,7 +23,7 @@ const LabelPairedBookmarkCaptionFillIcon = (
       <path d='M0 4.625C0 4.015.492 3.5 1.125 3.5h6.75C8.485 3.5 9 4.016 9 4.625v10.313c0 .328-.258.562-.586.562a.54.54 0 0 1-.328-.094L4.5 12.875.89 15.406a.54.54 0 0 1-.327.094.54.54 0 0 1-.563-.562z' />
     </g>
     <defs>
-      <clipPath id='56f3bf7a751e7489e71c2640315fc2a4__a'>
+      <clipPath id='9e5587aa023c5dbcbc814249f698930e__a'>
         <path d='M0 0h9v18H0z' />
       </clipPath>
     </defs>
