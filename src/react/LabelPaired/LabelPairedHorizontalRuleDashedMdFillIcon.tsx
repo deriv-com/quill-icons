@@ -23,7 +23,7 @@ const LabelPairedHorizontalRuleDashedMdFillIcon = (
       <path d='M0 12c0-.531.438-1 1-1h2c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1m5.313 0c0-.531.468-1 1-1h2c.562 0 1 .469 1 1 0 .563-.438 1-1 1h-2c-.532 0-1-.437-1-1m5.343 0c0-.531.438-1 1-1h2c.563 0 1 .469 1 1 0 .563-.437 1-1 1h-2c-.562 0-1-.437-1-1M16 12c0-.531.438-1 1-1h2c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-2c-.562 0-1-.437-1-1' />
     </g>
     <defs>
-      <clipPath id='31b1cebebc885c0eae2f0af9954e5b9e__a'>
+      <clipPath id='2fd50f718ffe47d8159101dd8c6da9f1__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>
