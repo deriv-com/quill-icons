@@ -25,7 +25,7 @@ const BrandDerivWordmarkCoralIcon = (
       />
     </g>
     <defs>
-      <clipPath id='90b253094de07936901d9eba2cd95b72__a'>
+      <clipPath id='b6d815657e553762272114bde8e46c78__a'>
         <path fill='#fff' d='M0 0h217v72H0z' />
       </clipPath>
     </defs>
