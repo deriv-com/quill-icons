@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/deriv-com/quill-icons/compare/v1.20.0...v1.21.0) (2024-04-02)
+
+
+### ✨ 	 Features
+
+* added xs icon size ([550ea0b](https://github.com/deriv-com/quill-icons/commit/550ea0baadfdb66ff3361a7641f91d736a6ab8a7))
+
 # [1.20.0](https://github.com/deriv-com/quill-icons/compare/v1.19.20...v1.20.0) (2024-04-01)
 
 
