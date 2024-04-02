@@ -1,6 +1,6 @@
 import { SVGProps, ForwardRefExoticComponent, RefAttributes } from 'react';
 
-export type IconSize = 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+export type IconSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
 
 export interface QuillSvgProps extends SVGProps<SVGSVGElement> {
   iconSize?: IconSize;
@@ -14,6 +14,10 @@ export type SvgSize = {
 };
 
 export const sizes: SvgSize = {
+  xs: {
+    width: 16,
+    height: 16,
+  },
   sm: {
     width: 24,
     height: 24,
