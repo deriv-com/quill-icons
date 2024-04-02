@@ -20,14 +20,14 @@ export const SocialXTwitterBlackIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#86d8838062d742e1c4d2c88b463bbfcf__a)'>
+    <g clipPath='url(#c6a5198259d6bac484d8a5479c40f17b__a)'>
       <path
         fill='#000'
         d='M19.044 13.55 30.957 0h-2.823L17.79 11.765 9.53 0H0l12.493 17.79L0 32h2.823l10.923-12.424L22.471 32H32zM3.84 2.08h4.336l19.96 27.935h-4.337z'
       />
     </g>
     <defs>
-      <clipPath id='86d8838062d742e1c4d2c88b463bbfcf__a'>
+      <clipPath id='c6a5198259d6bac484d8a5479c40f17b__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
