@@ -20,7 +20,7 @@ export const MarketStocksIbmIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#deff0efab2edbd40ea1313264e9de0b6__a)'>
+    <g clipPath='url(#0474f3633dc00cd9a9ce85616a373f46__a)'>
       <path
         fill='#2665F5'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -31,7 +31,7 @@ export const MarketStocksIbmIcon = (
       />
     </g>
     <defs>
-      <clipPath id='deff0efab2edbd40ea1313264e9de0b6__a'>
+      <clipPath id='0474f3633dc00cd9a9ce85616a373f46__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -777,3 +777,6 @@ export { default as StandaloneHuaweiIcon } from './StandaloneHuaweiIcon';
 export { default as StandaloneYoutubeIcon } from './StandaloneYoutubeIcon';
 export { default as StandaloneTiktokIcon } from './StandaloneTiktokIcon';
 export { default as StandaloneTrustpilotIcon } from './StandaloneTrustpilotIcon';
+export { default as StandalonePaperPlaneTopRegularIcon } from './StandalonePaperPlaneTopRegularIcon';
+export { default as StandalonePaperPlaneTopBoldIcon } from './StandalonePaperPlaneTopBoldIcon';
+export { default as StandalonePaperPlaneTopFillIcon } from './StandalonePaperPlaneTopFillIcon';

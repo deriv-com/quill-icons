@@ -1,5 +1,5 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="accounts / md / deriv x-md" clip-path="url(#clip0_2369_1522)">
+<g id="accounts / md / deriv x-md" clip-path="url(#clip0_2727_1748)">
 <g id="logo">
 <path d="M0 6C0 2.68629 2.68629 0 6 0H26C29.3137 0 32 2.68629 32 6V26C32 29.3137 29.3137 32 26 32H6C2.68629 32 0 29.3137 0 26V6Z" fill="#FF444F"/>
 <path d="M6 0C2.68629 0 0 2.68629 0 6V6.17428L29.9144 1.45264C28.8637 0.547333 27.4958 0 26 0H6Z" fill="#E12E3A"/>
@@ -9,7 +9,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_2369_1522">
+<clipPath id="clip0_2727_1748">
 <rect width="32" height="32" fill="white"/>
 </clipPath>
 </defs>
