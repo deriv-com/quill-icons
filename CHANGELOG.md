@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/deriv-com/quill-icons/compare/v1.21.1...v1.21.2) (2024-04-08)
+
+
+### ♻️ 	 Chores
+
+* added icon sizes guide type ([c70ed6c](https://github.com/deriv-com/quill-icons/commit/c70ed6ca5018c8fbe3f2889ad292c1b1d6be228b))
+
 ## [1.21.1](https://github.com/deriv-com/quill-icons/compare/v1.21.0...v1.21.1) (2024-04-04)
 
 
