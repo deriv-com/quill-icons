@@ -41,7 +41,7 @@ const DerivProductDerivGoUltimateWhiteLogoHorizontalIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ab39848c4abb5088bc7f8041bb7a2d30__a'>
+      <clipPath id='5fe1e174fb74424b79778c377a9407ff__a'>
         <path fill='#fff' d='M0 0h72v72H0z' />
       </clipPath>
     </defs>

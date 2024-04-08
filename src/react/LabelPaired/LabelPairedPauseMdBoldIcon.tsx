@@ -23,7 +23,7 @@ const LabelPairedPauseMdBoldIcon = (
       <path d='M1.5 7.5v9H3v-9zM0 7.5A1.5 1.5 0 0 1 1.5 6H3c.813 0 1.5.688 1.5 1.5v9A1.5 1.5 0 0 1 3 18H1.5A1.48 1.48 0 0 1 0 16.5zm7 0v9h1.5v-9zm-1.5 0A1.5 1.5 0 0 1 7 6h1.5c.813 0 1.5.688 1.5 1.5v9A1.5 1.5 0 0 1 8.5 18H7a1.48 1.48 0 0 1-1.5-1.5z' />
     </g>
     <defs>
-      <clipPath id='a169e8a92102638e3e6256293027138a__a'>
+      <clipPath id='79d0115db9a49876937bdcbb0a52cb05__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>

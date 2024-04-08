@@ -18,10 +18,10 @@ const DerivLightIcOldIssuedDocumentIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e164eba11ff0ab305a023dc7a57afd3a__a)'>
-      <g filter='url(#e164eba11ff0ab305a023dc7a57afd3a__b)'>
+    <g clipPath='url(#43e9cee0c8e3cf66e4e0390a6e4ee820__a)'>
+      <g filter='url(#43e9cee0c8e3cf66e4e0390a6e4ee820__b)'>
         <mask
-          id='e164eba11ff0ab305a023dc7a57afd3a__c'
+          id='43e9cee0c8e3cf66e4e0390a6e4ee820__c'
           width={128}
           height={158}
           x={3}
@@ -36,7 +36,7 @@ const DerivLightIcOldIssuedDocumentIcon = (
             d='M127 2H7a4 4 0 0 0-4 4v150a4 4 0 0 0 4 4h120a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4'
           />
         </mask>
-        <g mask='url(#e164eba11ff0ab305a023dc7a57afd3a__c)'>
+        <g mask='url(#43e9cee0c8e3cf66e4e0390a6e4ee820__c)'>
           <path
             fill='#fff'
             d='M127 2H7a4 4 0 0 0-4 4v150a4 4 0 0 0 4 4h120a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4'
@@ -71,7 +71,7 @@ const DerivLightIcOldIssuedDocumentIcon = (
           d='M127 2.418H7A3.58 3.58 0 0 0 3.418 6v150A3.58 3.58 0 0 0 7 159.581h120a3.58 3.58 0 0 0 3.581-3.581V6A3.58 3.58 0 0 0 127 2.418Z'
         />
       </g>
-      <g filter='url(#e164eba11ff0ab305a023dc7a57afd3a__d)'>
+      <g filter='url(#43e9cee0c8e3cf66e4e0390a6e4ee820__d)'>
         <path
           fill='#fff'
           d='M220 99H108a4 4 0 0 0-4 4v36a4 4 0 0 0 4 4h112a4 4 0 0 0 4-4v-36a4 4 0 0 0-4-4'
@@ -88,7 +88,7 @@ const DerivLightIcOldIssuedDocumentIcon = (
     </g>
     <defs>
       <filter
-        id='e164eba11ff0ab305a023dc7a57afd3a__b'
+        id='43e9cee0c8e3cf66e4e0390a6e4ee820__b'
         width={133.021}
         height={163.021}
         x={0.489}
@@ -118,7 +118,7 @@ const DerivLightIcOldIssuedDocumentIcon = (
         <feBlend in='SourceGraphic' in2='effect2_dropShadow_1184_365' result='shape' />
       </filter>
       <filter
-        id='e164eba11ff0ab305a023dc7a57afd3a__d'
+        id='43e9cee0c8e3cf66e4e0390a6e4ee820__d'
         width={126}
         height={50}
         x={101}
@@ -147,7 +147,7 @@ const DerivLightIcOldIssuedDocumentIcon = (
         <feBlend in2='effect1_dropShadow_1184_365' result='effect2_dropShadow_1184_365' />
         <feBlend in='SourceGraphic' in2='effect2_dropShadow_1184_365' result='shape' />
       </filter>
-      <clipPath id='e164eba11ff0ab305a023dc7a57afd3a__a'>
+      <clipPath id='43e9cee0c8e3cf66e4e0390a6e4ee820__a'>
         <path fill='#fff' d='M0 0h227v164H0z' />
       </clipPath>
     </defs>
