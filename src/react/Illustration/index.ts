@@ -121,3 +121,6 @@ export { default as DerivDarkTypoEmailIcon } from './DerivDarkTypoEmailIcon';
 export { default as DerivDarkWrongEmailIcon } from './DerivDarkWrongEmailIcon';
 export { default as DerivDarkFirewallIcon } from './DerivDarkFirewallIcon';
 export { default as DerivDarkResetIcon } from './DerivDarkResetIcon';
+export { default as DerivLightFinancialAssessmentSuccessIcon } from './DerivLightFinancialAssessmentSuccessIcon';
+export { default as DerivLightQrPhoneSuccessIcon } from './DerivLightQrPhoneSuccessIcon';
+export { default as DerivLightAccountTrashCanIcon } from './DerivLightAccountTrashCanIcon';
