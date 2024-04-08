@@ -6,6 +6,15 @@ export interface QuillSvgProps extends SVGProps<SVGSVGElement> {
   iconSize?: IconSize;
 }
 
+export const IconSizeGuide = [
+  { TShirtSize: 'xs', size: '16' },
+  { TShirtSize: 'sm', size: '24' },
+  { TShirtSize: 'md', size: '32' },
+  { TShirtSize: 'lg', size: '48' },
+  { TShirtSize: 'xl', size: '64' },
+  { TShirtSize: '2xl', size: '96' },
+] as const;
+
 export type SvgSize = {
   [key in IconSize]: {
     width: number;
