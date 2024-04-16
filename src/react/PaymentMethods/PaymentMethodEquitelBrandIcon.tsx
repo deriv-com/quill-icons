@@ -19,15 +19,15 @@ const PaymentMethodEquitelBrandIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      fill='url(#08c26dce66d982148fdec9c02312aeee__a)'
+      fill='url(#a985afde5392922e8946ea23c0401062__a)'
       d='M94.319 35.915a8.444 8.444 0 0 0 8.443-8.444 8.443 8.443 0 1 0-16.887 0 8.444 8.444 0 0 0 8.444 8.444'
     />
     <path
-      fill='url(#08c26dce66d982148fdec9c02312aeee__b)'
+      fill='url(#a985afde5392922e8946ea23c0401062__b)'
       d='M115.556 35.915A8.444 8.444 0 0 0 124 27.47a8.444 8.444 0 1 0-8.444 8.444'
     />
     <path
-      fill='url(#08c26dce66d982148fdec9c02312aeee__c)'
+      fill='url(#a985afde5392922e8946ea23c0401062__c)'
       d='M72.95 35.915a8.444 8.444 0 1 0 0-16.888 8.444 8.444 0 0 0 0 16.888'
     />
     <path
@@ -56,15 +56,15 @@ const PaymentMethodEquitelBrandIcon = (
     />
     <path fill='#8E4822' d='M94.304 58a8.444 8.444 0 1 0 0-16.888 8.444 8.444 0 0 0 0 16.887' />
     <path
-      fill='url(#08c26dce66d982148fdec9c02312aeee__d)'
+      fill='url(#a985afde5392922e8946ea23c0401062__d)'
       d='M72.931 35.88a8.444 8.444 0 1 0 0-16.887 8.444 8.444 0 0 0 0 16.888'
     />
     <path
-      fill='url(#08c26dce66d982148fdec9c02312aeee__e)'
+      fill='url(#a985afde5392922e8946ea23c0401062__e)'
       d='M94.3 35.88a8.444 8.444 0 1 0 0-16.888 8.444 8.444 0 0 0 0 16.888'
     />
     <path
-      fill='url(#08c26dce66d982148fdec9c02312aeee__f)'
+      fill='url(#a985afde5392922e8946ea23c0401062__f)'
       d='M115.537 35.88a8.444 8.444 0 0 0 8.444-8.443 8.444 8.444 0 1 0-8.444 8.444'
     />
     <path
@@ -73,7 +73,7 @@ const PaymentMethodEquitelBrandIcon = (
     />
     <defs>
       <radialGradient
-        id='08c26dce66d982148fdec9c02312aeee__a'
+        id='a985afde5392922e8946ea23c0401062__a'
         cx={0}
         cy={0}
         r={1}
@@ -85,7 +85,7 @@ const PaymentMethodEquitelBrandIcon = (
         <stop offset={0.79} stopColor='#F79624' />
       </radialGradient>
       <radialGradient
-        id='08c26dce66d982148fdec9c02312aeee__b'
+        id='a985afde5392922e8946ea23c0401062__b'
         cx={0}
         cy={0}
         r={1}
@@ -97,7 +97,7 @@ const PaymentMethodEquitelBrandIcon = (
         <stop offset={0.79} stopColor='#8E4822' />
       </radialGradient>
       <radialGradient
-        id='08c26dce66d982148fdec9c02312aeee__c'
+        id='a985afde5392922e8946ea23c0401062__c'
         cx={0}
         cy={0}
         r={1}
@@ -109,7 +109,7 @@ const PaymentMethodEquitelBrandIcon = (
         <stop offset={0.79} stopColor='#F79624' />
       </radialGradient>
       <radialGradient
-        id='08c26dce66d982148fdec9c02312aeee__d'
+        id='a985afde5392922e8946ea23c0401062__d'
         cx={0}
         cy={0}
         r={1}
@@ -121,7 +121,7 @@ const PaymentMethodEquitelBrandIcon = (
         <stop offset={0.79} stopColor='#F79624' />
       </radialGradient>
       <radialGradient
-        id='08c26dce66d982148fdec9c02312aeee__e'
+        id='a985afde5392922e8946ea23c0401062__e'
         cx={0}
         cy={0}
         r={1}
@@ -133,7 +133,7 @@ const PaymentMethodEquitelBrandIcon = (
         <stop offset={0.79} stopColor='#F79624' />
       </radialGradient>
       <radialGradient
-        id='08c26dce66d982148fdec9c02312aeee__f'
+        id='a985afde5392922e8946ea23c0401062__f'
         cx={0}
         cy={0}
         r={1}

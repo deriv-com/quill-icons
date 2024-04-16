@@ -23,7 +23,7 @@ const LabelPairedHorizontalRuleDashedMdBoldIcon = (
       <path d='M0 12a.74.74 0 0 1 .75-.75h2a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-2A.72.72 0 0 1 0 12m5.5 0a.74.74 0 0 1 .75-.75h2A.76.76 0 0 1 9 12a.74.74 0 0 1-.75.75h-2A.72.72 0 0 1 5.5 12m5.5 0a.74.74 0 0 1 .75-.75h2a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-2A.72.72 0 0 1 11 12m5.5 0a.74.74 0 0 1 .75-.75h2A.76.76 0 0 1 20 12a.74.74 0 0 1-.75.75h-2a.72.72 0 0 1-.75-.75' />
     </g>
     <defs>
-      <clipPath id='a6a58eeb89e4fb1ba5c08f2e570695bf__a'>
+      <clipPath id='a8ead9f4ff4119d3fed8d03af15b611b__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

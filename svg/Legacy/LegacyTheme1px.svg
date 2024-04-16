@@ -1,0 +1,10 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="legacy / theme / 1px" clip-path="url(#clip0_2761_984)">
+<path id="icon" d="M8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C8 5 8 4.5 8 8C8 11.5 8 11.5 8 15ZM8 16C5.55616 16 3.36826 14.9042 1.90084 13.1771C0.715274 11.7818 0 9.97444 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16Z" fill="#333333"/>
+</g>
+<defs>
+<clipPath id="clip0_2761_984">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -23,7 +23,7 @@ export const MarketDerivedGoldBasketIcon = (
     <g fill='#0AA0B0' fillRule='evenodd' clipRule='evenodd'>
       <path d='M17.515 4.857 21.8 12H27a1 1 0 1 1 0 2H5a1 1 0 1 1 0-2h5.2l4.286-7.143a1.766 1.766 0 0 1 3.029 0M13.185 12l2.729-4.605a.1.1 0 0 1 .172 0L18.815 12zM25.72 16a1 1 0 0 1 .97 1.242l-2.5 10a1 1 0 0 1-.97.758H8.78a1 1 0 0 1-.97-.758l-2.5-10A1 1 0 0 1 6.28 16zM10 20a1 1 0 1 1 2 0v4a1 1 0 1 1-2 0zm6-1a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0v-4a1 1 0 0 0-1-1m4 1a1 1 0 1 1 2 0v4a1 1 0 1 1-2 0z' />
     </g>
-    <g clipPath='url(#ceb19118f8aa46d775317eb9d085febf__a)'>
+    <g clipPath='url(#3fae1de74d71c500cc38ba5da718e496__a)'>
       <path fill='#FFDA5B' d='M32 5a5 5 0 1 1-10 0 5 5 0 0 1 10 0' />
       <path
         fill='#FDF1CA'
@@ -40,7 +40,7 @@ export const MarketDerivedGoldBasketIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ceb19118f8aa46d775317eb9d085febf__a'>
+      <clipPath id='3fae1de74d71c500cc38ba5da718e496__a'>
         <path fill='#fff' d='M22 0h10v10H22z' />
       </clipPath>
     </defs>

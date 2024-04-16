@@ -23,7 +23,7 @@ const LabelPairedBriefcaseMdFillIcon = (
       <path d='M5.75 5.5a.246.246 0 0 0-.25.25V7h5V5.75a.27.27 0 0 0-.25-.25zM4 5.75C4 4.813 4.781 4 5.75 4h4.5c.938 0 1.75.813 1.75 1.75V7h2c1.094 0 2 .906 2 2v3H0V9c0-1.094.875-2 2-2h2zM16 13v4c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2v-4h6v1c0 .563.438 1 1 1h2c.531 0 1-.437 1-1v-1z' />
     </g>
     <defs>
-      <clipPath id='7f751c83c69fdb0751173d2b2727f04a__a'>
+      <clipPath id='8e71ed1807d8e4747eea089866dc97a4__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>
