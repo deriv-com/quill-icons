@@ -18,7 +18,7 @@ const DerivLightFinancialAssessmentSuccessIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#4b93113d9b02529893b8c5fc95790ae1__a)'>
+    <g clipPath='url(#c718df53345f97475e81d10d19d6bec5__a)'>
       <path
         fill='#84ABAE'
         d='M88.08 38.524 44.4 64.342.72 38.524v-.08c0-.16 2.48-2.165 6.16-5.212l.08-.08C19.04 23.37 44.4 3.245 44.4 3.245S69.84 23.37 81.84 33.152c3.76 3.047 6.24 5.132 6.24 5.372'
@@ -54,7 +54,7 @@ const DerivLightFinancialAssessmentSuccessIcon = (
       />
     </g>
     <defs>
-      <clipPath id='4b93113d9b02529893b8c5fc95790ae1__a'>
+      <clipPath id='c718df53345f97475e81d10d19d6bec5__a'>
         <path fill='#fff' d='M0 0h96v90H0z' />
       </clipPath>
     </defs>

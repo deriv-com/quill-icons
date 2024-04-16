@@ -23,7 +23,7 @@ const LabelPairedChartTrendDownSmRegularIcon = (
       <path d='M17.066 17.285a.45.45 0 0 1-.601-.191l-2.488-5.032H9.875a.45.45 0 0 1-.41-.218L6.156 5.227 1.316 7.66c-.218.11-.492 0-.601-.191a.45.45 0 0 1 .191-.602l5.25-2.625a.45.45 0 0 1 .602.192l3.363 6.754h4.129c.164 0 .3.109.383.246l2.625 5.25a.45.45 0 0 1-.192.601' />
     </g>
     <defs>
-      <clipPath id='205accd1f7eebe6d2f77237ba7a89972__a'>
+      <clipPath id='ba7fc504ebedc5fb431566641e110cfb__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

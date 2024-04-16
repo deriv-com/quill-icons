@@ -135,6 +135,7 @@ export const allIconsNames = [
           { type: 'file', name: 'FlagItalyIcon.tsx' },
           { type: 'file', name: 'FlagJapanIcon.tsx' },
           { type: 'file', name: 'FlagJordanIcon.tsx' },
+          { type: 'file', name: 'FlagKenyaIcon.tsx' },
           { type: 'file', name: 'FlagLatviaIcon.tsx' },
           { type: 'file', name: 'FlagLithuaniaIcon.tsx' },
           { type: 'file', name: 'FlagLuxembourgIcon.tsx' },
@@ -158,6 +159,7 @@ export const allIconsNames = [
           { type: 'file', name: 'FlagSloveniaIcon.tsx' },
           { type: 'file', name: 'FlagSouthAfricaIcon.tsx' },
           { type: 'file', name: 'FlagSpainIcon.tsx' },
+          { type: 'file', name: 'FlagSriLankaIcon.tsx' },
           { type: 'file', name: 'FlagSwedenIcon.tsx' },
           { type: 'file', name: 'FlagSwitzerlandIcon.tsx' },
           { type: 'file', name: 'FlagThailandIcon.tsx' },
@@ -6133,5 +6135,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 12, files: 6035 },
+  { type: 'report', directories: 11, files: 6037 },
 ];

@@ -23,7 +23,7 @@ const LabelPairedArrowDownLeftSmRegularIcon = (
       <path d='M1.563 15.125a.43.43 0 0 1-.438-.437V8.561a.45.45 0 0 1 .438-.437.47.47 0 0 1 .437.438v5.085l7.11-7.136a.463.463 0 0 1 .628 0 .463.463 0 0 1 0 .629L2.602 14.25h5.086a.47.47 0 0 1 .437.438.45.45 0 0 1-.437.437z' />
     </g>
     <defs>
-      <clipPath id='9d1025f22a554006987c55727189443e__a'>
+      <clipPath id='584f9b30bc6e2a1149204a686f6c84dd__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

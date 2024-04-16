@@ -33,7 +33,7 @@ const DerivProductDerivGoBrandLightLogoHorizontalIcon = (
       />
     </g>
     <defs>
-      <clipPath id='99984ec5e9ba0ffe75ef6e3d2dafa42c__a'>
+      <clipPath id='0b38be61661db4579065d790bb099fb0__a'>
         <path fill='#fff' d='M0 0h72v72H0z' />
       </clipPath>
     </defs>
