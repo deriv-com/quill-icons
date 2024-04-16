@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="legacy / turbo" clip-path="url(#clip0_2761_621)">
+<g id="icon">
+<path d="M0 14H1.66667V15H0V14Z" fill="#333333"/>
+<path d="M3.66667 14H5.33333V15H3.66667V14Z" fill="#333333"/>
+<path d="M7.33333 14H9V15H7.33333V14Z" fill="#333333"/>
+<path d="M12 13H16V16H12L10.5 14.5L12 13Z" fill="#333333"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0.5C0 0.223858 0.223858 0 0.5 0H9V1H0.5C0.223858 1 0 0.776142 0 0.5Z" fill="#333333"/>
+<path d="M15.5 0C15.7761 0 16 0.223858 16 0.5V5.5C16 5.77614 15.7761 6 15.5 6C15.2239 6 15 5.77614 15 5.5V1.70711L6.85355 9.85355C6.65829 10.0488 6.34171 10.0488 6.14645 9.85355L2.5 6.20711L0 8.70711V7.29289L2.14645 5.14645C2.34171 4.95118 2.65829 4.95118 2.85355 5.14645L6.5 8.79289L14.2929 1H11V0H15.5Z" fill="#333333"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2761_621">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

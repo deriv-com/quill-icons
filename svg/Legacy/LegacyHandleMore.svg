@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="legacy / handle-more" clip-path="url(#clip0_2761_748)">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M0.225562 10.7092C0.662444 10.0053 1.5872 9.78886 2.29107 10.2257L16 18.7348L29.709 10.2257C30.4128 9.78886 31.3376 10.0053 31.7745 10.7092C32.2114 11.413 31.9949 12.3378 31.2911 12.7747L16.7911 21.7747C16.3066 22.0754 15.6935 22.0754 15.209 21.7747L0.708978 12.7747C0.00511283 12.3378 -0.21132 11.413 0.225562 10.7092Z" fill="#333333"/>
+</g>
+<defs>
+<clipPath id="clip0_2761_748">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

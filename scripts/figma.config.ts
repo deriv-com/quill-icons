@@ -22,7 +22,9 @@ const filterComponent: ComponentFilter = (component) => {
     component.name.includes('markets /') ||
     component.name.includes('currencies /') ||
     // This is a special case because of it's design so we should return every sizes!
-    component.name.includes('label-paired /')
+    component.name.includes('label-paired /') ||
+    // Temporarily adding this section here. Remember to remove it once the legacy category removed.
+    component.name.includes('legacy')
   ) {
     return true;
   }

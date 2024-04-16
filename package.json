@@ -34,6 +34,11 @@
       "import": "./dist/esm/react/LabelPaired/index.js",
       "types": "./dist/esm/react/LabelPaired/index.d.ts"
     },
+    "./Legacy": {
+      "require": "./dist/cjs/react/Legacy/index.js",
+      "import": "./dist/esm/react/Legacy/index.js",
+      "types": "./dist/esm/react/Legacy/index.d.ts"
+    },
     "./Logo": {
       "require": "./dist/cjs/react/Logo/index.js",
       "import": "./dist/esm/react/Logo/index.js",

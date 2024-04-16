@@ -20,13 +20,13 @@ export const CurrencyMkrIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#719519f9abe8c066a790db54a3ae9d7b__a)'>
+    <g clipPath='url(#1b1147b0c373b318e9f97870c4527294__a)'>
       <path
         fill='#0090FF'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#719519f9abe8c066a790db54a3ae9d7b__b)'
+        fill='url(#1b1147b0c373b318e9f97870c4527294__b)'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
@@ -36,7 +36,7 @@ export const CurrencyMkrIcon = (
     </g>
     <defs>
       <linearGradient
-        id='719519f9abe8c066a790db54a3ae9d7b__b'
+        id='1b1147b0c373b318e9f97870c4527294__b'
         x1={16}
         x2={16}
         y1={0}
@@ -46,7 +46,7 @@ export const CurrencyMkrIcon = (
         <stop stopColor='#4FA89B' />
         <stop offset={1} stopColor='#6ACEBB' />
       </linearGradient>
-      <clipPath id='719519f9abe8c066a790db54a3ae9d7b__a'>
+      <clipPath id='1b1147b0c373b318e9f97870c4527294__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

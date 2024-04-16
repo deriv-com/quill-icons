@@ -23,7 +23,7 @@ const LabelPairedChevronDownSmFillIcon = (
       <path d='m6.371 14.879-5.25-5.25a.843.843 0 0 1 0-1.23.843.843 0 0 1 1.23 0L7 13.018l4.621-4.62a.843.843 0 0 1 1.23 0 .843.843 0 0 1 0 1.23l-5.25 5.25a.843.843 0 0 1-1.23 0' />
     </g>
     <defs>
-      <clipPath id='2ba808aa5da95a419e6b92c384a90374__a'>
+      <clipPath id='b11b398306d1f7e83331e1c617b8b1f1__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>
