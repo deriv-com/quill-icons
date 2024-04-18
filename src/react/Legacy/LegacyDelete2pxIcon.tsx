@@ -20,7 +20,7 @@ export const LegacyDelete2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#ff1eb85376f54df4ac245d6ade7e1ae3__a)'>
+    <g fill='#333' clipPath='url(#7e1f9e23fb6a4b8c6fc4e2dc0ecebb15__a)'>
       <path d='M5.75 7a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 1.5 0zM8 6.25a.75.75 0 0 1 .75.75v5a.75.75 0 0 1-1.5 0V7A.75.75 0 0 1 8 6.25M11.75 7a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 1.5 0z' />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyDelete2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ff1eb85376f54df4ac245d6ade7e1ae3__a'>
+      <clipPath id='7e1f9e23fb6a4b8c6fc4e2dc0ecebb15__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

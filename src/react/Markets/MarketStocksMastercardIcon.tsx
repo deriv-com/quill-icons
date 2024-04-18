@@ -20,7 +20,7 @@ export const MarketStocksMastercardIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#c0debd93f8e4f89a06fc2ddd80ee902a__a)'>
+    <g clipPath='url(#d26277e6447b1ff9eb0e16020a19c4e3__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -33,7 +33,7 @@ export const MarketStocksMastercardIcon = (
       />
     </g>
     <defs>
-      <clipPath id='c0debd93f8e4f89a06fc2ddd80ee902a__a'>
+      <clipPath id='d26277e6447b1ff9eb0e16020a19c4e3__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
