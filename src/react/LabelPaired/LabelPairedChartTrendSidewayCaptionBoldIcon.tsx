@@ -23,7 +23,7 @@ const LabelPairedChartTrendSidewayCaptionBoldIcon = (
       <path d='M.188 9.5c0-.305.234-.562.562-.562h13.5a.57.57 0 0 1 .563.562.555.555 0 0 1-.563.563H.75A.54.54 0 0 1 .188 9.5' />
     </g>
     <defs>
-      <clipPath id='d9cde847b185c8d9bfea652aa589e341__a'>
+      <clipPath id='d35adc8f614ff66721700e33c3047d6d__a'>
         <path d='M0 0h15v18H0z' />
       </clipPath>
     </defs>

@@ -23,7 +23,7 @@ const LabelPairedArrowUpLeftLgFillIcon = (
       <path d='M2.5 9.25h8.75c.664 0 1.25.586 1.25 1.25 0 .703-.586 1.25-1.25 1.25H5.508l7.851 7.89c.508.47.508 1.29 0 1.758a1.205 1.205 0 0 1-1.757 0L3.75 13.547v5.703c0 .703-.586 1.25-1.25 1.25-.703 0-1.25-.547-1.25-1.25V10.5c0-.664.547-1.25 1.25-1.25' />
     </g>
     <defs>
-      <clipPath id='eef7ef8b9774797d6df55e186d8e1255__a'>
+      <clipPath id='c964dbb274fd232ca68fd74de54ebcf2__a'>
         <path d='M0 0h15v30H0z' />
       </clipPath>
     </defs>

@@ -20,7 +20,7 @@ export const CurrencyMultiCollateralDaiIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ec28b8f58c87aa18ab6a44bb58fec95d__a)'>
+    <g clipPath='url(#ad2fea988d75c31d4e8fe7970b730fcc__a)'>
       <path
         fill='#F5AC37'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -31,7 +31,7 @@ export const CurrencyMultiCollateralDaiIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ec28b8f58c87aa18ab6a44bb58fec95d__a'>
+      <clipPath id='ad2fea988d75c31d4e8fe7970b730fcc__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

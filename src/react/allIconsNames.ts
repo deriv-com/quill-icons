@@ -12,8 +12,8 @@ export const allIconsNames = [
           { type: 'file', name: 'AccountsDerivCtraderIcon.tsx' },
           { type: 'file', name: 'AccountsDerivXIcon.tsx' },
           { type: 'file', name: 'AccountsDmt5CfdsIcon.tsx' },
-          { type: 'file', name: 'AccountsDmt5DerivedIcon.tsx' },
           { type: 'file', name: 'AccountsDmt5FinancialIcon.tsx' },
+          { type: 'file', name: 'AccountsDmt5StandardIcon.tsx' },
           { type: 'file', name: 'AccountsDmt5SwfIcon.tsx' },
           { type: 'file', name: 'AccountsDmt5ZrsIcon.tsx' },
           { type: 'file', name: 'index.ts' },
@@ -6450,5 +6450,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 13, files: 6346 },
+  { type: 'report', directories: 12, files: 6346 },
 ];
