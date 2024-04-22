@@ -20,7 +20,7 @@ export const LegacyArrowUp2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#a6a2064cb24f96099f61723436043e5e__a)'>
+    <g clipPath='url(#c2a2461582d2c5342d8a64c7e78f9451__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyArrowUp2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a6a2064cb24f96099f61723436043e5e__a'>
+      <clipPath id='c2a2461582d2c5342d8a64c7e78f9451__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

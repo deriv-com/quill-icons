@@ -205,6 +205,7 @@ export const allIconsNames = [
           { type: 'file', name: 'DerivLightCommissionsIcon.tsx' },
           { type: 'file', name: 'DerivLightCompetenceIcon.tsx' },
           { type: 'file', name: 'DerivLightConsistentIcon.tsx' },
+          { type: 'file', name: 'DerivLightCreditCardSampleIcon.tsx' },
           { type: 'file', name: 'DerivLightCustomerFocusIcon.tsx' },
           { type: 'file', name: 'DerivLightDeclinedPoaIcon.tsx' },
           { type: 'file', name: 'DerivLightDeclinedPoiIcon.tsx' },
@@ -6450,5 +6451,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 12, files: 6346 },
+  { type: 'report', directories: 12, files: 6347 },
 ];

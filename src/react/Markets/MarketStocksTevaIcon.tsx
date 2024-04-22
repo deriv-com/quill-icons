@@ -20,7 +20,7 @@ export const MarketStocksTevaIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#8b8c53bff64791bf19de29629177a29b__a)'>
+    <g clipPath='url(#541143c84c751382263c1adb3a278729__a)'>
       <path
         fill='#D2EBDB'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -59,7 +59,7 @@ export const MarketStocksTevaIcon = (
       />
     </g>
     <defs>
-      <clipPath id='8b8c53bff64791bf19de29629177a29b__a'>
+      <clipPath id='541143c84c751382263c1adb3a278729__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

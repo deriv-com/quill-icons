@@ -23,7 +23,7 @@ const LabelPairedExclamationCaptionBoldIcon = (
       <path d='M1.563 4.813v6.75a.555.555 0 0 1-.563.562.54.54 0 0 1-.562-.562v-6.75c0-.305.234-.563.562-.563a.57.57 0 0 1 .563.563M1 14.75A.74.74 0 0 1 .25 14c0-.398.328-.75.75-.75.398 0 .75.352.75.75 0 .422-.352.75-.75.75' />
     </g>
     <defs>
-      <clipPath id='8092a6b21b96bef672b78093c66d34ae__a'>
+      <clipPath id='5abc9359fad5fb81e9d45b8ef0f36568__a'>
         <path d='M0 0h2v18H0z' />
       </clipPath>
     </defs>

@@ -18,9 +18,9 @@ const DerivLightIcNoDataIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#6bfd923c708c6eec57f8b380c38c308e__a)'>
+    <g clipPath='url(#5eae1a7c28c145a3324789115d0d0c5e__a)'>
       <mask
-        id='6bfd923c708c6eec57f8b380c38c308e__b'
+        id='5eae1a7c28c145a3324789115d0d0c5e__b'
         width={128}
         height={128}
         x={0}
@@ -32,12 +32,12 @@ const DerivLightIcNoDataIcon = (
       >
         <path fill='#fff' d='M0 0h128v128H0z' />
       </mask>
-      <g mask='url(#6bfd923c708c6eec57f8b380c38c308e__b)'>
+      <g mask='url(#5eae1a7c28c145a3324789115d0d0c5e__b)'>
         <path
           stroke='#BBCCCE'
           strokeDasharray='4 4'
           strokeWidth={4}
-          d='M30.874 6a9.02 9.02 0 0 0-6.333 2.757 9.07 9.07 0 0 0-2.54 6.437v97.612a9.07 9.07 0 0 0 2.54 6.437A9.02 9.02 0 0 0 30.874 122h66.252a9.02 9.02 0 0 0 6.333-2.757 9.07 9.07 0 0 0 2.54-6.437V34L80 6z'
+          d='M30.874 6a9.02 9.02 0 0 0-6.333 2.757A9.07 9.07 0 0 0 22 15.194v97.612a9.07 9.07 0 0 0 2.54 6.437A9.02 9.02 0 0 0 30.874 122h66.252a9.02 9.02 0 0 0 6.333-2.757 9.07 9.07 0 0 0 2.54-6.437V34l-26-28z'
         />
         <path
           fill='#E0F0F0'
@@ -54,7 +54,7 @@ const DerivLightIcNoDataIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='6bfd923c708c6eec57f8b380c38c308e__a'>
+      <clipPath id='5eae1a7c28c145a3324789115d0d0c5e__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

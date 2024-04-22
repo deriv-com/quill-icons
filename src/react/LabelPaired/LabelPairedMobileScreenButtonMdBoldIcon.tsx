@@ -23,7 +23,7 @@ const LabelPairedMobileScreenButtonMdBoldIcon = (
       <path d='M2 18c0 .281.219.5.5.5h7c.25 0 .5-.219.5-.5v-2.5H2zm0-4h8V6c0-.25-.25-.5-.5-.5h-7c-.281 0-.5.25-.5.5zM.5 6c0-1.094.875-2 2-2h7c1.094 0 2 .906 2 2v12c0 1.125-.906 2-2 2h-7c-1.125 0-2-.875-2-2zM5 16.5h2c.25 0 .5.25.5.5 0 .281-.25.5-.5.5H5a.494.494 0 0 1-.5-.5c0-.25.219-.5.5-.5' />
     </g>
     <defs>
-      <clipPath id='adeab7161a33b1be53291429cc18bbb4__a'>
+      <clipPath id='e6d9dba2169ede9babe67534d5413013__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

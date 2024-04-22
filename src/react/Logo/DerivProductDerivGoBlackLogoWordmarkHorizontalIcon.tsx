@@ -47,7 +47,7 @@ const DerivProductDerivGoBlackLogoWordmarkHorizontalIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='a437747a2334cec1de40909d9c1c2802__a'>
+      <clipPath id='4232dba9d4967976a0cf61fd22454d53__a'>
         <path fill='#fff' d='M0 0h262v72H0z' />
       </clipPath>
     </defs>
