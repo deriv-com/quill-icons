@@ -23,7 +23,7 @@ const LabelPairedEnvelopeMdRegularIcon = (
       <path d='M2 7c-.562 0-1 .469-1 1v1.25l6.094 4.5a1.55 1.55 0 0 0 1.781 0L15 9.25V8c0-.531-.469-1-1-1zm-1 3.5V16c0 .563.438 1 1 1h12c.531 0 1-.437 1-1v-5.5l-5.531 4.063a2.585 2.585 0 0 1-2.969 0zM0 8c0-1.094.875-2 2-2h12c1.094 0 2 .906 2 2v8c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2z' />
     </g>
     <defs>
-      <clipPath id='3ad2d415ca2b15e2ad602172fa61845c__a'>
+      <clipPath id='0a67cc1405c2739870833e1b1b80f0d8__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

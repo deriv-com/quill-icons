@@ -20,14 +20,14 @@ export const LegacySearch1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#a2dd9f636d89e6569461cad7f1cfd093__a)'>
+    <g clipPath='url(#e06ef24bed91f75db0e1eaf5b2cd7177__a)'>
       <path
         fill='#333'
         d='M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11m0-12a6.5 6.5 0 0 1 4.936 10.729l4.418 4.417a.5.5 0 0 1-.708.708l-4.417-4.418A6.5 6.5 0 1 1 6.5 0'
       />
     </g>
     <defs>
-      <clipPath id='a2dd9f636d89e6569461cad7f1cfd093__a'>
+      <clipPath id='e06ef24bed91f75db0e1eaf5b2cd7177__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
