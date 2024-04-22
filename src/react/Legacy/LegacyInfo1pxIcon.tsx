@@ -20,14 +20,14 @@ export const LegacyInfo1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#90480f81b61f68c74074572272328f3e__a)'>
+    <g clipPath='url(#d2dbd755d0f0c5593f80104cdf2e7e5c__a)'>
       <path
         fill='#333'
         d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1m0 6a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0v-4A.5.5 0 0 1 8 7m0-2.5A.75.75 0 1 1 8 6a.75.75 0 0 1 0-1.5'
       />
     </g>
     <defs>
-      <clipPath id='90480f81b61f68c74074572272328f3e__a'>
+      <clipPath id='d2dbd755d0f0c5593f80104cdf2e7e5c__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

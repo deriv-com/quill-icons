@@ -20,7 +20,7 @@ export const LegacyPlusCircle2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#898e854121ffc4b5f37d254c7229afa0__a)'>
+    <g fill='#333' clipPath='url(#68cb4c6e525f7b75a3c403538961415e__a)'>
       <path d='M7 5a1 1 0 0 1 2 0v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0V9H5a1 1 0 0 1 0-2h2z' />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyPlusCircle2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='898e854121ffc4b5f37d254c7229afa0__a'>
+      <clipPath id='68cb4c6e525f7b75a3c403538961415e__a'>
         <rect width={16} height={16} fill='#fff' rx={8} />
       </clipPath>
     </defs>
