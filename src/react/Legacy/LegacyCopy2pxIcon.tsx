@@ -23,14 +23,14 @@ export const LegacyCopy2pxIcon = (
     <g
       fill='#333'
       fillRule='evenodd'
-      clipPath='url(#a7c26de97f72843978df7c53fa5c9a1d__a)'
+      clipPath='url(#3796771794322740fb9d47b98cbcea24__a)'
       clipRule='evenodd'
     >
       <path d='M5 3a3 3 0 0 1 3-3h5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-2v1a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h2zm2 1h1a3 3 0 0 1 3 3v3h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1zm2 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1z' />
       <path d='M2.75 7.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m0 2.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m0 2.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75' />
     </g>
     <defs>
-      <clipPath id='a7c26de97f72843978df7c53fa5c9a1d__a'>
+      <clipPath id='3796771794322740fb9d47b98cbcea24__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

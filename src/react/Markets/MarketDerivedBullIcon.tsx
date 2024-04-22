@@ -20,7 +20,7 @@ export const MarketDerivedBullIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#d2167e09189dac7a28af922c1344e1c4__a)'>
+    <g clipPath='url(#455db844646626ed13d740aee0f9c4c8__a)'>
       <path fill='#414652' d='M32 24a8 8 0 1 1-16 0 8 8 0 0 1 16 0' />
       <path
         fill='#fff'
@@ -29,7 +29,7 @@ export const MarketDerivedBullIcon = (
       <path fill='#0AA0B0' d='M32 0h-8v2h4.586L19 11.586l-5-5-14 14v2.828l14-14 5 5 11-11V8h2z' />
     </g>
     <defs>
-      <clipPath id='d2167e09189dac7a28af922c1344e1c4__a'>
+      <clipPath id='455db844646626ed13d740aee0f9c4c8__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
