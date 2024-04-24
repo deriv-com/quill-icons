@@ -5,5 +5,6 @@ export { default as AccountsDmt5FinancialIcon } from './AccountsDmt5FinancialIco
 export { default as AccountsDmt5CfdsIcon } from './AccountsDmt5CfdsIcon';
 export { default as AccountsDmt5SwfIcon } from './AccountsDmt5SwfIcon';
 export { default as AccountsDmt5ZrsIcon } from './AccountsDmt5ZrsIcon';
+export { default as AccountsDmt5DerivedIcon } from './AccountsDmt5DerivedIcon';
 export { default as AccountsDerivXIcon } from './AccountsDerivXIcon';
 export { default as AccountsDerivCtraderIcon } from './AccountsDerivCtraderIcon';

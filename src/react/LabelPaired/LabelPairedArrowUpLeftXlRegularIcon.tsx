@@ -23,7 +23,7 @@ const LabelPairedArrowUpLeftXlRegularIcon = (
       <path d='M2.25 10.5h10.5c.375 0 .75.375.75.75 0 .422-.375.75-.75.75H4.031l12.235 12.234c.28.282.28.797 0 1.078-.282.282-.797.282-1.078 0L3 13.079v8.672c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75v-10.5c0-.375.328-.75.75-.75' />
     </g>
     <defs>
-      <clipPath id='248dda329ae37b6c53cd5321948eea7b__a'>
+      <clipPath id='be29fb6da490607b6be845a6b176f4dc__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>
