@@ -20,7 +20,7 @@ export const LegacyTheme2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#6afc22087a39509fd88f17b7e7419f8d__a)'>
+    <g fill='#333' clipPath='url(#8b9def69f357789562b026e79b52885a__a)'>
       <path d='M8 15A7 7 0 1 0 8 1v14m0 1a7.98 7.98 0 0 1-6.1-2.823A8 8 0 1 1 8 16' opacity={0.1} />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyTheme2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='6afc22087a39509fd88f17b7e7419f8d__a'>
+      <clipPath id='8b9def69f357789562b026e79b52885a__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
