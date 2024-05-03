@@ -351,7 +351,6 @@ export { default as PaymentMethodGiropayBrandIcon } from './PaymentMethodGiropay
 export { default as PaymentMethodGuaranteeTrustBankGtcoBrandIcon } from './PaymentMethodGuaranteeTrustBankGtcoBrandIcon';
 export { default as PaymentMethodHelp2payBrandIcon } from './PaymentMethodHelp2payBrandIcon';
 export { default as PaymentMethodIcbcBankBrandIcon } from './PaymentMethodIcbcBankBrandIcon';
-export { default as PaymentMethodIdealBrandIcon } from './PaymentMethodIdealBrandIcon';
 export { default as PaymentMethodInstantBankTransferBrandIcon } from './PaymentMethodInstantBankTransferBrandIcon';
 export { default as PaymentMethodInternetBankTransferBrandIcon } from './PaymentMethodInternetBankTransferBrandIcon';
 export { default as PaymentMethodIwalletBrandIcon } from './PaymentMethodIwalletBrandIcon';

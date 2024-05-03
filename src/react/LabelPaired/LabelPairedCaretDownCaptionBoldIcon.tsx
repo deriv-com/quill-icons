@@ -23,7 +23,7 @@ const LabelPairedCaretDownCaptionBoldIcon = (
       <path d='m4 11.234 2.086-2.109H1.89zm.516 1.055a.723.723 0 0 1-1.055 0l-3-3a.76.76 0 0 1-.164-.82A.77.77 0 0 1 1 8h6a.76.76 0 0 1 .68.469.76.76 0 0 1-.164.82z' />
     </g>
     <defs>
-      <clipPath id='9c4253be4a191770d7829d749c676f4a__a'>
+      <clipPath id='9ed18bf3843af7362ce109e6ae62e117__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>
