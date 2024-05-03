@@ -20,7 +20,7 @@ export const LegacyTraderSHubIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#4cbc8f981308bb2391f88183079aad7c__a)'>
+    <g fill='#333' clipPath='url(#0e9fa0528968ed9210d4a2f577d6877a__a)'>
       <path d='M0 2a2 2 0 0 1 2-2h7.077a2 2 0 0 1 2 2v7.077a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyTraderSHubIcon = (
       />
     </g>
     <defs>
-      <clipPath id='4cbc8f981308bb2391f88183079aad7c__a'>
+      <clipPath id='0e9fa0528968ed9210d4a2f577d6877a__a'>
         <path fill='#fff' d='M0 0h24v24H0z' />
       </clipPath>
     </defs>

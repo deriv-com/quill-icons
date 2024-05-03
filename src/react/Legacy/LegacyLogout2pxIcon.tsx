@@ -20,12 +20,12 @@ export const LegacyLogout2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#f4dcf1fb0c32d8d5c3a73c63d6fdfeeb__a)'>
+    <g fill='#333' clipPath='url(#526efc6737cec306a6086df0582ca151__a)'>
       <path d='M0 3a3 3 0 0 1 3-3h5a3 3 0 0 1 3 3v1a1 1 0 1 1-2 0V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3z' />
       <path d='M5.25 8A.75.75 0 0 1 6 7.25h7.19l-1.22-1.22a.75.75 0 0 1 1.06-1.06l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6A.75.75 0 0 1 5.25 8' />
     </g>
     <defs>
-      <clipPath id='f4dcf1fb0c32d8d5c3a73c63d6fdfeeb__a'>
+      <clipPath id='526efc6737cec306a6086df0582ca151__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

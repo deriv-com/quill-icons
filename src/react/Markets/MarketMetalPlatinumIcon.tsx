@@ -20,7 +20,7 @@ export const MarketMetalPlatinumIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#2c518be969ecc95b91e6ae3e2180bb3a__a)'>
+    <g clipPath='url(#f484f6c482ca89db68a7306e4915ce92__a)'>
       <path
         fill='#E3EBF2'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -40,7 +40,7 @@ export const MarketMetalPlatinumIcon = (
       />
     </g>
     <defs>
-      <clipPath id='2c518be969ecc95b91e6ae3e2180bb3a__a'>
+      <clipPath id='f484f6c482ca89db68a7306e4915ce92__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -20,14 +20,14 @@ export const LegacyStatementIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#d47bccdc564a6b0b81138080c86ad70a__a)'>
+    <g clipPath='url(#f7712a09f996650e9e8ee0eb519aa7a4__a)'>
       <path
         fill='#333'
         d='M14.5 0A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13A1.5 1.5 0 0 1 1.5 0zm0 1h-13a.5.5 0 0 0-.5.5V3h14v1H1v10.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5m-2 10a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1zm-9 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1m9-4a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1zm-9 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1'
       />
     </g>
     <defs>
-      <clipPath id='d47bccdc564a6b0b81138080c86ad70a__a'>
+      <clipPath id='f7712a09f996650e9e8ee0eb519aa7a4__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

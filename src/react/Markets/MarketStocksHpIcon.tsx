@@ -20,7 +20,7 @@ export const MarketStocksHpIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#5b42b9274dac96b322e1b5ad0cbe63e0__a)'>
+    <g clipPath='url(#dadeeb9d4f594b50ef3bdbe3e5602b52__a)'>
       <path
         fill='#00A1DD'
         fillRule='evenodd'
@@ -34,7 +34,7 @@ export const MarketStocksHpIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5b42b9274dac96b322e1b5ad0cbe63e0__a'>
+      <clipPath id='dadeeb9d4f594b50ef3bdbe3e5602b52__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
