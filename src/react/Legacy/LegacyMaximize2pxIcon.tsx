@@ -20,11 +20,11 @@ export const LegacyMaximize2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#d9a52a6ad8565ad90b1851404841b7f5__a)'>
+    <g clipPath='url(#8442a3a71c408e229ca5dfc7d37e1567__a)'>
       <path fill='#333' fillRule='evenodd' d='M0 0h16v16H0zm2 2v12h12V2z' clipRule='evenodd' />
     </g>
     <defs>
-      <clipPath id='d9a52a6ad8565ad90b1851404841b7f5__a'>
+      <clipPath id='8442a3a71c408e229ca5dfc7d37e1567__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
