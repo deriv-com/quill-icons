@@ -20,12 +20,12 @@ export const LegacyOpenLink2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#d4e67fd232246d9564751e39594dd6d1__a)'>
+    <g fill='#333' clipPath='url(#c29da53bd87531d824a3cf6abe2bdd7d__a)'>
       <path d='M0 3a3 3 0 0 1 3-3h2a1 1 0 0 1 0 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2a1 1 0 1 1 2 0v2a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3z' />
       <path d='M10 1a1 1 0 0 1 1-1h3a2 2 0 0 1 2 2v3a1 1 0 1 1-2 0V3.414L8.707 8.707a1 1 0 0 1-1.414-1.414L12.586 2H11a1 1 0 0 1-1-1' />
     </g>
     <defs>
-      <clipPath id='d4e67fd232246d9564751e39594dd6d1__a'>
+      <clipPath id='c29da53bd87531d824a3cf6abe2bdd7d__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

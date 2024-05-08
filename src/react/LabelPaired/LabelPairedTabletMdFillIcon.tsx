@@ -23,7 +23,7 @@ const LabelPairedTabletMdFillIcon = (
       <path d='M2 4h10c1.094 0 2 .906 2 2v12c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V6c0-1.094.875-2 2-2m3.5 13.5c-.281 0-.5.25-.5.5 0 .281.219.5.5.5h3c.25 0 .5-.219.5-.5 0-.25-.25-.5-.5-.5z' />
     </g>
     <defs>
-      <clipPath id='a50422e5e2713b53db037eade609514b__a'>
+      <clipPath id='4ee458a135e9114f98b8b7becc49198e__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

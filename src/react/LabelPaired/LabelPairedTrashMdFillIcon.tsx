@@ -23,7 +23,7 @@ const LabelPairedTrashMdFillIcon = (
       <path d='M4.219 4.563A.96.96 0 0 1 5.094 4h3.781c.375 0 .719.219.875.563L10 5h3c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1 0-.531.438-1 1-1h3zM13 8l-.687 10.594c-.032.812-.688 1.406-1.5 1.406H3.156c-.812 0-1.469-.594-1.5-1.406L1 8z' />
     </g>
     <defs>
-      <clipPath id='241862bcea98aa4fc7655f7071e3ce56__a'>
+      <clipPath id='b2e17f68a5ecbd1620319e413a5cae45__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>
