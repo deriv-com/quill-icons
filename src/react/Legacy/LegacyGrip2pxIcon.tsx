@@ -11,6 +11,7 @@ export const LegacyGrip2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyGrip2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#333'>
       <circle cx={5.5} cy={3} r={1.5} />
       <circle cx={10.5} cy={3} r={1.5} />
       <circle cx={5.5} cy={8} r={1.5} />

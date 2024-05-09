@@ -11,6 +11,7 @@ export const LegacyHandleLessIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 32 32'
     {...sizes[iconSize]}
     role='img'
@@ -19,16 +20,17 @@ export const LegacyHandleLessIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g clipPath='url(#d1f1f24c1b0db98e7c1cb398a9e35e31__a)'>
       <path
+        fill='#333'
         fillRule='evenodd'
         d='M31.775 21.291a1.5 1.5 0 0 1-2.066.483L16 13.266l-13.709 8.51a1.5 1.5 0 0 1-1.582-2.55l14.5-9a1.5 1.5 0 0 1 1.582 0l14.5 9a1.5 1.5 0 0 1 .483 2.066'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='a34746884d7b505fe5f93085ebf5b6e7__a'>
-        <path d='M0 0h32v32H0z' />
+      <clipPath id='d1f1f24c1b0db98e7c1cb398a9e35e31__a'>
+        <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
   </svg>

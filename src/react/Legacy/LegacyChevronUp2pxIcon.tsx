@@ -11,6 +11,7 @@ export const LegacyChevronUp2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,10 @@ export const LegacyChevronUp2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='m8 6.414-5.293 5.293a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1-1.414 1.414z' />
+    <path
+      fill='#333'
+      d='m8 6.414-5.293 5.293a1 1 0 0 1-1.414-1.414l6-6a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1-1.414 1.414z'
+    />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyChevronUp2pxIcon);

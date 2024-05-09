@@ -11,6 +11,7 @@ export const LegacyGoogleIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 17'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyGoogleIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#333'>
       <path d='M16 8.188q0-.825-.147-1.637h-7.69v3.093h4.393a3.67 3.67 0 0 1-1.628 2.415l2.637 2.01C15.11 12.673 16 10.623 16 8.187' />
       <path d='M10.929 12.06c-.73.48-1.665.764-2.765.764-2.128 0-3.926-1.407-4.568-3.3L.867 11.596c1.385 2.702 4.21 4.41 7.297 4.406 2.206 0 4.054-.714 5.402-1.937z' />
       <path d='M3.595 6.483.867 4.41a7.89 7.89 0 0 0 0 7.19l2.728-2.073c-.339-.99-.339-2.06 0-3.044' />

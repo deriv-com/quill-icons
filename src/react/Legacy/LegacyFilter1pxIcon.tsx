@@ -11,6 +11,7 @@ export const LegacyFilter1pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyFilter1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fillRule='evenodd' clipRule='evenodd'>
+    <g fill='#333' fillRule='evenodd' clipRule='evenodd'>
       <path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8M2 5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 5M6 11a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 11' />
     </g>
   </svg>

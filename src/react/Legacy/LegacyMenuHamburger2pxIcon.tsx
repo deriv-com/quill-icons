@@ -11,6 +11,7 @@ export const LegacyMenuHamburger2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyMenuHamburger2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fillRule='evenodd' clipRule='evenodd'>
+    <g fill='#333' fillRule='evenodd' clipRule='evenodd'>
       <path d='M2 8a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1M2 4a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1M2 12a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1' />
     </g>
   </svg>
