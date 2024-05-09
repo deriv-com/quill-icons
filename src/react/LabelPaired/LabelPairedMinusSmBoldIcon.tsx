@@ -23,7 +23,7 @@ const LabelPairedMinusSmBoldIcon = (
       <path d='M12.188 10.75c0 .383-.301.656-.657.656H1.47a.63.63 0 0 1-.657-.656c0-.355.274-.656.657-.656H11.53c.356 0 .656.3.656.656' />
     </g>
     <defs>
-      <clipPath id='b8515c712532c2a5277db8400408ed5b__a'>
+      <clipPath id='9ffdd89ed311af58f5864b56e71e914b__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

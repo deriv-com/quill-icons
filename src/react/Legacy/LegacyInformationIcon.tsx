@@ -11,6 +11,7 @@ export const LegacyInformationIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,16 +20,17 @@ export const LegacyInformationIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g clipPath='url(#5372fcf23636effe7be7c6dd5327a42a__a)'>
       <path
+        fill='#377CFC'
         fillRule='evenodd'
         d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7 4V7a1 1 0 0 0-1-1H6a1 1 0 0 0 1 1v5a1 1 0 0 0 1 1h2a1 1 0 0 0-1-1m0-8a1 1 0 1 0-2 0 1 1 0 0 0 2 0'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='1642a6f3dd46875a10b745325539a0c4__a'>
-        <path d='M0 0h16v16H0z' />
+      <clipPath id='5372fcf23636effe7be7c6dd5327a42a__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

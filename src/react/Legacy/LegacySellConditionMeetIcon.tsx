@@ -11,6 +11,7 @@ export const LegacySellConditionMeetIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,12 +20,15 @@ export const LegacySellConditionMeetIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M7.4 8a.6.6 0 0 1 .6.6v4.659a.6.6 0 0 1-1.024.424L6 12.707l-2.576 2.576a.6.6 0 0 1-.848 0L.717 13.424a.6.6 0 0 1 0-.848L3.293 10l-.976-.976A.6.6 0 0 1 2.741 8zM7 9H3.707l1 1-3 3L3 14.293l3-3 1 1zM13.424.717l1.859 1.859a.6.6 0 0 1 0 .848L12.707 6l.976.976A.6.6 0 0 1 13.259 8H8.6a.6.6 0 0 1-.6-.6V2.741a.6.6 0 0 1 1.024-.424l.976.976L12.576.717a.6.6 0 0 1 .848 0m-.424.99-3 3-1-1V7h3.293l-1-1 3-3z' />
+    <g clipPath='url(#f38b66abb57a8d044e9cd59270bb3966__a)'>
+      <path
+        fill='#333'
+        d='M7.4 8a.6.6 0 0 1 .6.6v4.659a.6.6 0 0 1-1.024.424L6 12.707l-2.576 2.576a.6.6 0 0 1-.848 0L.717 13.424a.6.6 0 0 1 0-.848L3.293 10l-.976-.976A.6.6 0 0 1 2.741 8zM7 9H3.707l1 1-3 3L3 14.293l3-3 1 1zM13.424.717l1.859 1.859a.6.6 0 0 1 0 .848L12.707 6l.976.976A.6.6 0 0 1 13.259 8H8.6a.6.6 0 0 1-.6-.6V2.741a.6.6 0 0 1 1.024-.424l.976.976L12.576.717a.6.6 0 0 1 .848 0m-.424.99-3 3-1-1V7h3.293l-1-1 3-3z'
+      />
     </g>
     <defs>
-      <clipPath id='6d737e0553876ffb7678f59581de3ca4__a'>
-        <path d='M0 0h16v16H0z' />
+      <clipPath id='f38b66abb57a8d044e9cd59270bb3966__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

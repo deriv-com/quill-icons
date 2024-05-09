@@ -11,6 +11,7 @@ export const LegacyRightIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 18 7'
     {...sizes[iconSize]}
     role='img'
@@ -19,16 +20,17 @@ export const LegacyRightIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g clipPath='url(#8f7654f1c962fb8aa1a6ed524a41cdaf__a)'>
       <path
+        fill='#333'
         fillRule='evenodd'
         d='M5.959 4A3 3 0 0 1 .04 4H0V3h.041A3 3 0 0 1 5.96 3H18v1z'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='11a77869fe4f56a202181e04dbaa6429__a'>
-        <path d='M0 0h18v7H0z' />
+      <clipPath id='8f7654f1c962fb8aa1a6ed524a41cdaf__a'>
+        <path fill='#fff' d='M0 0h18v7H0z' />
       </clipPath>
     </defs>
   </svg>

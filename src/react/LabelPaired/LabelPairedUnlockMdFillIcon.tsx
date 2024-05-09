@@ -23,7 +23,7 @@ const LabelPairedUnlockMdFillIcon = (
       <path d='M4.5 8.5V10H12c1.094 0 2 .906 2 2v6c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2v-6c0-1.094.875-2 2-2h.5V8.5C2.5 6.031 4.5 4 7 4a4.51 4.51 0 0 1 4.063 2.594c.218.5 0 1.093-.5 1.312-.47.25-1.094.032-1.313-.468C8.844 6.594 7.969 6 7 6a2.487 2.487 0 0 0-2.5 2.5' />
     </g>
     <defs>
-      <clipPath id='7b2fdec47fbe04f0298dadce93bedf7c__a'>
+      <clipPath id='9826bbfa91c72a909e21603a5dc49f89__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

@@ -23,7 +23,7 @@ const LabelPairedCheckCaptionFillIcon = (
       <path d='M10.516 5.984a.723.723 0 0 1 0 1.055l-6 6a.723.723 0 0 1-1.055 0l-3-3a.723.723 0 0 1 0-1.055.723.723 0 0 1 1.055 0L4 11.445l5.46-5.46a.723.723 0 0 1 1.056 0' />
     </g>
     <defs>
-      <clipPath id='83a256ed43360c800f627d6fc123677b__a'>
+      <clipPath id='1848a24de1f05677f26b6e3e3d5b4e1c__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

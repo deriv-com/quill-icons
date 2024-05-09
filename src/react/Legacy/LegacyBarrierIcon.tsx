@@ -11,6 +11,7 @@ export const LegacyBarrierIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyBarrierIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M1 8.5h14v-1H1z' />
+    <path fill='#333' d='M1 8.5h14v-1H1z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyBarrierIcon);

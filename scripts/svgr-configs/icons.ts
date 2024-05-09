@@ -51,9 +51,7 @@ export const IconSvgReactOutPutConfig: Options = {
     const shouldUseTemplate = !options.componentName.toLowerCase().includes('label-paired');
     const shouldCleanFills =
       options.pageName.toLowerCase().includes('system') ||
-      options.pageName.toLowerCase().includes('illustrative') ||
-      options.pageName.toLowerCase().includes('legacy');
-
+      options.pageName.toLowerCase().includes('illustrative');
     const svgoConfig: OptimizeOptions = {
       plugins: [
         {
