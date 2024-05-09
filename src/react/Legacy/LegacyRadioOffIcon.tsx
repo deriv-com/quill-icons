@@ -11,7 +11,6 @@ export const LegacyRadioOffIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,13 +19,13 @@ export const LegacyRadioOffIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#3a749a57c4c5aa5fdfb91703c5586504__a)'>
+    <g>
       <circle cx={8} cy={8} r={7} stroke='#999' strokeWidth={2} />
     </g>
     <rect width={14} height={14} x={1} y={1} stroke='#999' strokeWidth={2} rx={7} />
     <defs>
-      <clipPath id='3a749a57c4c5aa5fdfb91703c5586504__a'>
-        <rect width={16} height={16} fill='#fff' rx={8} />
+      <clipPath id='2a29a3dcc1c5505f16b59929628bffdf__a'>
+        <rect width={16} height={16} rx={8} />
       </clipPath>
     </defs>
   </svg>

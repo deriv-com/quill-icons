@@ -11,7 +11,6 @@ export const LegacyGatorIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 24 24'
     {...sizes[iconSize]}
     role='img'
@@ -20,8 +19,8 @@ export const LegacyGatorIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path fill='#85ACB0' d='M2 22v-8.57h3V7.71h3V2h3v3.81h3V22z' />
-    <path fill='#FF444F' d='M14 22V8.67h3v4.76h3v2.859l2 .001V22z' />
+    <path d='M2 22v-8.57h3V7.71h3V2h3v3.81h3V22z' />
+    <path d='M14 22V8.67h3v4.76h3v2.859l2 .001V22z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyGatorIcon);

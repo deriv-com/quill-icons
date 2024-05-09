@@ -23,7 +23,7 @@ const LabelPairedHorizontalRuleCaptionFillIcon = (
       <path d='M0 9.5c0-.398.328-.75.75-.75h13.5c.398 0 .75.352.75.75 0 .422-.352.75-.75.75H.75A.74.74 0 0 1 0 9.5' />
     </g>
     <defs>
-      <clipPath id='517e80f31423929d68ab18f85c23adc9__a'>
+      <clipPath id='9cdf87635a8b484783f0ce1c30f4d5e6__a'>
         <path d='M0 0h15v18H0z' />
       </clipPath>
     </defs>
