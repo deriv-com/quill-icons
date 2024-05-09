@@ -11,7 +11,6 @@ export const LegacyCircleTrendDownIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,8 +19,8 @@ export const LegacyCircleTrendDownIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <rect width={16} height={16} fill='#EC3F3F' rx={8} />
-    <path fill='#fff' d='M8 11 4 7h8z' />
+    <rect width={16} height={16} rx={8} />
+    <path d='M8 11 4 7h8z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyCircleTrendDownIcon);

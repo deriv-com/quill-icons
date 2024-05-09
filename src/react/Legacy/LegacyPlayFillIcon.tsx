@@ -11,7 +11,6 @@ export const LegacyPlayFillIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -21,7 +20,6 @@ export const LegacyPlayFillIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      fill='#333'
       fillRule='evenodd'
       d='M4 2.996c0-.806 1.001-1.277 1.726-.812l7.81 5.004c.619.396.619 1.228 0 1.624l-7.81 5.004C5.001 14.281 4 13.81 4 13.004z'
       clipRule='evenodd'

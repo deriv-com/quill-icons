@@ -23,7 +23,7 @@ const LabelPairedBookmarkLgFillIcon = (
       <path d='M0 7.375C0 6.359.82 5.5 1.875 5.5h11.25C14.141 5.5 15 6.36 15 7.375v17.188c0 .546-.43.937-.977.937a.9.9 0 0 1-.546-.156L7.5 21.125l-6.016 4.219a.9.9 0 0 1-.546.156C.39 25.5 0 25.11 0 24.563z' />
     </g>
     <defs>
-      <clipPath id='d35e529f65294a8e802f7040d2216467__a'>
+      <clipPath id='48cd8db07dacef60cda36506e63298e9__a'>
         <path d='M0 0h15v30H0z' />
       </clipPath>
     </defs>

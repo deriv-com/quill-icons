@@ -11,7 +11,6 @@ export const LegacyViewDetails2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyViewDetails2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g>
       <path d='M6 3.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5zM5.25 6A.75.75 0 0 1 6 5.25h4a.75.75 0 0 1 0 1.5H6A.75.75 0 0 1 5.25 6M6 7.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z' />
       <path
         fillRule='evenodd'

@@ -11,7 +11,6 @@ export const LegacyFractalChaosIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 24 24'
     {...sizes[iconSize]}
     role='img'
@@ -20,8 +19,8 @@ export const LegacyFractalChaosIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path fill='#85ACB0' d='m17 2-5 11 5-1.62L22 13z' />
-    <path fill='#FF444F' d='m7 22 5-11-5 1.62L2 11z' />
+    <path d='m17 2-5 11 5-1.62L22 13z' />
+    <path d='m7 22 5-11-5 1.62L2 11z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyFractalChaosIcon);

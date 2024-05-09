@@ -23,7 +23,7 @@ const LabelPairedPauseMdFillIcon = (
       <path d='M1.5 6h1C3.313 6 4 6.688 4 7.5v9A1.5 1.5 0 0 1 2.5 18h-1A1.48 1.48 0 0 1 0 16.5v-9A1.5 1.5 0 0 1 1.5 6m6 0h1c.813 0 1.5.688 1.5 1.5v9A1.5 1.5 0 0 1 8.5 18h-1A1.48 1.48 0 0 1 6 16.5v-9A1.5 1.5 0 0 1 7.5 6' />
     </g>
     <defs>
-      <clipPath id='642c68ea846b3e2ca0a8bc7d38200a6f__a'>
+      <clipPath id='02d0304ae952d9e3c0954b0a388f8b88__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>
