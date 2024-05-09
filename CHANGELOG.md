@@ -1,3 +1,10 @@
+## [1.22.7](https://github.com/deriv-com/quill-icons/compare/v1.22.6...v1.22.7) (2024-05-09)
+
+
+### ♻️ 	 Chores
+
+* removed fill from legacy icons ([e4b95dd](https://github.com/deriv-com/quill-icons/commit/e4b95dd1f5cff6db98e03ccdf7d9a8abc95f18f9))
+
 ## [1.22.6](https://github.com/deriv-com/quill-icons/compare/v1.22.5...v1.22.6) (2024-05-08)
 
 
