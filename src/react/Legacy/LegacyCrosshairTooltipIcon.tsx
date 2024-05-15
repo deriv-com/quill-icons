@@ -20,14 +20,14 @@ export const LegacyCrosshairTooltipIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#3a8907951a7845651a3c6bfd577e7282__a)'>
+    <g clipPath='url(#1cd23b10ad0079df4d35bd67ef818b5c__a)'>
       <path
         fill='#333'
         d='M8 0a1 1 0 0 1 1 1v.577A6.505 6.505 0 0 1 14.425 7H15a1 1 0 1 1 0 2h-.577a6.505 6.505 0 0 1-5.422 5.423L9 15a1 1 0 1 1-2 0v-.576A6.505 6.505 0 0 1 1.577 9L1 9a1 1 0 1 1 0-2h.576A6.505 6.505 0 0 1 7 1.576V1a1 1 0 0 1 1-1m0 3.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9M6 7a1 1 0 1 1 0 2 1 1 0 0 1 0-2m4 0a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2z'
       />
     </g>
     <defs>
-      <clipPath id='3a8907951a7845651a3c6bfd577e7282__a'>
+      <clipPath id='1cd23b10ad0079df4d35bd67ef818b5c__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

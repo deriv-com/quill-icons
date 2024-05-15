@@ -18,9 +18,9 @@ const DerivLightOrderIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#44cbad8441344e280634305771d94329__a)'>
+    <g clipPath='url(#4aa88080ea38256d6c543cade1b47860__a)'>
       <mask
-        id='44cbad8441344e280634305771d94329__b'
+        id='4aa88080ea38256d6c543cade1b47860__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightOrderIcon = (
       >
         <path fill='#fff' d='M128 0H0v128h128z' />
       </mask>
-      <g mask='url(#44cbad8441344e280634305771d94329__b)'>
+      <g mask='url(#4aa88080ea38256d6c543cade1b47860__b)'>
         <path
           fill='#C7E5E5'
           d='M31.36 17.83V17A12.12 12.12 0 0 0 20 5q.455-.022.91 0H18.1a9.291 9.291 0 0 0 0 18.58h13.26z'
@@ -52,7 +52,7 @@ const DerivLightOrderIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='44cbad8441344e280634305771d94329__a'>
+      <clipPath id='4aa88080ea38256d6c543cade1b47860__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>
