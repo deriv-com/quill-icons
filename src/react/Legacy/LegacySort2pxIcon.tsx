@@ -23,13 +23,13 @@ export const LegacySort2pxIcon = (
     <g
       fill='#333'
       fillRule='evenodd'
-      clipPath='url(#48cc379a94110814b9ca567efa8c2f3e__a)'
+      clipPath='url(#eae26f6fa1592cf26343e4b2300c5b89__a)'
       clipRule='evenodd'
     >
       <path d='M4 2a1 1 0 0 1 .711.297l3 3.036A1 1 0 1 1 6.29 6.74L5 5.435V13a1 1 0 1 1-2 0V5.435L1.711 6.739A1 1 0 1 1 .29 5.333l3-3.036A1 1 0 0 1 4 2M12 14a1 1 0 0 0 .711-.297l3-3.036A1 1 0 1 0 14.29 9.26L13 10.565V3a1 1 0 0 0-2 0v7.565L9.711 9.261a1 1 0 0 0-1.422 1.406l3 3.036A1 1 0 0 0 12 14' />
     </g>
     <defs>
-      <clipPath id='48cc379a94110814b9ca567efa8c2f3e__a'>
+      <clipPath id='eae26f6fa1592cf26343e4b2300c5b89__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

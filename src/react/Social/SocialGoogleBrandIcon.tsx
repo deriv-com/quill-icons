@@ -20,7 +20,7 @@ export const SocialGoogleBrandIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#a7acf0094686967e7325e00fcaa63514__a)'>
+    <g clipPath='url(#27c321ea5234167a60d64f6713714358__a)'>
       <path
         fill='#3E82F1'
         d='M32 16.375c0-1.097-.1-2.194-.294-3.273H16.325v6.186h8.787a7.34 7.34 0 0 1-3.256 4.829l5.274 4.02C30.22 25.348 32 21.248 32 16.374'
@@ -39,7 +39,7 @@ export const SocialGoogleBrandIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a7acf0094686967e7325e00fcaa63514__a'>
+      <clipPath id='27c321ea5234167a60d64f6713714358__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

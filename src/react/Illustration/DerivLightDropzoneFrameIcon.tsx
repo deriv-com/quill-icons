@@ -18,7 +18,7 @@ const DerivLightDropzoneFrameIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#4c4e3f14ee4debeb6e69170166e728f4__a)'>
+    <g clipPath='url(#5d1473e0f12df24563a6d0adb11f6bde__a)'>
       <path
         fill='#BCCDCE'
         fillRule='evenodd'
@@ -27,7 +27,7 @@ const DerivLightDropzoneFrameIcon = (
       />
     </g>
     <defs>
-      <clipPath id='4c4e3f14ee4debeb6e69170166e728f4__a'>
+      <clipPath id='5d1473e0f12df24563a6d0adb11f6bde__a'>
         <path fill='#fff' d='M0 0h278v168H0z' />
       </clipPath>
     </defs>

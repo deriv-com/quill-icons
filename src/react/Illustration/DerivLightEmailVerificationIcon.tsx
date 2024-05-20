@@ -18,7 +18,7 @@ const DerivLightEmailVerificationIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0f0168dea993d53848ca91c141671bcc__a)'>
+    <g clipPath='url(#e13abaea36049cc8aab8e35ee6980ffe__a)'>
       <path
         fill='#85ACB0'
         d='M25.545 37.576v23.152L42.81 48.975zM74.927 35.031h-47.81l24.28 16.048zM59.145 49.398 76.454 60.82V37.623z'
@@ -49,7 +49,7 @@ const DerivLightEmailVerificationIcon = (
       />
     </g>
     <defs>
-      <clipPath id='0f0168dea993d53848ca91c141671bcc__a'>
+      <clipPath id='e13abaea36049cc8aab8e35ee6980ffe__a'>
         <path fill='#fff' d='M0 0h102v103H0z' />
       </clipPath>
     </defs>
