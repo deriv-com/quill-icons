@@ -1,3 +1,10 @@
+## [1.22.9](https://github.com/deriv-com/quill-icons/compare/v1.22.8...v1.22.9) (2024-05-20)
+
+
+### ♻️ 	 Chores
+
+* exported new changes ([11864c0](https://github.com/deriv-com/quill-icons/commit/11864c06465895b02e6ad05fc685f4d2931df350))
+
 ## [1.22.8](https://github.com/deriv-com/quill-icons/compare/v1.22.7...v1.22.8) (2024-05-16)
 
 
