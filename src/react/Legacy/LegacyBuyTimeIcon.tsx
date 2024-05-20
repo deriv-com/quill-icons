@@ -20,14 +20,14 @@ export const LegacyBuyTimeIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#3ecd9fd4892579595231796dad3edb45__a)'>
+    <g clipPath='url(#3dc86bf1384a3e599e7e2fdb974a8a87__a)'>
       <path
         fill='#333'
         d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.143a6.857 6.857 0 1 0 0 13.714A6.857 6.857 0 0 0 8 1.143M9.5 2.5a.5.5 0 0 1 .09.992L9.5 3.5h-1v1.028a4.5 4.5 0 1 1-1 0V3.5h-1a.5.5 0 0 1-.492-.41L6 3a.5.5 0 0 1 .41-.492L6.5 2.5zM8 5.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7m1.95 1.649a.5.5 0 0 1 .054.638l-.058.069L8.35 9.429a.5.5 0 0 1-.76-.643l.058-.069 1.594-1.573a.5.5 0 0 1 .707.005'
       />
     </g>
     <defs>
-      <clipPath id='3ecd9fd4892579595231796dad3edb45__a'>
+      <clipPath id='3dc86bf1384a3e599e7e2fdb974a8a87__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

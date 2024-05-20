@@ -23,7 +23,7 @@ const LabelPairedArrowRightToLineMdFillIcon = (
       <path d='M14 7v10c0 .563-.469 1-1 1-.562 0-1-.437-1-1V7c0-.531.438-1 1-1 .531 0 1 .469 1 1m-4.312 5.719-4 4a.964.964 0 0 1-1.407 0 .964.964 0 0 1 0-1.407L6.563 13H1c-.562 0-1-.437-1-1 0-.531.438-1 1-1h5.563L4.28 8.719a.964.964 0 0 1 0-1.406.964.964 0 0 1 1.407 0l4 4a.964.964 0 0 1 0 1.406' />
     </g>
     <defs>
-      <clipPath id='e3d4ce3f29756ca5c323ef67babc08ee__a'>
+      <clipPath id='e39d4162f0b94c4cda9a7a29470a4de3__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>
