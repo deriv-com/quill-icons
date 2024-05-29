@@ -20,14 +20,14 @@ export const LegacyFavoriteOffIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#039f6aafd42ade9054194b890d92fbaa__a)'>
+    <g clipPath='url(#24815db84ff6934366dc7fe5fe27716d__a)'>
       <path
         fill='#333'
         d='m4.256 13.654 3.511-1.847a.5.5 0 0 1 .466 0l3.511 1.847-.67-3.91a.5.5 0 0 1 .143-.443l2.841-2.77-3.926-.57a.5.5 0 0 1-.376-.274L8 2.13 6.244 5.687a.5.5 0 0 1-.376.274l-3.926.57 2.84 2.77a.5.5 0 0 1 .144.442zM8 12.814 3.824 15.01a.5.5 0 0 1-.725-.527l.797-4.65L.518 6.54a.5.5 0 0 1 .277-.852l4.669-.679L7.552.78a.5.5 0 0 1 .896 0l2.088 4.23 4.669.679a.5.5 0 0 1 .277.852l-3.378 3.293.797 4.65a.5.5 0 0 1-.725.527z'
       />
     </g>
     <defs>
-      <clipPath id='039f6aafd42ade9054194b890d92fbaa__a'>
+      <clipPath id='24815db84ff6934366dc7fe5fe27716d__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -20,7 +20,7 @@ export const MarketDerivedDex600dnIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e44b12a79538de14895b351c60e2f7d0__a)'>
+    <g clipPath='url(#0427dd0aef96fb96fed543d2b707b7be__a)'>
       <path
         fill='#0AA0B0'
         d='M26 22h3v-3h-3zM23 25h3v-3h-3zM29 19h3v-3h-3zM3 9h3V6H3zM6 6h3V3H6zM0 12h3V9H0z'
@@ -36,7 +36,7 @@ export const MarketDerivedDex600dnIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e44b12a79538de14895b351c60e2f7d0__a'>
+      <clipPath id='0427dd0aef96fb96fed543d2b707b7be__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

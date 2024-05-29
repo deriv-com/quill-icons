@@ -20,14 +20,14 @@ export const LegacyTradeTypeLookbacksIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#c3a55cb122e6002c4bf237323812d67e__a)'>
+    <g clipPath='url(#96b2aae96d173c0787758a1424afd0f7__a)'>
       <path
         fill='#333'
         d='M9.5 0a6.5 6.5 0 1 1 0 13H1.707l2.147 2.146a.5.5 0 0 1 .057.638l-.057.07a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1-.135-.249A.5.5 0 0 1 0 12.5l.005.074L0 12.512V12.5a.5.5 0 0 1 .077-.267.5.5 0 0 1 .07-.087l-.045.052.033-.04.011-.012 3-3a.5.5 0 1 1 .708.708L1.707 12H9.5a5.5 5.5 0 0 0 5.496-5.279L15 6.5A5.5 5.5 0 0 0 9.5 1h-5a.5.5 0 0 1 0-1z'
       />
     </g>
     <defs>
-      <clipPath id='c3a55cb122e6002c4bf237323812d67e__a'>
+      <clipPath id='96b2aae96d173c0787758a1424afd0f7__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

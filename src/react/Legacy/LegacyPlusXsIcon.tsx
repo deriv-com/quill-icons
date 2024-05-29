@@ -20,14 +20,14 @@ export const LegacyPlusXsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ea44ed50d3cdd1692d18aa57b3b2118d__a)'>
+    <g clipPath='url(#ec2e5b451b6bf6c6f9ea9e37bfd26aed__a)'>
       <path
         fill='#333'
         d='M4 0a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 4 0'
       />
     </g>
     <defs>
-      <clipPath id='ea44ed50d3cdd1692d18aa57b3b2118d__a'>
+      <clipPath id='ec2e5b451b6bf6c6f9ea9e37bfd26aed__a'>
         <path fill='#fff' d='M0 0h8v8H0z' />
       </clipPath>
     </defs>
