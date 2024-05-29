@@ -64,8 +64,8 @@ export { default as LegacyChevronLeft2pxIcon } from './LegacyChevronLeft2pxIcon'
 export { default as LegacyChevronRight1pxIcon } from './LegacyChevronRight1pxIcon';
 export { default as LegacyChevronRight2pxIcon } from './LegacyChevronRight2pxIcon';
 export { default as LegacyChevronUp1pxIcon } from './LegacyChevronUp1pxIcon';
-export { default as LegacyChevronUp2pxIcon } from './LegacyChevronUp2pxIcon';
 export { default as LegacyCircleTrendDownIcon } from './LegacyCircleTrendDownIcon';
+export { default as LegacyChevronUp2pxIcon } from './LegacyChevronUp2pxIcon';
 export { default as LegacyCircleTrendUpIcon } from './LegacyCircleTrendUpIcon';
 export { default as LegacyClose1pxIcon } from './LegacyClose1pxIcon';
 export { default as LegacyClose2pxIcon } from './LegacyClose2pxIcon';
@@ -306,3 +306,8 @@ export { default as LegacyWilliamPercentIcon } from './LegacyWilliamPercentIcon'
 export { default as LegacyWithdrawalIcon } from './LegacyWithdrawalIcon';
 export { default as LegacyWonIcon } from './LegacyWonIcon';
 export { default as LegacyZigZagIcon } from './LegacyZigZagIcon';
+export { default as LegacyHomeNewIcon } from './LegacyHomeNewIcon';
+export { default as LegacyHomeOldIcon } from './LegacyHomeOldIcon';
+export { default as LegacyThemeLightIcon } from './LegacyThemeLightIcon';
+export { default as LegacyThemeDarkIcon } from './LegacyThemeDarkIcon';
+export { default as LegacyMonitorIcon } from './LegacyMonitorIcon';

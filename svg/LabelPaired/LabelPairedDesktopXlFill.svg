@@ -1,0 +1,10 @@
+<svg width="27" height="36" viewBox="0 0 27 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="label-paired / xl / desktop-xl / fill" clip-path="url(#clip0_2981_944)">
+<path id="icon" d="M3 6H24C25.6406 6 27 7.35938 27 9V22.5C27 24.1875 25.6406 25.5 24 25.5H15.75L16.2188 27H19.5C20.2969 27 21 27.7031 21 28.5C21 29.3438 20.2969 30 19.5 30H7.5C6.65625 30 6 29.3438 6 28.5C6 27.7031 6.65625 27 7.5 27H10.7344L11.25 25.5H3C1.3125 25.5 0 24.1875 0 22.5V9C0 7.35938 1.3125 6 3 6ZM24 9H3V19.5H24V9Z" fill="black" fill-opacity="0.72"/>
+</g>
+<defs>
+<clipPath id="clip0_2981_944">
+<rect width="27" height="36" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -23,7 +23,7 @@ const LabelPairedTableLayoutCaptionRegularIcon = (
       <path d='M10.5 5h-9a.755.755 0 0 0-.75.75v1.5h10.5v-1.5A.77.77 0 0 0 10.5 5M.75 13.25c0 .422.328.75.75.75h2.25V8h-3zM4.5 14h6c.398 0 .75-.328.75-.75V8H4.5zm-3-9.75h9c.82 0 1.5.68 1.5 1.5v7.5c0 .844-.68 1.5-1.5 1.5h-9a1.48 1.48 0 0 1-1.5-1.5v-7.5c0-.82.656-1.5 1.5-1.5' />
     </g>
     <defs>
-      <clipPath id='334b797fbcbbf7a3661c1478f918e00e__a'>
+      <clipPath id='fc92ff0c6e6a550c9daa5f8c72804d9c__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>
