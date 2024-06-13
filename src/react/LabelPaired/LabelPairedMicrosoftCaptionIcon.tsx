@@ -23,7 +23,7 @@ const LabelPairedMicrosoftCaptionIcon = (
       <path d='M.25 4.25h5.016v5.04H.25zm5.46 0h5.04v5.04H5.71zM.25 9.734h5.016v5.016H.25zm5.46 0h5.04v5.016H5.71z' />
     </g>
     <defs>
-      <clipPath id='fed2e1d9e5caabfef5baef8d041bcefd__a'>
+      <clipPath id='e8c7e9bed1e0ae78ba8e3b55aac21ffe__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

@@ -18,7 +18,7 @@ const DerivLightIcPoaLockDemoIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#dc59bf98b90bc55bd5b08ecc50cd7c1b__a)'>
+    <g clipPath='url(#45563fdaceafcfbe3115616a75a1a435__a)'>
       <path
         fill='#85ACB0'
         fillOpacity={0.6}
@@ -44,7 +44,7 @@ const DerivLightIcPoaLockDemoIcon = (
       />
     </g>
     <defs>
-      <clipPath id='dc59bf98b90bc55bd5b08ecc50cd7c1b__a'>
+      <clipPath id='45563fdaceafcfbe3115616a75a1a435__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

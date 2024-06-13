@@ -23,7 +23,7 @@ const LabelPairedBookmarkXlRegularIcon = (
       <path d='M0 8.25A2.25 2.25 0 0 1 2.25 6h13.5C16.969 6 18 7.031 18 8.25v20.719c0 .61-.469 1.031-1.078 1.031q-.282 0-.563-.14L9 24.937l-7.406 4.921Q1.312 30 1.03 30C.421 30 0 29.578 0 28.969zm2.25-.75c-.422 0-.75.375-.75.75v19.875l7.078-4.734a.8.8 0 0 1 .797 0l7.125 4.734V8.25c0-.375-.375-.75-.75-.75z' />
     </g>
     <defs>
-      <clipPath id='99c1d824e0c1a97cad7c0965da9ad69c__a'>
+      <clipPath id='6d6bc4bfcb8d7ec0aa9a4887ccc9503d__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

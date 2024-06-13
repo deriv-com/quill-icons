@@ -95,3 +95,4 @@ export { default as FlagMongoliaIcon } from './FlagMongoliaIcon';
 export { default as FlagTanzaniaIcon } from './FlagTanzaniaIcon';
 export { default as FlagCambodiaIcon } from './FlagCambodiaIcon';
 export { default as FlagSenegalIcon } from './FlagSenegalIcon';
+export { default as FlagTaiwanIcon } from './FlagTaiwanIcon';

@@ -23,7 +23,7 @@ const LabelPairedPauseXlFillIcon = (
       <path d='M2.25 9h1.5C4.969 9 6 10.031 6 11.25v13.5A2.25 2.25 0 0 1 3.75 27h-1.5A2.22 2.22 0 0 1 0 24.75v-13.5A2.25 2.25 0 0 1 2.25 9m9 0h1.5C13.969 9 15 10.031 15 11.25v13.5A2.25 2.25 0 0 1 12.75 27h-1.5A2.22 2.22 0 0 1 9 24.75v-13.5A2.25 2.25 0 0 1 11.25 9' />
     </g>
     <defs>
-      <clipPath id='712f6e1230346f1d8ae22fb3937d6fd3__a'>
+      <clipPath id='f27f30bb2f84cb0f763925370f91d0c4__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>
