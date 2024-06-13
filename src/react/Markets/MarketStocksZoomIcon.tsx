@@ -20,7 +20,7 @@ export const MarketStocksZoomIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ecc1e78021fc9c47f05d5a50ee54b73a__a)'>
+    <g clipPath='url(#394db00341f46a9a0a2045c3602c632e__a)'>
       <path
         fill='#2D8CFF'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -47,7 +47,7 @@ export const MarketStocksZoomIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ecc1e78021fc9c47f05d5a50ee54b73a__a'>
+      <clipPath id='394db00341f46a9a0a2045c3602c632e__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

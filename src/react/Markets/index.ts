@@ -179,6 +179,8 @@ export { default as MarketIndicesUk100Icon } from './MarketIndicesUk100Icon';
 export { default as MarketIndicesUs500Icon } from './MarketIndicesUs500Icon';
 export { default as MarketIndicesUsTech100Icon } from './MarketIndicesUsTech100Icon';
 export { default as MarketIndicesWallStreet30Icon } from './MarketIndicesWallStreet30Icon';
+export { default as MarketIndicesChina50Icon } from './MarketIndicesChina50Icon';
+export { default as MarketIndicesSingapore20Icon } from './MarketIndicesSingapore20Icon';
 export { default as MarketDerivedAudBasketIcon } from './MarketDerivedAudBasketIcon';
 export { default as MarketDerivedEurBasketIcon } from './MarketDerivedEurBasketIcon';
 export { default as MarketDerivedGbpBasketIcon } from './MarketDerivedGbpBasketIcon';

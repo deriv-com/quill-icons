@@ -8,3 +8,4 @@ export { default as AccountsDmt5ZrsIcon } from './AccountsDmt5ZrsIcon';
 export { default as AccountsDmt5DerivedIcon } from './AccountsDmt5DerivedIcon';
 export { default as AccountsDerivXIcon } from './AccountsDerivXIcon';
 export { default as AccountsDerivCtraderIcon } from './AccountsDerivCtraderIcon';
+export { default as AccountsPlaceholderIcon } from './AccountsPlaceholderIcon';
