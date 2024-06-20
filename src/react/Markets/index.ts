@@ -181,6 +181,10 @@ export { default as MarketIndicesUsTech100Icon } from './MarketIndicesUsTech100I
 export { default as MarketIndicesWallStreet30Icon } from './MarketIndicesWallStreet30Icon';
 export { default as MarketIndicesChina50Icon } from './MarketIndicesChina50Icon';
 export { default as MarketIndicesSingapore20Icon } from './MarketIndicesSingapore20Icon';
+export { default as MarketIndicesChinaHSharesIcon } from './MarketIndicesChinaHSharesIcon';
+export { default as MarketIndicesTaiwanIndexIcon } from './MarketIndicesTaiwanIndexIcon';
+export { default as MarketUsSmallcap2000Icon } from './MarketUsSmallcap2000Icon';
+export { default as MarketUsMidcap400Icon } from './MarketUsMidcap400Icon';
 export { default as MarketDerivedAudBasketIcon } from './MarketDerivedAudBasketIcon';
 export { default as MarketDerivedEurBasketIcon } from './MarketDerivedEurBasketIcon';
 export { default as MarketDerivedGbpBasketIcon } from './MarketDerivedGbpBasketIcon';
