@@ -1,3 +1,12 @@
+## [1.22.12](https://github.com/deriv-com/quill-icons/compare/v1.22.11...v1.22.12) (2024-06-20)
+
+
+### ♻️ 	 Chores
+
+* **deps-dev:** bump braces from 3.0.2 to 3.0.3 ([5d912e7](https://github.com/deriv-com/quill-icons/commit/5d912e78c8d17c2e6ee213ec253bb92b89b41bc3))
+* **deps-dev:** bump braces from 3.0.2 to 3.0.3 ([d5b3820](https://github.com/deriv-com/quill-icons/commit/d5b3820fa3a3595639639702fe096bbe5ea879fc))
+* exported new changes ([b15429b](https://github.com/deriv-com/quill-icons/commit/b15429b60706d7a553679c613e60281151179b04))
+
 ## [1.22.11](https://github.com/deriv-com/quill-icons/compare/v1.22.10...v1.22.11) (2024-06-13)
 
 
