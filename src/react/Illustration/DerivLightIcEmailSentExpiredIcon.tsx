@@ -18,9 +18,9 @@ const DerivLightIcEmailSentExpiredIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#4e43534c0d17387b469a689d86cf4488__a)'>
+    <g clipPath='url(#ea808e6bbac7ddced0a91ca9d3eb13ce__a)'>
       <mask
-        id='4e43534c0d17387b469a689d86cf4488__b'
+        id='ea808e6bbac7ddced0a91ca9d3eb13ce__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightIcEmailSentExpiredIcon = (
       >
         <path fill='#fff' d='M0 0h128v128H0z' />
       </mask>
-      <g mask='url(#4e43534c0d17387b469a689d86cf4488__b)'>
+      <g mask='url(#ea808e6bbac7ddced0a91ca9d3eb13ce__b)'>
         <path
           fill='#BBCCCE'
           d='M13 44.626v14.087l37.62 31.59 6.565-5.582 6.565-5.583 6.46 5.831 6.46 5.831L115 58.048V45.063a1.985 1.985 0 0 0-.94-1.688L66.11 13.602a4.02 4.02 0 0 0-4.23 0L14 42.93c-.612.35-.992.995-1 1.697'
@@ -73,7 +73,7 @@ const DerivLightIcEmailSentExpiredIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='4e43534c0d17387b469a689d86cf4488__a'>
+      <clipPath id='ea808e6bbac7ddced0a91ca9d3eb13ce__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

@@ -20,14 +20,14 @@ export const LegacyChartsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#7a3612bcfbc06d86f265c489fc4c7375__a)'>
+    <g clipPath='url(#30dc98237d6347652acafab7dd7baad0__a)'>
       <path
         fill='#333'
         d='M2 0v13.999L16 14v1l-14-.001V16H1l-.001-1.001L0 15v-1l.999-.001L1 0zm10.528 2.002 2.605 7.814-.95.316-1.71-5.134-2.74 7.302L5.68 9.26l-1.955 3.91-.895-.446L5.321 7.74 9.266 10.7z'
       />
     </g>
     <defs>
-      <clipPath id='7a3612bcfbc06d86f265c489fc4c7375__a'>
+      <clipPath id='30dc98237d6347652acafab7dd7baad0__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

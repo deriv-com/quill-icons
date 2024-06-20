@@ -118,3 +118,6 @@ export { default as IllustrativeFastExecutionIcon } from './IllustrativeFastExec
 export { default as IllustrativeLiquidityIcon } from './IllustrativeLiquidityIcon';
 export { default as IllustrativeExecutionSpeedIcon } from './IllustrativeExecutionSpeedIcon';
 export { default as IllustrativeStockIndicesIcon } from './IllustrativeStockIndicesIcon';
+export { default as IllustrativeBasketIndicesIcon } from './IllustrativeBasketIndicesIcon';
+export { default as IllustrativeSyntheticIndicesIcon } from './IllustrativeSyntheticIndicesIcon';
+export { default as IllustrativeDerivedFxIcon } from './IllustrativeDerivedFxIcon';

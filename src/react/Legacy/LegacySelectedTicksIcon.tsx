@@ -20,12 +20,12 @@ export const LegacySelectedTicksIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#562e23f05a9736e3cdc0fa21abec675e__a)'>
+    <g fill='#333' clipPath='url(#60eaaa517f830d681647aaf937a6f23c__a)'>
       <path d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.143a6.857 6.857 0 1 0 0 13.714A6.857 6.857 0 0 0 8 1.143' />
       <path d='M5.88 12v-.74h1.95V5.64h-.07L6 7.28l-.49-.53 1.85-1.73h1.31v6.24h1.8V12z' />
     </g>
     <defs>
-      <clipPath id='562e23f05a9736e3cdc0fa21abec675e__a'>
+      <clipPath id='60eaaa517f830d681647aaf937a6f23c__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -20,7 +20,7 @@ export const LegacyEdit1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ef93dcb28982f10eb88134a874804308__a)'>
+    <g clipPath='url(#49217aeede974d155a855b6939e6a63a__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyEdit1pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ef93dcb28982f10eb88134a874804308__a'>
+      <clipPath id='49217aeede974d155a855b6939e6a63a__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
