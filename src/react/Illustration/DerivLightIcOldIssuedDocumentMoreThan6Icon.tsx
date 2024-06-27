@@ -18,25 +18,25 @@ const DerivLightIcOldIssuedDocumentMoreThan6Icon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g filter='url(#b8b135a946f88de9cab32cb39638bab5__a)'>
-      <g clipPath='url(#b8b135a946f88de9cab32cb39638bab5__b)'>
+    <g filter='url(#d88e7469a584f5233b24b36ad94a44c2__a)'>
+      <g clipPath='url(#d88e7469a584f5233b24b36ad94a44c2__b)'>
         <rect width={128} height={158} x={3} y={3} fill='#fff' rx={4} />
-        <mask id='b8b135a946f88de9cab32cb39638bab5__c' fill='#fff'>
+        <mask id='d88e7469a584f5233b24b36ad94a44c2__c' fill='#fff'>
           <path d='M-111.61 16.39h229.294v21.757H-111.61z' />
         </mask>
         <path
           fill='#4BB4B3'
           d='M-111.61 18.063h229.294v-3.347H-111.61zm229.294 18.41H-111.61v3.348h229.294z'
-          mask='url(#b8b135a946f88de9cab32cb39638bab5__c)'
+          mask='url(#d88e7469a584f5233b24b36ad94a44c2__c)'
         />
         <g opacity={0.16}>
-          <mask id='b8b135a946f88de9cab32cb39638bab5__d' fill='#fff'>
+          <mask id='d88e7469a584f5233b24b36ad94a44c2__d' fill='#fff'>
             <path d='M-111.61 128.526h229.294v13.39H-111.61z' />
           </mask>
           <path
             fill='#D6D6D6'
             d='M-111.61 129.363h229.294v-1.673H-111.61zm229.294 11.716H-111.61v1.674h229.294z'
-            mask='url(#b8b135a946f88de9cab32cb39638bab5__d)'
+            mask='url(#d88e7469a584f5233b24b36ad94a44c2__d)'
           />
           <path
             fill='#377CFC'
@@ -61,7 +61,7 @@ const DerivLightIcOldIssuedDocumentMoreThan6Icon = (
         rx={3.582}
       />
     </g>
-    <g filter='url(#b8b135a946f88de9cab32cb39638bab5__e)'>
+    <g filter='url(#d88e7469a584f5233b24b36ad94a44c2__e)'>
       <rect width={120} height={44} x={104} y={100} fill='#fff' rx={4} />
       <path
         fill='#333'
@@ -74,7 +74,7 @@ const DerivLightIcOldIssuedDocumentMoreThan6Icon = (
     />
     <defs>
       <filter
-        id='b8b135a946f88de9cab32cb39638bab5__a'
+        id='d88e7469a584f5233b24b36ad94a44c2__a'
         width={133.021}
         height={163.021}
         x={0.489}
@@ -104,7 +104,7 @@ const DerivLightIcOldIssuedDocumentMoreThan6Icon = (
         <feBlend in='SourceGraphic' in2='effect2_dropShadow_2551_155' result='shape' />
       </filter>
       <filter
-        id='b8b135a946f88de9cab32cb39638bab5__e'
+        id='d88e7469a584f5233b24b36ad94a44c2__e'
         width={126}
         height={50}
         x={101}
@@ -133,7 +133,7 @@ const DerivLightIcOldIssuedDocumentMoreThan6Icon = (
         <feBlend in2='effect1_dropShadow_2551_155' result='effect2_dropShadow_2551_155' />
         <feBlend in='SourceGraphic' in2='effect2_dropShadow_2551_155' result='shape' />
       </filter>
-      <clipPath id='b8b135a946f88de9cab32cb39638bab5__b'>
+      <clipPath id='d88e7469a584f5233b24b36ad94a44c2__b'>
         <rect width={128} height={158} x={3} y={3} fill='#fff' rx={4} />
       </clipPath>
     </defs>

@@ -18,9 +18,9 @@ const DerivLightMobileVerifiedIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b2e977de8aaa94503e6a7ebf7603e706__a)'>
+    <g clipPath='url(#b3913659c1924349cba53445a3556f6f__a)'>
       <mask
-        id='b2e977de8aaa94503e6a7ebf7603e706__b'
+        id='b3913659c1924349cba53445a3556f6f__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightMobileVerifiedIcon = (
       >
         <path fill='#fff' d='M128 0H0v128h128z' />
       </mask>
-      <g mask='url(#b2e977de8aaa94503e6a7ebf7603e706__b)'>
+      <g mask='url(#b3913659c1924349cba53445a3556f6f__b)'>
         <path
           fill='#E0F0F0'
           d='M0 32a8 8 0 0 1 8-8h32a8 8 0 0 1 8 8v64a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z'
@@ -71,7 +71,7 @@ const DerivLightMobileVerifiedIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='b2e977de8aaa94503e6a7ebf7603e706__a'>
+      <clipPath id='b3913659c1924349cba53445a3556f6f__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

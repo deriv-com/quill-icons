@@ -18,7 +18,7 @@ const DerivLightIcCashierSendEmailIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#78bd4423491f6fd92c24e1fd242812c9__a)'>
+    <g clipPath='url(#a18c86642ee221c43d3cea332a31d360__a)'>
       <path
         fill='#BBCCCE'
         d='M13 45.56v5.11L50.62 80.5l12.68-9.44L76.67 81 115 48v-2a1.997 1.997 0 0 0-.94-1.7l-47.95-30a4 4 0 0 0-4.23 0L14 43.85a2 2 0 0 0-1 1.71'
@@ -46,7 +46,7 @@ const DerivLightIcCashierSendEmailIcon = (
       />
     </g>
     <defs>
-      <clipPath id='78bd4423491f6fd92c24e1fd242812c9__a'>
+      <clipPath id='a18c86642ee221c43d3cea332a31d360__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

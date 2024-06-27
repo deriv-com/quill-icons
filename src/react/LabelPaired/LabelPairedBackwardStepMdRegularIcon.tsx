@@ -23,7 +23,7 @@ const LabelPairedBackwardStepMdRegularIcon = (
       <path d='M2 6.5v4.25l5.563-4.531A.9.9 0 0 1 8.124 6c.469 0 .875.406.875.875v10.281c0 .469-.406.844-.875.844a.87.87 0 0 1-.562-.187L2 13.28V17.5c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5v-11c0-.25.219-.5.5-.5.25 0 .5.25.5.5m6 .656L2.031 12 8 16.875z' />
     </g>
     <defs>
-      <clipPath id='086d59fa488fd0bb44e8bd7169552d96__a'>
+      <clipPath id='176d73dde7d9aed78d950f04401e29cf__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>

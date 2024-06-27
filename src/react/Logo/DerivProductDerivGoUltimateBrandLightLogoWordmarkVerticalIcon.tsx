@@ -51,7 +51,7 @@ const DerivProductDerivGoUltimateBrandLightLogoWordmarkVerticalIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='16f592738a06b947d42cd17ab07193fd__a'>
+      <clipPath id='65eba055d8a015a4dce2fa551e6dff15__a'>
         <path fill='#fff' d='M0 0h373v72H0z' />
       </clipPath>
     </defs>

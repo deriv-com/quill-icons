@@ -23,7 +23,7 @@ const LabelPairedCreditCardMdFillIcon = (
       <path d='M2 5h14c1.094 0 2 .906 2 2v1H0V7c0-1.094.875-2 2-2m16 6v6c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2v-6zM3.5 15c-.281 0-.5.25-.5.5 0 .281.219.5.5.5h2c.25 0 .5-.219.5-.5 0-.25-.25-.5-.5-.5zm3.5.5c0 .281.219.5.5.5h4c.25 0 .5-.219.5-.5 0-.25-.25-.5-.5-.5h-4c-.281 0-.5.25-.5.5' />
     </g>
     <defs>
-      <clipPath id='3c2ab90f0e3aa449cc240615a3b7bb6f__a'>
+      <clipPath id='f8c4ddbc23504c31cd79fd8334e80297__a'>
         <path d='M0 0h18v24H0z' />
       </clipPath>
     </defs>
