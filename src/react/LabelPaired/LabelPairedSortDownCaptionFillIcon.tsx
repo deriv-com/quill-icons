@@ -23,7 +23,7 @@ const LabelPairedSortDownCaptionFillIcon = (
       <path d='M4.516 14.54a.723.723 0 0 1-1.055 0l-3-3a.76.76 0 0 1-.164-.821A.77.77 0 0 1 1 10.25h6a.76.76 0 0 1 .68.469.76.76 0 0 1-.164.82z' />
     </g>
     <defs>
-      <clipPath id='6035f080913c5caed8f29b00f6632ddc__a'>
+      <clipPath id='70406db99271251b9739f71f2195c644__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

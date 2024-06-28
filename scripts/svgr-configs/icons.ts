@@ -52,7 +52,7 @@ export const IconSvgReactOutPutConfig: Options = {
     const shouldCleanFills =
       options.pageName.toLowerCase().includes('system') ||
       options.pageName.toLowerCase().includes('illustrative') ||
-      options.pageName.toLowerCase().includes('Legacy');
+      options.pageName === 'Legacy';
 
     const svgoConfig: OptimizeOptions = {
       plugins: [

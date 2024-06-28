@@ -11,7 +11,6 @@ export const LegacyPlaceholder24pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 24 24'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyPlaceholder24pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <rect width={24} height={24} fill='#333' rx={4} />
+    <rect width={24} height={24} rx={4} />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyPlaceholder24pxIcon);

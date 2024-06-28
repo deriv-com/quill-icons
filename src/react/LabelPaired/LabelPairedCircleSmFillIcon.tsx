@@ -23,7 +23,7 @@ const LabelPairedCircleSmFillIcon = (
       <path d='M7 17.75a6.96 6.96 0 0 1-6.07-3.5c-1.258-2.16-1.258-4.812 0-7A7.02 7.02 0 0 1 7 3.75c2.488 0 4.785 1.34 6.043 3.5 1.258 2.188 1.258 4.84 0 7A6.95 6.95 0 0 1 7 17.75' />
     </g>
     <defs>
-      <clipPath id='894aa2800da80a9f4f322c59e6a02e47__a'>
+      <clipPath id='ea83f64ce6478fdb27f53eb12ddac376__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

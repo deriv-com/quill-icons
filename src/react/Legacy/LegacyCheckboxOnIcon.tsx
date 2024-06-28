@@ -11,7 +11,6 @@ export const LegacyCheckboxOnIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,11 +19,8 @@ export const LegacyCheckboxOnIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <rect width={16} height={16} fill='#FF444F' rx={2} />
-    <path
-      fill='#fff'
-      d='M3.707 7.793a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.414 0l7-7a1 1 0 0 0-1.414-1.414L6 10.086z'
-    />
+    <rect width={16} height={16} rx={2} />
+    <path d='M3.707 7.793a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.414 0l7-7a1 1 0 0 0-1.414-1.414L6 10.086z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyCheckboxOnIcon);

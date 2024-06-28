@@ -20,7 +20,7 @@ export const MarketDerivedBearIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#fd194be7788365c1daf0e262eb4c752e__a)'>
+    <g clipPath='url(#1d5a56def43b6ced4708afd9e6355486__a)'>
       <path fill='#414652' d='M32 8a8 8 0 1 1-16 0 8 8 0 0 1 16 0' />
       <path
         fill='#fff'
@@ -32,7 +32,7 @@ export const MarketDerivedBearIcon = (
       />
     </g>
     <defs>
-      <clipPath id='fd194be7788365c1daf0e262eb4c752e__a'>
+      <clipPath id='1d5a56def43b6ced4708afd9e6355486__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

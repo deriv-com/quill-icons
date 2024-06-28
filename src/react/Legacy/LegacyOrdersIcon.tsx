@@ -11,7 +11,6 @@ export const LegacyOrdersIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyOrdersIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g>
       <path
         fillRule='evenodd'
         d='M0 1.5A1.5 1.5 0 0 1 1.5 0h11A1.5 1.5 0 0 1 14 1.5v9a.5.5 0 0 1-1 0v-9a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h7a.5.5 0 0 1 0 1h-7A1.5 1.5 0 0 1 0 14.5z'

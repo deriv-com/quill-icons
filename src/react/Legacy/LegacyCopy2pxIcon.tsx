@@ -11,7 +11,6 @@ export const LegacyCopy2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,18 +19,13 @@ export const LegacyCopy2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g
-      fill='#333'
-      fillRule='evenodd'
-      clipPath='url(#1d467495cfc3dd12a39f09948cc82fbd__a)'
-      clipRule='evenodd'
-    >
+    <g fillRule='evenodd' clipRule='evenodd'>
       <path d='M5 3a3 3 0 0 1 3-3h5a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-2v1a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h2zm2 1h1a3 3 0 0 1 3 3v3h2a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1zm2 3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1z' />
       <path d='M2.75 7.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m0 2.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m0 2.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75' />
     </g>
     <defs>
-      <clipPath id='1d467495cfc3dd12a39f09948cc82fbd__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='021ab325ec7cff26b07221b9ae9a5a1f__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

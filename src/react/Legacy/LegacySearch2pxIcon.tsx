@@ -11,7 +11,6 @@ export const LegacySearch2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,17 +19,16 @@ export const LegacySearch2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b4a3d70ba997217daebdb9529caf224d__a)'>
+    <g>
       <path
-        fill='#333'
         fillRule='evenodd'
         d='M10.335 11.749a6.5 6.5 0 1 1 1.414-1.414l3.958 3.958a1 1 0 0 1-1.414 1.414zM11 6.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='b4a3d70ba997217daebdb9529caf224d__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='b13de99fb191ef05976d0abeea95477a__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>
