@@ -1,3 +1,11 @@
+## [1.23.1](https://github.com/deriv-com/quill-icons/compare/v1.23.0...v1.23.1) (2024-06-28)
+
+
+### 🐛 	 Bug Fixes
+
+* icons fill issue ([593ea65](https://github.com/deriv-com/quill-icons/commit/593ea65a1cc9bf2c7d3d4b5aa50490313ef7e2c5))
+* icons fill issue ([5b352b5](https://github.com/deriv-com/quill-icons/commit/5b352b56549c5970737f57d3fee53be2b25ea140))
+
 # [1.23.0](https://github.com/deriv-com/quill-icons/compare/v1.22.13...v1.23.0) (2024-06-28)
 
 
