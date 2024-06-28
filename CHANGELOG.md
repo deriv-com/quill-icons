@@ -1,3 +1,11 @@
+# [1.23.0](https://github.com/deriv-com/quill-icons/compare/v1.22.13...v1.23.0) (2024-06-28)
+
+
+### ✨ 	 Features
+
+* customizing legacy icons fill ([af59520](https://github.com/deriv-com/quill-icons/commit/af59520430455b00fb0c208f7cdee579b87deb0f))
+* Customizing Legacy Icons Fill ([0cefdaf](https://github.com/deriv-com/quill-icons/commit/0cefdaf8e30a25e880ef3f066124eee1008ef2e2))
+
 ## [1.22.13](https://github.com/deriv-com/quill-icons/compare/v1.22.12...v1.22.13) (2024-06-28)
 
 
