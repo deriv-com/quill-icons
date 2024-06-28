@@ -21,7 +21,7 @@ export const LegacyZigZagIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#FF444F' d='m5.064 2.649-3 8a1 1 0 0 0 1.872.702l3-8a1 1 0 0 0-1.872-.702' />
-    <path fill='#85ACB0' d='m18.832 20.445-12-18a1 1 0 0 0-1.664 1.11l12 18a1 1 0 1 0 1.664-1.11' />
+    <path fill='#85ACB0' d='m18.832 20.445-12-18a1 1 0 0 0-1.664 1.11l12 18a1 1 0 0 0 1.664-1.11' />
     <path fill='#FF444F' d='m20.143 15.486-3 5a1 1 0 0 0 1.715 1.029l3-5a1 1 0 0 0-1.716-1.03' />
   </svg>
 );

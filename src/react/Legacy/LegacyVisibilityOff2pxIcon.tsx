@@ -20,7 +20,7 @@ export const LegacyVisibilityOff2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#436ecfc615707136f0cd46ad694eeb18__a)'>
+    <g clipPath='url(#25a7f21e59946a3a2d429ef73185d4ee__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyVisibilityOff2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='436ecfc615707136f0cd46ad694eeb18__a'>
+      <clipPath id='25a7f21e59946a3a2d429ef73185d4ee__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -20,16 +20,16 @@ export const LegacyHomeOldIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#de4073812bdbf125f681f96f1cb946ab__a)'>
+    <g clipPath='url(#7dac2c5152a0ce0bfa802b38161922b5__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
-        d='M7.673.372a.5.5 0 0 1 .654 0l7.5 6.5a.5.5 0 1 1-.655.756L14 6.612v7.638a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5V6.612L.827 7.628a.5.5 0 1 1-.654-.756zM3 5.745v8.505a.5.5 0 0 0 .5.5H5v-4.5a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5v4.5h1.5a.5.5 0 0 0 .5-.5V5.745L8 1.412zm7 9.005v-4.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4.5z'
+        d='M7.673.372a.5.5 0 0 1 .654 0l7.5 6.5a.5.5 0 0 1-.655.756L14 6.612v7.638a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5V6.612L.827 7.628a.5.5 0 1 1-.654-.756zM3 5.745v8.505a.5.5 0 0 0 .5.5H5v-4.5a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5v4.5h1.5a.5.5 0 0 0 .5-.5V5.745L8 1.412zm7 9.005v-4.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4.5z'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='de4073812bdbf125f681f96f1cb946ab__a'>
+      <clipPath id='7dac2c5152a0ce0bfa802b38161922b5__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

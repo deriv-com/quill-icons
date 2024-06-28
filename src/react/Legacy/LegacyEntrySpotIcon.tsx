@@ -20,14 +20,14 @@ export const LegacyEntrySpotIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#6aba62d97a3a79df5289c4bad0ff59c4__a)'>
+    <g clipPath='url(#796fc3a8bc8f2a1a538e172d9448271b__a)'>
       <path
         fill='#333'
         d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.143a6.86 6.86 0 0 0-6.84 6.356H8.13L6.167 5.496a.59.59 0 0 1-.066-.744l.066-.081a.563.563 0 0 1 .808 0l2.858 2.917A.59.59 0 0 1 10 8l-.006-.081.005.05L10 8a1 1 0 0 1-.006.082l-.004.012a.57.57 0 0 1-.157.318L6.975 11.33a.563.563 0 0 1-.808 0 .59.59 0 0 1 0-.825L8.131 8.5h-6.97A6.858 6.858 0 1 0 8 1.144'
       />
     </g>
     <defs>
-      <clipPath id='6aba62d97a3a79df5289c4bad0ff59c4__a'>
+      <clipPath id='796fc3a8bc8f2a1a538e172d9448271b__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
