@@ -21,7 +21,7 @@ export const SocialTelegramBrandIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      fill='url(#3d97ebc158d767a802d5fe9785c332c5__a)'
+      fill='url(#8f6bedaba43e8b3d0a8a49711ce7dfd8__a)'
       d='M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16'
     />
     <path
@@ -32,7 +32,7 @@ export const SocialTelegramBrandIcon = (
     />
     <defs>
       <linearGradient
-        id='3d97ebc158d767a802d5fe9785c332c5__a'
+        id='8f6bedaba43e8b3d0a8a49711ce7dfd8__a'
         x1={16}
         x2={16}
         y1={0}

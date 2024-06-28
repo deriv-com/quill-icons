@@ -15,7 +15,7 @@ export { default as PaymentMethodLocalBankTransferBrandIcon } from './PaymentMet
 export { default as PaymentMethodOrangeBrandIcon } from './PaymentMethodOrangeBrandIcon';
 export { default as PaymentMethodTigoBrandIcon } from './PaymentMethodTigoBrandIcon';
 export { default as PaymentMethodVnpayBrandIcon } from './PaymentMethodVnpayBrandIcon';
-export { default as PaymentMethodXrpBrandIcon } from './PaymentMethodXrpBrandIcon';
+export { default as PaymentMethodXrpBlackIcon } from './PaymentMethodXrpBlackIcon';
 export { default as PaymentMethodZamtelByAstropayBrandIcon } from './PaymentMethodZamtelByAstropayBrandIcon';
 export { default as PaymentMethodEquitelBrandIcon } from './PaymentMethodEquitelBrandIcon';
 export { default as PaymentMethodPayretailersBrandIcon } from './PaymentMethodPayretailersBrandIcon';
@@ -83,3 +83,5 @@ export { default as PaymentMethodSepaWhiteIcon } from './PaymentMethodSepaWhiteI
 export { default as PaymentMethodSofortWhiteIcon } from './PaymentMethodSofortWhiteIcon';
 export { default as PaymentMethodPoliWhiteIcon } from './PaymentMethodPoliWhiteIcon';
 export { default as PaymentMethodBpayWhiteIcon } from './PaymentMethodBpayWhiteIcon';
+export { default as PaymentMethodXrpBrandIcon } from './PaymentMethodXrpBrandIcon';
+export { default as PaymentMethodXrpBrandDarkIcon } from './PaymentMethodXrpBrandDarkIcon';
