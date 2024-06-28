@@ -11,7 +11,6 @@ export const LegacyTheme1pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,12 +19,12 @@ export const LegacyTheme1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e2aff35a8d90ac665fe18cd316626203__a)'>
-      <path fill='#333' d='M8 15A7 7 0 1 0 8 1v14m0 1a7.98 7.98 0 0 1-6.1-2.823A8 8 0 1 1 8 16' />
+    <g>
+      <path d='M8 15A7 7 0 1 0 8 1v14m0 1a7.98 7.98 0 0 1-6.1-2.823A8 8 0 1 1 8 16' />
     </g>
     <defs>
-      <clipPath id='e2aff35a8d90ac665fe18cd316626203__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='fb6d9a3fa95ca00afbefa5d100b85125__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

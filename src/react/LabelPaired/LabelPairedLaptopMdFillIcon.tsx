@@ -23,7 +23,7 @@ const LabelPairedLaptopMdFillIcon = (
       <path d='M4 5h12c1.094 0 2 .906 2 2v8h-2V7H4v8H2V7c0-1.094.875-2 2-2M.594 16h18.781c.344 0 .625.281.625.625C20 17.938 18.906 19 17.594 19H2.375A2.374 2.374 0 0 1 0 16.625C0 16.281.25 16 .594 16' />
     </g>
     <defs>
-      <clipPath id='c97fbba55d2863157bccb4c91afd1d62__a'>
+      <clipPath id='4a3b4753a4ca124bace600e4b232bc08__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

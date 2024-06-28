@@ -11,7 +11,6 @@ export const LegacyLiveChatFilledIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyLiveChatFilledIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g>
       <path d='M4 10h6a3 3 0 0 0 3-3V5h.5A2.5 2.5 0 0 1 16 7.5v7a.5.5 0 0 1-.854.354L13.293 13H6.5A2.5 2.5 0 0 1 4 10.5z' />
       <path
         fillRule='evenodd'

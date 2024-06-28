@@ -11,7 +11,6 @@ export const LegacyDelete2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyDelete2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#02472d90b82984a22bd9094b1a97f153__a)'>
+    <g>
       <path d='M5.75 7a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 1.5 0zM8 6.25a.75.75 0 0 1 .75.75v5a.75.75 0 0 1-1.5 0V7A.75.75 0 0 1 8 6.25M11.75 7a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 1.5 0z' />
       <path
         fillRule='evenodd'
@@ -29,8 +28,8 @@ export const LegacyDelete2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='02472d90b82984a22bd9094b1a97f153__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='e587b3cef953b05a5288a59dbd31f103__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

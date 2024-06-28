@@ -11,7 +11,6 @@ export const LegacyPlusCircle2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyPlusCircle2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#739b149270828bf77df87e868335c69e__a)'>
+    <g>
       <path d='M7 5a1 1 0 0 1 2 0v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0V9H5a1 1 0 0 1 0-2h2z' />
       <path
         fillRule='evenodd'
@@ -29,8 +28,8 @@ export const LegacyPlusCircle2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='739b149270828bf77df87e868335c69e__a'>
-        <rect width={16} height={16} fill='#fff' rx={8} />
+      <clipPath id='1adb4de5a6c66d36a514450ab533c075__a'>
+        <rect width={16} height={16} rx={8} />
       </clipPath>
     </defs>
   </svg>
