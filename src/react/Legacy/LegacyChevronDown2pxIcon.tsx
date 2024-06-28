@@ -22,7 +22,7 @@ export const LegacyChevronDown2pxIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#333'
-      d='m8 9.586 5.293-5.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 1 1 1.414-1.414z'
+      d='m8 9.586 5.293-5.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414z'
     />
   </svg>
 );
