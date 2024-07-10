@@ -1,3 +1,10 @@
+## [1.23.2](https://github.com/deriv-com/quill-icons/compare/v1.23.1...v1.23.2) (2024-07-10)
+
+
+### ♻️ 	 Chores
+
+* updated icons ([777e137](https://github.com/deriv-com/quill-icons/commit/777e137b90161ebdbda5c6f43f044b0e29df0fc9))
+
 ## [1.23.1](https://github.com/deriv-com/quill-icons/compare/v1.23.0...v1.23.1) (2024-06-28)
 
 
