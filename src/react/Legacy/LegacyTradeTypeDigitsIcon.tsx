@@ -20,14 +20,14 @@ export const LegacyTradeTypeDigitsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#2889febdedb4d7ac4158b2bdd511543c__a)'>
+    <g clipPath='url(#8d143388285cb379ff0bb9e5c37f8615__a)'>
       <path
         fill='#333'
         d='M15 0a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zm0 1H1v14h14zm-4 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M5 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2'
       />
     </g>
     <defs>
-      <clipPath id='2889febdedb4d7ac4158b2bdd511543c__a'>
+      <clipPath id='8d143388285cb379ff0bb9e5c37f8615__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -20,11 +20,11 @@ export const LegacyFullscreen2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#68d2bf0902e35cb088a3b8dbf25e4fbc__a)'>
+    <g fill='#333' clipPath='url(#9a7a76331fb5bb12c093e47bfc25d411__a)'>
       <path d='M2 3a1 1 0 0 1 1-1h2a1 1 0 0 0 0-2H3a3 3 0 0 0-3 3v2a1 1 0 0 0 2 0zM11 0a1 1 0 1 0 0 2h2a1 1 0 0 1 1 1v2a1 1 0 1 0 2 0V3a3 3 0 0 0-3-3zM1 10a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1h2a1 1 0 1 1 0 2H3a3 3 0 0 1-3-3v-2a1 1 0 0 1 1-1M16 11a1 1 0 1 0-2 0v2a1 1 0 0 1-1 1h-2a1 1 0 1 0 0 2h2a3 3 0 0 0 3-3z' />
     </g>
     <defs>
-      <clipPath id='68d2bf0902e35cb088a3b8dbf25e4fbc__a'>
+      <clipPath id='9a7a76331fb5bb12c093e47bfc25d411__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

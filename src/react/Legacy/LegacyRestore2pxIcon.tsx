@@ -20,11 +20,11 @@ export const LegacyRestore2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#c62443b7167cd98a9edf6099c4833702__a)'>
+    <g fill='#333' clipPath='url(#e665ec5b65f815bfc1cc423dd7d3a727__a)'>
       <path d='M11 0a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3a2 2 0 0 1-2-2V1a1 1 0 0 1 1-1M1 10a1 1 0 1 0 0 2h3v3a1 1 0 1 0 2 0v-3a2 2 0 0 0-2-2zM12 10a2 2 0 0 0-2 2v3a1 1 0 1 0 2 0v-3h3a1 1 0 1 0 0-2zM6 1a1 1 0 0 0-2 0v3H1a1 1 0 0 0 0 2h3a2 2 0 0 0 2-2z' />
     </g>
     <defs>
-      <clipPath id='c62443b7167cd98a9edf6099c4833702__a'>
+      <clipPath id='e665ec5b65f815bfc1cc423dd7d3a727__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

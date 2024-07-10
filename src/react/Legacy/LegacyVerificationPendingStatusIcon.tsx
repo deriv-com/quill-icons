@@ -20,7 +20,7 @@ export const LegacyVerificationPendingStatusIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#161ceded9b9ff6a8c5cb0216704200e6__a)'>
+    <g clipPath='url(#5d4801a3b3ce91cd91f81d9db26115b6__a)'>
       <path fill='#FFAD3A' d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16' />
       <path
         fill='#fff'
@@ -36,7 +36,7 @@ export const LegacyVerificationPendingStatusIcon = (
       />
     </g>
     <defs>
-      <clipPath id='161ceded9b9ff6a8c5cb0216704200e6__a'>
+      <clipPath id='5d4801a3b3ce91cd91f81d9db26115b6__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

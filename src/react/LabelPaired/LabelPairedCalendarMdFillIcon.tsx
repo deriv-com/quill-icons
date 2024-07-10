@@ -23,7 +23,7 @@ const LabelPairedCalendarMdFillIcon = (
       <path d='M3 5c0-.531.438-1 1-1 .531 0 1 .469 1 1v1h4V5c0-.531.438-1 1-1 .531 0 1 .469 1 1v1h1.5c.813 0 1.5.688 1.5 1.5V9H0V7.5A1.5 1.5 0 0 1 1.5 6H3zm11 5v8.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.48 1.48 0 0 1 0 18.5V10z' />
     </g>
     <defs>
-      <clipPath id='b03079f26f2a091b3a4f388a5b6ade9f__a'>
+      <clipPath id='0581b615cb739c3af2ebba26551dd049__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

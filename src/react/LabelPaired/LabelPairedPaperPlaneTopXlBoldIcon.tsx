@@ -23,7 +23,7 @@ const LabelPairedPaperPlaneTopXlBoldIcon = (
       <path d='M6.734 16.875h11.72L3.546 10.5zm0 2.25-3.187 6.422 14.906-6.422zM2.563 7.641l21 9c.562.234.937.797.937 1.406 0 .562-.375 1.125-.937 1.36l-21 9a1.52 1.52 0 0 1-1.688-.376c-.422-.422-.516-1.125-.234-1.687L4.813 18 .64 9.703A1.57 1.57 0 0 1 .875 7.97a1.59 1.59 0 0 1 1.688-.328' />
     </g>
     <defs>
-      <clipPath id='d54e084ffa86b96cbf58dcdfacaace13__a'>
+      <clipPath id='9b79c39ec40006acf0cc08045f2a127c__a'>
         <path d='M0 0h25v36H0z' />
       </clipPath>
     </defs>
