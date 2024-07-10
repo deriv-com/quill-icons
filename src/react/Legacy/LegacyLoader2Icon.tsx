@@ -11,6 +11,7 @@ export const LegacyLoader2Icon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 72 32'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyLoader2Icon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#85ACB0'>
       <rect width={8} height={24} y={4} rx={4} />
       <rect width={8} height={16} x={16} y={8} rx={4} />
       <rect width={8} height={16} x={32} y={8} rx={4} />

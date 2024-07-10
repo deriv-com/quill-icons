@@ -11,6 +11,7 @@ export const LegacyArchive2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyArchive2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#333' clipPath='url(#2e4c89e9e08b6929dbf85e876390e41e__a)'>
       <path d='M8 7.25a.75.75 0 0 1 .75.75v2.19l.72-.72a.75.75 0 1 1 1.06 1.06l-2 2a.75.75 0 0 1-1.06 0l-2-2a.75.75 0 1 1 1.06-1.06l.72.72V8A.75.75 0 0 1 8 7.25' />
       <path
         fillRule='evenodd'
@@ -28,8 +29,8 @@ export const LegacyArchive2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='4c69b351e839c3bc77813e979ee0178e__a'>
-        <path d='M0 0h16v16H0z' />
+      <clipPath id='2e4c89e9e08b6929dbf85e876390e41e__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

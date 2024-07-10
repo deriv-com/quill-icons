@@ -1,0 +1,14 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="legacy / verification-pending-status" clip-path="url(#clip0_3184_51)">
+<g id="icon">
+<path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#FFAD3A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 12.5C10.4853 12.5 12.5 10.4853 12.5 8C12.5 5.51472 10.4853 3.5 8 3.5C5.51472 3.5 3.5 5.51472 3.5 8C3.5 10.4853 5.51472 12.5 8 12.5ZM8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 5C8.41421 5 8.75 5.33579 8.75 5.75V7.25H10.25C10.6642 7.25 11 7.58579 11 8C11 8.41421 10.6642 8.75 10.25 8.75H8C7.58579 8.75 7.25 8.41421 7.25 8V5.75C7.25 5.33579 7.58579 5 8 5Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3184_51">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -11,6 +11,7 @@ export const LegacyBuysellIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyBuysellIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#333'>
       <path d='M1.015 7.533A7 7 0 0 1 14.326 5H12.5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-1 0v1.624A8 8 0 0 0 .017 7.467a.5.5 0 0 0 .998.066M15.983 8.533a.5.5 0 0 0-.998-.066A7 7 0 0 1 1.673 11H3.5a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 1 0v-1.624a8 8 0 0 0 14.983-3.343' />
       <path
         fillRule='evenodd'

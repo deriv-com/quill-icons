@@ -148,3 +148,11 @@ export { default as DerivLightIcCroppedDocumentIcon } from './DerivLightIcCroppe
 export { default as DerivLightIcBlurryDocumentIcon } from './DerivLightIcBlurryDocumentIcon';
 export { default as DerivLightMissionIcon } from './DerivLightMissionIcon';
 export { default as DerivLightVisionIcon } from './DerivLightVisionIcon';
+export { default as DerivDarkScamSmsIcon } from './DerivDarkScamSmsIcon';
+export { default as DerivDarkScamAdvancePaymentIcon } from './DerivDarkScamAdvancePaymentIcon';
+export { default as DerivDarkScamPotIcon } from './DerivDarkScamPotIcon';
+export { default as DerivDarkFindAdIcon } from './DerivDarkFindAdIcon';
+export { default as DerivDarkPayUserIcon } from './DerivDarkPayUserIcon';
+export { default as DerivDarkReceivePaymentIcon } from './DerivDarkReceivePaymentIcon';
+export { default as DerivDarkReceivedFundIcon } from './DerivDarkReceivedFundIcon';
+export { default as DerivDarkReleaseFundIcon } from './DerivDarkReleaseFundIcon';

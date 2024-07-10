@@ -11,6 +11,7 @@ export const LegacyInfoXsIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 8 8'
     {...sizes[iconSize]}
     role='img'
@@ -19,12 +20,15 @@ export const LegacyInfoXsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path d='M4 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5M4 2a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1' />
+    <g clipPath='url(#b9eec467ebad99baf4e95728f0cd34d2__a)'>
+      <path
+        fill='#333'
+        d='M4 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5M4 2a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1'
+      />
     </g>
     <defs>
-      <clipPath id='bec8fd37cf7f5dc5006e8f4723da8a20__a'>
-        <path d='M0 0h8v8H0z' />
+      <clipPath id='b9eec467ebad99baf4e95728f0cd34d2__a'>
+        <path fill='#fff' d='M0 0h8v8H0z' />
       </clipPath>
     </defs>
   </svg>

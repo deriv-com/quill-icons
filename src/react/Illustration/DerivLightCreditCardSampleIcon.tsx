@@ -19,8 +19,8 @@ const DerivLightCreditCardSampleIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g
-      clipPath='url(#f149d019d99d596014261ce7980b7506__a)'
-      filter='url(#f149d019d99d596014261ce7980b7506__b)'
+      clipPath='url(#6c6b2943de09f25af3a2d2239678dc2b__a)'
+      filter='url(#6c6b2943de09f25af3a2d2239678dc2b__b)'
     >
       <path
         fill='#fff'
@@ -37,11 +37,11 @@ const DerivLightCreditCardSampleIcon = (
       <path fill='#231F20' d='M208 188h152v36H208z' />
     </g>
     <defs>
-      <clipPath id='f149d019d99d596014261ce7980b7506__a'>
+      <clipPath id='6c6b2943de09f25af3a2d2239678dc2b__a'>
         <path fill='#fff' d='M0 0h518v330H0z' />
       </clipPath>
       <filter
-        id='f149d019d99d596014261ce7980b7506__b'
+        id='6c6b2943de09f25af3a2d2239678dc2b__b'
         width={526}
         height={338}
         x={-4}
