@@ -11,6 +11,7 @@ export const LegacyLanguage2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyLanguage2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#333' clipPath='url(#85ec5e0cb168ac59493ceb93602a058f__a)'>
       <path d='M4 4.25a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5zM3.25 7A.75.75 0 0 1 4 6.25h8a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 7M4 8.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5z' />
       <path
         fillRule='evenodd'
@@ -28,8 +29,8 @@ export const LegacyLanguage2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='89ddf007201d2ca04b66a050323a6c4b__a'>
-        <path d='M0 0h16v16H0z' />
+      <clipPath id='85ec5e0cb168ac59493ceb93602a058f__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

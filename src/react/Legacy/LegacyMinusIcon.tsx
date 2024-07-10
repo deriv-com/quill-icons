@@ -11,6 +11,7 @@ export const LegacyMinusIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 8 8'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyMinusIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d='M.5 3.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1' />
+    <path fill='#333' d='M.5 3.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyMinusIcon);

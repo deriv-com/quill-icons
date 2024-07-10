@@ -23,7 +23,7 @@ const LabelPairedWindowsXlIcon = (
       <path d='M0 10.406v7.125h8.578V9.234zm0 15.235v-7.032h8.578v8.203zm9.516 1.312V18.61H21V28.5zm0-17.86L21 7.5v10.031H9.516z' />
     </g>
     <defs>
-      <clipPath id='0fa65eabd0364715158868183273ee1f__a'>
+      <clipPath id='f3cae68b89b66e39d306965696f28bbd__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

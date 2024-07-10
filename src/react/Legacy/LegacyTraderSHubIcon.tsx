@@ -11,6 +11,7 @@ export const LegacyTraderSHubIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 24 24'
     {...sizes[iconSize]}
     role='img'
@@ -19,7 +20,7 @@ export const LegacyTraderSHubIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
+    <g fill='#333' clipPath='url(#f9e2dc42a7c90cc10953673ef8c52f0f__a)'>
       <path d='M0 2a2 2 0 0 1 2-2h7.077a2 2 0 0 1 2 2v7.077a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
       <path
         fillRule='evenodd'
@@ -28,8 +29,8 @@ export const LegacyTraderSHubIcon = (
       />
     </g>
     <defs>
-      <clipPath id='b5b10137d943d35cc7cc64e0649c52e5__a'>
-        <path d='M0 0h24v24H0z' />
+      <clipPath id='f9e2dc42a7c90cc10953673ef8c52f0f__a'>
+        <path fill='#fff' d='M0 0h24v24H0z' />
       </clipPath>
     </defs>
   </svg>

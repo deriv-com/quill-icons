@@ -11,6 +11,7 @@ export const LegacyMaximize2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
+    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -19,12 +20,12 @@ export const LegacyMaximize2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g>
-      <path fillRule='evenodd' d='M0 0h16v16H0zm2 2v12h12V2z' clipRule='evenodd' />
+    <g clipPath='url(#b541ff7815ec36a7f77ac2a03b4af094__a)'>
+      <path fill='#333' fillRule='evenodd' d='M0 0h16v16H0zm2 2v12h12V2z' clipRule='evenodd' />
     </g>
     <defs>
-      <clipPath id='743a14f66144b16ef0892bcb7a9e0d98__a'>
-        <path d='M0 0h16v16H0z' />
+      <clipPath id='b541ff7815ec36a7f77ac2a03b4af094__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>
