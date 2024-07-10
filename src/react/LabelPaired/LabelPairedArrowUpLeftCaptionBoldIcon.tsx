@@ -23,7 +23,7 @@ const LabelPairedArrowUpLeftCaptionBoldIcon = (
       <path d='M1.313 5.75v.023h5.625c.304 0 .562.235.562.563a.57.57 0 0 1-.562.562h-4.29l5.415 5.415a.513.513 0 0 1 0 .773.513.513 0 0 1-.774 0L1.875 7.672v4.266a.555.555 0 0 1-.562.562.54.54 0 0 1-.563-.562V6.312c0-.304.234-.562.563-.562' />
     </g>
     <defs>
-      <clipPath id='b6b1d4a6276d3ce4cc65b890ff521693__a'>
+      <clipPath id='5fd8e4e55aa0c5510f998e8038a2a76e__a'>
         <path d='M0 0h9v18H0z' />
       </clipPath>
     </defs>

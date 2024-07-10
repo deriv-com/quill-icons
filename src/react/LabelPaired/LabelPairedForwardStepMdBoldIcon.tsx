@@ -23,7 +23,7 @@ const LabelPairedForwardStepMdBoldIcon = (
       <path d='M7.5 6.75A.74.74 0 0 1 8.25 6a.76.76 0 0 1 .75.75v10.5a.74.74 0 0 1-.75.75.72.72 0 0 1-.75-.75v-3.281l-5.531 3.875c-.157.125-.344.156-.532.156a.92.92 0 0 1-.937-.937V6.969C.5 6.437.906 6 1.438 6c.187 0 .375.063.53.188L7.5 10.063zm0 5.406v-.281L2 8.031V16z' />
     </g>
     <defs>
-      <clipPath id='81f082fba376bf5ee5574b6c3fc1886d__a'>
+      <clipPath id='c8b734d94e0aa52fe73b3da41afdd398__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>
