@@ -1,3 +1,11 @@
+## [1.23.3](https://github.com/deriv-com/quill-icons/compare/v1.23.2...v1.23.3) (2024-07-10)
+
+
+### 🐛 	 Bug Fixes
+
+* revert new icons ([dff1e9d](https://github.com/deriv-com/quill-icons/commit/dff1e9ddf630636b9e33522cbb0da9948dc32c7c))
+* revert new icons ([1a4de9a](https://github.com/deriv-com/quill-icons/commit/1a4de9a4bb12f1d07e83305253407592dbbb4b47))
+
 ## [1.23.2](https://github.com/deriv-com/quill-icons/compare/v1.23.1...v1.23.2) (2024-07-10)
 
 
