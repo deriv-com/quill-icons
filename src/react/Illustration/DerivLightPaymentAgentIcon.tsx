@@ -18,9 +18,9 @@ const DerivLightPaymentAgentIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#d2daf9e1ef93eef5e495f47ecc042316__a)'>
+    <g clipPath='url(#692255a30c512e870b89b4740e6b9643__a)'>
       <mask
-        id='d2daf9e1ef93eef5e495f47ecc042316__b'
+        id='692255a30c512e870b89b4740e6b9643__b'
         width={32}
         height={32}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightPaymentAgentIcon = (
       >
         <path fill='#fff' d='M32 0H0v32h32z' />
       </mask>
-      <g mask='url(#d2daf9e1ef93eef5e495f47ecc042316__b)'>
+      <g mask='url(#692255a30c512e870b89b4740e6b9643__b)'>
         <path
           fill='#C7E5E5'
           d='M10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10M13.5 12a6.5 6.5 0 0 1 6.5 6.5v.5H10v6H1a1 1 0 0 1-1-1v-5.5A6.5 6.5 0 0 1 6.5 12z'
@@ -51,7 +51,7 @@ const DerivLightPaymentAgentIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='d2daf9e1ef93eef5e495f47ecc042316__a'>
+      <clipPath id='692255a30c512e870b89b4740e6b9643__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

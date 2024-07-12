@@ -28,7 +28,7 @@ const DerivProductDerivGoUltimateWhiteLogoHorizontalIcon = (
         d='M13.5 0C6.044 0 0 6.044 0 13.5v.392L67.308 3.268A13.45 13.45 0 0 0 58.5 0zM68.697 4.652 56.35 72h2.15C65.956 72 72 65.956 72 58.5v-45c0-3.384-1.246-6.478-3.303-8.848'
       />
       <path
-        fill='#414652'
+        fill='#9498A2'
         d='M0 51.75h72v6.75C72 65.956 65.956 72 58.5 72h-45C6.044 72 0 65.956 0 58.5z'
       />
       <path
@@ -41,7 +41,7 @@ const DerivProductDerivGoUltimateWhiteLogoHorizontalIcon = (
       />
     </g>
     <defs>
-      <clipPath id='15ffa4e3b1f19deef8c0ba4bc2584fea__a'>
+      <clipPath id='e461155a0e3ac7f5cf371c37ca519d90__a'>
         <path fill='#fff' d='M0 0h72v72H0z' />
       </clipPath>
     </defs>

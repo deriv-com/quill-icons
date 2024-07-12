@@ -20,14 +20,14 @@ export const LegacyResetIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#9fb9abf51f41db8c396eceb66e1394ef__a)'>
+    <g clipPath='url(#b06f709bd6ab0288de6cdb3da6aaf36b__a)'>
       <path
         fill='#333'
         d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.143a6.857 6.857 0 1 0 0 13.714A6.857 6.857 0 0 0 8 1.143M5 7.5a.5.5 0 0 1 .5.5 2.5 2.5 0 0 0 4 2.001L8.5 10a.5.5 0 0 1-.09-.992L8.5 9h2a.5.5 0 0 1 .492.41L11 9.5v2a.5.5 0 0 1-.992.09L10 11.5v-.628A3.5 3.5 0 0 1 4.5 8a.5.5 0 0 1 .5-.5M5.5 4a.5.5 0 0 1 .492.41L6 4.5v.627A3.5 3.5 0 0 1 11.5 8a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4-2h1a.5.5 0 0 1 .09.992L7.5 7h-2a.5.5 0 0 1-.492-.41L5 6.5v-2a.5.5 0 0 1 .5-.5'
       />
     </g>
     <defs>
-      <clipPath id='9fb9abf51f41db8c396eceb66e1394ef__a'>
+      <clipPath id='b06f709bd6ab0288de6cdb3da6aaf36b__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

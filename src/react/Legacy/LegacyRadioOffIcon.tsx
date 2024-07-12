@@ -20,12 +20,12 @@ export const LegacyRadioOffIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#29f9eed10e00e136eda5950d769251c1__a)'>
+    <g clipPath='url(#ceef6627578dab3258232a9c4ad4291f__a)'>
       <circle cx={8} cy={8} r={7} stroke='#999' strokeWidth={2} />
     </g>
     <rect width={14} height={14} x={1} y={1} stroke='#999' strokeWidth={2} rx={7} />
     <defs>
-      <clipPath id='29f9eed10e00e136eda5950d769251c1__a'>
+      <clipPath id='ceef6627578dab3258232a9c4ad4291f__a'>
         <rect width={16} height={16} fill='#fff' rx={8} />
       </clipPath>
     </defs>
