@@ -25,7 +25,7 @@ const BrandDerivWordmarkWhiteIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a93d7eb42e0a312be2a8303e89567145__a'>
+      <clipPath id='cd6d13b6c09198285ff194c90625885a__a'>
         <path fill='#fff' d='M0 0h217v72H0z' />
       </clipPath>
     </defs>
