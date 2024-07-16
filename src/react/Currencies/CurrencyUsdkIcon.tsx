@@ -20,7 +20,7 @@ export const CurrencyUsdkIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e1c1eec509110e59b3ce08755c9baa60__a)'>
+    <g clipPath='url(#aa40f586d9c965db48e9592cccaa8c5c__a)'>
       <path
         fill='#0D74F6'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -35,7 +35,7 @@ export const CurrencyUsdkIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e1c1eec509110e59b3ce08755c9baa60__a'>
+      <clipPath id='aa40f586d9c965db48e9592cccaa8c5c__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

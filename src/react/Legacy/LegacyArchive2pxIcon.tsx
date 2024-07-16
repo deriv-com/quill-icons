@@ -20,7 +20,7 @@ export const LegacyArchive2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#db224f5b313ed6cd449c8f2d108b1cf4__a)'>
+    <g fill='#333' clipPath='url(#181e2d4fc189b74e6c8d2e15ba4f4cf4__a)'>
       <path d='M8 7.25a.75.75 0 0 1 .75.75v2.19l.72-.72a.75.75 0 1 1 1.06 1.06l-2 2a.75.75 0 0 1-1.06 0l-2-2a.75.75 0 1 1 1.06-1.06l.72.72V8A.75.75 0 0 1 8 7.25' />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyArchive2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='db224f5b313ed6cd449c8f2d108b1cf4__a'>
+      <clipPath id='181e2d4fc189b74e6c8d2e15ba4f4cf4__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

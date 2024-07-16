@@ -23,7 +23,7 @@ const LabelPairedVideoMdFillIcon = (
       <path d='M0 8c0-1.094.875-2 2-2h8c1.094 0 2 .906 2 2v8c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2zm17.469-.875c.312.188.531.531.531.875v8c0 .375-.219.719-.531.906-.344.157-.719.157-1.032-.062l-3-2-.437-.281V9.469l.438-.281 3-2c.312-.22.687-.22 1.03-.063' />
     </g>
     <defs>
-      <clipPath id='cef8aae6c1d11e982d0c34ca41b251ae__a'>
+      <clipPath id='b0a5d0049cb684a48b8376c6beeabeac__a'>
         <path d='M0 0h18v24H0z' />
       </clipPath>
     </defs>
