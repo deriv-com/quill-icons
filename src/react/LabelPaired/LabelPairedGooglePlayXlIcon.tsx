@@ -23,7 +23,7 @@ const LabelPairedGooglePlayXlIcon = (
       <path d='m15.234 17.016 2.813-2.813L4.875 6.61zM2.204 6l12 12-12 12a1.78 1.78 0 0 1-1.032-1.64V7.687c0-.75.422-1.36 1.031-1.688m19.921 10.594c.89.656.89 2.203.047 2.86l-2.813 1.593L16.266 18l3.093-3zM4.875 29.39l10.36-10.36 2.812 2.813z' />
     </g>
     <defs>
-      <clipPath id='77ad8fa9047af48a2dccd21b1736848f__a'>
+      <clipPath id='b1b98051351dfe5b93d8fca9947f4fd0__a'>
         <path d='M0 0h24v36H0z' />
       </clipPath>
     </defs>

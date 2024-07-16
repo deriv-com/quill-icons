@@ -18,7 +18,7 @@ const DerivLightInflationHedgeIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#9cf345e4fe761221d52732b36fd91ae2__a)'>
+    <g clipPath='url(#e324f6b9502846c68fce294826698d33__a)'>
       <path
         fill='#fff'
         d='M114.681 36.594v25.5c0 4.526-11.77 9.4-26.628 12.234h-.008c-7.767 1.483-16.366 2.41-24.585 2.436-8.247.026-16.843-.846-24.597-2.282h-.008c-14.97-2.766-26.782-7.63-26.782-12.153V36.824c0 5.258 15.94 10.967 34.25 13.323 5.617.726 11.463 1.133 17.139 1.112 5.636-.02 11.461-.462 17.071-1.218 18.205-2.44 34.151-8.181 34.151-13.447z'
@@ -89,7 +89,7 @@ const DerivLightInflationHedgeIcon = (
       />
     </g>
     <defs>
-      <clipPath id='9cf345e4fe761221d52732b36fd91ae2__a'>
+      <clipPath id='e324f6b9502846c68fce294826698d33__a'>
         <path fill='#fff' d='M0 0h120v152H0z' />
       </clipPath>
     </defs>
