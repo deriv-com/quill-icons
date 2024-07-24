@@ -18,7 +18,7 @@ const DerivLightIcCashierNoAdsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#577777cd18d3a829b04da0398175964e__a)'>
+    <g clipPath='url(#440cad0a8673fc1896f81766fc25e860__a)'>
       <path
         fill='#E0F0F0'
         d='M30.4 5.33a9.16 9.16 0 0 0-9 9.3v98.74a9.16 9.16 0 0 0 9 9.3h67.2a9.16 9.16 0 0 0 9-9.3V33.55L80.06 5.33z'
@@ -34,7 +34,7 @@ const DerivLightIcCashierNoAdsIcon = (
       />
     </g>
     <defs>
-      <clipPath id='577777cd18d3a829b04da0398175964e__a'>
+      <clipPath id='440cad0a8673fc1896f81766fc25e860__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

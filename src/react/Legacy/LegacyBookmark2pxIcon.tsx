@@ -20,7 +20,7 @@ export const LegacyBookmark2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#c7f77912132364d4a5826b634f0b06fe__a)'>
+    <g clipPath='url(#05b8ffd08cf05ebfeeb5cb737c232baa__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyBookmark2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='c7f77912132364d4a5826b634f0b06fe__a'>
+      <clipPath id='05b8ffd08cf05ebfeeb5cb737c232baa__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

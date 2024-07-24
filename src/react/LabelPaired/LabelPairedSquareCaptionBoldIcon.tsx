@@ -23,7 +23,7 @@ const LabelPairedSquareCaptionBoldIcon = (
       <path d='M9.25 5.375h-7.5a.385.385 0 0 0-.375.375v7.5c0 .21.164.375.375.375h7.5a.385.385 0 0 0 .375-.375v-7.5a.4.4 0 0 0-.375-.375M1.75 4.25h7.5c.82 0 1.5.68 1.5 1.5v7.5c0 .844-.68 1.5-1.5 1.5h-7.5a1.48 1.48 0 0 1-1.5-1.5v-7.5c0-.82.656-1.5 1.5-1.5' />
     </g>
     <defs>
-      <clipPath id='8a41a6085374282c4a1ed1ccc74ec829__a'>
+      <clipPath id='292c8d6d25369ca9ef387a96e669d82a__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

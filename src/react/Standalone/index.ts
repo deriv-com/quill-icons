@@ -805,3 +805,12 @@ export { default as StandaloneLoaderFillIcon } from './StandaloneLoaderFillIcon'
 export { default as StandaloneSquareListRegularIcon } from './StandaloneSquareListRegularIcon';
 export { default as StandaloneSquareListBoldIcon } from './StandaloneSquareListBoldIcon';
 export { default as StandaloneSquareListFillIcon } from './StandaloneSquareListFillIcon';
+export { default as StandaloneUserCheckRegularIcon } from './StandaloneUserCheckRegularIcon';
+export { default as StandaloneUserCheckBoldIcon } from './StandaloneUserCheckBoldIcon';
+export { default as StandaloneUserCheckFillIcon } from './StandaloneUserCheckFillIcon';
+export { default as StandaloneUserPlusRegularIcon } from './StandaloneUserPlusRegularIcon';
+export { default as StandaloneUserPlusBoldIcon } from './StandaloneUserPlusBoldIcon';
+export { default as StandaloneUserPlusFillIcon } from './StandaloneUserPlusFillIcon';
+export { default as StandaloneUserMinusRegularIcon } from './StandaloneUserMinusRegularIcon';
+export { default as StandaloneUserMinusBoldIcon } from './StandaloneUserMinusBoldIcon';
+export { default as StandaloneUserMinusFillIcon } from './StandaloneUserMinusFillIcon';
