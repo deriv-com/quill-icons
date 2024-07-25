@@ -20,7 +20,7 @@ export const LegacyTurboIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#80a0fb38158de250c4e2c839526b2f6c__a)'>
+    <g fill='#333' clipPath='url(#35bb1d58115f64f5aff057cfeb7a888a__a)'>
       <path d='M0 14h1.667v1H0zM3.667 14h1.666v1H3.667zM7.333 14H9v1H7.333zM12 13h4v3h-4l-1.5-1.5z' />
       <path
         fillRule='evenodd'
@@ -30,7 +30,7 @@ export const LegacyTurboIcon = (
       <path d='M15.5 0a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V1.707L6.854 9.854a.5.5 0 0 1-.708 0L2.5 6.207 0 8.707V7.293l2.146-2.147a.5.5 0 0 1 .708 0L6.5 8.793 14.293 1H11V0z' />
     </g>
     <defs>
-      <clipPath id='80a0fb38158de250c4e2c839526b2f6c__a'>
+      <clipPath id='35bb1d58115f64f5aff057cfeb7a888a__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

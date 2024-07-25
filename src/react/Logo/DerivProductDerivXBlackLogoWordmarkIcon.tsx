@@ -52,7 +52,7 @@ const DerivProductDerivXBlackLogoWordmarkIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='3d2538f3a774beae210cdb32a40d26d1__a'>
+      <clipPath id='2d0658a75dfa35b953b41e769ca6ddd7__a'>
         <path fill='#fff' d='M0 0h225v72H0z' />
       </clipPath>
     </defs>
