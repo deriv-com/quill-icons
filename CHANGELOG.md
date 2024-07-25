@@ -1,3 +1,11 @@
+## [1.23.7](https://github.com/deriv-com/quill-icons/compare/v1.23.6...v1.23.7) (2024-07-25)
+
+
+### 🐛 	 Bug Fixes
+
+* accounts combination icons export ([019593e](https://github.com/deriv-com/quill-icons/commit/019593ebf7d16ab2b081bcc2bea1b4997fde0842))
+* Accounts combination icons export ([c97636c](https://github.com/deriv-com/quill-icons/commit/c97636caa610fc8f03a49c23234e22d37bed182d))
+
 ## [1.23.6](https://github.com/deriv-com/quill-icons/compare/v1.23.5...v1.23.6) (2024-07-25)
 
 
