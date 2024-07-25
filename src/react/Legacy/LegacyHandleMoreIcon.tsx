@@ -20,7 +20,7 @@ export const LegacyHandleMoreIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0df0e5c98aa3442dfc20ba8c7ff084fc__a)'>
+    <g clipPath='url(#c8fe9480203b18d4b44e1b205eb867a2__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyHandleMoreIcon = (
       />
     </g>
     <defs>
-      <clipPath id='0df0e5c98aa3442dfc20ba8c7ff084fc__a'>
+      <clipPath id='c8fe9480203b18d4b44e1b205eb867a2__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

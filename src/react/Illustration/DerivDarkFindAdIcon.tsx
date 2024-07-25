@@ -18,9 +18,9 @@ const DerivDarkFindAdIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#73a67cf6fd19544d354ec1af4986696f__a)'>
+    <g clipPath='url(#a08c17cf648300d5eab713ebfea1dfb7__a)'>
       <mask
-        id='73a67cf6fd19544d354ec1af4986696f__b'
+        id='a08c17cf648300d5eab713ebfea1dfb7__b'
         width={96}
         height={96}
         x={0}
@@ -32,7 +32,7 @@ const DerivDarkFindAdIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#73a67cf6fd19544d354ec1af4986696f__b)'>
+      <g mask='url(#a08c17cf648300d5eab713ebfea1dfb7__b)'>
         <path
           fill='#9498A2'
           d='M59.73 21.7a6 6 0 0 0-6-6H6a6 6 0 0 0-6 6V90a6 6 0 0 0 6 6h47.73a6 6 0 0 0 6-6z'
@@ -65,7 +65,7 @@ const DerivDarkFindAdIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='73a67cf6fd19544d354ec1af4986696f__a'>
+      <clipPath id='a08c17cf648300d5eab713ebfea1dfb7__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

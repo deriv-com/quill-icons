@@ -156,3 +156,5 @@ export { default as DerivDarkPayUserIcon } from './DerivDarkPayUserIcon';
 export { default as DerivDarkReceivePaymentIcon } from './DerivDarkReceivePaymentIcon';
 export { default as DerivDarkReceivedFundIcon } from './DerivDarkReceivedFundIcon';
 export { default as DerivDarkReleaseFundIcon } from './DerivDarkReleaseFundIcon';
+export { default as DerivLightWalletCurrencyUnavailableIcon } from './DerivLightWalletCurrencyUnavailableIcon';
+export { default as DerivLight404ErrorIcon } from './DerivLight404ErrorIcon';

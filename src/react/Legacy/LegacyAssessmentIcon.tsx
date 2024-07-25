@@ -20,7 +20,7 @@ export const LegacyAssessmentIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ee9a4172445093481ac7db8778e01130__a)'>
+    <g clipPath='url(#72d3fdcfbcc20bd38389013f0376535e__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyAssessmentIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ee9a4172445093481ac7db8778e01130__a'>
+      <clipPath id='72d3fdcfbcc20bd38389013f0376535e__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
