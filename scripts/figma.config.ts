@@ -31,6 +31,10 @@ const filterComponent: ComponentFilter = (component) => {
 
   // pages with sm/md/lg/xl sizes we get only md icons
   const splits = component.name.split('/');
+
+  if (component.name.includes('accounts') && splits.length == 2) {
+    return true;
+  }
   if (!splits[1].includes('md')) {
     return false;
   }

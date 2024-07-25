@@ -19,7 +19,7 @@ const DerivLightDemoResetBalanceIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <mask
-      id='f0ddd7a5dcc781dd354d39e39c9d5edd__a'
+      id='2f5d2520fab0ff497009f3e5fe7e8791__a'
       width={102}
       height={102}
       x={13}
@@ -31,7 +31,7 @@ const DerivLightDemoResetBalanceIcon = (
     >
       <path fill='#fff' d='M13.09 13.092h101.818V114.91H13.09z' />
     </mask>
-    <g mask='url(#f0ddd7a5dcc781dd354d39e39c9d5edd__a)'>
+    <g mask='url(#2f5d2520fab0ff497009f3e5fe7e8791__a)'>
       <path
         fill='#85ACB0'
         d='M85.69 29.914h-9.296l4.87-16.822H23.936c-5.977 0-10.846 4.87-10.846 10.846v61.755c0 3.762 3.099 6.861 6.86 6.861h65.74c3.764 0 6.862-3.099 6.862-6.861V36.776c0-3.763-3.1-6.862-6.862-6.862M23.937 17.74h51.13l-1.107 3.763H23.714a2.457 2.457 0 0 0-2.434 2.435 2.456 2.456 0 0 0 2.434 2.434h49.139l-1.107 3.763H25.928c-5.091 0-8.19-2.434-8.19-5.976 0-3.763 2.657-6.419 6.199-6.419'

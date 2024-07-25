@@ -20,14 +20,14 @@ export const LegacyStartTimeIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#f605ea879758ca6484e0a85b9a6469d3__a)'>
+    <g clipPath='url(#c3f09b0685d0f8f7ebb014d18e8bfb9a__a)'>
       <path
         fill='#999'
         d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.333a6.667 6.667 0 1 0 0 13.334A6.667 6.667 0 0 0 8 1.333m0 1.334a3.667 3.667 0 0 1 3.667 3.658c0 1.963-3.397 6.637-3.541 6.835l-.127.173-.125-.173c-.145-.196-3.54-4.876-3.54-6.835a3.667 3.667 0 0 1 3.665-3.658m-.001 1.589c-.919 0-1.663.743-1.663 1.66s.745 1.66 1.663 1.66a1.664 1.664 0 0 0 1.664-1.661c0-.917-.746-1.66-1.664-1.66'
       />
     </g>
     <defs>
-      <clipPath id='f605ea879758ca6484e0a85b9a6469d3__a'>
+      <clipPath id='c3f09b0685d0f8f7ebb014d18e8bfb9a__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
