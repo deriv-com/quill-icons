@@ -18,7 +18,7 @@ const DerivLightAccountTrashCanIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#1fb754553c4ced4a25645d5626c11096__a)'>
+    <g clipPath='url(#67bad3e3c42d60bf5a69796277572f19__a)'>
       <g fill='#E0F4F3'>
         <path d='M102.97 12.03H6.83a6 6 0 0 0-6 6v48.3a6 6 0 0 0 6 6h96.14a6 6 0 0 0 6-6v-48.3a6 6 0 0 0-6-6' />
         <path d='M53.84.11h-.01c-6.583 0-11.92 5.337-11.92 11.92v.01c0 6.583 5.337 11.92 11.92 11.92h.01c6.583 0 11.92-5.337 11.92-11.92v-.01C65.76 5.447 60.423.11 53.84.11' />
@@ -41,7 +41,7 @@ const DerivLightAccountTrashCanIcon = (
       />
     </g>
     <defs>
-      <clipPath id='1fb754553c4ced4a25645d5626c11096__a'>
+      <clipPath id='67bad3e3c42d60bf5a69796277572f19__a'>
         <path fill='#fff' d='M0 0h115v87H0z' />
       </clipPath>
     </defs>

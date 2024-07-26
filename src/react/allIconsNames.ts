@@ -4652,6 +4652,8 @@ export const allIconsNames = [
           { type: 'file', name: 'LegacyCloseCircle1pxIcon.tsx' },
           { type: 'file', name: 'LegacyCloseCircle1pxTest1Icon.tsx' },
           { type: 'file', name: 'LegacyCloseCircle2pxIcon.tsx' },
+          { type: 'file', name: 'LegacyCloseCircleRed1pxIcon.tsx' },
+          { type: 'file', name: 'LegacyCloseCircleRed2pxIcon.tsx' },
           { type: 'file', name: 'LegacyCommissionIcon.tsx' },
           { type: 'file', name: 'LegacyCommodityChannelIndexIcon.tsx' },
           { type: 'file', name: 'LegacyContinuousIcon.tsx' },
@@ -6636,5 +6638,5 @@ export const allIconsNames = [
       { type: 'file', name: 'allIconsNames.ts' },
     ],
   },
-  { type: 'report', directories: 13, files: 6544 },
+  { type: 'report', directories: 12, files: 6546 },
 ];

@@ -23,7 +23,7 @@ const LabelPairedLaptopMobileMdBoldIcon = (
       <path d='M4 5.5c-.281 0-.5.25-.5.5v8H11v2H1.5A1.48 1.48 0 0 1 0 14.5c0-.25.219-.5.5-.5H2V6c0-1.094.875-2 2-2h10c1.094 0 2 .906 2 2v1h-1.5V6c0-.25-.25-.5-.5-.5zm8 4A1.5 1.5 0 0 1 13.5 8h5c.813 0 1.5.688 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5h-5a1.48 1.48 0 0 1-1.5-1.5zm1.5 0v9h5v-9z' />
     </g>
     <defs>
-      <clipPath id='4e706c27737f4ac4aa53732b6f8e0708__a'>
+      <clipPath id='8250836c0319d59bff14cce968253439__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

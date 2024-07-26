@@ -18,9 +18,9 @@ const DerivLightIcDocumentNameMismatchIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g filter='url(#d766be6f5e387254a6aab713d5fa1d34__a)'>
+    <g filter='url(#d03a6630762ede4d50ae19527aa7a5a0__a)'>
       <mask
-        id='d766be6f5e387254a6aab713d5fa1d34__b'
+        id='d03a6630762ede4d50ae19527aa7a5a0__b'
         width={128}
         height={158}
         x={85}
@@ -35,7 +35,7 @@ const DerivLightIcDocumentNameMismatchIcon = (
           d='M209 2H89a4 4 0 0 0-4 4v150a4 4 0 0 0 4 4h120a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4'
         />
       </mask>
-      <g mask='url(#d766be6f5e387254a6aab713d5fa1d34__b)'>
+      <g mask='url(#d03a6630762ede4d50ae19527aa7a5a0__b)'>
         <path
           fill='#fff'
           d='M209 2H89a4 4 0 0 0-4 4v150a4 4 0 0 0 4 4h120a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4'
@@ -106,7 +106,7 @@ const DerivLightIcDocumentNameMismatchIcon = (
     />
     <defs>
       <filter
-        id='d766be6f5e387254a6aab713d5fa1d34__a'
+        id='d03a6630762ede4d50ae19527aa7a5a0__a'
         width={133.021}
         height={163.021}
         x={82.49}

@@ -20,7 +20,7 @@ export const LegacyViewDetails2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g fill='#333' clipPath='url(#c9cce1f1b130f2d28b62c7959c5bf32c__a)'>
       <path d='M6 3.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5zM5.25 6A.75.75 0 0 1 6 5.25h4a.75.75 0 0 1 0 1.5H6A.75.75 0 0 1 5.25 6M6 7.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z' />
       <path
         fillRule='evenodd'
@@ -28,6 +28,11 @@ export const LegacyViewDetails2pxIcon = (
         clipRule='evenodd'
       />
     </g>
+    <defs>
+      <clipPath id='c9cce1f1b130f2d28b62c7959c5bf32c__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LegacyViewDetails2pxIcon);
