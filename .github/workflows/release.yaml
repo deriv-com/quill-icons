@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - master
       - beta
       - next
       - '^([0-9]|[1-9][0-9]*)\.([0-9]|[1-9][0-9]*)\.([0-9]|[1-9][0-9]*|x)'
@@ -58,7 +58,7 @@ jobs:
             -H "Authorization: token ${{ secrets.CI_GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{github.repository}}/actions/workflows/$QUILL_ICONS_PARK_WORK_FLOW_FILE/dispatches \
-            -d '{"ref":"main"}'
+            -d '{"ref":"master"}'
 
   send_slack_notification:
     name: Send Release Slack notification
