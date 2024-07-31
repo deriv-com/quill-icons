@@ -158,3 +158,6 @@ export { default as DerivDarkReceivedFundIcon } from './DerivDarkReceivedFundIco
 export { default as DerivDarkReleaseFundIcon } from './DerivDarkReleaseFundIcon';
 export { default as DerivLightWalletCurrencyUnavailableIcon } from './DerivLightWalletCurrencyUnavailableIcon';
 export { default as DerivLight404ErrorIcon } from './DerivLight404ErrorIcon';
+export { default as DerivLightP2pSecureImageIcon } from './DerivLightP2pSecureImageIcon';
+export { default as DerivLightP2pBannerImageIcon } from './DerivLightP2pBannerImageIcon';
+export { default as DerivLightP2pAppImageIcon } from './DerivLightP2pAppImageIcon';

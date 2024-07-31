@@ -23,7 +23,7 @@ const LabelPairedCalendarMdBoldIcon = (
       <path d='M4.75 4.75V6h4.5V4.75A.74.74 0 0 1 10 4a.76.76 0 0 1 .75.75V6H12c1.094 0 2 .906 2 2v10c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V8c0-1.094.875-2 2-2h1.25V4.75A.74.74 0 0 1 4 4a.76.76 0 0 1 .75.75M1.5 10v8c0 .281.219.5.5.5h10c.25 0 .5-.219.5-.5v-8z' />
     </g>
     <defs>
-      <clipPath id='2d10a9bd376ec20c5f27370d2e14f6e2__a'>
+      <clipPath id='88a19b98c4ca51614fb47ab38b79362d__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

@@ -20,16 +20,16 @@ const PaymentMethodJcbBrandIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path fill='#C4C4C4' d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z' />
     <path
-      fill='url(#394df3e21fd419918754f967c3e90cdb__a)'
+      fill='url(#b2b044797a6f8a0fe7715f049020238a__a)'
       d='M76.8 24a8 8 0 0 1 8-8H96v40a8 8 0 0 1-8 8H76.8z'
     />
     <path
-      fill='url(#394df3e21fd419918754f967c3e90cdb__b)'
+      fill='url(#b2b044797a6f8a0fe7715f049020238a__b)'
       d='M54.4 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H54.4z'
     />
     <path fill='#C4C4C4' d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z' />
     <path
-      fill='url(#394df3e21fd419918754f967c3e90cdb__c)'
+      fill='url(#b2b044797a6f8a0fe7715f049020238a__c)'
       d='M32 24a8 8 0 0 1 8-8h11.2v40a8 8 0 0 1-8 8H32z'
     />
     <g fill='#fff'>
@@ -43,7 +43,7 @@ const PaymentMethodJcbBrandIcon = (
     </g>
     <defs>
       <linearGradient
-        id='394df3e21fd419918754f967c3e90cdb__a'
+        id='b2b044797a6f8a0fe7715f049020238a__a'
         x1={76.834}
         x2={96.051}
         y1={36.628}
@@ -56,7 +56,7 @@ const PaymentMethodJcbBrandIcon = (
         <stop offset={1} stopColor='#5CB531' />
       </linearGradient>
       <linearGradient
-        id='394df3e21fd419918754f967c3e90cdb__b'
+        id='b2b044797a6f8a0fe7715f049020238a__b'
         x1={54.289}
         x2={73.241}
         y1={39.958}
@@ -70,7 +70,7 @@ const PaymentMethodJcbBrandIcon = (
         <stop offset={1} stopColor='#E60039' />
       </linearGradient>
       <linearGradient
-        id='394df3e21fd419918754f967c3e90cdb__c'
+        id='b2b044797a6f8a0fe7715f049020238a__c'
         x1={32.033}
         x2={51.547}
         y1={40.002}

@@ -20,7 +20,7 @@ export const LegacyLanguage2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#3371ae203ad5982186ad26272d1b812f__a)'>
+    <g fill='#333' clipPath='url(#25bf4e1e975e491c303d3595ced72298__a)'>
       <path d='M4 4.25a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5zM3.25 7A.75.75 0 0 1 4 6.25h8a.75.75 0 0 1 0 1.5H4A.75.75 0 0 1 3.25 7M4 8.25a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5z' />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyLanguage2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='3371ae203ad5982186ad26272d1b812f__a'>
+      <clipPath id='25bf4e1e975e491c303d3595ced72298__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

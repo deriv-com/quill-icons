@@ -23,7 +23,7 @@ const LabelPairedZeroCaptionFillIcon = (
       <path d='M.25 8A3.746 3.746 0 0 1 4 4.25 3.76 3.76 0 0 1 7.75 8v3A3.746 3.746 0 0 1 4 14.75 3.73 3.73 0 0 1 .25 11zM4 5.75A2.25 2.25 0 0 0 1.75 8v3a2.25 2.25 0 0 0 4.5 0V8A2.25 2.25 0 0 0 4 5.75' />
     </g>
     <defs>
-      <clipPath id='fe14dbed6012c7485d2392e817eb3bb7__a'>
+      <clipPath id='2569f2ea91186379d0a47339b5676ba4__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

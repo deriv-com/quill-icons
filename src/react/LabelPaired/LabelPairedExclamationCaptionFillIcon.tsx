@@ -23,7 +23,7 @@ const LabelPairedExclamationCaptionFillIcon = (
       <path d='M1.75 5v6c0 .422-.352.75-.75.75A.74.74 0 0 1 .25 11V5c0-.398.328-.75.75-.75.398 0 .75.352.75.75M1 14.75c-.352 0-.656-.164-.82-.469a.95.95 0 0 1 0-.937.95.95 0 0 1 .82-.469c.328 0 .633.188.797.469a.95.95 0 0 1 0 .937.89.89 0 0 1-.797.469' />
     </g>
     <defs>
-      <clipPath id='75ffcc9492062eedf93226d92fbe2df7__a'>
+      <clipPath id='1520002597497f90eba4ffa946c32531__a'>
         <path d='M0 0h2v18H0z' />
       </clipPath>
     </defs>
