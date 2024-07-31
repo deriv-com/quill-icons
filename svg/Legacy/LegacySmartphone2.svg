@@ -1,8 +1,13 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="legacy / smartphone-2">
+<g id="legacy / smartphone-2" clip-path="url(#clip0_2761_1095)">
 <g id="icon">
 <path d="M5.5 2.5C5.77614 2.5 6 2.27614 6 2C6 1.72386 5.77614 1.5 5.5 1.5C5.22386 1.5 5 1.72386 5 2C5 2.27614 5.22386 2.5 5.5 2.5Z" fill="#333333"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0C4.39543 0 3.5 0.895431 3.5 2V14C3.5 15.1046 4.39543 16 5.5 16H10.5C11.6046 16 12.5 15.1046 12.5 14V2C12.5 0.895431 11.6046 0 10.5 0H5.5ZM4.5 2C4.5 1.44772 4.94772 1 5.5 1H10.5C11.0523 1 11.5 1.44772 11.5 2V14C11.5 14.5523 11.0523 15 10.5 15H5.5C4.94772 15 4.5 14.5523 4.5 14V2Z" fill="#333333"/>
 </g>
 </g>
+<defs>
+<clipPath id="clip0_2761_1095">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
 </svg>

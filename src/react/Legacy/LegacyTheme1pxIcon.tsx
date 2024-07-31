@@ -20,11 +20,11 @@ export const LegacyTheme1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#efc14b8e72f43b5299b214cdcd73912c__a)'>
+    <g clipPath='url(#523928f8c2b9fba8144a16dc83bf0c49__a)'>
       <path fill='#333' d='M8 15A7 7 0 1 0 8 1v14m0 1a7.98 7.98 0 0 1-6.1-2.823A8 8 0 1 1 8 16' />
     </g>
     <defs>
-      <clipPath id='efc14b8e72f43b5299b214cdcd73912c__a'>
+      <clipPath id='523928f8c2b9fba8144a16dc83bf0c49__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

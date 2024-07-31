@@ -20,7 +20,7 @@ export const LegacyLockOpen2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g fill='#333' clipPath='url(#75b87b95c8d65b0b1d6f0dbe86919ec6__a)'>
       <path d='M8 12.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3' />
       <path
         fillRule='evenodd'
@@ -28,6 +28,11 @@ export const LegacyLockOpen2pxIcon = (
         clipRule='evenodd'
       />
     </g>
+    <defs>
+      <clipPath id='75b87b95c8d65b0b1d6f0dbe86919ec6__a'>
+        <path fill='#fff' d='M0 0h16v16H0z' />
+      </clipPath>
+    </defs>
   </svg>
 );
 const ForwardRef = forwardRef(LegacyLockOpen2pxIcon);

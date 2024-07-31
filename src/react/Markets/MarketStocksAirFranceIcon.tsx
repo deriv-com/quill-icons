@@ -20,13 +20,13 @@ export const MarketStocksAirFranceIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#68e4147bf207c8e9f9c0ffadc5f63966__a)'>
+    <g clipPath='url(#fa0a756d0f50e13f4b0f625100afd137__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#68e4147bf207c8e9f9c0ffadc5f63966__b)'
+        fill='url(#fa0a756d0f50e13f4b0f625100afd137__b)'
         d='m26.016 12.164-3.448 5.044c-.524.758-1.206 1.562-2.233 1.64v.12l2.706-.001c1.176 0 2.017-1.345 2.598-2.188l3.215-4.637z'
       />
       <path
@@ -42,7 +42,7 @@ export const MarketStocksAirFranceIcon = (
     </g>
     <defs>
       <linearGradient
-        id='68e4147bf207c8e9f9c0ffadc5f63966__b'
+        id='fa0a756d0f50e13f4b0f625100afd137__b'
         x1={20.904}
         x2={20.904}
         y1={-2.903}
@@ -56,7 +56,7 @@ export const MarketStocksAirFranceIcon = (
         <stop offset={0.955} stopColor='#931116' />
         <stop offset={1} stopColor='#800F14' />
       </linearGradient>
-      <clipPath id='68e4147bf207c8e9f9c0ffadc5f63966__a'>
+      <clipPath id='fa0a756d0f50e13f4b0f625100afd137__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

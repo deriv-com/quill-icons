@@ -5,7 +5,7 @@ interface SVGRProps {
   title?: string;
   titleId?: string;
 }
-export const LegacyCloseCircle1pxIcon = (
+export const LegacyCloseCircle1pxRedIcon = (
   { iconSize = 'md', title, titleId, ...props }: QuillSvgProps & SVGRProps,
   ref: Ref<SVGSVGElement>,
 ) => (
@@ -20,7 +20,7 @@ export const LegacyCloseCircle1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <rect width={16} height={16} fill='#333' rx={8} />
+    <rect width={16} height={16} fill='#EC3F3F' rx={8} />
     <path
       fill='#fff'
       fillRule='evenodd'
@@ -29,5 +29,5 @@ export const LegacyCloseCircle1pxIcon = (
     />
   </svg>
 );
-const ForwardRef = forwardRef(LegacyCloseCircle1pxIcon);
+const ForwardRef = forwardRef(LegacyCloseCircle1pxRedIcon);
 export default ForwardRef;
