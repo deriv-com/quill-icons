@@ -1,3 +1,21 @@
+## [1.23.8](https://github.com/deriv-com/quill-icons/compare/v1.23.7...v1.23.8) (2024-07-31)
+
+
+### ♻️ 	 Chores
+
+* added new icons collection ([7e1c3f6](https://github.com/deriv-com/quill-icons/commit/7e1c3f699ee58b2c46d2b3d35b0bd11a05f0fa63))
+
+
+### ⚙️ 	 Continuous Integrations
+
+* update from-figma branch ([66ffb82](https://github.com/deriv-com/quill-icons/commit/66ffb8290cec003d8c339a57f33b562c11580e09))
+
+
+### 🛠 	 Builds
+
+* rename main branch ([dcb5ddc](https://github.com/deriv-com/quill-icons/commit/dcb5ddc4132c451940ddeb9440f55e5896c50bc7))
+* update the main to master ([cb555af](https://github.com/deriv-com/quill-icons/commit/cb555aff619937ee098195051c73ff34ca04cd67))
+
 ## [1.23.7](https://github.com/deriv-com/quill-icons/compare/v1.23.6...v1.23.7) (2024-07-25)
 
 
