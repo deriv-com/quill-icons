@@ -259,7 +259,6 @@ export { default as LegacyMonitorIcon } from './LegacyMonitorIcon';
 export { default as LegacyIdCardIcon } from './LegacyIdCardIcon';
 export { default as LegacyIdNumberIcon } from './LegacyIdNumberIcon';
 export { default as LegacyVerificationPendingStatusIcon } from './LegacyVerificationPendingStatusIcon';
-export { default as LegacyCloseCircle1pxTest1Icon } from './LegacyCloseCircle1pxTest1Icon';
 export { default as LegacyAdxIcon } from './LegacyAdxIcon';
 export { default as LegacyAlligatorIcon } from './LegacyAlligatorIcon';
 export { default as LegacyAreaIcon } from './LegacyAreaIcon';

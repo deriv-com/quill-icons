@@ -23,7 +23,7 @@ const LabelPairedSevenCaptionBoldIcon = (
       <path d='M.25 4.813c0-.305.234-.563.563-.563h6.375c.187 0 .375.117.468.305a.49.49 0 0 1 0 .562l-5.625 9.375a.564.564 0 0 1-.773.188c-.258-.164-.352-.516-.188-.774l5.11-8.531H.813a.54.54 0 0 1-.563-.562' />
     </g>
     <defs>
-      <clipPath id='24fbcce66b1d4648ebd5439e42a51b47__a'>
+      <clipPath id='4af1742e20e7b43fcdbfb5eb2c21e9d6__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

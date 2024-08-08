@@ -20,7 +20,7 @@ export const LegacyMarketCryptocurrenciesIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#83ff6242344eda3b24ecce908a721331__a)'>
+    <g clipPath='url(#5809fabbdd1b66645a6c2928c25e4425__a)'>
       <path
         fill='#333'
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyMarketCryptocurrenciesIcon = (
       />
     </g>
     <defs>
-      <clipPath id='83ff6242344eda3b24ecce908a721331__a'>
+      <clipPath id='5809fabbdd1b66645a6c2928c25e4425__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

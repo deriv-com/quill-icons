@@ -20,7 +20,7 @@ export const LegacyLock2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#ee661ff9c66c396e73790eda6ef41b71__a)'>
+    <g fill='#333' clipPath='url(#3b79463d6968ea92536416bc26464cfb__a)'>
       <path d='M8 12.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3' />
       <path
         fillRule='evenodd'
@@ -29,7 +29,7 @@ export const LegacyLock2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ee661ff9c66c396e73790eda6ef41b71__a'>
+      <clipPath id='3b79463d6968ea92536416bc26464cfb__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

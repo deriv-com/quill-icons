@@ -158,6 +158,12 @@ export { default as DerivDarkReceivedFundIcon } from './DerivDarkReceivedFundIco
 export { default as DerivDarkReleaseFundIcon } from './DerivDarkReleaseFundIcon';
 export { default as DerivLightWalletCurrencyUnavailableIcon } from './DerivLightWalletCurrencyUnavailableIcon';
 export { default as DerivLight404ErrorIcon } from './DerivLight404ErrorIcon';
+export { default as DerivLightMyComputerIcon } from './DerivLightMyComputerIcon';
+export { default as DerivLightLocalDeviceIcon } from './DerivLightLocalDeviceIcon';
 export { default as DerivLightP2pSecureImageIcon } from './DerivLightP2pSecureImageIcon';
 export { default as DerivLightP2pBannerImageIcon } from './DerivLightP2pBannerImageIcon';
 export { default as DerivLightP2pAppImageIcon } from './DerivLightP2pAppImageIcon';
+export { default as DerivLightGoogleDriveIcon } from './DerivLightGoogleDriveIcon';
+export { default as DerivLightQuickStrategyIcon } from './DerivLightQuickStrategyIcon';
+export { default as DerivLightBotBuilderIcon } from './DerivLightBotBuilderIcon';
+export { default as DerivLightNegativeAnnouncementIcon } from './DerivLightNegativeAnnouncementIcon';
