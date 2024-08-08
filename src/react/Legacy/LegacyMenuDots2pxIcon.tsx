@@ -20,14 +20,14 @@ export const LegacyMenuDots2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#5759fa968f79488c9311bb23ff6fca48__a)'>
+    <g clipPath='url(#fa68e190c2aeb40acc44c0a79dbeb5e7__a)'>
       <path
         fill='#333'
         d='M8 12a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4'
       />
     </g>
     <defs>
-      <clipPath id='5759fa968f79488c9311bb23ff6fca48__a'>
+      <clipPath id='fa68e190c2aeb40acc44c0a79dbeb5e7__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
