@@ -1,3 +1,10 @@
+## [1.23.10](https://github.com/deriv-com/quill-icons/compare/v1.23.9...v1.23.10) (2024-08-09)
+
+
+### ♻️ 	 Chores
+
+* **amam:** ignore env files ([a794083](https://github.com/deriv-com/quill-icons/commit/a794083622e402c5893ec13e886193807892ecd5))
+
 ## [1.23.9](https://github.com/deriv-com/quill-icons/compare/v1.23.8...v1.23.9) (2024-08-08)
 
 
