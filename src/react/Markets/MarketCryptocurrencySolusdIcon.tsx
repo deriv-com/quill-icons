@@ -20,18 +20,18 @@ export const MarketCryptocurrencySolusdIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#f926aa1130bb859af854f828aac40b08__a)'>
+    <g clipPath='url(#62cea5ca41613172d87db3f90f907bfb__a)'>
       <path fill='#000' d='M20 11a8.999 8.999 0 1 1-17.998 0A8.999 8.999 0 0 1 20 11' />
       <path
-        fill='url(#f926aa1130bb859af854f828aac40b08__b)'
+        fill='url(#62cea5ca41613172d87db3f90f907bfb__b)'
         d='M7.583 7.13a.34.34 0 0 1 .235-.097h8.079c.147 0 .221.178.117.283l-1.596 1.596a.33.33 0 0 1-.234.096h-8.08a.165.165 0 0 1-.117-.282z'
       />
       <path
-        fill='url(#f926aa1130bb859af854f828aac40b08__c)'
+        fill='url(#62cea5ca41613172d87db3f90f907bfb__c)'
         d='M7.583 13.089a.33.33 0 0 1 .235-.097h8.079c.147 0 .221.178.117.283l-1.596 1.595a.33.33 0 0 1-.234.097h-8.08a.165.165 0 0 1-.117-.282z'
       />
       <path
-        fill='url(#f926aa1130bb859af854f828aac40b08__d)'
+        fill='url(#62cea5ca41613172d87db3f90f907bfb__d)'
         d='M14.184 9.994c.089 0 .173.035.234.096l1.596 1.596a.165.165 0 0 1-.117.283h-8.08a.33.33 0 0 1-.234-.097l-1.596-1.596a.165.165 0 0 1 .118-.282z'
       />
     </g>
@@ -56,7 +56,7 @@ export const MarketCryptocurrencySolusdIcon = (
     />
     <defs>
       <linearGradient
-        id='f926aa1130bb859af854f828aac40b08__b'
+        id='62cea5ca41613172d87db3f90f907bfb__b'
         x1={13.895}
         x2={8.303}
         y1={5.437}
@@ -67,7 +67,7 @@ export const MarketCryptocurrencySolusdIcon = (
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
       <linearGradient
-        id='f926aa1130bb859af854f828aac40b08__c'
+        id='62cea5ca41613172d87db3f90f907bfb__c'
         x1={13.895}
         x2={8.303}
         y1={5.437}
@@ -78,7 +78,7 @@ export const MarketCryptocurrencySolusdIcon = (
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
       <linearGradient
-        id='f926aa1130bb859af854f828aac40b08__d'
+        id='62cea5ca41613172d87db3f90f907bfb__d'
         x1={13.895}
         x2={8.303}
         y1={5.437}
@@ -88,7 +88,7 @@ export const MarketCryptocurrencySolusdIcon = (
         <stop stopColor='#00FFA3' />
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
-      <clipPath id='f926aa1130bb859af854f828aac40b08__a'>
+      <clipPath id='62cea5ca41613172d87db3f90f907bfb__a'>
         <path fill='#fff' d='M2.002 2.001H20v17.998H2.002z' />
       </clipPath>
     </defs>
