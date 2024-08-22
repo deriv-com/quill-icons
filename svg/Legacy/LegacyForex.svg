@@ -1,0 +1,8 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="legacy / forex">
+<g id="icon">
+<path d="M5 8V24H9V18H14V15H9V12H15.4L17.5 15.5L13 24H17L20 19L23 24H27L22.5 15.5L27 8H22.5L20 12L17.5 8H5Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 0C2.68629 0 0 2.68629 0 6V26C0 29.3137 2.68629 32 6 32H26C29.3137 32 32 29.3137 32 26V6C32 2.68629 29.3137 0 26 0H6ZM5 24V8H17.5L20 12L22.5 8H27L22.5 15.5L27 24H23L20 19L17 24H13L17.5 15.5L15.4 12H9V15H14V18H9V24H5Z" fill="#33658A"/>
+</g>
+</g>
+</svg>

@@ -20,7 +20,7 @@ export const AccountsDmt5ZrsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#797c2f8c6c28d1225badc380a124aad6__a)'>
+    <g clipPath='url(#954b1a568850dea608cf9291fd03dbd5__a)'>
       <path fill='#0364B9' d='M26 0H6a6 6 0 0 0-6 6v17.5h32V6a6 6 0 0 0-6-6' />
       <path
         fill='#0A559E'
@@ -33,7 +33,7 @@ export const AccountsDmt5ZrsIcon = (
       />
     </g>
     <defs>
-      <clipPath id='797c2f8c6c28d1225badc380a124aad6__a'>
+      <clipPath id='954b1a568850dea608cf9291fd03dbd5__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
