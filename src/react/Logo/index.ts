@@ -45,6 +45,10 @@ export { default as SubBrandDerivInFocusBrandLightIcon } from './SubBrandDerivIn
 export { default as SubBrandDerivInFocusBrandDarkIcon } from './SubBrandDerivInFocusBrandDarkIcon';
 export { default as SubBrandDerivInFocusBlackIcon } from './SubBrandDerivInFocusBlackIcon';
 export { default as SubBrandDerivInFocusWhiteIcon } from './SubBrandDerivInFocusWhiteIcon';
+export { default as SubBrandDerivBlogBrandLightIcon } from './SubBrandDerivBlogBrandLightIcon';
+export { default as SubBrandDerivBlogBrandDarkIcon } from './SubBrandDerivBlogBrandDarkIcon';
+export { default as SubBrandDerivBlogBlackIcon } from './SubBrandDerivBlogBlackIcon';
+export { default as SubBrandDerivBlogWhiteIcon } from './SubBrandDerivBlogWhiteIcon';
 export { default as DerivProductDerivGoBrandLightLogoWordmarkHorizontalIcon } from './DerivProductDerivGoBrandLightLogoWordmarkHorizontalIcon';
 export { default as DerivProductDerivGoBrandDarkLogoWordmarkHorizontalIcon } from './DerivProductDerivGoBrandDarkLogoWordmarkHorizontalIcon';
 export { default as DerivProductDerivGoBlackLogoWordmarkHorizontalIcon } from './DerivProductDerivGoBlackLogoWordmarkHorizontalIcon';

@@ -23,7 +23,7 @@ const LabelPairedMicrosoftXlIcon = (
       <path d='M0 7.5h10.031v10.078H0zm10.922 0H21v10.078H10.922zM0 18.469h10.031V28.5H0zm10.922 0H21V28.5H10.922z' />
     </g>
     <defs>
-      <clipPath id='c5ebbe6d31b1112babca5e6b6b1a36f3__a'>
+      <clipPath id='e8e0b015463f0b61bf43f5976f3be50f__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

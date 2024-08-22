@@ -23,7 +23,7 @@ const LabelPairedEnvelopeMdFillIcon = (
       <path d='M1.5 6h13c.813 0 1.5.688 1.5 1.5 0 .5-.25.938-.625 1.219l-6.781 5.094a.986.986 0 0 1-1.219 0L.594 8.718A1.5 1.5 0 0 1 0 7.5 1.5 1.5 0 0 1 1.5 6M0 9.5l6.781 5.125a2.02 2.02 0 0 0 2.407 0L16 9.5V16c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2z' />
     </g>
     <defs>
-      <clipPath id='348dee62244a1756cd3ab7f6feb06e00__a'>
+      <clipPath id='0929219ed5278e574e5688424d14a67e__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

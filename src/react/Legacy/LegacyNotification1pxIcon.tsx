@@ -23,14 +23,14 @@ export const LegacyNotification1pxIcon = (
     <g
       fill='#333'
       fillRule='evenodd'
-      clipPath='url(#3f6f8256e53061d499372d02f9f5a8cb__a)'
+      clipPath='url(#bdfe7b9c56c4e8e7b2d4310cf6a266a1__a)'
       clipRule='evenodd'
     >
       <path d='M6.5 1.5a1.5 1.5 0 1 1 3 0v.53A4 4 0 0 1 13 5.993v5.39l.947 1.894A.5.5 0 0 1 13.5 14h-11a.5.5 0 0 1-.447-.724L3 11.382V5.99a4 4 0 0 1 3.5-3.96zM8 1a.5.5 0 0 0-.5.5v.999A.5.5 0 0 1 6.999 3 3 3 0 0 0 4 5.99v5.628L3.309 13h9.382L12 11.618V5.992A3 3 0 0 0 9.001 3a.5.5 0 0 1-.501-.501V1.5A.5.5 0 0 0 8 1' />
       <path d='M6 13h4v1a2 2 0 1 1-4 0zm3 1H7a1 1 0 1 0 2 0' />
     </g>
     <defs>
-      <clipPath id='3f6f8256e53061d499372d02f9f5a8cb__a'>
+      <clipPath id='bdfe7b9c56c4e8e7b2d4310cf6a266a1__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

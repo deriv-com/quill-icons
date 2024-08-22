@@ -23,14 +23,14 @@ export const LegacyLocation2pxIcon = (
     <g
       fill='#333'
       fillRule='evenodd'
-      clipPath='url(#eb81bae041673e0f07f2c8451340e332__a)'
+      clipPath='url(#c0caf95ca0d143d1912d44a0b4693641__a)'
       clipRule='evenodd'
     >
       <path d='M8 3.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5M6.75 6a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0' />
       <path d='M8 0a6 6 0 0 0-6 6c0 3.186 1.776 5.69 5.247 9.659a1 1 0 0 0 1.506 0C12.224 11.69 14 9.186 14 6a6 6 0 0 0-6-6M4 6a4 4 0 1 1 8 0c0 2.162-1.048 4.012-4 7.471C5.048 10.012 4 8.162 4 6' />
     </g>
     <defs>
-      <clipPath id='eb81bae041673e0f07f2c8451340e332__a'>
+      <clipPath id='c0caf95ca0d143d1912d44a0b4693641__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
