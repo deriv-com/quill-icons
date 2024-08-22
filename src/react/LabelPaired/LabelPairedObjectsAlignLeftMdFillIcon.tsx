@@ -23,7 +23,7 @@ const LabelPairedObjectsAlignLeftMdFillIcon = (
       <path d='M0 4.75A.74.74 0 0 1 .75 4a.76.76 0 0 1 .75.75v14.5a.74.74 0 0 1-.75.75.72.72 0 0 1-.75-.75zM5.5 6h9c.813 0 1.5.688 1.5 1.5v2a1.5 1.5 0 0 1-1.5 1.5h-9A1.48 1.48 0 0 1 4 9.5v-2A1.5 1.5 0 0 1 5.5 6m0 7h5c.813 0 1.5.688 1.5 1.5v2a1.5 1.5 0 0 1-1.5 1.5h-5A1.48 1.48 0 0 1 4 16.5v-2A1.5 1.5 0 0 1 5.5 13' />
     </g>
     <defs>
-      <clipPath id='547b27ddd936511d5f85a505794cbaa7__a'>
+      <clipPath id='40788d7b27d1ee39552cabc23bdf220c__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

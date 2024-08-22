@@ -23,7 +23,7 @@ const LabelPairedLaptopSmFillIcon = (
       <path d='M3.75 4.625h10.5c.957 0 1.75.793 1.75 1.75v7h-1.75v-7H3.75v7H2v-7c0-.957.766-1.75 1.75-1.75M.77 14.25h16.433c.3 0 .547.246.547.547 0 1.148-.957 2.078-2.105 2.078H2.328A2.077 2.077 0 0 1 .25 14.797c0-.3.219-.547.52-.547' />
     </g>
     <defs>
-      <clipPath id='93f1eb15e041261b1ac797e37c6026f5__a'>
+      <clipPath id='bf8099152f8a21e3b00bb85dd4ec3f8c__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

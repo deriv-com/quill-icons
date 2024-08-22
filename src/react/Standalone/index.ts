@@ -865,3 +865,6 @@ export { default as StandaloneChartTradingviewFillIcon } from './StandaloneChart
 export { default as StandalonePuzzlePieceTwoRegularIcon } from './StandalonePuzzlePieceTwoRegularIcon';
 export { default as StandalonePuzzlePieceTwoBoldIcon } from './StandalonePuzzlePieceTwoBoldIcon';
 export { default as StandalonePuzzlePieceTwoFillIcon } from './StandalonePuzzlePieceTwoFillIcon';
+export { default as StandalonePageCircleArrowRightRegularIcon } from './StandalonePageCircleArrowRightRegularIcon';
+export { default as StandalonePageCircleArrowRightBoldIcon } from './StandalonePageCircleArrowRightBoldIcon';
+export { default as StandalonePageCircleArrowRightFillIcon } from './StandalonePageCircleArrowRightFillIcon';

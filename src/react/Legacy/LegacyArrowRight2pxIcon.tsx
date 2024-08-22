@@ -20,14 +20,14 @@ export const LegacyArrowRight2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0d045979011b486339536c9c7147ef5e__a)'>
+    <g clipPath='url(#b3021c44fe4d506722ec700e477c8c79__a)'>
       <path
         fill='#333'
         d='M7.293.293a1 1 0 0 0 0 1.414L12.586 7 1 7a1 1 0 0 0 0 2l11.586-.001-5.293 5.294a1 1 0 1 0 1.414 1.414l7-7 .073-.082.007-.008-.08.09a1 1 0 0 0 .282-.559A1 1 0 0 0 16 8v-.02l-.004-.07L16 8a1 1 0 0 0-.146-.52 1 1 0 0 0-.147-.187l-7-7a1 1 0 0 0-1.414 0'
       />
     </g>
     <defs>
-      <clipPath id='0d045979011b486339536c9c7147ef5e__a'>
+      <clipPath id='b3021c44fe4d506722ec700e477c8c79__a'>
         <path fill='#fff' d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

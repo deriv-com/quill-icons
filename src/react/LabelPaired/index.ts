@@ -865,6 +865,9 @@ export { default as LabelPairedHandGestureTapRightCaptionFillIcon } from './Labe
 export { default as LabelPairedHandGestureSwipeLeftRightCaptionRegularIcon } from './LabelPairedHandGestureSwipeLeftRightCaptionRegularIcon';
 export { default as LabelPairedHandGestureSwipeLeftRightCaptionBoldIcon } from './LabelPairedHandGestureSwipeLeftRightCaptionBoldIcon';
 export { default as LabelPairedHandGestureSwipeLeftRightCaptionFillIcon } from './LabelPairedHandGestureSwipeLeftRightCaptionFillIcon';
+export { default as LabelPairedPageCircleArrowRightCaptionRegularIcon } from './LabelPairedPageCircleArrowRightCaptionRegularIcon';
+export { default as LabelPairedPageCircleArrowRightCaptionBoldIcon } from './LabelPairedPageCircleArrowRightCaptionBoldIcon';
+export { default as LabelPairedPageCircleArrowRightCaptionFillIcon } from './LabelPairedPageCircleArrowRightCaptionFillIcon';
 export { default as LabelPairedPlaceholderSmRegularIcon } from './LabelPairedPlaceholderSmRegularIcon';
 export { default as LabelPairedPlaceholderSmBoldIcon } from './LabelPairedPlaceholderSmBoldIcon';
 export { default as LabelPairedPlaceholderSmFillIcon } from './LabelPairedPlaceholderSmFillIcon';
@@ -1732,6 +1735,9 @@ export { default as LabelPairedChartTradingviewSmFillIcon } from './LabelPairedC
 export { default as LabelPairedPuzzlePieceTwoSmRegularIcon } from './LabelPairedPuzzlePieceTwoSmRegularIcon';
 export { default as LabelPairedPuzzlePieceTwoSmBoldIcon } from './LabelPairedPuzzlePieceTwoSmBoldIcon';
 export { default as LabelPairedPuzzlePieceTwoSmFillIcon } from './LabelPairedPuzzlePieceTwoSmFillIcon';
+export { default as LabelPairedPageCircleArrowRightSmRegularIcon } from './LabelPairedPageCircleArrowRightSmRegularIcon';
+export { default as LabelPairedPageCircleArrowRightSmBoldIcon } from './LabelPairedPageCircleArrowRightSmBoldIcon';
+export { default as LabelPairedPageCircleArrowRightSmFillIcon } from './LabelPairedPageCircleArrowRightSmFillIcon';
 export { default as LabelPairedPlaceholderMdRegularIcon } from './LabelPairedPlaceholderMdRegularIcon';
 export { default as LabelPairedPlaceholderMdBoldIcon } from './LabelPairedPlaceholderMdBoldIcon';
 export { default as LabelPairedPlaceholderMdFillIcon } from './LabelPairedPlaceholderMdFillIcon';
@@ -2599,6 +2605,9 @@ export { default as LabelPairedChartTradingviewMdFillIcon } from './LabelPairedC
 export { default as LabelPairedPuzzlePieceTwoMdRegularIcon } from './LabelPairedPuzzlePieceTwoMdRegularIcon';
 export { default as LabelPairedPuzzlePieceTwoMdBoldIcon } from './LabelPairedPuzzlePieceTwoMdBoldIcon';
 export { default as LabelPairedPuzzlePieceTwoMdFillIcon } from './LabelPairedPuzzlePieceTwoMdFillIcon';
+export { default as LabelPairedPageCircleArrowRightMdRegularIcon } from './LabelPairedPageCircleArrowRightMdRegularIcon';
+export { default as LabelPairedPageCircleArrowRightMdBoldIcon } from './LabelPairedPageCircleArrowRightMdBoldIcon';
+export { default as LabelPairedPageCircleArrowRightMdFillIcon } from './LabelPairedPageCircleArrowRightMdFillIcon';
 export { default as LabelPairedPlaceholderLgRegularIcon } from './LabelPairedPlaceholderLgRegularIcon';
 export { default as LabelPairedPlaceholderLgBoldIcon } from './LabelPairedPlaceholderLgBoldIcon';
 export { default as LabelPairedPlaceholderLgFillIcon } from './LabelPairedPlaceholderLgFillIcon';
@@ -3466,6 +3475,9 @@ export { default as LabelPairedChartTradingviewLgFillIcon } from './LabelPairedC
 export { default as LabelPairedPuzzlePieceTwoLgRegularIcon } from './LabelPairedPuzzlePieceTwoLgRegularIcon';
 export { default as LabelPairedPuzzlePieceTwoLgBoldIcon } from './LabelPairedPuzzlePieceTwoLgBoldIcon';
 export { default as LabelPairedPuzzlePieceTwoLgFillIcon } from './LabelPairedPuzzlePieceTwoLgFillIcon';
+export { default as LabelPairedPageCircleArrowRightLgRegularIcon } from './LabelPairedPageCircleArrowRightLgRegularIcon';
+export { default as LabelPairedPageCircleArrowRightLgBoldIcon } from './LabelPairedPageCircleArrowRightLgBoldIcon';
+export { default as LabelPairedPageCircleArrowRightLgFillIcon } from './LabelPairedPageCircleArrowRightLgFillIcon';
 export { default as LabelPairedPlaceholderXlRegularIcon } from './LabelPairedPlaceholderXlRegularIcon';
 export { default as LabelPairedPlaceholderXlBoldIcon } from './LabelPairedPlaceholderXlBoldIcon';
 export { default as LabelPairedPlaceholderXlFillIcon } from './LabelPairedPlaceholderXlFillIcon';
@@ -4333,3 +4345,6 @@ export { default as LabelPairedChartTradingviewXlFillIcon } from './LabelPairedC
 export { default as LabelPairedPuzzlePieceTwoXlRegularIcon } from './LabelPairedPuzzlePieceTwoXlRegularIcon';
 export { default as LabelPairedPuzzlePieceTwoXlBoldIcon } from './LabelPairedPuzzlePieceTwoXlBoldIcon';
 export { default as LabelPairedPuzzlePieceTwoXlFillIcon } from './LabelPairedPuzzlePieceTwoXlFillIcon';
+export { default as LabelPairedPageCircleArrowRightXlRegularIcon } from './LabelPairedPageCircleArrowRightXlRegularIcon';
+export { default as LabelPairedPageCircleArrowRightXlBoldIcon } from './LabelPairedPageCircleArrowRightXlBoldIcon';
+export { default as LabelPairedPageCircleArrowRightXlFillIcon } from './LabelPairedPageCircleArrowRightXlFillIcon';
