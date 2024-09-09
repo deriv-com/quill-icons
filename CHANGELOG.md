@@ -1,3 +1,10 @@
+## [1.23.14](https://github.com/deriv-com/quill-icons/compare/v1.23.13...v1.23.14) (2024-09-09)
+
+
+### ♻️ 	 Chores
+
+* added major setting ([6365653](https://github.com/deriv-com/quill-icons/commit/6365653275d122a222bb38cea09796e47777c36e))
+
 ## [1.23.13](https://github.com/deriv-com/quill-icons/compare/v1.23.12...v1.23.13) (2024-09-09)
 
 
