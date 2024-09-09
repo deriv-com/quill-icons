@@ -23,7 +23,7 @@ const LabelPairedXTwitterLgIcon = (
       <path d='M15.195 7.375h2.735l-6.016 6.914 7.11 9.336h-5.547l-4.375-5.664-4.961 5.664H1.367l6.446-7.344-6.797-8.906h5.703l3.906 5.195zm-.976 14.61h1.523L5.898 8.937h-1.64z' />
     </g>
     <defs>
-      <clipPath id='229547f5d0b3a83c335567f1f49586f8__a'>
+      <clipPath id='c436be5da31c27de64776e3fa921e7a5__a'>
         <path d='M0 0h20v30H0z' />
       </clipPath>
     </defs>

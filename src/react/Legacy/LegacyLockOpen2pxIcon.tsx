@@ -11,7 +11,6 @@ export const LegacyLockOpen2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyLockOpen2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#8e37754bae32b34203a543d7b99c057b__a)'>
+    <g>
       <path d='M8 12.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3' />
       <path
         fillRule='evenodd'
@@ -29,8 +28,8 @@ export const LegacyLockOpen2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='8e37754bae32b34203a543d7b99c057b__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='2924f5ee218aceb2e1293da64faf213a__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

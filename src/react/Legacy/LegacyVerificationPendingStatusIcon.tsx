@@ -11,7 +11,6 @@ export const LegacyVerificationPendingStatusIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,24 +19,22 @@ export const LegacyVerificationPendingStatusIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#dc51301e6510f20c35fd56523e4cfee5__a)'>
-      <path fill='#FFAD3A' d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16' />
+    <g>
+      <path d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16' />
       <path
-        fill='#fff'
         fillRule='evenodd'
         d='M8 12.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12'
         clipRule='evenodd'
       />
       <path
-        fill='#fff'
         fillRule='evenodd'
         d='M8 5a.75.75 0 0 1 .75.75v1.5h1.5a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 8V5.75A.75.75 0 0 1 8 5'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='dc51301e6510f20c35fd56523e4cfee5__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='a7eb4bad8d91a39f03c5148b37e647c6__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

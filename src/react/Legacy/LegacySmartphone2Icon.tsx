@@ -11,7 +11,6 @@ export const LegacySmartphone2Icon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacySmartphone2Icon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333' clipPath='url(#74ada3ccbe3662ff1cd6b117a5b7e278__a)'>
+    <g>
       <path d='M5.5 2.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1' />
       <path
         fillRule='evenodd'
@@ -29,8 +28,8 @@ export const LegacySmartphone2Icon = (
       />
     </g>
     <defs>
-      <clipPath id='74ada3ccbe3662ff1cd6b117a5b7e278__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='286cbfc7e08fd80dfac781d88c2c4e98__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

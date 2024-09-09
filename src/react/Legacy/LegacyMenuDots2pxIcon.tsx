@@ -11,7 +11,6 @@ export const LegacyMenuDots2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,15 +19,12 @@ export const LegacyMenuDots2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b90443972b7ea38ab460b84b9634ecc3__a)'>
-      <path
-        fill='#333'
-        d='M8 12a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4'
-      />
+    <g>
+      <path d='M8 12a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4' />
     </g>
     <defs>
-      <clipPath id='b90443972b7ea38ab460b84b9634ecc3__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='0c6e5d180b60886226c8abb5e0938726__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

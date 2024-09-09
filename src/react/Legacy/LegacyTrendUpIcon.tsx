@@ -11,7 +11,6 @@ export const LegacyTrendUpIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyTrendUpIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path fill='#4BB4B3' d='m8 4 6 8H2z' />
+    <path d='m8 4 6 8H2z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyTrendUpIcon);

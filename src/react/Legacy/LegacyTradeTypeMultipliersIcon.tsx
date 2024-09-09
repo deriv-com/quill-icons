@@ -11,7 +11,6 @@ export const LegacyTradeTypeMultipliersIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyTradeTypeMultipliersIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g>
       <path
         fillRule='evenodd'
         d='M13.138 2.155A.5.5 0 0 1 13.5 2h2a.5.5 0 0 1 0 1h-1.786L3.362 13.845A.5.5 0 0 1 3 14H.5a.5.5 0 0 1 0-1h2.286z'

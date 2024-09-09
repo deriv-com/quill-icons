@@ -11,7 +11,6 @@ export const LegacyArrowDown2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,17 +19,16 @@ export const LegacyArrowDown2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#961cb1c04162a6bd5e4a8ece45a5eaf7__a)'>
+    <g>
       <path
-        fill='#333'
         fillRule='evenodd'
         d='M8 0a1 1 0 0 1 1 1v11.586l5.293-5.293a1 1 0 1 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 0 1 1.414-1.414L7 12.586V1a1 1 0 0 1 1-1'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='961cb1c04162a6bd5e4a8ece45a5eaf7__a'>
-        <path fill='#fff' d='M0 0h16v16H0z' />
+      <clipPath id='ccee290356fe391c639f3dff417cf949__a'>
+        <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
   </svg>

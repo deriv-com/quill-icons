@@ -23,7 +23,7 @@ const LabelPairedSevenSmFillIcon = (
       <path d='M.125 5.5c0-.465.383-.875.875-.875h7c.3 0 .602.191.738.465a.84.84 0 0 1 0 .875l-6.125 10.5c-.246.41-.765.547-1.203.3C1 16.52.863 16 1.11 15.563l5.359-9.187H1A.864.864 0 0 1 .125 5.5' />
     </g>
     <defs>
-      <clipPath id='ea166adf8436ac4e8cbb6fc59726e12f__a'>
+      <clipPath id='41d0e498bcd225c7d943a8a8637ce6d1__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>
