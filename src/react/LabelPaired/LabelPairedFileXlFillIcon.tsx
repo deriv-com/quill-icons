@@ -23,7 +23,7 @@ const LabelPairedFileXlFillIcon = (
       <path d='M0 9c0-1.64 1.313-3 3-3h7.5v6c0 .844.656 1.5 1.5 1.5h6V27c0 1.688-1.36 3-3 3H3c-1.687 0-3-1.312-3-3zm18 3h-6V6z' />
     </g>
     <defs>
-      <clipPath id='e3ad18d30d38cd41b2b4353663c9f31f__a'>
+      <clipPath id='a5ec1c72b4a8a7c3374aaa2e9f5fa05f__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

@@ -11,7 +11,6 @@ export const LegacyArrowUp1pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,10 +19,7 @@ export const LegacyArrowUp1pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path
-      fill='#333'
-      d='M8 2a.5.5 0 0 1 .191.038.5.5 0 0 1 .163.108l-.052-.044q.02.014.04.033l.012.011 3.5 3.5a.5.5 0 0 1-.708.708L8.5 3.707V13.5a.5.5 0 0 1-.41.492L8 14a.5.5 0 0 1-.5-.5V3.707L4.854 6.354a.5.5 0 0 1-.638.057l-.07-.057a.5.5 0 0 1 0-.708l3.5-3.5A.5.5 0 0 1 8 2l-.074.005L7.99 2z'
-    />
+    <path d='M8 2a.5.5 0 0 1 .191.038.5.5 0 0 1 .163.108l-.052-.044q.02.014.04.033l.012.011 3.5 3.5a.5.5 0 0 1-.708.708L8.5 3.707V13.5a.5.5 0 0 1-.41.492L8 14a.5.5 0 0 1-.5-.5V3.707L4.854 6.354a.5.5 0 0 1-.638.057l-.07-.057a.5.5 0 0 1 0-.708l3.5-3.5A.5.5 0 0 1 8 2l-.074.005L7.99 2z' />
   </svg>
 );
 const ForwardRef = forwardRef(LegacyArrowUp1pxIcon);

@@ -18,9 +18,9 @@ const DerivLightDepositIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#95d16d55f2be919a8508b4b03de147b5__a)'>
+    <g clipPath='url(#c597bed3b228c6307f095121345760da__a)'>
       <mask
-        id='95d16d55f2be919a8508b4b03de147b5__b'
+        id='c597bed3b228c6307f095121345760da__b'
         width={32}
         height={32}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightDepositIcon = (
       >
         <path fill='#fff' d='M32 0H0v32h32z' />
       </mask>
-      <g mask='url(#95d16d55f2be919a8508b4b03de147b5__b)'>
+      <g mask='url(#c597bed3b228c6307f095121345760da__b)'>
         <path
           fill='#85ACB0'
           d='m15.175 1.14 11.818 2.084a2 2 0 0 1 1.622 2.317l-2.257 12.803L10.6 15.565l2.257-12.802a2 2 0 0 1 2.317-1.622'
@@ -57,7 +57,7 @@ const DerivLightDepositIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='95d16d55f2be919a8508b4b03de147b5__a'>
+      <clipPath id='c597bed3b228c6307f095121345760da__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

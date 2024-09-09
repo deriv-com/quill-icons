@@ -23,7 +23,7 @@ const LabelPairedSortDownXlFillIcon = (
       <path d='M8.531 28.078c-.562.61-1.547.61-2.11 0l-6-6a1.52 1.52 0 0 1-.327-1.64A1.54 1.54 0 0 1 1.5 19.5h12c.563 0 1.125.375 1.36.938a1.52 1.52 0 0 1-.329 1.64z' />
     </g>
     <defs>
-      <clipPath id='c343396d087671eefc1ab86545dc1bd8__a'>
+      <clipPath id='8d575ceaed8df2d4dcfbd9ce347f6ac4__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

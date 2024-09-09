@@ -11,7 +11,6 @@ export const LegacyHandleMoreIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 32 32'
     {...sizes[iconSize]}
     role='img'
@@ -20,17 +19,16 @@ export const LegacyHandleMoreIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#fff270911874dfe87843aa392282f037__a)'>
+    <g>
       <path
-        fill='#333'
         fillRule='evenodd'
         d='M.226 10.71a1.5 1.5 0 0 1 2.065-.484L16 18.735l13.709-8.51a1.5 1.5 0 0 1 1.582 2.55l-14.5 9a1.5 1.5 0 0 1-1.582 0l-14.5-9a1.5 1.5 0 0 1-.483-2.066'
         clipRule='evenodd'
       />
     </g>
     <defs>
-      <clipPath id='fff270911874dfe87843aa392282f037__a'>
-        <path fill='#fff' d='M0 0h32v32H0z' />
+      <clipPath id='e34ba93491bd4ca11d200e8a65bc3ac4__a'>
+        <path d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
   </svg>

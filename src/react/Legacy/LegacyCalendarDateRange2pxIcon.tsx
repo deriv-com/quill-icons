@@ -11,7 +11,6 @@ export const LegacyCalendarDateRange2pxIcon = (
 ) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
-    fill='none'
     viewBox='0 0 16 16'
     {...sizes[iconSize]}
     role='img'
@@ -20,7 +19,7 @@ export const LegacyCalendarDateRange2pxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill='#333'>
+    <g>
       <path d='M4.25 10.25h6.089a1 1 0 1 1 0 1.5H4.25zM5.661 9.75a1 1 0 1 1 0-1.5h6.089v1.5z' />
       <path
         fillRule='evenodd'
