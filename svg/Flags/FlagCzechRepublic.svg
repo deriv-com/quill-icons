@@ -1,6 +1,6 @@
 <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="flags / flag-czech republic">
-<g clip-path="url(#clip0_708_1772)">
+<g clip-path="url(#clip0_3594_4573)">
 <g id="flag">
 <path d="M0.681763 15.5041C1.03374 15.8129 1.495 16 1.99996 16H22C23.1045 16 24 15.1046 24 14V8H11L0.681763 15.5041Z" fill="#E8252A"/>
 <path d="M22 0H2C1.495 0 1.03369 0.187138 0.681763 0.495846L11 8H24L24 2C24 0.895432 23.1046 0 22 0Z" fill="white"/>
@@ -10,7 +10,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_708_1772">
+<clipPath id="clip0_3594_4573">
 <rect width="24" height="16" rx="2" fill="white"/>
 </clipPath>
 </defs>

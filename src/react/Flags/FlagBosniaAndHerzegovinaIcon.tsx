@@ -26,7 +26,7 @@ export const FlagBosniaAndHerzegovinaIcon = (
     />
     <path
       fill='#FC0'
-      d='M2 0h20a2 2 0 0 1 2 2v12c0 .612-.275 1.16-.709 1.527L.71.473A2 2 0 0 1 2 0'
+      d='M2 0h20a2 2 0 0 1 2 2v12c0 .612-.275 1.16-.709 1.527L.71.473C1.057.178 1.508 0 2 0'
     />
     <path
       fill='#fff'

@@ -1,0 +1,12 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-haiti">
+<g id="flag">
+<path d="M9.5 8H0V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V8H14.5V10H9.5V8Z" fill="#D21034"/>
+<path d="M22 0H2C0.89543 0 0 0.89543 0 2V8H9.5V6H14.5V8H24V2C24 0.89543 23.1046 0 22 0Z" fill="#00209F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 6H14.5V10H9.5V6Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.89543 0 0 0.89543 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+<path d="M12 8C11.732 8 11.5 8.225 11.5 8.505V10H12.5V8.505C12.5 8.214 12.276 8 12 8Z" fill="#F2B600"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 8.5C10.5 7.672 11.166 7 12 7C12.828 7 13.5 7.666 13.5 8.5V10H10.5V8.5ZM11.5 8.505C11.5 8.225 11.732 8 12 8C12.276 8 12.5 8.214 12.5 8.505V10H11.5V8.505Z" fill="#1C672C"/>
+</g>
+</g>
+</svg>

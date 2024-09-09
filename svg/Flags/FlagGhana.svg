@@ -1,0 +1,11 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-ghana">
+<g id="flag">
+<path d="M0 11H24V14C24 15.1046 23.1046 16 22 16H2C0.89543 16 0 15.1046 0 14V11Z" fill="#006B3F"/>
+<path d="M24 5H0V11H24V5Z" fill="#FCD116"/>
+<path d="M2 0H22C23.1046 0 24 0.89543 24 2V5H0V2C0 0.89543 0.89543 0 2 0Z" fill="#CE1126"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 9.4885L10.53 10.2615L10.81 8.6245L9.622 7.4645L11.265 7.2275L12 5.7385L12.735 7.2285L14.378 7.4655L13.188 8.6255L13.468 10.2615" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.89543 0 0 0.89543 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+</svg>

@@ -868,3 +868,9 @@ export { default as StandalonePuzzlePieceTwoFillIcon } from './StandalonePuzzleP
 export { default as StandalonePageCircleArrowRightRegularIcon } from './StandalonePageCircleArrowRightRegularIcon';
 export { default as StandalonePageCircleArrowRightBoldIcon } from './StandalonePageCircleArrowRightBoldIcon';
 export { default as StandalonePageCircleArrowRightFillIcon } from './StandalonePageCircleArrowRightFillIcon';
+export { default as StandaloneQuestionRegularIcon } from './StandaloneQuestionRegularIcon';
+export { default as StandaloneQuestionBoldIcon } from './StandaloneQuestionBoldIcon';
+export { default as StandaloneQuestionFillIcon } from './StandaloneQuestionFillIcon';
+export { default as StandaloneCircleQuestionRegularIcon } from './StandaloneCircleQuestionRegularIcon';
+export { default as StandaloneCircleQuestionBoldIcon } from './StandaloneCircleQuestionBoldIcon';
+export { default as StandaloneCircleQuestionFillIcon } from './StandaloneCircleQuestionFillIcon';

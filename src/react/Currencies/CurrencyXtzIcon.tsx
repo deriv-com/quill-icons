@@ -20,7 +20,7 @@ export const CurrencyXtzIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#a1344612e22132827d76148a767c9e9d__a)'>
+    <g clipPath='url(#49592adc7c5a505aca43eb203035130f__a)'>
       <path
         fill='#2C7DF7'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -31,7 +31,7 @@ export const CurrencyXtzIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a1344612e22132827d76148a767c9e9d__a'>
+      <clipPath id='49592adc7c5a505aca43eb203035130f__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

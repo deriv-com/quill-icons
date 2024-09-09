@@ -189,3 +189,4 @@ export { default as DerivLightSettingsSuccessIcon } from './DerivLightSettingsSu
 export { default as DerivLightSettingsInProgressIcon } from './DerivLightSettingsInProgressIcon';
 export { default as DerivLightFundsAddIcon } from './DerivLightFundsAddIcon';
 export { default as DerivLightAdFilterIcon } from './DerivLightAdFilterIcon';
+export { default as DerivLightGeneralProductPasswordIcon } from './DerivLightGeneralProductPasswordIcon';

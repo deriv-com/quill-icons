@@ -20,14 +20,7 @@ export const FlagJapanIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path
-      fill='#fff'
-      d='M22.203.026H1.797C.805.026 0 .844 0 1.852v12.322C0 15.182.805 16 1.797 16h20.406c.992 0 1.797-.818 1.797-1.826V1.852C24 .844 23.195.026 22.203.026'
-    />
-    <path
-      fill='#ED293F'
-      d='M12 12.637c2.514 0 4.552-2.07 4.552-4.624S14.514 3.389 12 3.389 7.448 5.46 7.448 8.013 9.486 12.637 12 12.637'
-    />
+    <path fill='#fff' d='M0 2a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z' />
     <path
       fill='#000'
       fillOpacity={0.08}
@@ -35,6 +28,7 @@ export const FlagJapanIcon = (
       d='M22 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z'
       clipRule='evenodd'
     />
+    <path fill='#ED293F' d='M16.5 8a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0' />
   </svg>
 );
 const ForwardRef = forwardRef(FlagJapanIcon);
