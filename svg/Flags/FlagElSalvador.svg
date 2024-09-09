@@ -1,0 +1,18 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-el salvador">
+<g id="flag">
+<path d="M0 11H24V14C24 15.1046 23.1046 16 22 16H2C0.89543 16 0 15.1046 0 14V11Z" fill="#0047AB"/>
+<path d="M24 5H0V11H24V5Z" fill="white"/>
+<path d="M2 0H22C23.1046 0 24 0.89543 24 2V5H0V2C0 0.89543 0.89543 0 2 0Z" fill="#0047AB"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.3999 5.86652C9.75227 6.35304 9.33333 7.1276 9.33333 8.00001C9.33333 9.47277 10.5272 10.6667 12 10.6667C13.4728 10.6667 14.6667 9.47277 14.6667 8.00001C14.6667 7.1276 14.2477 6.35304 13.6001 5.86652L12.6667 8.66668H11.3333L10.3999 5.86652Z" fill="url(#paint0_linear_3594_4582)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.33332L12.6667 8.66668H11.3333L12 5.33332Z" fill="#F9C92E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.89543 0 0 0.89543 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3594_4582" x1="0" y1="0" x2="0" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3C7839"/>
+<stop offset="1" stop-color="#31642E"/>
+</linearGradient>
+</defs>
+</svg>

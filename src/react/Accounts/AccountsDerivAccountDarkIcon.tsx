@@ -20,7 +20,7 @@ export const AccountsDerivAccountDarkIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#63e7a658771b07a7fdc3618c64680c1b__a)'>
+    <g clipPath='url(#28a21365ee72bfbc45366d37d838db6b__a)'>
       <path fill='#fff' d='M0 6a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z' />
       <path
         fill='#EF8933'
@@ -44,7 +44,7 @@ export const AccountsDerivAccountDarkIcon = (
       />
     </g>
     <defs>
-      <clipPath id='63e7a658771b07a7fdc3618c64680c1b__a'>
+      <clipPath id='28a21365ee72bfbc45366d37d838db6b__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -1,0 +1,16 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-georgia">
+<g id="flag">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 0H10V6H0V2C0 0.89543 0.89543 0 2 0ZM4 4L5.2 3.8L5 5H6L5.8 3.8L7 4V3L5.8 3.2L6 2H5L5.2 3.2L4 3V4Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 0H14V6H24V2C24 0.89543 23.1046 0 22 0ZM17 4L18.2 3.8L18 5H19L18.8 3.8L20 4V3L18.8 3.2L19 2H18L18.2 3.2L17 3V4Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10V14C0 15.1046 0.89543 16 2 16H10V10H0ZM5.2 12.8L4 13V12L5.2 12.2L5 11H6L5.8 12.2L7 12V13L5.8 12.8L6 14H5L5.2 12.8Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 14C24 15.1046 23.1046 16 22 16H14V10H24V14ZM17 13L18.2 12.8L18 14H19L18.8 12.8L20 13V12L18.8 12.2L19 11H18L18.2 12.2L17 12V13Z" fill="white"/>
+<path d="M18.2 3.8L17 4V3L18.2 3.2L18 2H19L18.8 3.2L20 3V4L18.8 3.8L19 5H18L18.2 3.8Z" fill="#FD0D1B"/>
+<path d="M5.2 3.8L4 4V3L5.2 3.2L5 2H6L5.8 3.2L7 3V4L5.8 3.8L6 5H5L5.2 3.8Z" fill="#FD0D1B"/>
+<path d="M5.2 12.8L4 13V12L5.2 12.2L5 11H6L5.8 12.2L7 12V13L5.8 12.8L6 14H5L5.2 12.8Z" fill="#FD0D1B"/>
+<path d="M18.2 12.8L17 13V12L18.2 12.2L18 11H19L18.8 12.2L20 12V13L18.8 12.8L19 14H18L18.2 12.8Z" fill="#FD0D1B"/>
+<path d="M24 6V10H14V16H10V10H0V6H10V0H14V6H24Z" fill="#FF0000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.89543 0 0 0.89543 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+</svg>
