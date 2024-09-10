@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/deriv-com/quill-icons/compare/v2.0.0...v2.1.0) (2024-09-10)
+
+
+### 📦 	 Code Refactoring
+
+* logo name improvements ([9e10073](https://github.com/deriv-com/quill-icons/commit/9e100738b3e7ce2ad76b5f1f9a0b84c0219f34c2))
+
 # [2.0.0](https://github.com/deriv-com/quill-icons/compare/v1.23.14...v2.0.0) (2024-09-09)
 
 
