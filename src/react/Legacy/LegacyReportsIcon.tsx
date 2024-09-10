@@ -23,7 +23,7 @@ export const LegacyReportsIcon = (
       <path d='M13 8v7h1a1 1 0 0 0 1-1V8zM9 0l4 4v3h3v7a2 2 0 0 1-2 2H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zm-.414 1H1v14h11V4.414zM6.5 11a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm3-2a.5.5 0 0 1 0 1h-6a.5.5 0 0 1 0-1zm0-2a.5.5 0 0 1 0 1h-6a.5.5 0 0 1 0-1zm0-2a.5.5 0 0 1 0 1h-6a.5.5 0 0 1 0-1z' />
     </g>
     <defs>
-      <clipPath id='9624836a72934ee6f411735fa0f7507d__a'>
+      <clipPath id='4d346f67a0367b7811b06bd392d3b460__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

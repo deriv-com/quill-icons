@@ -23,7 +23,7 @@ const LabelPairedHorizontalRuleMdFillIcon = (
       <path d='M0 12c0-.531.438-1 1-1h18c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1' />
     </g>
     <defs>
-      <clipPath id='58be87d971dda169012f59d63f258a02__a'>
+      <clipPath id='22d5322c823f7b5dbfdded67a0fdc9e4__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

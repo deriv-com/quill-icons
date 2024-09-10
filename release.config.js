@@ -44,10 +44,6 @@ module.exports = {
             type: 'test',
             release: 'patch',
           },
-          {
-            type: 'feat',
-            release: 'major',
-          },
         ],
       },
     ],

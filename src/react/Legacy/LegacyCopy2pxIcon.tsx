@@ -24,7 +24,7 @@ export const LegacyCopy2pxIcon = (
       <path d='M2.75 7.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m0 2.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m0 2.5a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75' />
     </g>
     <defs>
-      <clipPath id='c9e446bfb5a946d6a7414c2bb7bcd155__a'>
+      <clipPath id='9587d90fe805b57697270eab5400fb09__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

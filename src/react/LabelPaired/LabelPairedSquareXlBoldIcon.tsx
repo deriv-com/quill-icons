@@ -23,7 +23,7 @@ const LabelPairedSquareXlBoldIcon = (
       <path d='M18 9.75H3c-.422 0-.75.375-.75.75v15c0 .422.328.75.75.75h15c.375 0 .75-.328.75-.75v-15c0-.375-.375-.75-.75-.75M3 7.5h15c1.64 0 3 1.36 3 3v15c0 1.688-1.36 3-3 3H3c-1.687 0-3-1.312-3-3v-15c0-1.64 1.313-3 3-3' />
     </g>
     <defs>
-      <clipPath id='2b63b964e3b184a392cd1b32dddaef3f__a'>
+      <clipPath id='e46b7cc9ab05432bb5ad06f0ad00a212__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>
