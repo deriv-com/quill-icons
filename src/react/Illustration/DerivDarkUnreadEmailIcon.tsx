@@ -18,7 +18,7 @@ const DerivDarkUnreadEmailIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ca8b99daab803dda05f347a7c8040314__a)'>
+    <g clipPath='url(#e8b2f663ec8d89da30c6a4a8c5c7aee2__a)'>
       <path fill='#323738' d='M0 12V2l11 6 11-6v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2' />
       <path
         fill='#242828'
@@ -37,7 +37,7 @@ const DerivDarkUnreadEmailIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ca8b99daab803dda05f347a7c8040314__a'>
+      <clipPath id='e8b2f663ec8d89da30c6a4a8c5c7aee2__a'>
         <path fill='#fff' d='M0 0h22v14H0z' />
       </clipPath>
     </defs>

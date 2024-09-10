@@ -23,7 +23,7 @@ export const LegacyArrowRight2pxIcon = (
       <path d='M7.293.293a1 1 0 0 0 0 1.414L12.586 7 1 7a1 1 0 0 0 0 2l11.586-.001-5.293 5.294a1 1 0 1 0 1.414 1.414l7-7 .073-.082.007-.008-.08.09a1 1 0 0 0 .282-.559A1 1 0 0 0 16 8v-.02l-.004-.07L16 8a1 1 0 0 0-.146-.52 1 1 0 0 0-.147-.187l-7-7a1 1 0 0 0-1.414 0' />
     </g>
     <defs>
-      <clipPath id='585e4599d772846d1f5157ff02d78364__a'>
+      <clipPath id='8ada6a893af634d51b7cedfcccc0a59e__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

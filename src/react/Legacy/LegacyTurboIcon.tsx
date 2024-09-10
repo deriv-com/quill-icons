@@ -29,7 +29,7 @@ export const LegacyTurboIcon = (
       <path d='M15.5 0a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V1.707L6.854 9.854a.5.5 0 0 1-.708 0L2.5 6.207 0 8.707V7.293l2.146-2.147a.5.5 0 0 1 .708 0L6.5 8.793 14.293 1H11V0z' />
     </g>
     <defs>
-      <clipPath id='85b3fd8f062955affc23257d68262aa4__a'>
+      <clipPath id='1fa1d5f095e2a1a115db2129c1e27379__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -27,7 +27,7 @@ export const LegacyArrowDown2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ccee290356fe391c639f3dff417cf949__a'>
+      <clipPath id='6edbecffd2d500e688e01df7f7333aef__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

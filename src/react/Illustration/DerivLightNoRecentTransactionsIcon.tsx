@@ -18,13 +18,13 @@ const DerivLightNoRecentTransactionsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#fd37107f1c7c1e6d26cc92085ed35e2e__a)'>
+    <g clipPath='url(#947f0f7f2c4c59c37a16fa740aefb7e6__a)'>
       <path
-        fill='url(#fd37107f1c7c1e6d26cc92085ed35e2e__b)'
+        fill='url(#947f0f7f2c4c59c37a16fa740aefb7e6__b)'
         d='M64 128c35.346 0 64-28.654 64-64S99.346 0 64 0 0 28.654 0 64s28.654 64 64 64'
       />
       <path
-        fill='url(#fd37107f1c7c1e6d26cc92085ed35e2e__c)'
+        fill='url(#947f0f7f2c4c59c37a16fa740aefb7e6__c)'
         d='M105 55c0-11.03-8.97-20-20-20-4.18 0-8.07 1.3-11.28 3.5H50.75L27.25 62v54.38C37.65 123.69 50.32 128 64 128s26.55-4.38 37-11.8V66.94c2.5-3.34 4-7.47 4-11.95z'
       />
       <path
@@ -35,7 +35,7 @@ const DerivLightNoRecentTransactionsIcon = (
     </g>
     <defs>
       <linearGradient
-        id='fd37107f1c7c1e6d26cc92085ed35e2e__b'
+        id='947f0f7f2c4c59c37a16fa740aefb7e6__b'
         x1={64}
         x2={64}
         y1={128}
@@ -46,7 +46,7 @@ const DerivLightNoRecentTransactionsIcon = (
         <stop offset={1} stopColor='#B6CDD0' />
       </linearGradient>
       <linearGradient
-        id='fd37107f1c7c1e6d26cc92085ed35e2e__c'
+        id='947f0f7f2c4c59c37a16fa740aefb7e6__c'
         x1={63.992}
         x2={64.003}
         y1={0}
@@ -58,7 +58,7 @@ const DerivLightNoRecentTransactionsIcon = (
         <stop offset={0.96} stopColor='#D3D3D3' />
         <stop offset={1} stopColor='#D2D2D2' />
       </linearGradient>
-      <clipPath id='fd37107f1c7c1e6d26cc92085ed35e2e__a'>
+      <clipPath id='947f0f7f2c4c59c37a16fa740aefb7e6__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>
