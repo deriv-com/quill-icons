@@ -20,10 +20,10 @@ export const MarketCryptocurrencyMkrusdIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#74bd1c334e782b1ea662ed00132d3f9b__a)'>
+    <g clipPath='url(#3feab3decd56ef74fcf8ee22b1a13ef7__a)'>
       <path fill='#0090FF' d='M20 11a8.999 8.999 0 1 1-17.998 0A8.999 8.999 0 0 1 20 11' />
       <path
-        fill='url(#74bd1c334e782b1ea662ed00132d3f9b__b)'
+        fill='url(#3feab3decd56ef74fcf8ee22b1a13ef7__b)'
         d='M20 11a8.999 8.999 0 1 1-17.998 0A8.999 8.999 0 0 1 20 11'
       />
       <path
@@ -52,7 +52,7 @@ export const MarketCryptocurrencyMkrusdIcon = (
     />
     <defs>
       <linearGradient
-        id='74bd1c334e782b1ea662ed00132d3f9b__b'
+        id='3feab3decd56ef74fcf8ee22b1a13ef7__b'
         x1={11.001}
         x2={11.001}
         y1={2.001}
@@ -62,7 +62,7 @@ export const MarketCryptocurrencyMkrusdIcon = (
         <stop stopColor='#4FA89B' />
         <stop offset={1} stopColor='#6ACEBB' />
       </linearGradient>
-      <clipPath id='74bd1c334e782b1ea662ed00132d3f9b__a'>
+      <clipPath id='3feab3decd56ef74fcf8ee22b1a13ef7__a'>
         <path fill='#fff' d='M2.002 2.001H20v17.998H2.002z' />
       </clipPath>
     </defs>

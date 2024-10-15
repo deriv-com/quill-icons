@@ -113,6 +113,10 @@ export { default as BrandBrandTealDerivWordmarkHorizontal25YearsEnglishIcon } fr
 export { default as BrandTealDerivWordmarkHorizontal25YearsEnglishIcon } from './BrandTealDerivWordmarkHorizontal25YearsEnglishIcon';
 export { default as BrandWhiteDeriv25Icon } from './BrandWhiteDeriv25Icon';
 export { default as BrandTealDeriv25Icon } from './BrandTealDeriv25Icon';
+export { default as SubBrandBrandLightDerivEngineeringIcon } from './SubBrandBrandLightDerivEngineeringIcon';
+export { default as SubBrandBrandDarkDerivEngineeringIcon } from './SubBrandBrandDarkDerivEngineeringIcon';
+export { default as SubBrandBlackDerivEngineeringIcon } from './SubBrandBlackDerivEngineeringIcon';
+export { default as SubBrandWhiteDerivEngineeringIcon } from './SubBrandWhiteDerivEngineeringIcon';
 export { default as SubBrandBrandLightDerivLifeIcon } from './SubBrandBrandLightDerivLifeIcon';
 export { default as SubBrandBrandDarkDerivLifeIcon } from './SubBrandBrandDarkDerivLifeIcon';
 export { default as SubBrandBlackDerivLifeIcon } from './SubBrandBlackDerivLifeIcon';
@@ -141,10 +145,6 @@ export { default as SubBrandBrandLightDerivSecurityIcon } from './SubBrandBrandL
 export { default as SubBrandBrandDarkDerivSecurityIcon } from './SubBrandBrandDarkDerivSecurityIcon';
 export { default as SubBrandBlackDerivSecurityIcon } from './SubBrandBlackDerivSecurityIcon';
 export { default as SubBrandWhiteDerivSecurityIcon } from './SubBrandWhiteDerivSecurityIcon';
-export { default as SubBrandBrandLightDerivTechIcon } from './SubBrandBrandLightDerivTechIcon';
-export { default as SubBrandBrandDarkDerivTechIcon } from './SubBrandBrandDarkDerivTechIcon';
-export { default as SubBrandBlackDerivTechIcon } from './SubBrandBlackDerivTechIcon';
-export { default as SubBrandWhiteDerivTechIcon } from './SubBrandWhiteDerivTechIcon';
 export { default as SubBrandBrandLightDerivDemoIcon } from './SubBrandBrandLightDerivDemoIcon';
 export { default as SubBrandBrandDarkDerivDemoIcon } from './SubBrandBrandDarkDerivDemoIcon';
 export { default as SubBrandBlackDerivDemoIcon } from './SubBrandBlackDerivDemoIcon';
@@ -153,6 +153,14 @@ export { default as SubBrandBrandLightDerivInFocusIcon } from './SubBrandBrandLi
 export { default as SubBrandBrandDarkDerivInFocusIcon } from './SubBrandBrandDarkDerivInFocusIcon';
 export { default as SubBrandBlackDerivInFocusIcon } from './SubBrandBlackDerivInFocusIcon';
 export { default as SubBrandWhiteDerivInFocusIcon } from './SubBrandWhiteDerivInFocusIcon';
+export { default as SubBrandBrandLightDerivPulseIcon } from './SubBrandBrandLightDerivPulseIcon';
+export { default as SubBrandBrandDarkDerivPulseIcon } from './SubBrandBrandDarkDerivPulseIcon';
+export { default as SubBrandBlackDerivPulseIcon } from './SubBrandBlackDerivPulseIcon';
+export { default as SubBrandWhiteDerivPulseIcon } from './SubBrandWhiteDerivPulseIcon';
+export { default as SubBrandBrandLightDerivBlogIcon } from './SubBrandBrandLightDerivBlogIcon';
+export { default as SubBrandBrandDarkDerivBlogIcon } from './SubBrandBrandDarkDerivBlogIcon';
+export { default as SubBrandBlackDerivBlogIcon } from './SubBrandBlackDerivBlogIcon';
+export { default as SubBrandWhiteDerivBlogIcon } from './SubBrandWhiteDerivBlogIcon';
 export { default as DerivProductBrandLightDerivGoLogoWordmarkIcon } from './DerivProductBrandLightDerivGoLogoWordmarkIcon';
 export { default as DerivProductBrandDarkDerivGoLogoWordmarkIcon } from './DerivProductBrandDarkDerivGoLogoWordmarkIcon';
 export { default as DerivProductBlackDerivGoLogoWordmarkIcon } from './DerivProductBlackDerivGoLogoWordmarkIcon';

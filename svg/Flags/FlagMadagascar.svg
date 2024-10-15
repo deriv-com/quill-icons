@@ -1,0 +1,10 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-madagascar">
+<g id="flag">
+<path d="M24 8V14C24 15.1046 23.1046 16 22 16H8V8H24Z" fill="#00843D"/>
+<path d="M8 0H22C23.1046 0 24 0.89543 24 2V8H8V0Z" fill="#F9423A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.99406C0 0.892771 0.90195 0 2.00853 0H8V16H2.00853C0.89925 16 0 15.1055 0 14.0059V1.99406Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.895431 0 0 0.895431 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+</svg>

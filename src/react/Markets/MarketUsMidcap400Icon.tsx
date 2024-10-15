@@ -20,7 +20,7 @@ export const MarketUsMidcap400Icon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#86eecbd29ff6d2e8fd4e2f6873f790f7__a)'>
+    <g clipPath='url(#f57dba15da656d4b80b397296d2e8507__a)'>
       <path
         fill='#fff'
         d='M4 16.568v1.224h24v-1.224zM15.5 15.344H28V14.12H15.5zM15.5 12.896H28v-1.224H15.5zM15.5 10.448H28V10c0-.275-.055-.537-.156-.776H15.5zM28 19.016H4v1.224h24zM4 21.464h24V22q-.002.364-.122.688H4.121A2 2 0 0 1 4 22z'
@@ -66,7 +66,7 @@ export const MarketUsMidcap400Icon = (
       />
     </g>
     <defs>
-      <clipPath id='86eecbd29ff6d2e8fd4e2f6873f790f7__a'>
+      <clipPath id='f57dba15da656d4b80b397296d2e8507__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

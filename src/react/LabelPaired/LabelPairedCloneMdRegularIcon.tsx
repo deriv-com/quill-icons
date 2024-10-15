@@ -23,7 +23,7 @@ const LabelPairedCloneMdRegularIcon = (
       <path d='M2 19h7c.531 0 1-.437 1-1v-2h1v2c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2v-7c0-1.094.875-2 2-2h2v1H2c-.562 0-1 .469-1 1v7c0 .563.438 1 1 1m5-5h7c.531 0 1-.437 1-1V6c0-.531-.469-1-1-1H7c-.562 0-1 .469-1 1v7c0 .563.438 1 1 1m-2-1V6c0-1.094.875-2 2-2h7c1.094 0 2 .906 2 2v7c0 1.125-.906 2-2 2H7c-1.125 0-2-.875-2-2' />
     </g>
     <defs>
-      <clipPath id='c26a4036f80223ce6cad5e54caf0d18b__a'>
+      <clipPath id='01b69bc1cc6c9ce7285e29b8e503355d__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

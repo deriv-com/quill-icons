@@ -23,7 +23,7 @@ const LabelPairedMobileScreenButtonLgFillIcon = (
       <path d='M.625 8c0-1.367 1.094-2.5 2.5-2.5h8.75c1.367 0 2.5 1.133 2.5 2.5v15c0 1.406-1.133 2.5-2.5 2.5h-8.75a2.47 2.47 0 0 1-2.5-2.5zm5 15c0 .352.273.625.625.625h2.5A.64.64 0 0 0 9.375 23c0-.312-.312-.625-.625-.625h-2.5a.64.64 0 0 0-.625.625m6.25-15h-8.75v12.5h8.75z' />
     </g>
     <defs>
-      <clipPath id='07c1b68bd09fa66b3cf59d91b48f4bca__a'>
+      <clipPath id='41ce7aad974c01dd60ab69213985ed21__a'>
         <path d='M0 0h15v30H0z' />
       </clipPath>
     </defs>

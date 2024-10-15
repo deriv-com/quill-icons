@@ -28,7 +28,7 @@ export const LegacyPlusCircle2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='94b46e8c92f1505d4aac51d614cfac7b__a'>
+      <clipPath id='6e223ccdf4c74aacca6a0cb64634b98b__a'>
         <rect width={16} height={16} rx={8} />
       </clipPath>
     </defs>
