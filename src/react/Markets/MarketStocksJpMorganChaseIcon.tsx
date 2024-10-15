@@ -20,7 +20,7 @@ export const MarketStocksJpMorganChaseIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#efa5042ad84272d3619b50dfe39fac9a__a)'>
+    <g clipPath='url(#f287affee6a3b2b8943c1f632a03a1ea__a)'>
       <path
         fill='#0079C1'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -31,7 +31,7 @@ export const MarketStocksJpMorganChaseIcon = (
       />
     </g>
     <defs>
-      <clipPath id='efa5042ad84272d3619b50dfe39fac9a__a'>
+      <clipPath id='f287affee6a3b2b8943c1f632a03a1ea__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

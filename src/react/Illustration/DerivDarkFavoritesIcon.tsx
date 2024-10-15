@@ -18,7 +18,7 @@ const DerivDarkFavoritesIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#28801de17d1efd4f1e7aa7a1fd69d50a__a)'>
+    <g clipPath='url(#c86eecf167f3e741a95b40f3ed9136bf__a)'>
       <path
         fill='#151717'
         d='M256 0H72a8 8 0 0 0-8 8v40a8 8 0 0 0 8 8h184a8 8 0 0 0 8-8V8a8 8 0 0 0-8-8'
@@ -37,7 +37,7 @@ const DerivDarkFavoritesIcon = (
       />
       <path fill='#6E6E6E' d='M256 40h-56v56h56z' />
       <mask
-        id='28801de17d1efd4f1e7aa7a1fd69d50a__b'
+        id='c86eecf167f3e741a95b40f3ed9136bf__b'
         width={24}
         height={24}
         x={216}
@@ -49,7 +49,7 @@ const DerivDarkFavoritesIcon = (
       >
         <path fill='#fff' d='M240 56h-24v24h24z' />
       </mask>
-      <g mask='url(#28801de17d1efd4f1e7aa7a1fd69d50a__b)'>
+      <g mask='url(#c86eecf167f3e741a95b40f3ed9136bf__b)'>
         <path
           fill='#fff'
           d='m238 65.24-7.19-.62L228 58l-2.81 6.63-7.19.61 5.46 4.73-1.64 7.03 6.18-3.73 6.18 3.73-1.63-7.03zm-10 6.16-3.76 2.27 1-4.28-3.32-2.88 4.38-.38 1.7-4.03 1.71 4.04 4.38.38-3.32 2.88 1 4.28z'
@@ -69,7 +69,7 @@ const DerivDarkFavoritesIcon = (
       />
     </g>
     <defs>
-      <clipPath id='28801de17d1efd4f1e7aa7a1fd69d50a__a'>
+      <clipPath id='c86eecf167f3e741a95b40f3ed9136bf__a'>
         <path fill='#fff' d='M0 0h264v96H0z' />
       </clipPath>
     </defs>

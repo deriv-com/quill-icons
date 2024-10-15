@@ -22,7 +22,7 @@ export const FlagBosniaAndHerzegovinaIcon = (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill='#001C98'
-      d='M22 16H2a2 2 0 0 1-2-2V2C0 1.388.275.84.709.473L23.29 15.527A2 2 0 0 1 22 16'
+      d='M22 16H2a2 2 0 0 1-2-2V2C0 1.388.275.84.709.473L23.29 15.527c-.348.295-.799.473-1.291.473'
     />
     <path
       fill='#FC0'
