@@ -23,7 +23,7 @@ const LabelPairedChartTrendSidewayLgRegularIcon = (
       <path d='M.625 15.5c0-.312.273-.625.625-.625h22.5c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625H1.25a.617.617 0 0 1-.625-.625' />
     </g>
     <defs>
-      <clipPath id='c5ba30836ea5f6f457598fa819ec39e9__a'>
+      <clipPath id='dca1b23db3ddb3a3c3ebb5bf491429f6__a'>
         <path d='M0 0h25v30H0z' />
       </clipPath>
     </defs>

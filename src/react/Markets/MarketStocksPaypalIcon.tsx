@@ -20,13 +20,13 @@ export const MarketStocksPaypalIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b8a9b686f9965033007d05cf67adba43__a)'>
+    <g clipPath='url(#97554e76695e8bf981b4ab94e251e4f3__a)'>
       <path
         fill='#F6F7F8'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#b8a9b686f9965033007d05cf67adba43__b)'
+        fill='url(#97554e76695e8bf981b4ab94e251e4f3__b)'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
@@ -44,7 +44,7 @@ export const MarketStocksPaypalIcon = (
     </g>
     <defs>
       <linearGradient
-        id='b8a9b686f9965033007d05cf67adba43__b'
+        id='97554e76695e8bf981b4ab94e251e4f3__b'
         x1={32}
         x2={0}
         y1={0}
@@ -54,7 +54,7 @@ export const MarketStocksPaypalIcon = (
         <stop stopColor='#004090' />
         <stop offset={1} stopColor='#009EDF' />
       </linearGradient>
-      <clipPath id='b8a9b686f9965033007d05cf67adba43__a'>
+      <clipPath id='97554e76695e8bf981b4ab94e251e4f3__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

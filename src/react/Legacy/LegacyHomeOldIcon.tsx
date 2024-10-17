@@ -27,7 +27,7 @@ export const LegacyHomeOldIcon = (
       />
     </g>
     <defs>
-      <clipPath id='3aff2931c7c9825938859d0eabe43b7a__a'>
+      <clipPath id='37ed1784606e64179ede7f182f4ae0ab__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

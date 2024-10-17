@@ -18,7 +18,7 @@ const DerivLightVisionIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#d268fc87c796328f533d29838373db88__a)'>
+    <g clipPath='url(#cdeb17a054e842d53cca7413822c637d__a)'>
       <path
         fill='#EBECEE'
         d='m107.268 85.897-15.755 9.117a77 77 0 0 0-6.383-10.999 80.6 80.6 0 0 0-11.706-13.41 74 74 0 0 0-7.826-6.27c-4.253-2.954-8.774-5.403-13.46-7.207a53 53 0 0 0-1.113-.415c-7.868-2.84-15.24-3.49-21.628-2.25-2.763.535-5.341 1.425-7.697 2.644l13.586-7.865c8.26-5.322 19.815-6.155 32.607-1.233 16.824 6.476 31.515 21.271 39.373 37.885z'
@@ -151,7 +151,7 @@ const DerivLightVisionIcon = (
       />
     </g>
     <defs>
-      <clipPath id='d268fc87c796328f533d29838373db88__a'>
+      <clipPath id='cdeb17a054e842d53cca7413822c637d__a'>
         <path fill='#fff' d='M0 0h120v152H0z' />
       </clipPath>
     </defs>

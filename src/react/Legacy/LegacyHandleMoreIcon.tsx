@@ -27,7 +27,7 @@ export const LegacyHandleMoreIcon = (
       />
     </g>
     <defs>
-      <clipPath id='9edd886e9ae162a93b62230f412a1331__a'>
+      <clipPath id='2d45289cd835553fa0a97c84102999ea__a'>
         <path d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

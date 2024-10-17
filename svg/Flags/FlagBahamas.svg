@@ -1,5 +1,5 @@
 <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="flags / flag-bahamas" clip-path="url(#clip0_3658_2084)">
+<g id="flags / flag-bahamas" clip-path="url(#clip0_3682_2321)">
 <g id="flag">
 <path d="M7.5 11L12 8L7.5 5H24V11H7.5Z" fill="#FBE22B"/>
 <path d="M0 2V14C0 14.6123 0.275391 15.1602 0.708984 15.5273L12 8L0.708984 0.472656C0.275391 0.839844 0 1.3877 0 2Z" fill="#333333"/>
@@ -9,7 +9,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_3658_2084">
+<clipPath id="clip0_3682_2321">
 <rect width="24" height="16" fill="white"/>
 </clipPath>
 </defs>
