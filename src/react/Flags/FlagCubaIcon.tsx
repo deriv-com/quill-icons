@@ -20,7 +20,7 @@ export const FlagCubaIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#5a26ec84d5c0006eb212fdbfbe0ec49e__a)'>
+    <g clipPath='url(#4f135a7c6b9000c1f590aaf91bd9b2f5__a)'>
       <path fill='#002A8F' d='M2 0A2 2 0 0 0 .709.473L4.5 3H24V2a2 2 0 0 0-2-2z' />
       <path fill='#fff' d='M4.5 13H24V3H4.5L12 8z' />
       <path
@@ -48,7 +48,7 @@ export const FlagCubaIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5a26ec84d5c0006eb212fdbfbe0ec49e__a'>
+      <clipPath id='4f135a7c6b9000c1f590aaf91bd9b2f5__a'>
         <path fill='#fff' d='M0 0h24v16H0z' />
       </clipPath>
     </defs>

@@ -23,7 +23,7 @@ export const LegacyInfoXsIcon = (
       <path d='M4 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5M4 2a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1' />
     </g>
     <defs>
-      <clipPath id='67e5b7957f8440be8296009ee7f53714__a'>
+      <clipPath id='b2de665086f8924d172dbccc9c13ef88__a'>
         <path d='M0 0h8v8H0z' />
       </clipPath>
     </defs>

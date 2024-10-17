@@ -206,3 +206,5 @@ export { default as DerivLightLessThanEightIconKycIcon } from './DerivLightLessT
 export { default as DerivLightPassportKycIcon } from './DerivLightPassportKycIcon';
 export { default as DerivLightProofOfAgePlaceholderKycIcon } from './DerivLightProofOfAgePlaceholderKycIcon';
 export { default as DerivLightDrivingLicenseFrontKycIcon } from './DerivLightDrivingLicenseFrontKycIcon';
+export { default as DerivLightUpgradeIcon } from './DerivLightUpgradeIcon';
+export { default as DerivLightMigrateStrategyIcon } from './DerivLightMigrateStrategyIcon';

@@ -27,7 +27,7 @@ export const LegacyInformationIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5bbcb98814dfb8c421c1f43ba0fca2cf__a'>
+      <clipPath id='131804af2d5c9a7c21019f4331501ff0__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

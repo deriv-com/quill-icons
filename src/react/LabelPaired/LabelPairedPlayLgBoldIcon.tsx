@@ -23,7 +23,7 @@ const LabelPairedPlayLgBoldIcon = (
       <path d='m1.875 22.375 11.25-6.875-11.25-6.875zM.938 7.023a1.87 1.87 0 0 1 1.914 0l11.25 6.875c.546.352.898.977.898 1.602 0 .664-.352 1.29-.898 1.602l-11.25 6.875c-.586.39-1.329.39-1.914.039C.352 23.703 0 23.078 0 22.375V8.625c0-.664.352-1.29.938-1.602' />
     </g>
     <defs>
-      <clipPath id='7f85cee5d03e725b6edabeff627b2ad7__a'>
+      <clipPath id='1f9e241916cdeee36caddcd7e1fb0d4d__a'>
         <path d='M0 0h15v30H0z' />
       </clipPath>
     </defs>

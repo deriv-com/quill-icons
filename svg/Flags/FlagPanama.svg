@@ -1,0 +1,12 @@
+<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="flags / flag-panama">
+<g id="flag">
+<path d="M12 0H2C0.89543 0 0 0.89543 0 2V8H12V16H22C23.1046 16 24 15.1046 24 14V8H12V0Z" fill="white"/>
+<path d="M12 0V8H24V2C24 0.89543 23.1046 0 22 0H12Z" fill="#DA121A"/>
+<path d="M12 16V8H0V14C0 15.1046 0.89543 16 2 16H12Z" fill="#072357"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 5.31638L4.7 6L4.94828 4.55172L3.89655 3.52845L5.35 3.31724L6 2L6.65 3.31638L8.10345 3.52759L7.05172 4.55345L7.3 6" fill="#072357"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 13.3164L16.7 14L16.9483 12.5517L15.8966 11.5284L17.35 11.3172L18 10L18.65 11.3164L20.1034 11.5276L19.0517 12.5534L19.3 14" fill="#DA121A"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22 1H2C1.44772 1 1 1.44772 1 2V14C1 14.5523 1.44772 15 2 15H22C22.5523 15 23 14.5523 23 14V2C23 1.44771 22.5523 1 22 1ZM2 0C0.89543 0 0 0.89543 0 2V14C0 15.1046 0.89543 16 2 16H22C23.1046 16 24 15.1046 24 14V2C24 0.89543 23.1046 0 22 0H2Z" fill="black" fill-opacity="0.08"/>
+</g>
+</g>
+</svg>

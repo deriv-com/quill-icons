@@ -23,7 +23,7 @@ const LabelPairedClockThreeCaptionFillIcon = (
       <path d='M6 3.5a6 6 0 0 1 5.18 3 5.97 5.97 0 0 1 0 6 5.96 5.96 0 0 1-5.18 3 5.97 5.97 0 0 1-5.203-3 5.97 5.97 0 0 1 0-6A6.01 6.01 0 0 1 6 3.5m-.562 2.813V9.5c0 .328.234.563.562.563h2.438A.555.555 0 0 0 9 9.5a.57.57 0 0 0-.562-.562H6.562V6.312A.57.57 0 0 0 6 5.75a.555.555 0 0 0-.562.563' />
     </g>
     <defs>
-      <clipPath id='b0102d8441bc22afa54dea719f8fbdba__a'>
+      <clipPath id='3801adc47667bd1d5ca4b41d1d0b569f__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>
