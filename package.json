@@ -69,6 +69,11 @@
       "import": "./dist/esm/react/Standalone/index.js",
       "types": "./dist/esm/react/Standalone/index.d.ts"
     },
+    "./TradeTypes": {
+      "require": "./dist/cjs/react/TradeTypes/index.js",
+      "import": "./dist/esm/react/TradeTypes/index.js",
+      "types": "./dist/esm/react/TradeTypes/index.d.ts"
+    },
     "./Illustration": {
       "require": "./dist/cjs/react/Illustration/index.js",
       "import": "./dist/esm/react/Illustration/index.js",

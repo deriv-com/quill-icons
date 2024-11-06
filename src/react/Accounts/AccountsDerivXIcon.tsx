@@ -20,7 +20,7 @@ export const AccountsDerivXIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#573df3275c21b7654bfd9d69d5b9757b__a)'>
+    <g clipPath='url(#d1ea48245d25f32f5220315d24e1357b__a)'>
       <path
         fill='#FF444F'
         d='M0 6a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z'
@@ -39,7 +39,7 @@ export const AccountsDerivXIcon = (
       />
     </g>
     <defs>
-      <clipPath id='573df3275c21b7654bfd9d69d5b9757b__a'>
+      <clipPath id='d1ea48245d25f32f5220315d24e1357b__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

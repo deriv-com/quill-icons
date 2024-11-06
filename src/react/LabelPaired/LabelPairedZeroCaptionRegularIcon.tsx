@@ -23,7 +23,7 @@ const LabelPairedZeroCaptionRegularIcon = (
       <path d='M.25 8A3.746 3.746 0 0 1 4 4.25 3.76 3.76 0 0 1 7.75 8v3A3.746 3.746 0 0 1 4 14.75 3.73 3.73 0 0 1 .25 11zM4 5C2.336 5 1 6.36 1 8v3c0 1.664 1.336 3 3 3 1.64 0 3-1.336 3-3V8c0-1.64-1.36-3-3-3' />
     </g>
     <defs>
-      <clipPath id='4e92c6754201964303eeaf97fcf97fea__a'>
+      <clipPath id='2a32b78dafa92a3d84df9c749142c1f6__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

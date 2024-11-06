@@ -23,7 +23,7 @@ export const LegacyCrosshairActiveIcon = (
       <path d='M8 0a1 1 0 0 1 1 1v.577A6.505 6.505 0 0 1 14.425 7H15a1 1 0 1 1 0 2h-.577a6.505 6.505 0 0 1-5.422 5.423L9 15a1 1 0 1 1-2 0v-.576A6.505 6.505 0 0 1 1.577 9L1 9a1 1 0 1 1 0-2h.576A6.505 6.505 0 0 1 7 1.576V1a1 1 0 0 1 1-1m0 3.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9' />
     </g>
     <defs>
-      <clipPath id='17f930f306c797f2efd8a23e7dfd98f7__a'>
+      <clipPath id='db9b5effd09692cc69ecfeb75f970fbc__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

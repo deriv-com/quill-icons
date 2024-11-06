@@ -23,7 +23,7 @@ const LabelPairedArrowLeftToLineMdRegularIcon = (
       <path d='M0 17.5v-11c0-.25.219-.5.5-.5.25 0 .5.25.5.5v11c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5m3.125-5.844 4-4a.53.53 0 0 1 .719 0 .53.53 0 0 1 0 .719L4.687 11.5H13.5c.25 0 .5.25.5.5 0 .281-.25.5-.5.5H4.688l3.156 3.156a.53.53 0 0 1 0 .719.53.53 0 0 1-.719 0l-4-4a.53.53 0 0 1 0-.719' />
     </g>
     <defs>
-      <clipPath id='6d2bd0983f2104add8a1a1916accaf44__a'>
+      <clipPath id='578fcb62bb4f166d39f63709fa96ebe1__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>
