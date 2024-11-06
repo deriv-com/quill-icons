@@ -13,4 +13,5 @@ export const ICON_PAGES = [
   'Accounts',
   'Legacy',
   'Legacy static color',
+  'Trade types',
 ] as const;

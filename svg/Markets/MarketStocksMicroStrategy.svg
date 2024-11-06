@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="markets / market-stocks-micro-strategy" clip-path="url(#clip0_3738_672)">
+<g id="icon">
+<path d="M15.9919 31.9979C7.14873 31.9979 0.00219727 24.8514 0.00219727 16.0082C0.00219727 7.16706 7.14873 0.0184784 15.9919 0.0184784C24.833 0.0184784 31.9816 7.16706 31.9816 16.0082C31.9816 24.8514 24.833 31.9979 15.9919 31.9979Z" fill="#D9232E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.9816 9.73368L23.998 13.7213V22.2663H19.9816V9.73368Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.9908 9.73368H18.0072V22.2663H13.9908V9.73368Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.00216 9.73368H12.0186V22.2663H8.00216V9.73368Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3738_672">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

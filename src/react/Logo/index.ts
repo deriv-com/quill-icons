@@ -59,6 +59,7 @@ export { default as BrandBrandSeawaterDerivWordmarkHorizontal25YearsEnglishIcon 
 export { default as BrandSeawaterDerivWordmarkHorizontal25YearsEnglishIcon } from './BrandSeawaterDerivWordmarkHorizontal25YearsEnglishIcon';
 export { default as BrandBlackDeriv25Icon } from './BrandBlackDeriv25Icon';
 export { default as BrandSeawaterDeriv25Icon } from './BrandSeawaterDeriv25Icon';
+export { default as BrandBlackSeawaterDerivWordmarkHorizontal25YearsEnglishIcon } from './BrandBlackSeawaterDerivWordmarkHorizontal25YearsEnglishIcon';
 export { default as BrandBrandDarkDerivWordmarkVertical25YearsTaglineEnglishIcon } from './BrandBrandDarkDerivWordmarkVertical25YearsTaglineEnglishIcon';
 export { default as BrandBrandDarkDerivWordmarkVertical25YearsTaglineSpanishIcon } from './BrandBrandDarkDerivWordmarkVertical25YearsTaglineSpanishIcon';
 export { default as BrandBrandDarkDerivWordmarkVertical25YearsTaglinePortugueseIcon } from './BrandBrandDarkDerivWordmarkVertical25YearsTaglinePortugueseIcon';
@@ -113,6 +114,7 @@ export { default as BrandBrandTealDerivWordmarkHorizontal25YearsEnglishIcon } fr
 export { default as BrandTealDerivWordmarkHorizontal25YearsEnglishIcon } from './BrandTealDerivWordmarkHorizontal25YearsEnglishIcon';
 export { default as BrandWhiteDeriv25Icon } from './BrandWhiteDeriv25Icon';
 export { default as BrandTealDeriv25Icon } from './BrandTealDeriv25Icon';
+export { default as BrandWhiteTealDerivWordmarkHorizontal25YearsEnglishIcon } from './BrandWhiteTealDerivWordmarkHorizontal25YearsEnglishIcon';
 export { default as SubBrandBrandLightDerivEngineeringIcon } from './SubBrandBrandLightDerivEngineeringIcon';
 export { default as SubBrandBrandDarkDerivEngineeringIcon } from './SubBrandBrandDarkDerivEngineeringIcon';
 export { default as SubBrandBlackDerivEngineeringIcon } from './SubBrandBlackDerivEngineeringIcon';

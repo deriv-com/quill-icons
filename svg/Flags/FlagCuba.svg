@@ -1,5 +1,5 @@
 <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="flags / flag-cuba" clip-path="url(#clip0_3682_2200)">
+<g id="flags / flag-cuba" clip-path="url(#clip0_3738_2420)">
 <g id="flag">
 <path d="M2 0C0.895431 0 0 0.89543 0 2C0 1.3877 0.275391 0.839844 0.708984 0.472656L4.5 3H24V2C24 0.895431 23.1046 0 22 0H2Z" fill="#002A8F"/>
 <path d="M4.5 13H24V3H4.5L12 8L4.5 13Z" fill="white"/>
@@ -11,7 +11,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_3682_2200">
+<clipPath id="clip0_3738_2420">
 <rect width="24" height="16" fill="white"/>
 </clipPath>
 </defs>

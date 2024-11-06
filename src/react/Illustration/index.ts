@@ -208,3 +208,4 @@ export { default as DerivLightProofOfAgePlaceholderKycIcon } from './DerivLightP
 export { default as DerivLightDrivingLicenseFrontKycIcon } from './DerivLightDrivingLicenseFrontKycIcon';
 export { default as DerivLightUpgradeIcon } from './DerivLightUpgradeIcon';
 export { default as DerivLightMigrateStrategyIcon } from './DerivLightMigrateStrategyIcon';
+export { default as DerivLightUserInReviewIcon } from './DerivLightUserInReviewIcon';

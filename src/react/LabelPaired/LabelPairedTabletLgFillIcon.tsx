@@ -23,7 +23,7 @@ const LabelPairedTabletLgFillIcon = (
       <path d='M2.75 5.5h12.5c1.367 0 2.5 1.133 2.5 2.5v15c0 1.406-1.133 2.5-2.5 2.5H2.75A2.47 2.47 0 0 1 .25 23V8c0-1.367 1.094-2.5 2.5-2.5m4.375 16.875A.64.64 0 0 0 6.5 23c0 .352.273.625.625.625h3.75A.64.64 0 0 0 11.5 23c0-.312-.312-.625-.625-.625z' />
     </g>
     <defs>
-      <clipPath id='fb14b9304a2a9995b96eb609aa4af8d0__a'>
+      <clipPath id='674f577f0d3f208ea90dd932cca0c7ad__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>
