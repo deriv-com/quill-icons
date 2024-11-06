@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/deriv-com/quill-icons/compare/v2.1.2...v2.2.0) (2024-11-06)
+
+
+### ✨ 	 Features
+
+* Added TradeTypes icons and updated icons collection ([d5cfe9b](https://github.com/deriv-com/quill-icons/commit/d5cfe9b2a908e66260bcc5b7cff0501242eb69fe))
+
+
+### 📦 	 Code Refactoring
+
+* added tradetypes category ([d7f621a](https://github.com/deriv-com/quill-icons/commit/d7f621a09494f63b2d482ae69474fce1abb07d55))
+
 ## [2.1.2](https://github.com/deriv-com/quill-icons/compare/v2.1.1...v2.1.2) (2024-10-17)
 
 
