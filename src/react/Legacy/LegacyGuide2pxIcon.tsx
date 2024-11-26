@@ -24,7 +24,7 @@ export const LegacyGuide2pxIcon = (
       <path d='M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-1 1.732V11a3 3 0 0 1-3 3h-.382l.276.553a1 1 0 1 1-1.789.894L9.382 14H6.618l-.724 1.447a1 1 0 1 1-1.788-.894L4.382 14H4a3 3 0 0 1-3-3V4.732A2 2 0 0 1 0 3zm14 1H2V2h12zm-1 2H3v6a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z' />
     </g>
     <defs>
-      <clipPath id='47b6dcb0663dc9b20fe95473e541318e__a'>
+      <clipPath id='002ef59d4f14498548034e06a7c6fcec__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

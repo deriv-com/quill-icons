@@ -20,27 +20,27 @@ export const CurrencySolIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#9af5ad30ddf4e1df5026b749c8c4fbb2__a)'>
+    <g clipPath='url(#55f70d5292d12a25f7f561bc53f6d892__a)'>
       <path
         fill='#000'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
-        fill='url(#9af5ad30ddf4e1df5026b749c8c4fbb2__b)'
+        fill='url(#55f70d5292d12a25f7f561bc53f6d892__b)'
         d='M9.924 9.12a.6.6 0 0 1 .417-.173h14.364c.262 0 .393.317.208.502l-2.838 2.838a.6.6 0 0 1-.416.172H7.295a.294.294 0 0 1-.208-.502z'
       />
       <path
-        fill='url(#9af5ad30ddf4e1df5026b749c8c4fbb2__c)'
+        fill='url(#55f70d5292d12a25f7f561bc53f6d892__c)'
         d='M9.924 19.714a.6.6 0 0 1 .417-.172h14.364c.262 0 .393.317.208.502l-2.838 2.838a.6.6 0 0 1-.416.172H7.295a.294.294 0 0 1-.208-.503z'
       />
       <path
-        fill='url(#9af5ad30ddf4e1df5026b749c8c4fbb2__d)'
+        fill='url(#55f70d5292d12a25f7f561bc53f6d892__d)'
         d='M21.659 14.21c.158 0 .308.064.416.173l2.838 2.837a.294.294 0 0 1-.208.503H10.34a.6.6 0 0 1-.417-.172l-2.837-2.838a.294.294 0 0 1 .208-.502z'
       />
     </g>
     <defs>
       <linearGradient
-        id='9af5ad30ddf4e1df5026b749c8c4fbb2__b'
+        id='55f70d5292d12a25f7f561bc53f6d892__b'
         x1={21.145}
         x2={11.204}
         y1={6.11}
@@ -51,7 +51,7 @@ export const CurrencySolIcon = (
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
       <linearGradient
-        id='9af5ad30ddf4e1df5026b749c8c4fbb2__c'
+        id='55f70d5292d12a25f7f561bc53f6d892__c'
         x1={21.145}
         x2={11.204}
         y1={6.11}
@@ -62,7 +62,7 @@ export const CurrencySolIcon = (
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
       <linearGradient
-        id='9af5ad30ddf4e1df5026b749c8c4fbb2__d'
+        id='55f70d5292d12a25f7f561bc53f6d892__d'
         x1={21.145}
         x2={11.204}
         y1={6.11}
@@ -72,7 +72,7 @@ export const CurrencySolIcon = (
         <stop stopColor='#00FFA3' />
         <stop offset={1} stopColor='#DC1FFF' />
       </linearGradient>
-      <clipPath id='9af5ad30ddf4e1df5026b749c8c4fbb2__a'>
+      <clipPath id='55f70d5292d12a25f7f561bc53f6d892__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

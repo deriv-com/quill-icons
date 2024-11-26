@@ -27,7 +27,7 @@ export const LegacyBookmark2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='75566681723fdf595b72fac6e1b0ad46__a'>
+      <clipPath id='21b671511f936827a10f2c43d1f2a768__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
