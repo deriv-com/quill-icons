@@ -23,7 +23,7 @@ export const LegacySettlement1pxIcon = (
       <path d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.143a6.857 6.857 0 1 0 0 13.714A6.857 6.857 0 0 0 8 1.143M8 7a1 1 0 1 1 0 2 1 1 0 0 1 0-2M4 7a1 1 0 1 1 0 2 1 1 0 0 1 0-2m8 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2' />
     </g>
     <defs>
-      <clipPath id='a0378d347695e1715df227f7c63ed734__a'>
+      <clipPath id='98c8bb2c935681222123a4c1770e82cd__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
