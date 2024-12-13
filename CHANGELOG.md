@@ -1,3 +1,11 @@
+## [2.2.2](https://github.com/deriv-com/quill-icons/compare/v2.2.1...v2.2.2) (2024-12-13)
+
+
+### 🐛 	 Bug Fixes
+
+* fixed vulnerabilities ([2ffbc45](https://github.com/deriv-com/quill-icons/commit/2ffbc45c6fade5c5c15d3a0dfd13715227486ed0))
+* fixed vulnerabilities ([7e38ee4](https://github.com/deriv-com/quill-icons/commit/7e38ee4e879a25db25f8946488d9bf40d77306cf))
+
 ## [2.2.1](https://github.com/deriv-com/quill-icons/compare/v2.2.0...v2.2.1) (2024-11-26)
 
 
