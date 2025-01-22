@@ -1,3 +1,11 @@
+# [2.3.0](https://github.com/deriv-com/quill-icons/compare/v2.2.2...v2.3.0) (2025-01-22)
+
+
+### ✨ 	 Features
+
+* added eUSDT icon ([783dce0](https://github.com/deriv-com/quill-icons/commit/783dce08d8474c2f1e95cac6ba564f8eef931d85))
+* added eUSDT icon ([01e6ba7](https://github.com/deriv-com/quill-icons/commit/01e6ba762e5cf40bc289bff97033a34cecd5f3b1))
+
 ## [2.2.2](https://github.com/deriv-com/quill-icons/compare/v2.2.1...v2.2.2) (2024-12-13)
 
 
