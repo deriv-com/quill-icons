@@ -862,9 +862,6 @@ export { default as StandaloneHandGestureSwipeLeftRightFillIcon } from './Standa
 export { default as StandaloneChartTradingviewRegularIcon } from './StandaloneChartTradingviewRegularIcon';
 export { default as StandaloneChartTradingviewBoldIcon } from './StandaloneChartTradingviewBoldIcon';
 export { default as StandaloneChartTradingviewFillIcon } from './StandaloneChartTradingviewFillIcon';
-export { default as StandalonePuzzlePieceTwoRegularIcon } from './StandalonePuzzlePieceTwoRegularIcon';
-export { default as StandalonePuzzlePieceTwoBoldIcon } from './StandalonePuzzlePieceTwoBoldIcon';
-export { default as StandalonePuzzlePieceTwoFillIcon } from './StandalonePuzzlePieceTwoFillIcon';
 export { default as StandalonePageCircleArrowRightRegularIcon } from './StandalonePageCircleArrowRightRegularIcon';
 export { default as StandalonePageCircleArrowRightBoldIcon } from './StandalonePageCircleArrowRightBoldIcon';
 export { default as StandalonePageCircleArrowRightFillIcon } from './StandalonePageCircleArrowRightFillIcon';
@@ -892,3 +889,6 @@ export { default as StandalonePlaybackSpeedFillIcon } from './StandalonePlayback
 export { default as StandaloneFileXmlRegularIcon } from './StandaloneFileXmlRegularIcon';
 export { default as StandaloneFileXmlBoldIcon } from './StandaloneFileXmlBoldIcon';
 export { default as StandaloneFileXmlFillIcon } from './StandaloneFileXmlFillIcon';
+export { default as StandalonePuzzlePieceTwoRegularIcon } from './StandalonePuzzlePieceTwoRegularIcon';
+export { default as StandalonePuzzlePieceTwoBoldIcon } from './StandalonePuzzlePieceTwoBoldIcon';
+export { default as StandalonePuzzlePieceTwoFillIcon } from './StandalonePuzzlePieceTwoFillIcon';

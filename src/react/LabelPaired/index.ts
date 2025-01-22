@@ -850,9 +850,6 @@ export { default as LabelPairedObjectsAlignLeftCaptionFillIcon } from './LabelPa
 export { default as LabelPairedObjectsColumnCaptionRegularIcon } from './LabelPairedObjectsColumnCaptionRegularIcon';
 export { default as LabelPairedObjectsColumnCaptionBoldIcon } from './LabelPairedObjectsColumnCaptionBoldIcon';
 export { default as LabelPairedObjectsColumnCaptionFillIcon } from './LabelPairedObjectsColumnCaptionFillIcon';
-export { default as LabelPairedPuzzlePieceTwoCaptionRegularIcon } from './LabelPairedPuzzlePieceTwoCaptionRegularIcon';
-export { default as LabelPairedPuzzlePieceTwoCaptionBoldIcon } from './LabelPairedPuzzlePieceTwoCaptionBoldIcon';
-export { default as LabelPairedPuzzlePieceTwoCaptionFillIcon } from './LabelPairedPuzzlePieceTwoCaptionFillIcon';
 export { default as LabelPairedChartTradingviewCaptionRegularIcon } from './LabelPairedChartTradingviewCaptionRegularIcon';
 export { default as LabelPairedChartTradingviewCaptionBoldIcon } from './LabelPairedChartTradingviewCaptionBoldIcon';
 export { default as LabelPairedChartTradingviewCaptionFillIcon } from './LabelPairedChartTradingviewCaptionFillIcon';
@@ -892,6 +889,9 @@ export { default as LabelPairedPlaybackSpeedCaptionFillIcon } from './LabelPaire
 export { default as LabelPairedFileXmlCaptionRegularIcon } from './LabelPairedFileXmlCaptionRegularIcon';
 export { default as LabelPairedFileXmlCaptionBoldIcon } from './LabelPairedFileXmlCaptionBoldIcon';
 export { default as LabelPairedFileXmlCaptionFillIcon } from './LabelPairedFileXmlCaptionFillIcon';
+export { default as LabelPairedPuzzlePieceTwoCaptionRegularIcon } from './LabelPairedPuzzlePieceTwoCaptionRegularIcon';
+export { default as LabelPairedPuzzlePieceTwoCaptionBoldIcon } from './LabelPairedPuzzlePieceTwoCaptionBoldIcon';
+export { default as LabelPairedPuzzlePieceTwoCaptionFillIcon } from './LabelPairedPuzzlePieceTwoCaptionFillIcon';
 export { default as LabelPairedPlaceholderSmRegularIcon } from './LabelPairedPlaceholderSmRegularIcon';
 export { default as LabelPairedPlaceholderSmBoldIcon } from './LabelPairedPlaceholderSmBoldIcon';
 export { default as LabelPairedPlaceholderSmFillIcon } from './LabelPairedPlaceholderSmFillIcon';
@@ -1756,9 +1756,6 @@ export { default as LabelPairedHandGestureSwipeLeftRightSmFillIcon } from './Lab
 export { default as LabelPairedChartTradingviewSmRegularIcon } from './LabelPairedChartTradingviewSmRegularIcon';
 export { default as LabelPairedChartTradingviewSmBoldIcon } from './LabelPairedChartTradingviewSmBoldIcon';
 export { default as LabelPairedChartTradingviewSmFillIcon } from './LabelPairedChartTradingviewSmFillIcon';
-export { default as LabelPairedPuzzlePieceTwoSmRegularIcon } from './LabelPairedPuzzlePieceTwoSmRegularIcon';
-export { default as LabelPairedPuzzlePieceTwoSmBoldIcon } from './LabelPairedPuzzlePieceTwoSmBoldIcon';
-export { default as LabelPairedPuzzlePieceTwoSmFillIcon } from './LabelPairedPuzzlePieceTwoSmFillIcon';
 export { default as LabelPairedPageCircleArrowRightSmRegularIcon } from './LabelPairedPageCircleArrowRightSmRegularIcon';
 export { default as LabelPairedPageCircleArrowRightSmBoldIcon } from './LabelPairedPageCircleArrowRightSmBoldIcon';
 export { default as LabelPairedPageCircleArrowRightSmFillIcon } from './LabelPairedPageCircleArrowRightSmFillIcon';
@@ -1786,6 +1783,9 @@ export { default as LabelPairedPlaybackSpeedSmFillIcon } from './LabelPairedPlay
 export { default as LabelPairedFileXmlSmRegularIcon } from './LabelPairedFileXmlSmRegularIcon';
 export { default as LabelPairedFileXmlSmBoldIcon } from './LabelPairedFileXmlSmBoldIcon';
 export { default as LabelPairedFileXmlSmFillIcon } from './LabelPairedFileXmlSmFillIcon';
+export { default as LabelPairedPuzzlePieceTwoSmRegularIcon } from './LabelPairedPuzzlePieceTwoSmRegularIcon';
+export { default as LabelPairedPuzzlePieceTwoSmBoldIcon } from './LabelPairedPuzzlePieceTwoSmBoldIcon';
+export { default as LabelPairedPuzzlePieceTwoSmFillIcon } from './LabelPairedPuzzlePieceTwoSmFillIcon';
 export { default as LabelPairedPlaceholderMdRegularIcon } from './LabelPairedPlaceholderMdRegularIcon';
 export { default as LabelPairedPlaceholderMdBoldIcon } from './LabelPairedPlaceholderMdBoldIcon';
 export { default as LabelPairedPlaceholderMdFillIcon } from './LabelPairedPlaceholderMdFillIcon';
@@ -2650,9 +2650,6 @@ export { default as LabelPairedHandGestureSwipeLeftRightMdFillIcon } from './Lab
 export { default as LabelPairedChartTradingviewMdRegularIcon } from './LabelPairedChartTradingviewMdRegularIcon';
 export { default as LabelPairedChartTradingviewMdBoldIcon } from './LabelPairedChartTradingviewMdBoldIcon';
 export { default as LabelPairedChartTradingviewMdFillIcon } from './LabelPairedChartTradingviewMdFillIcon';
-export { default as LabelPairedPuzzlePieceTwoMdRegularIcon } from './LabelPairedPuzzlePieceTwoMdRegularIcon';
-export { default as LabelPairedPuzzlePieceTwoMdBoldIcon } from './LabelPairedPuzzlePieceTwoMdBoldIcon';
-export { default as LabelPairedPuzzlePieceTwoMdFillIcon } from './LabelPairedPuzzlePieceTwoMdFillIcon';
 export { default as LabelPairedPageCircleArrowRightMdRegularIcon } from './LabelPairedPageCircleArrowRightMdRegularIcon';
 export { default as LabelPairedPageCircleArrowRightMdBoldIcon } from './LabelPairedPageCircleArrowRightMdBoldIcon';
 export { default as LabelPairedPageCircleArrowRightMdFillIcon } from './LabelPairedPageCircleArrowRightMdFillIcon';
@@ -2680,6 +2677,9 @@ export { default as LabelPairedPlaybackSpeedMdFillIcon } from './LabelPairedPlay
 export { default as LabelPairedFileXmlMdRegularIcon } from './LabelPairedFileXmlMdRegularIcon';
 export { default as LabelPairedFileXmlMdBoldIcon } from './LabelPairedFileXmlMdBoldIcon';
 export { default as LabelPairedFileXmlMdFillIcon } from './LabelPairedFileXmlMdFillIcon';
+export { default as LabelPairedPuzzlePieceTwoMdRegularIcon } from './LabelPairedPuzzlePieceTwoMdRegularIcon';
+export { default as LabelPairedPuzzlePieceTwoMdBoldIcon } from './LabelPairedPuzzlePieceTwoMdBoldIcon';
+export { default as LabelPairedPuzzlePieceTwoMdFillIcon } from './LabelPairedPuzzlePieceTwoMdFillIcon';
 export { default as LabelPairedPlaceholderLgRegularIcon } from './LabelPairedPlaceholderLgRegularIcon';
 export { default as LabelPairedPlaceholderLgBoldIcon } from './LabelPairedPlaceholderLgBoldIcon';
 export { default as LabelPairedPlaceholderLgFillIcon } from './LabelPairedPlaceholderLgFillIcon';
@@ -3544,9 +3544,6 @@ export { default as LabelPairedHandGestureSwipeLeftRightLgFillIcon } from './Lab
 export { default as LabelPairedChartTradingviewLgRegularIcon } from './LabelPairedChartTradingviewLgRegularIcon';
 export { default as LabelPairedChartTradingviewLgBoldIcon } from './LabelPairedChartTradingviewLgBoldIcon';
 export { default as LabelPairedChartTradingviewLgFillIcon } from './LabelPairedChartTradingviewLgFillIcon';
-export { default as LabelPairedPuzzlePieceTwoLgRegularIcon } from './LabelPairedPuzzlePieceTwoLgRegularIcon';
-export { default as LabelPairedPuzzlePieceTwoLgBoldIcon } from './LabelPairedPuzzlePieceTwoLgBoldIcon';
-export { default as LabelPairedPuzzlePieceTwoLgFillIcon } from './LabelPairedPuzzlePieceTwoLgFillIcon';
 export { default as LabelPairedPageCircleArrowRightLgRegularIcon } from './LabelPairedPageCircleArrowRightLgRegularIcon';
 export { default as LabelPairedPageCircleArrowRightLgBoldIcon } from './LabelPairedPageCircleArrowRightLgBoldIcon';
 export { default as LabelPairedPageCircleArrowRightLgFillIcon } from './LabelPairedPageCircleArrowRightLgFillIcon';
@@ -3574,6 +3571,9 @@ export { default as LabelPairedPlaybackSpeedLgFillIcon } from './LabelPairedPlay
 export { default as LabelPairedFileXmlLgRegularIcon } from './LabelPairedFileXmlLgRegularIcon';
 export { default as LabelPairedFileXmlLgBoldIcon } from './LabelPairedFileXmlLgBoldIcon';
 export { default as LabelPairedFileXmlLgFillIcon } from './LabelPairedFileXmlLgFillIcon';
+export { default as LabelPairedPuzzlePieceTwoLgRegularIcon } from './LabelPairedPuzzlePieceTwoLgRegularIcon';
+export { default as LabelPairedPuzzlePieceTwoLgBoldIcon } from './LabelPairedPuzzlePieceTwoLgBoldIcon';
+export { default as LabelPairedPuzzlePieceTwoLgFillIcon } from './LabelPairedPuzzlePieceTwoLgFillIcon';
 export { default as LabelPairedPlaceholderXlRegularIcon } from './LabelPairedPlaceholderXlRegularIcon';
 export { default as LabelPairedPlaceholderXlBoldIcon } from './LabelPairedPlaceholderXlBoldIcon';
 export { default as LabelPairedPlaceholderXlFillIcon } from './LabelPairedPlaceholderXlFillIcon';
@@ -4438,9 +4438,6 @@ export { default as LabelPairedHandGestureSwipeLeftRightXlFillIcon } from './Lab
 export { default as LabelPairedChartTradingviewXlRegularIcon } from './LabelPairedChartTradingviewXlRegularIcon';
 export { default as LabelPairedChartTradingviewXlBoldIcon } from './LabelPairedChartTradingviewXlBoldIcon';
 export { default as LabelPairedChartTradingviewXlFillIcon } from './LabelPairedChartTradingviewXlFillIcon';
-export { default as LabelPairedPuzzlePieceTwoXlRegularIcon } from './LabelPairedPuzzlePieceTwoXlRegularIcon';
-export { default as LabelPairedPuzzlePieceTwoXlBoldIcon } from './LabelPairedPuzzlePieceTwoXlBoldIcon';
-export { default as LabelPairedPuzzlePieceTwoXlFillIcon } from './LabelPairedPuzzlePieceTwoXlFillIcon';
 export { default as LabelPairedPageCircleArrowRightXlRegularIcon } from './LabelPairedPageCircleArrowRightXlRegularIcon';
 export { default as LabelPairedPageCircleArrowRightXlBoldIcon } from './LabelPairedPageCircleArrowRightXlBoldIcon';
 export { default as LabelPairedPageCircleArrowRightXlFillIcon } from './LabelPairedPageCircleArrowRightXlFillIcon';
@@ -4468,3 +4465,6 @@ export { default as LabelPairedPlaybackSpeedXlFillIcon } from './LabelPairedPlay
 export { default as LabelPairedFileXmlXlRegularIcon } from './LabelPairedFileXmlXlRegularIcon';
 export { default as LabelPairedFileXmlXlBoldIcon } from './LabelPairedFileXmlXlBoldIcon';
 export { default as LabelPairedFileXmlXlFillIcon } from './LabelPairedFileXmlXlFillIcon';
+export { default as LabelPairedPuzzlePieceTwoXlRegularIcon } from './LabelPairedPuzzlePieceTwoXlRegularIcon';
+export { default as LabelPairedPuzzlePieceTwoXlBoldIcon } from './LabelPairedPuzzlePieceTwoXlBoldIcon';
+export { default as LabelPairedPuzzlePieceTwoXlFillIcon } from './LabelPairedPuzzlePieceTwoXlFillIcon';

@@ -23,7 +23,7 @@ const LabelPairedHorizontalRuleXlRegularIcon = (
       <path d='M0 18c0-.375.328-.75.75-.75h28.5c.375 0 .75.375.75.75 0 .422-.375.75-.75.75H.75A.74.74 0 0 1 0 18' />
     </g>
     <defs>
-      <clipPath id='49e9f848d1aa526aaf95dec4d7df1664__a'>
+      <clipPath id='ddf8c01e0fdc50d75c1acd9db0aede9f__a'>
         <path d='M0 0h30v36H0z' />
       </clipPath>
     </defs>

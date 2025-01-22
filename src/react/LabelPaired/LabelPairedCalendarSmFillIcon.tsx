@@ -23,7 +23,7 @@ const LabelPairedCalendarSmFillIcon = (
       <path d='M3 4.625c0-.465.383-.875.875-.875a.9.9 0 0 1 .875.875V5.5h3.5v-.875c0-.465.383-.875.875-.875a.9.9 0 0 1 .875.875V5.5h1.313c.71 0 1.312.602 1.312 1.313v1.312H.375V6.813c0-.711.574-1.313 1.313-1.313H3zM12.625 9v7.438c0 .738-.602 1.312-1.312 1.312H1.688a1.296 1.296 0 0 1-1.313-1.312V9z' />
     </g>
     <defs>
-      <clipPath id='ae03b61a80f0c8f6dcb4f8cfdc93f837__a'>
+      <clipPath id='cbc4fc7b345f1c2c86b156d2ce7fe81a__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

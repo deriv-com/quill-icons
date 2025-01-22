@@ -18,7 +18,7 @@ const DerivLightMissionIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#64f624fc5f6e5d2915a61c14cd1b2c7b__a)'>
+    <g clipPath='url(#84f53662c13386abb8bb84c9fdf708da__a)'>
       <path
         fill='#fff'
         d='M92.942 95.368c-11.541 19.989-31.378 31.401-49.756 30.543a39.7 39.7 0 0 1-7.41-1.045 37.8 37.8 0 0 1-10.08-4.018C3.933 108.283-1.24 76.505 14.137 49.87c15.378-26.636 45.487-38.044 67.247-25.48a37 37 0 0 1 3.876 2.57 37.5 37.5 0 0 1 4.757 4.27 39.4 39.4 0 0 1 4.519 5.81c9.912 15.487 9.939 38.353-1.594 58.328'
@@ -104,7 +104,7 @@ const DerivLightMissionIcon = (
       />
     </g>
     <defs>
-      <clipPath id='64f624fc5f6e5d2915a61c14cd1b2c7b__a'>
+      <clipPath id='84f53662c13386abb8bb84c9fdf708da__a'>
         <path fill='#fff' d='M0 0h120v152H0z' />
       </clipPath>
     </defs>

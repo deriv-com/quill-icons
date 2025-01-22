@@ -27,7 +27,7 @@ export const LegacyRefresh2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='9be47cc71529a93b03e1ce00a6be00eb__a'>
+      <clipPath id='b0531e1838d86f9f061905067db7a935__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

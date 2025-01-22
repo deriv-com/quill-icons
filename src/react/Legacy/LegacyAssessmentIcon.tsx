@@ -27,7 +27,7 @@ export const LegacyAssessmentIcon = (
       />
     </g>
     <defs>
-      <clipPath id='25f027aa434dfdcf6c94e7735a34f51b__a'>
+      <clipPath id='1e619e03338346d6c9fb4ec8ebd0404c__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

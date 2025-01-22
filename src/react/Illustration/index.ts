@@ -170,7 +170,6 @@ export { default as DerivLightNegativeAnnouncementIcon } from './DerivLightNegat
 export { default as DerivLightUserVerificationIcon } from './DerivLightUserVerificationIcon';
 export { default as DerivLightUserBlockedIcon } from './DerivLightUserBlockedIcon';
 export { default as DerivLightUserAddIcon } from './DerivLightUserAddIcon';
-export { default as DerivLightUserSuccessIcon } from './DerivLightUserSuccessIcon';
 export { default as DerivLightUserErrorIcon } from './DerivLightUserErrorIcon';
 export { default as DerivLightOrdersErrorIcon } from './DerivLightOrdersErrorIcon';
 export { default as DerivLightOrdersSuccessIcon } from './DerivLightOrdersSuccessIcon';
@@ -209,3 +208,6 @@ export { default as DerivLightDrivingLicenseFrontKycIcon } from './DerivLightDri
 export { default as DerivLightUpgradeIcon } from './DerivLightUpgradeIcon';
 export { default as DerivLightMigrateStrategyIcon } from './DerivLightMigrateStrategyIcon';
 export { default as DerivLightUserInReviewIcon } from './DerivLightUserInReviewIcon';
+export { default as DerivLightProfileVerifiedIcon } from './DerivLightProfileVerifiedIcon';
+export { default as DerivLightUserSuccessIcon } from './DerivLightUserSuccessIcon';
+export { default as DerivLightUserSuccessGreenIcon } from './DerivLightUserSuccessGreenIcon';

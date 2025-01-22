@@ -39,7 +39,7 @@ const PaymentMethodLocalPaymentMethodsBrandIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5d6f4011130b6f9ae90b4646bfe95df2__a'>
+      <clipPath id='60b5b6801fcfc9a0763cf080a8b41b08__a'>
         <path fill='#fff' d='M8 17h53v46H8z' />
       </clipPath>
     </defs>
