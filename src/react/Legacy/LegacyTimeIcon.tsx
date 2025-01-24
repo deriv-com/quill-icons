@@ -23,7 +23,7 @@ export const LegacyTimeIcon = (
       <path d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1m0 2a.5.5 0 0 1 .5.5V8h3a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5v-5A.5.5 0 0 1 8 3' />
     </g>
     <defs>
-      <clipPath id='6e1b20e902dbd297f1ecf924fc6e3d03__a'>
+      <clipPath id='33c2ccd71a065632cdc59b3d0a56db7b__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

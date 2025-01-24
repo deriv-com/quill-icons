@@ -18,7 +18,7 @@ const DerivLightLocalDeviceIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#5701a7e40aa0cfd1b2e89caeaba43398__a)'>
+    <g clipPath='url(#d515a970532eb61d503f5e010b738c69__a)'>
       <path
         fill='#064E72'
         d='M31.951 2.182h-15.97a2.924 2.924 0 0 0-2.924 2.924v37.789a2.923 2.923 0 0 0 2.923 2.923h15.971a2.923 2.923 0 0 0 2.924-2.923V5.105a2.924 2.924 0 0 0-2.924-2.923m-7.985 41.454a2.182 2.182 0 1 1 2.182-2.182 2.19 2.19 0 0 1-2.182 2.182m3.273-37.09h-6.546a1.091 1.091 0 0 1 0-2.182h6.546a1.09 1.09 0 1 1 0 2.181'
@@ -33,7 +33,7 @@ const DerivLightLocalDeviceIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5701a7e40aa0cfd1b2e89caeaba43398__a'>
+      <clipPath id='d515a970532eb61d503f5e010b738c69__a'>
         <path fill='#fff' d='M0 0h48v48H0z' />
       </clipPath>
     </defs>

@@ -892,3 +892,9 @@ export { default as StandaloneFileXmlFillIcon } from './StandaloneFileXmlFillIco
 export { default as StandalonePuzzlePieceTwoRegularIcon } from './StandalonePuzzlePieceTwoRegularIcon';
 export { default as StandalonePuzzlePieceTwoBoldIcon } from './StandalonePuzzlePieceTwoBoldIcon';
 export { default as StandalonePuzzlePieceTwoFillIcon } from './StandalonePuzzlePieceTwoFillIcon';
+export { default as StandaloneShareFromSquareRegularIcon } from './StandaloneShareFromSquareRegularIcon';
+export { default as StandaloneShareFromSquareBoldIcon } from './StandaloneShareFromSquareBoldIcon';
+export { default as StandaloneShareFromSquareFillIcon } from './StandaloneShareFromSquareFillIcon';
+export { default as StandaloneShareNodesRegularIcon } from './StandaloneShareNodesRegularIcon';
+export { default as StandaloneShareNodesBoldIcon } from './StandaloneShareNodesBoldIcon';
+export { default as StandaloneShareNodesFillIcon } from './StandaloneShareNodesFillIcon';
