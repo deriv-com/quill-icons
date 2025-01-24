@@ -1,3 +1,11 @@
+# [2.4.0](https://github.com/deriv-com/quill-icons/compare/v2.3.0...v2.4.0) (2025-01-24)
+
+
+### ✨ 	 Features
+
+* added new icons ([aab19ef](https://github.com/deriv-com/quill-icons/commit/aab19efd0d3d79ac7152a01d5ee7e2a8fef8b846))
+* added new icons ([0ee094a](https://github.com/deriv-com/quill-icons/commit/0ee094afa0456775afc8e7238a5a0783bfd58528))
+
 # [2.3.0](https://github.com/deriv-com/quill-icons/compare/v2.2.2...v2.3.0) (2025-01-22)
 
 
