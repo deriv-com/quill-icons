@@ -211,3 +211,4 @@ export { default as DerivLightUserInReviewIcon } from './DerivLightUserInReviewI
 export { default as DerivLightProfileVerifiedIcon } from './DerivLightProfileVerifiedIcon';
 export { default as DerivLightUserSuccessIcon } from './DerivLightUserSuccessIcon';
 export { default as DerivLightUserSuccessGreenIcon } from './DerivLightUserSuccessGreenIcon';
+export { default as DerivLightRemoveSuccessfulPasskeyIcon } from './DerivLightRemoveSuccessfulPasskeyIcon';

@@ -23,7 +23,7 @@ export const LegacyMenuDots2pxIcon = (
       <path d='M8 12a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4' />
     </g>
     <defs>
-      <clipPath id='03e613c094d8162e770c2a14218a697a__a'>
+      <clipPath id='971260c49937c1409cc2c63b8a124c27__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

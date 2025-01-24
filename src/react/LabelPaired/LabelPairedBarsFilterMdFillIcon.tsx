@@ -23,7 +23,7 @@ const LabelPairedBarsFilterMdFillIcon = (
       <path d='M0 7c0-.531.438-1 1-1h12c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1m2 5c0-.531.438-1 1-1h8c.531 0 1 .469 1 1 0 .563-.469 1-1 1H3c-.562 0-1-.437-1-1m7 5c0 .563-.469 1-1 1H6c-.562 0-1-.437-1-1 0-.531.438-1 1-1h2c.531 0 1 .469 1 1' />
     </g>
     <defs>
-      <clipPath id='4a88d7566aa371edc8e5d8bd8701f70f__a'>
+      <clipPath id='f7f44ca5f87f09b4b06985db444083d4__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

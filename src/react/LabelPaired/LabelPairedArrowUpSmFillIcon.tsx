@@ -23,7 +23,7 @@ const LabelPairedArrowUpSmFillIcon = (
       <path d='m6.102 4.898 4.375 4.375a.843.843 0 0 1 0 1.23.843.843 0 0 1-1.23 0l-2.872-2.87V16c0 .492-.41.875-.875.875A.864.864 0 0 1 4.625 16V7.633l-2.898 2.87a.843.843 0 0 1-1.23 0 .843.843 0 0 1 0-1.23L4.87 4.898a.843.843 0 0 1 1.23 0' />
     </g>
     <defs>
-      <clipPath id='cf30ff618a65a734905bfb827d164478__a'>
+      <clipPath id='0d29bc3c3fb573dfe9b10ba54dca71a5__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

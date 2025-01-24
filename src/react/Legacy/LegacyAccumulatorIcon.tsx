@@ -24,7 +24,7 @@ export const LegacyAccumulatorIcon = (
       <path d='M0 3h1.417v1H0zM2.917 3h1.416v1H2.917zM5.833 3H7.25v1H5.833zM8.75 3h1.417v1H8.75zM11.667 3h1.416v1h-1.416zM14.583 3H16v1h-1.417zM0 12h1.417v1H0zM2.917 12h1.416v1H2.917zM5.833 12H7.25v1H5.833zM8.75 12h1.417v1H8.75zM11.667 12h1.416v1h-1.416v-1M14.583 12H16v1h-1.417z' />
     </g>
     <defs>
-      <clipPath id='643edd89c3e1e16dae851210fd37e59c__a'>
+      <clipPath id='205976d630cd96c98d696a417f91584d__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
