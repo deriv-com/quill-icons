@@ -1,3 +1,11 @@
+## [2.4.2](https://github.com/deriv-com/quill-icons/compare/v2.4.1...v2.4.2) (2025-01-28)
+
+
+### 🛠 	 Builds
+
+* fixing build issue ([e98ebc9](https://github.com/deriv-com/quill-icons/commit/e98ebc95c3e51fd09bbe9911ac0f75d741e65e6d))
+* fixing build issue ([8e3c017](https://github.com/deriv-com/quill-icons/commit/8e3c01773af77188dc96b4852c925a50a407b66b))
+
 ## [2.4.1](https://github.com/deriv-com/quill-icons/compare/v2.4.0...v2.4.1) (2025-01-28)
 
 
