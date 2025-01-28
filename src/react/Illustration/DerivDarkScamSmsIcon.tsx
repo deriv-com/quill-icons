@@ -18,9 +18,9 @@ const DerivDarkScamSmsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0bb6efcb901e22aef53d49cc623481fb__a)'>
+    <g clipPath='url(#a03c3600d808b1187ac4fe9a939b4fcd__a)'>
       <mask
-        id='0bb6efcb901e22aef53d49cc623481fb__b'
+        id='a03c3600d808b1187ac4fe9a939b4fcd__b'
         width={96}
         height={96}
         x={0}
@@ -32,7 +32,7 @@ const DerivDarkScamSmsIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#0bb6efcb901e22aef53d49cc623481fb__b)'>
+      <g mask='url(#a03c3600d808b1187ac4fe9a939b4fcd__b)'>
         <path
           fill='#414652'
           d='M6 34.02a6 6 0 0 0-6 6V96l13.88-13.88h59.27a6 6 0 0 0 6-6v-36.1a6 6 0 0 0-6-6zm15.22 31.09c-3.1 0-5.61-2.51-5.61-5.61s2.51-5.61 5.61-5.61 5.61 2.51 5.61 5.61-2.51 5.61-5.61 5.61m18.35 0c-3.1 0-5.61-2.51-5.61-5.61s2.51-5.61 5.61-5.61 5.61 2.51 5.61 5.61-2.51 5.61-5.61 5.61m18.36 0c-3.1 0-5.61-2.51-5.61-5.61s2.51-5.61 5.61-5.61 5.61 2.51 5.61 5.61-2.51 5.61-5.61 5.61'
@@ -52,7 +52,7 @@ const DerivDarkScamSmsIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='0bb6efcb901e22aef53d49cc623481fb__a'>
+      <clipPath id='a03c3600d808b1187ac4fe9a939b4fcd__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

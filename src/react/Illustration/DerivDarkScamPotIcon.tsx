@@ -18,9 +18,9 @@ const DerivDarkScamPotIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#373194ec732dd6dfd918cbf45a072e59__a)'>
+    <g clipPath='url(#e729efcc23228c55b700ef1daf01c6b3__a)'>
       <mask
-        id='373194ec732dd6dfd918cbf45a072e59__b'
+        id='e729efcc23228c55b700ef1daf01c6b3__b'
         width={96}
         height={96}
         x={0}
@@ -32,7 +32,7 @@ const DerivDarkScamPotIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#373194ec732dd6dfd918cbf45a072e59__b)'>
+      <g mask='url(#e729efcc23228c55b700ef1daf01c6b3__b)'>
         <path
           fill='#414652'
           d='M8.02 41.96H0v5h8.02zM20.59 41.96h-8.02v5h8.02zM33.16 41.96h-8.02v5h8.02zM45.73 41.96h-8.02v5h8.02zM58.29 41.96h-8.02v5h8.02zM70.86 41.96h-8.02v5h8.02zM83.43 41.96h-8.02v5h8.02zM96 41.96h-8.02v5H96z'
@@ -56,7 +56,7 @@ const DerivDarkScamPotIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='373194ec732dd6dfd918cbf45a072e59__a'>
+      <clipPath id='e729efcc23228c55b700ef1daf01c6b3__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

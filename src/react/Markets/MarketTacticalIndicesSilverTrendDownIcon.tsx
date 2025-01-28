@@ -20,7 +20,7 @@ export const MarketTacticalIndicesSilverTrendDownIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#45290605dace19d7ed0dd86641ce4f7e__a)'>
+    <g clipPath='url(#27efa4099c6ee77d383d15ccf3f37ac3__a)'>
       <path
         fill='#D04229'
         d='M32 32h-8v-2h4.586L19 20.414l-5 5-14-14V8.586l14 14 5-5 11 11V24h2zM12.822 1.6a1.6 1.6 0 0 1 1.6-1.6h16a1.6 1.6 0 0 1 1.6 1.6v4.8a1.6 1.6 0 0 1-1.6 1.6h-16a1.6 1.6 0 0 1-1.6-1.6z'
@@ -31,7 +31,7 @@ export const MarketTacticalIndicesSilverTrendDownIcon = (
       />
     </g>
     <defs>
-      <clipPath id='45290605dace19d7ed0dd86641ce4f7e__a'>
+      <clipPath id='27efa4099c6ee77d383d15ccf3f37ac3__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
