@@ -23,7 +23,7 @@ export const LegacyMarketCommoditiesIcon = (
       <path d='M10 3a.5.5 0 0 1 .447.276L12.308 7H13.5a.5.5 0 0 1 .398.197l.05.08 2 4A.5.5 0 0 1 15.5 12H.5a.5.5 0 0 1-.447-.724l2-4A.5.5 0 0 1 2.5 7h1.19l1.863-3.724a.5.5 0 0 1 .354-.267L6 3zm3.19 5H9.846l-1.125 3h5.969zM6.153 8H2.809l-1.5 3h5.969zm2.625 0H7.22L8 10.076zm.912-4H6.309l-1.5 3h6.381z' />
     </g>
     <defs>
-      <clipPath id='404d8db57d629f61ca4aa539db454f36__a'>
+      <clipPath id='950f6b53a2064334c7b52c936f22470a__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

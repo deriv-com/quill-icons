@@ -23,7 +23,7 @@ export const LegacyMaximize2pxIcon = (
       <path fillRule='evenodd' d='M0 0h16v16H0zm2 2v12h12V2z' clipRule='evenodd' />
     </g>
     <defs>
-      <clipPath id='b7b39c662fb3db7211e7060265911655__a'>
+      <clipPath id='a6fde1efde5f0f6fce727bcc3770501a__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
