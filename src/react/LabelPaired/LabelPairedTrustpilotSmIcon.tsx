@@ -23,7 +23,7 @@ const LabelPairedTrustpilotSmIcon = (
       <path d='M12.2 13.621 9 14.47l4.54 3.281zm4.156-4.512L9 14.47 4.434 17.75l1.75-5.332-4.567-3.309H7.25L9 3.75l1.723 5.36z' />
     </g>
     <defs>
-      <clipPath id='c01ac6ea0dc314fe879ddcb846eef053__a'>
+      <clipPath id='0e5824f3eeea0cb2bc217762d696a139__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

@@ -18,7 +18,7 @@ const DerivLightDiversifiedPortfolioIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#3723c134818b0535d8cda67b088bfd4d__a)'>
+    <g clipPath='url(#a724addb03d1baa48bc76f7980e5a393__a)'>
       <path
         fill='#FF7E88'
         d='M63.86 56.431c0 .977-.1 1.896-.289 2.75-.42 1.893-1.282 3.466-2.482 4.655l-1.13.94c-2.13 1.773-6.49 5.405-7.063 5.88q.113-.112.222-.229a10.6 10.6 0 0 0 2.776-5.47c.572-3.153-.179-6.603-1.762-9.819l-.1-.204c-1.646-3.259-4.141-6.266-6.975-8.464l-.11-.083c-1.674-1.284-3.463-2.285-5.262-2.888-3.614-1.27-7.144-1.351-10.193.538 0-.002 6.4-5.328 6.403-5.33 8.092-7.044 19.965 1.236 24.31 10.443 1.157 2.454 1.78 4.971 1.655 7.281'
@@ -233,7 +233,7 @@ const DerivLightDiversifiedPortfolioIcon = (
       />
     </g>
     <defs>
-      <clipPath id='3723c134818b0535d8cda67b088bfd4d__a'>
+      <clipPath id='a724addb03d1baa48bc76f7980e5a393__a'>
         <path fill='#fff' d='M10 6h100.404v140H10z' />
       </clipPath>
     </defs>

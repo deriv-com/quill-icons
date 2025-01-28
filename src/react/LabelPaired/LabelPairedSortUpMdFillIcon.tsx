@@ -23,7 +23,7 @@ const LabelPairedSortUpMdFillIcon = (
       <path d='m5.688 5.313 4 4c.28.28.374.718.218 1.093a1.01 1.01 0 0 1-.906.625H1c-.406 0-.781-.25-.937-.625A1.01 1.01 0 0 1 .28 9.312l4-4a.964.964 0 0 1 1.407 0' />
     </g>
     <defs>
-      <clipPath id='505bd3e7591b185f84aedc7ade1ff9b9__a'>
+      <clipPath id='bcc015a70f73a83126f65437152fbdbd__a'>
         <path d='M0 0h10v24H0z' />
       </clipPath>
     </defs>
