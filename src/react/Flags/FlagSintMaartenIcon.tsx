@@ -20,7 +20,7 @@ export const FlagSintMaartenIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0d42a9a1d2f96338bab17a0c2c96a6fd__a)'>
+    <g clipPath='url(#f8a2fa41fe5b328e73fa409fcae02160__a)'>
       <path fill='#DC171D' d='M2 0A2 2 0 0 0 .709.473L12 8h12V2a2 2 0 0 0-2-2z' />
       <path fill='#012A87' d='M12 8 .709 15.527A2 2 0 0 1 2 16h20a2 2 0 0 0 2-2V8z' />
       <path fill='#fff' d='M0 2v12c0 .612.275 1.16.709 1.527L12 8 .709.473A2 2 0 0 0 0 2' />
@@ -89,7 +89,7 @@ export const FlagSintMaartenIcon = (
       />
     </g>
     <defs>
-      <clipPath id='0d42a9a1d2f96338bab17a0c2c96a6fd__a'>
+      <clipPath id='f8a2fa41fe5b328e73fa409fcae02160__a'>
         <path fill='#fff' d='M0 0h24v16H0z' />
       </clipPath>
     </defs>

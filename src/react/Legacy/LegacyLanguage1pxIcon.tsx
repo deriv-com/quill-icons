@@ -23,7 +23,7 @@ export const LegacyLanguage1pxIcon = (
       <path d='m8 15.794-2.75-3.407H0V0h16v12.387h-5.25zm-7-4.44h4.75L8 14.143l2.25-2.787H15V1.032H1zM11 9.29H3V8.258h8zm2-2.58H3V5.677h10zm0-2.581H3V3.097h10z' />
     </g>
     <defs>
-      <clipPath id='bf80a0d5e6c2f3131241ef164e67a82e__a'>
+      <clipPath id='8e1943f94ec5091c3da875782129e4f2__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

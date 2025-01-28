@@ -23,7 +23,7 @@ const LabelPairedArrowDownLeftMdBoldIcon = (
       <path d='M1.75 17a.72.72 0 0 1-.75-.75v-7.5A.74.74 0 0 1 1.75 8a.76.76 0 0 1 .75.75v5.719l7.219-7.25a.736.736 0 0 1 1.031 0c.313.312.313.781 0 1.062L3.531 15.5H9.25a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75z' />
     </g>
     <defs>
-      <clipPath id='9a5f9edac43e674724e0d03bc693958c__a'>
+      <clipPath id='a03860a4f53330fae7b73008bb19dac0__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

@@ -23,7 +23,7 @@ const LabelPairedMicrosoftLgIcon = (
       <path d='M.25 6.75h8.36v8.398H.25zm9.102 0h8.398v8.398H9.352zM.25 15.89h8.36v8.36H.25zm9.102 0h8.398v8.36H9.352z' />
     </g>
     <defs>
-      <clipPath id='b3d0fd76f5eac4b767f9a904b6db09f6__a'>
+      <clipPath id='2141b538970a7b85a9aede52b3c5644a__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>
