@@ -23,7 +23,7 @@ const LabelPairedGooglePlayMdIcon = (
       <path d='m10.156 11.344 1.875-1.875L3.25 4.406zM1.47 4l8 8-8 8a1.19 1.19 0 0 1-.688-1.094V5.125c0-.5.282-.906.688-1.125m13.281 7.063c.594.437.594 1.468.031 1.906l-1.875 1.062L10.844 12l2.062-2zm-11.5 8.53 6.906-6.905 1.875 1.874z' />
     </g>
     <defs>
-      <clipPath id='695a0e0ba93c1a6cccc16b75cfd37ea7__a'>
+      <clipPath id='52fe04a3157ff993c48fa4387f09731e__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

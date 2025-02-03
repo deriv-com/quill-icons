@@ -24,7 +24,7 @@ export const LegacyOpenLink2pxIcon = (
       <path d='M10 1a1 1 0 0 1 1-1h3a2 2 0 0 1 2 2v3a1 1 0 1 1-2 0V3.414L8.707 8.707a1 1 0 0 1-1.414-1.414L12.586 2H11a1 1 0 0 1-1-1' />
     </g>
     <defs>
-      <clipPath id='4bc4e42404a0cfe0ddf4dd574f69c7a3__a'>
+      <clipPath id='6fc87de1faeae5d0e2ad439f9e7dd988__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

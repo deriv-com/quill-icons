@@ -23,7 +23,7 @@ export const LegacyChartsIcon = (
       <path d='M2 0v13.999L16 14v1l-14-.001V16H1l-.001-1.001L0 15v-1l.999-.001L1 0zm10.528 2.002 2.605 7.814-.95.316-1.71-5.134-2.74 7.302L5.68 9.26l-1.955 3.91-.895-.446L5.321 7.74 9.266 10.7z' />
     </g>
     <defs>
-      <clipPath id='1c0a9c5bcc99a24301857eb776c83762__a'>
+      <clipPath id='55e1b7aa009bf29aaa5abc17cfa0b8a4__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

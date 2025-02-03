@@ -23,7 +23,7 @@ const LabelPairedMinusLgRegularIcon = (
       <path d='M17.125 15.5a.64.64 0 0 1-.625.625h-15a.617.617 0 0 1-.625-.625c0-.312.273-.625.625-.625h15c.313 0 .625.313.625.625' />
     </g>
     <defs>
-      <clipPath id='02af9e469b38456b7cf7c734597cd176__a'>
+      <clipPath id='51111c38c64d988f3be836c90d2d12d2__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>
