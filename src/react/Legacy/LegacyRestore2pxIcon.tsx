@@ -23,7 +23,7 @@ export const LegacyRestore2pxIcon = (
       <path d='M11 0a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3a2 2 0 0 1-2-2V1a1 1 0 0 1 1-1M1 10a1 1 0 1 0 0 2h3v3a1 1 0 1 0 2 0v-3a2 2 0 0 0-2-2zM12 10a2 2 0 0 0-2 2v3a1 1 0 1 0 2 0v-3h3a1 1 0 1 0 0-2zM6 1a1 1 0 0 0-2 0v3H1a1 1 0 0 0 0 2h3a2 2 0 0 0 2-2z' />
     </g>
     <defs>
-      <clipPath id='eba2e83264fecdb4092533aec12a44ca__a'>
+      <clipPath id='a9cc1b0061181fc5046afc8132b7f356__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -20,7 +20,7 @@ export const FlagBonaireIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#ebf5a2ddc3464b431422f079502b806f__a)'>
+    <g clipPath='url(#b6f10228d7c324629d674cbfbb9acbf2__a)'>
       <path fill='gold' d='M0 2a2 2 0 0 1 2-2h8L0 7z' />
       <path
         fill='#003087'
@@ -46,7 +46,7 @@ export const FlagBonaireIcon = (
       />
     </g>
     <defs>
-      <clipPath id='ebf5a2ddc3464b431422f079502b806f__a'>
+      <clipPath id='b6f10228d7c324629d674cbfbb9acbf2__a'>
         <path fill='#fff' d='M24 0H0v16h24z' />
       </clipPath>
     </defs>

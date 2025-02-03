@@ -24,7 +24,7 @@ export const LegacyTargetIcon = (
       <path d='M8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12m0 1A7 7 0 1 0 8 1a7 7 0 0 0 0 14' />
     </g>
     <defs>
-      <clipPath id='ad32b59fbe4ee96915fc3437cf68457e__a'>
+      <clipPath id='310d4cc197568880397cc3ea76314a1e__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
