@@ -268,6 +268,12 @@ export { default as MarketDerivedSkewStepIndex4UpIcon } from './MarketDerivedSke
 export { default as MarketDerivedSkewStepIndex4DownIcon } from './MarketDerivedSkewStepIndex4DownIcon';
 export { default as MarketDerivedSkewStepIndex5DownIcon } from './MarketDerivedSkewStepIndex5DownIcon';
 export { default as MarketDerivedSkewStepIndex5UpIcon } from './MarketDerivedSkewStepIndex5UpIcon';
+export { default as MarketDerivedVolatilityOverBoom400Icon } from './MarketDerivedVolatilityOverBoom400Icon';
+export { default as MarketDerivedVolatilityOverBoom550Icon } from './MarketDerivedVolatilityOverBoom550Icon';
+export { default as MarketDerivedVolatilityOverBoom750Icon } from './MarketDerivedVolatilityOverBoom750Icon';
+export { default as MarketDerivedVolatilityOverCrash400Icon } from './MarketDerivedVolatilityOverCrash400Icon';
+export { default as MarketDerivedVolatilityOverCrash550Icon } from './MarketDerivedVolatilityOverCrash550Icon';
+export { default as MarketDerivedVolatilityOverCrash750Icon } from './MarketDerivedVolatilityOverCrash750Icon';
 export { default as MarketEnergyBrentCrudeOilukIcon } from './MarketEnergyBrentCrudeOilukIcon';
 export { default as MarketEnergyWtiOilusIcon } from './MarketEnergyWtiOilusIcon';
 export { default as MarketEnergyNgasIcon } from './MarketEnergyNgasIcon';

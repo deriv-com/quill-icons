@@ -211,4 +211,11 @@ export { default as DerivLightUserInReviewIcon } from './DerivLightUserInReviewI
 export { default as DerivLightProfileVerifiedIcon } from './DerivLightProfileVerifiedIcon';
 export { default as DerivLightUserSuccessIcon } from './DerivLightUserSuccessIcon';
 export { default as DerivLightUserSuccessGreenIcon } from './DerivLightUserSuccessGreenIcon';
-export { default as DerivLightRemoveSuccessfulPasskeyIcon } from './DerivLightRemoveSuccessfulPasskeyIcon';
+export { default as DerivLightRemoveSuccessPasskeyIcon } from './DerivLightRemoveSuccessPasskeyIcon';
+export { default as DerivLightAddBiometricsIcon } from './DerivLightAddBiometricsIcon';
+export { default as DerivLightEnableBiometricsIcon } from './DerivLightEnableBiometricsIcon';
+export { default as DerivLightAddSuccessBiometricsIcon } from './DerivLightAddSuccessBiometricsIcon';
+export { default as DerivLightRemoveBiometricsIcon } from './DerivLightRemoveBiometricsIcon';
+export { default as DerivLightRemoveSuccessBiometricsIcon } from './DerivLightRemoveSuccessBiometricsIcon';
+export { default as DerivLightEditBiometricsIcon } from './DerivLightEditBiometricsIcon';
+export { default as DerivLightSuccessBiometricsIcon } from './DerivLightSuccessBiometricsIcon';

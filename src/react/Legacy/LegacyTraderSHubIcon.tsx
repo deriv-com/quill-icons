@@ -28,7 +28,7 @@ export const LegacyTraderSHubIcon = (
       />
     </g>
     <defs>
-      <clipPath id='8fd3e69dd7172c17253b72c30dc944cf__a'>
+      <clipPath id='61d466f54921df90cb8385de0478da55__a'>
         <path d='M0 0h24v24H0z' />
       </clipPath>
     </defs>

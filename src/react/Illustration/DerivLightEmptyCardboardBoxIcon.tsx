@@ -18,7 +18,7 @@ const DerivLightEmptyCardboardBoxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#6d99dd97fd5b086cd8e38ac8304d085f__a)'>
+    <g clipPath='url(#e20e5a24e29e20b5ef5a1deb2ae48a2c__a)'>
       <path
         fill='#000'
         fillOpacity={0.48}
@@ -26,7 +26,7 @@ const DerivLightEmptyCardboardBoxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='6d99dd97fd5b086cd8e38ac8304d085f__a'>
+      <clipPath id='e20e5a24e29e20b5ef5a1deb2ae48a2c__a'>
         <path fill='#fff' d='M0 0h64v64H0z' />
       </clipPath>
     </defs>

@@ -20,7 +20,7 @@ export const MarketStocksBayerIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#750f3426ae6f17676727c7e10a22a261__a)'>
+    <g clipPath='url(#2b137550c8caaee98f15fa283df70a45__a)'>
       <path
         fill='#0D3650'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -61,7 +61,7 @@ export const MarketStocksBayerIcon = (
       />
     </g>
     <defs>
-      <clipPath id='750f3426ae6f17676727c7e10a22a261__a'>
+      <clipPath id='2b137550c8caaee98f15fa283df70a45__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
