@@ -24,7 +24,7 @@ export const LegacySelectedTicksIcon = (
       <path d='M5.88 12v-.74h1.95V5.64h-.07L6 7.28l-.49-.53 1.85-1.73h1.31v6.24h1.8V12z' />
     </g>
     <defs>
-      <clipPath id='fdd110f2f9631782c31b40c1f760b159__a'>
+      <clipPath id='c1e6ae17b13ab9d56c932418e6491fd7__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

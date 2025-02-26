@@ -20,7 +20,7 @@ export const MarketDerivedSkewStepIndex4UpIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e889b5fe438eb8d986f130c2c1d20eba__a)'>
+    <g clipPath='url(#38fd01edad0cbf0303d234001478e9c1__a)'>
       <path
         fill='#0AA0B0'
         fillRule='evenodd'
@@ -38,7 +38,7 @@ export const MarketDerivedSkewStepIndex4UpIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e889b5fe438eb8d986f130c2c1d20eba__a'>
+      <clipPath id='38fd01edad0cbf0303d234001478e9c1__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

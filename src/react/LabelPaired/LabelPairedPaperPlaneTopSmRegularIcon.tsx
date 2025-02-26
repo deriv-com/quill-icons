@@ -23,7 +23,7 @@ const LabelPairedPaperPlaneTopSmRegularIcon = (
       <path d='M.582 5.91a.92.92 0 0 1 .137-1.012.93.93 0 0 1 .984-.191l12.25 5.25a.89.89 0 0 1 .547.793.9.9 0 0 1-.547.82l-12.25 5.25a.89.89 0 0 1-.984-.218.87.87 0 0 1-.137-.985l2.434-4.867zm3.2 5.278L1.374 16l11.21-4.812zm8.804-.876L1.375 5.5l2.406 4.813z' />
     </g>
     <defs>
-      <clipPath id='770078d8d16fab9b73a03daba987d4b1__a'>
+      <clipPath id='4a1a3d3758d7ae974f52a14384861d36__a'>
         <path d='M0 0h15v22H0z' />
       </clipPath>
     </defs>

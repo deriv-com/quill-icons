@@ -18,7 +18,7 @@ const DerivLightOtherPaymentMethodIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#258dff078433b63760f96887f6c15796__a)'>
+    <g clipPath='url(#c7203da689cd7c9870fdbc3b9f0fd34d__a)'>
       <path fill='#84AAAE' d='M8.379 13.452h4.748V9.774H8.379z' />
       <path
         fill='#84AAAE'
@@ -34,7 +34,7 @@ const DerivLightOtherPaymentMethodIcon = (
       />
     </g>
     <defs>
-      <clipPath id='258dff078433b63760f96887f6c15796__a'>
+      <clipPath id='c7203da689cd7c9870fdbc3b9f0fd34d__a'>
         <path fill='#fff' d='M0 0h58v48H0z' />
       </clipPath>
     </defs>

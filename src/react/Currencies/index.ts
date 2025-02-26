@@ -47,3 +47,4 @@ export { default as CurrencyXrpIcon } from './CurrencyXrpIcon';
 export { default as CurrencyXtzIcon } from './CurrencyXtzIcon';
 export { default as CurrencyZecIcon } from './CurrencyZecIcon';
 export { default as CurrencyP2PIcon } from './CurrencyP2PIcon';
+export { default as CurrencyAedIcon } from './CurrencyAedIcon';

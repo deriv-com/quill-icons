@@ -23,7 +23,7 @@ const LabelPairedMobileScreenButtonCaptionFillIcon = (
       <path d='M.375 5c0-.82.656-1.5 1.5-1.5h5.25c.82 0 1.5.68 1.5 1.5v9c0 .844-.68 1.5-1.5 1.5h-5.25a1.48 1.48 0 0 1-1.5-1.5zm3 9c0 .21.164.375.375.375h1.5A.385.385 0 0 0 5.625 14a.4.4 0 0 0-.375-.375h-1.5a.385.385 0 0 0-.375.375m3.75-9h-5.25v7.5h5.25z' />
     </g>
     <defs>
-      <clipPath id='0c348e75c56f7837d1f9ece64cb3b023__a'>
+      <clipPath id='61da5c603e5686cfe4467064e9be2d99__a'>
         <path d='M0 0h9v18H0z' />
       </clipPath>
     </defs>

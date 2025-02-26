@@ -23,7 +23,7 @@ const LabelPairedCircleMdFillIcon = (
       <path d='M8 20c-2.875 0-5.5-1.5-6.937-4-1.438-2.469-1.438-5.5 0-8A8.02 8.02 0 0 1 8 4c2.844 0 5.469 1.531 6.906 4 1.438 2.5 1.438 5.531 0 8A7.94 7.94 0 0 1 8 20' />
     </g>
     <defs>
-      <clipPath id='2d620dc32354ed66e462f09cfe7bef76__a'>
+      <clipPath id='b66e44a45a8d7323d9a9fa4d2e79d200__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>
