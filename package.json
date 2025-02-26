@@ -1,6 +1,6 @@
 {
   "name": "@deriv/quill-icons",
-  "version": "2.4.3",
+  "version": "2.4.4",
   "description": "This is the central repository for quill icons, exported from figma design file",
   "files": [
     "dist"
