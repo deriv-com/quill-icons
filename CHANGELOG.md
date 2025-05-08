@@ -1,3 +1,11 @@
+## [2.4.5](https://github.com/deriv-com/quill-icons/compare/v2.4.4...v2.4.5) (2025-05-08)
+
+
+### ♻️ 	 Chores
+
+* **deps:** bump axios, [@figma-export](https://github.com/figma-export)/cli, [@figma-export](https://github.com/figma-export)/output-components-as-svg, [@figma-export](https://github.com/figma-export)/output-components-as-svgr and [@figma-export](https://github.com/figma-export)/types ([bc2f98c](https://github.com/deriv-com/quill-icons/commit/bc2f98c67de4e81a56ae7680b6aa0bbdb95fdd1b))
+* **deps:** bump axios, [@figma-export](https://github.com/figma-export)/cli, [@figma-export](https://github.com/figma-export)/output-components-as-svg, [@figma-export](https://github.com/figma-export)/output-components-as-svgr and [@figma-export](https://github.com/figma-export)/types ([867cf05](https://github.com/deriv-com/quill-icons/commit/867cf0525637172c2c703cef65384f78ec578764))
+
 ## [2.4.4](https://github.com/deriv-com/quill-icons/compare/v2.4.3...v2.4.4) (2025-02-26)
 
 
