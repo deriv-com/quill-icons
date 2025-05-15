@@ -33,7 +33,7 @@ const SubBrandBrandDarkDerivSecurityIcon = (
       />
     </g>
     <defs>
-      <clipPath id='c606ed2c7b04592e1fb15b06fd5d01d0__a'>
+      <clipPath id='b1cb3a1e0706e47759f28536f2c159e8__a'>
         <path fill='#fff' d='M0 0h426v72H0z' />
       </clipPath>
     </defs>

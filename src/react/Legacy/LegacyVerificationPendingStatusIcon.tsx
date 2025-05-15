@@ -33,7 +33,7 @@ export const LegacyVerificationPendingStatusIcon = (
       />
     </g>
     <defs>
-      <clipPath id='70b6a3b676edaa65c1dbb0a7fe32e333__a'>
+      <clipPath id='3c2c51a88f9332af303d34f4f784ce27__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

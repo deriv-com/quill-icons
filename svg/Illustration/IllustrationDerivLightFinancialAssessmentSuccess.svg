@@ -1,5 +1,5 @@
 <svg width="96" height="90" viewBox="0 0 96 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="illustration / deriv / light / financial-assessment-success" clip-path="url(#clip0_1839_133)">
+<g id="illustration / deriv / light / financial-assessment-success">
 <g id="Group">
 <g id="Vector">
 <path d="M88.0797 38.524L44.3997 64.342L0.719648 38.524V38.444C0.719648 38.284 3.19965 36.279 6.87965 33.232L6.95965 33.152C19.0396 23.37 44.3997 3.24498 44.3997 3.24498C44.3997 3.24498 69.8396 23.37 81.8396 33.152C85.5996 36.199 88.0797 38.284 88.0797 38.524Z" fill="#84ABAE"/>
@@ -14,9 +14,4 @@
 </g>
 </g>
 </g>
-<defs>
-<clipPath id="clip0_1839_133">
-<rect width="96" height="90" fill="white"/>
-</clipPath>
-</defs>
 </svg>
