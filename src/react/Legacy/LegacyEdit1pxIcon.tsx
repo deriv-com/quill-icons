@@ -27,7 +27,7 @@ export const LegacyEdit1pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='20a1c588b5f635f2670cdbd6d0bd43c3__a'>
+      <clipPath id='676bcbb85a68b78781c7effd6529e20a__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

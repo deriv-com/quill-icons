@@ -27,7 +27,7 @@ export const LegacySmartphoneIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e88799abc75943961c2c26c1c95bbe3e__a'>
+      <clipPath id='bb9defb4bb54a6b2aea36945cbd4f596__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

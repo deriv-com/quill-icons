@@ -18,7 +18,7 @@ const DerivLightDiverseInstrumentsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#1254e350aac699e18189aa4c667fcb61__a)'>
+    <g clipPath='url(#5b77db6935c942f2079a8e29c353446b__a)'>
       <path
         fill='#fff'
         d='M111.712 75.917q0 .6-.031 1.203c-.17 3.341-1.037 6.663-2.595 9.855-2.799 5.748-7.827 11.079-15.02 15.353-21.478 12.762-54.124 11.283-72.916-3.302-4.735-3.675-8.138-7.832-10.236-12.198-1.484-3.084-2.316-6.272-2.505-9.47-.612-10.243 5.36-20.575 17.604-27.851 21.477-12.763 54.123-11.285 72.915 3.301 8.58 6.662 12.789 14.904 12.784 23.109'
@@ -101,7 +101,7 @@ const DerivLightDiverseInstrumentsIcon = (
       />
     </g>
     <defs>
-      <clipPath id='1254e350aac699e18189aa4c667fcb61__a'>
+      <clipPath id='5b77db6935c942f2079a8e29c353446b__a'>
         <path fill='#fff' d='M8 10h104v132H8z' />
       </clipPath>
     </defs>

@@ -273,6 +273,17 @@ export { default as PartnersProductBrandLightBinaryBotWordmarkIcon } from './Par
 export { default as PartnersProductBrandDarkBinaryBotWordmarkIcon } from './PartnersProductBrandDarkBinaryBotWordmarkIcon';
 export { default as PartnersProductBlackBinaryBotWordmarkIcon } from './PartnersProductBlackBinaryBotWordmarkIcon';
 export { default as PartnersProductWhiteBinaryBotWordmarkIcon } from './PartnersProductWhiteBinaryBotWordmarkIcon';
+export { default as PartnersProductBrandLightDerivNakalaLogoWordmarkIcon } from './PartnersProductBrandLightDerivNakalaLogoWordmarkIcon';
+export { default as PartnersProductBrandDarkDerivNakalaLogoWordmarkIcon } from './PartnersProductBrandDarkDerivNakalaLogoWordmarkIcon';
+export { default as PartnersProductBlackDerivNakalaLogoWordmarkIcon } from './PartnersProductBlackDerivNakalaLogoWordmarkIcon';
+export { default as PartnersProductWhiteDerivNakalaLogoWordmarkIcon } from './PartnersProductWhiteDerivNakalaLogoWordmarkIcon';
+export { default as PartnersProductBrandLightDerivNakalaLogoIcon } from './PartnersProductBrandLightDerivNakalaLogoIcon';
+export { default as PartnersProductBlackDerivNakalaLogoIcon } from './PartnersProductBlackDerivNakalaLogoIcon';
+export { default as PartnersProductWhiteDerivNakalaLogoIcon } from './PartnersProductWhiteDerivNakalaLogoIcon';
+export { default as PartnersProductBrandLightDerivNakalaWordmarkIcon } from './PartnersProductBrandLightDerivNakalaWordmarkIcon';
+export { default as PartnersProductBrandDarkDerivNakalaWordmarkIcon } from './PartnersProductBrandDarkDerivNakalaWordmarkIcon';
+export { default as PartnersProductBlackDerivNakalaWordmarkIcon } from './PartnersProductBlackDerivNakalaWordmarkIcon';
+export { default as PartnersProductWhiteDerivNakalaWordmarkIcon } from './PartnersProductWhiteDerivNakalaWordmarkIcon';
 export { default as PaymentMethodPlaceholderIcon } from './PaymentMethodPlaceholderIcon';
 export { default as PaymentMethodAdvcashBrandDarkIcon } from './PaymentMethodAdvcashBrandDarkIcon';
 export { default as PaymentMethodAlipayBrandDarkIcon } from './PaymentMethodAlipayBrandDarkIcon';

@@ -23,7 +23,7 @@ const LabelPairedEllipsisVerticalCaptionRegularIcon = (
       <path d='M1.5 12.5c.398 0 .75.352.75.75 0 .422-.352.75-.75.75a.74.74 0 0 1-.75-.75c0-.398.328-.75.75-.75m0-3.75c.398 0 .75.352.75.75 0 .422-.352.75-.75.75a.74.74 0 0 1-.75-.75c0-.398.328-.75.75-.75m.75-3c0 .422-.352.75-.75.75a.74.74 0 0 1-.75-.75c0-.398.328-.75.75-.75.398 0 .75.352.75.75' />
     </g>
     <defs>
-      <clipPath id='31ecf097da24dd363d5ffb996888fe4a__a'>
+      <clipPath id='7cec3f4fd98bf4b1c00bc432fa81f6ed__a'>
         <path d='M0 0h3v18H0z' />
       </clipPath>
     </defs>
