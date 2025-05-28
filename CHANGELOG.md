@@ -1,3 +1,10 @@
+## [2.4.7](https://github.com/deriv-com/quill-icons/compare/v2.4.6...v2.4.7) (2025-05-28)
+
+
+### ♻️ 	 Chores
+
+* updated firebase JSON ([618b69c](https://github.com/deriv-com/quill-icons/commit/618b69ce4d3a308b56128954baa279903a08f867))
+
 ## [2.4.6](https://github.com/deriv-com/quill-icons/compare/v2.4.5...v2.4.6) (2025-05-15)
 
 
