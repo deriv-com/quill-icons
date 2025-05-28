@@ -28,7 +28,7 @@ export const LegacyLockOpen2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='4254573ac45e6fd2c3110e8800f22b78__a'>
+      <clipPath id='1591055b1be846151d738a771ecdfbe8__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

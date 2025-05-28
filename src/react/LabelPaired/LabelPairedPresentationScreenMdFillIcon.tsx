@@ -23,7 +23,7 @@ const LabelPairedPresentationScreenMdFillIcon = (
       <path d='M1 4h16c.531 0 1 .469 1 1 0 .563-.469 1-1 1v7c0 1.125-.906 2-2 2h-5v1.094l2.188 2.218a.964.964 0 0 1 0 1.407.964.964 0 0 1-1.407 0L9 17.937 7.188 19.72a.964.964 0 0 1-1.407 0 .964.964 0 0 1 0-1.407L8 16.095V15H3c-1.125 0-2-.875-2-2V6c-.562 0-1-.437-1-1 0-.531.438-1 1-1m2 2v7h12V6z' />
     </g>
     <defs>
-      <clipPath id='5f7f621622b32b5ff92e781bbfcdec19__a'>
+      <clipPath id='966e132acd11f861ae65cbdb6ac7ca67__a'>
         <path d='M0 0h18v24H0z' />
       </clipPath>
     </defs>

@@ -24,7 +24,7 @@ export const LegacyNotification1pxIcon = (
       <path d='M6 13h4v1a2 2 0 1 1-4 0zm3 1H7a1 1 0 1 0 2 0' />
     </g>
     <defs>
-      <clipPath id='af793106244eff6d8a0110db354f65ba__a'>
+      <clipPath id='4dc69fb70626305e3b54a2c6c371b3fe__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

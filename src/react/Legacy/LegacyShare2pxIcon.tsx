@@ -24,7 +24,7 @@ export const LegacyShare2pxIcon = (
       <path d='M2 8a2 2 0 0 1 2-2h1a1 1 0 0 1 0 2H4v6h8V8h-1a1 1 0 1 1 0-2h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z' />
     </g>
     <defs>
-      <clipPath id='6f2ab75774ae37603c88d4dfc488812f__a'>
+      <clipPath id='6eb35692fd7cbb2c576e5e31d018190a__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
