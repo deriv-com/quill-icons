@@ -901,3 +901,6 @@ export { default as StandaloneShareNodesFillIcon } from './StandaloneShareNodesF
 export { default as StandaloneGraduationCapRegularIcon } from './StandaloneGraduationCapRegularIcon';
 export { default as StandaloneGraduationCapBoldIcon } from './StandaloneGraduationCapBoldIcon';
 export { default as StandaloneGraduationCapFillIcon } from './StandaloneGraduationCapFillIcon';
+export { default as StandaloneRotateDeviceRegularIcon } from './StandaloneRotateDeviceRegularIcon';
+export { default as StandaloneRotateDeviceBoldIcon } from './StandaloneRotateDeviceBoldIcon';
+export { default as StandaloneRotateDeviceFillIcon } from './StandaloneRotateDeviceFillIcon';

@@ -20,9 +20,9 @@ export const MarketStocksVirginGalacticIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#86b74ed8853cab23cf0b79c4275f3c3f__a)'>
+    <g clipPath='url(#e05714902256a46c3248fba3c6d8ea4f__a)'>
       <path
-        fill='url(#86b74ed8853cab23cf0b79c4275f3c3f__b)'
+        fill='url(#e05714902256a46c3248fba3c6d8ea4f__b)'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
       />
       <path
@@ -36,7 +36,7 @@ export const MarketStocksVirginGalacticIcon = (
     </g>
     <defs>
       <linearGradient
-        id='86b74ed8853cab23cf0b79c4275f3c3f__b'
+        id='e05714902256a46c3248fba3c6d8ea4f__b'
         x1={0}
         x2={0}
         y1={32}
@@ -47,7 +47,7 @@ export const MarketStocksVirginGalacticIcon = (
         <stop offset={0.5} stopColor='#B902FD' />
         <stop offset={1} stopColor='#6F19F7' />
       </linearGradient>
-      <clipPath id='86b74ed8853cab23cf0b79c4275f3c3f__a'>
+      <clipPath id='e05714902256a46c3248fba3c6d8ea4f__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

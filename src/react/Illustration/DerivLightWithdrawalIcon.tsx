@@ -18,9 +18,9 @@ const DerivLightWithdrawalIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e721099e24350ce100a0ff518124aae0__a)'>
+    <g clipPath='url(#aa4dcf730ebef7a88b00c5234ea3ef91__a)'>
       <mask
-        id='e721099e24350ce100a0ff518124aae0__b'
+        id='aa4dcf730ebef7a88b00c5234ea3ef91__b'
         width={32}
         height={32}
         x={0}
@@ -32,7 +32,7 @@ const DerivLightWithdrawalIcon = (
       >
         <path fill='#fff' d='M32 0H0v32h32z' />
       </mask>
-      <g mask='url(#e721099e24350ce100a0ff518124aae0__b)'>
+      <g mask='url(#aa4dcf730ebef7a88b00c5234ea3ef91__b)'>
         <path
           fill='#C7E5E5'
           d='M2 0h28a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7.5V8h-13v10H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2'
@@ -53,7 +53,7 @@ const DerivLightWithdrawalIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='e721099e24350ce100a0ff518124aae0__a'>
+      <clipPath id='aa4dcf730ebef7a88b00c5234ea3ef91__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

@@ -18,9 +18,9 @@ const DerivDarkReceivedFundIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#c5e36d353d96a258e6a49a3f92f8d26f__a)'>
+    <g clipPath='url(#1efb2b1b40c27a7d3197a0c0cb64976a__a)'>
       <mask
-        id='c5e36d353d96a258e6a49a3f92f8d26f__b'
+        id='1efb2b1b40c27a7d3197a0c0cb64976a__b'
         width={96}
         height={96}
         x={0}
@@ -32,7 +32,7 @@ const DerivDarkReceivedFundIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#c5e36d353d96a258e6a49a3f92f8d26f__b)'>
+      <g mask='url(#1efb2b1b40c27a7d3197a0c0cb64976a__b)'>
         <path fill='#5C616D' d='M15.74 51.13H0v36.41h15.74z' />
         <path
           fill='#CED0D6'
@@ -50,7 +50,7 @@ const DerivDarkReceivedFundIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='c5e36d353d96a258e6a49a3f92f8d26f__a'>
+      <clipPath id='1efb2b1b40c27a7d3197a0c0cb64976a__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

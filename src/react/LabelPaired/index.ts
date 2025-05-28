@@ -901,6 +901,9 @@ export { default as LabelPairedShareNodesCaptionFillIcon } from './LabelPairedSh
 export { default as LabelPairedGraduationCapCaptionRegularIcon } from './LabelPairedGraduationCapCaptionRegularIcon';
 export { default as LabelPairedGraduationCapCaptionBoldIcon } from './LabelPairedGraduationCapCaptionBoldIcon';
 export { default as LabelPairedGraduationCapCaptionFillIcon } from './LabelPairedGraduationCapCaptionFillIcon';
+export { default as LabelPairedRotateDeviceCaptionRegularIcon } from './LabelPairedRotateDeviceCaptionRegularIcon';
+export { default as LabelPairedRotateDeviceCaptionBoldIcon } from './LabelPairedRotateDeviceCaptionBoldIcon';
+export { default as LabelPairedRotateDeviceCaptionFillIcon } from './LabelPairedRotateDeviceCaptionFillIcon';
 export { default as LabelPairedPlaceholderSmRegularIcon } from './LabelPairedPlaceholderSmRegularIcon';
 export { default as LabelPairedPlaceholderSmBoldIcon } from './LabelPairedPlaceholderSmBoldIcon';
 export { default as LabelPairedPlaceholderSmFillIcon } from './LabelPairedPlaceholderSmFillIcon';
@@ -1804,6 +1807,9 @@ export { default as LabelPairedShareNodesSmFillIcon } from './LabelPairedShareNo
 export { default as LabelPairedGraduationCapSmRegularIcon } from './LabelPairedGraduationCapSmRegularIcon';
 export { default as LabelPairedGraduationCapSmBoldIcon } from './LabelPairedGraduationCapSmBoldIcon';
 export { default as LabelPairedGraduationCapSmFillIcon } from './LabelPairedGraduationCapSmFillIcon';
+export { default as LabelPairedRotateDeviceSmRegularIcon } from './LabelPairedRotateDeviceSmRegularIcon';
+export { default as LabelPairedRotateDeviceSmBoldIcon } from './LabelPairedRotateDeviceSmBoldIcon';
+export { default as LabelPairedRotateDeviceSmFillIcon } from './LabelPairedRotateDeviceSmFillIcon';
 export { default as LabelPairedPlaceholderMdRegularIcon } from './LabelPairedPlaceholderMdRegularIcon';
 export { default as LabelPairedPlaceholderMdBoldIcon } from './LabelPairedPlaceholderMdBoldIcon';
 export { default as LabelPairedPlaceholderMdFillIcon } from './LabelPairedPlaceholderMdFillIcon';
@@ -2707,6 +2713,9 @@ export { default as LabelPairedShareNodesMdFillIcon } from './LabelPairedShareNo
 export { default as LabelPairedGraduationCapMdRegularIcon } from './LabelPairedGraduationCapMdRegularIcon';
 export { default as LabelPairedGraduationCapMdBoldIcon } from './LabelPairedGraduationCapMdBoldIcon';
 export { default as LabelPairedGraduationCapMdFillIcon } from './LabelPairedGraduationCapMdFillIcon';
+export { default as LabelPairedRotateDeviceMdRegularIcon } from './LabelPairedRotateDeviceMdRegularIcon';
+export { default as LabelPairedRotateDeviceMdBoldIcon } from './LabelPairedRotateDeviceMdBoldIcon';
+export { default as LabelPairedRotateDeviceMdFillIcon } from './LabelPairedRotateDeviceMdFillIcon';
 export { default as LabelPairedPlaceholderLgRegularIcon } from './LabelPairedPlaceholderLgRegularIcon';
 export { default as LabelPairedPlaceholderLgBoldIcon } from './LabelPairedPlaceholderLgBoldIcon';
 export { default as LabelPairedPlaceholderLgFillIcon } from './LabelPairedPlaceholderLgFillIcon';
@@ -3610,6 +3619,9 @@ export { default as LabelPairedShareNodesLgFillIcon } from './LabelPairedShareNo
 export { default as LabelPairedGraduationCapLgRegularIcon } from './LabelPairedGraduationCapLgRegularIcon';
 export { default as LabelPairedGraduationCapLgBoldIcon } from './LabelPairedGraduationCapLgBoldIcon';
 export { default as LabelPairedGraduationCapLgFillIcon } from './LabelPairedGraduationCapLgFillIcon';
+export { default as LabelPairedRotateDeviceLgRegularIcon } from './LabelPairedRotateDeviceLgRegularIcon';
+export { default as LabelPairedRotateDeviceLgBoldIcon } from './LabelPairedRotateDeviceLgBoldIcon';
+export { default as LabelPairedRotateDeviceLgFillIcon } from './LabelPairedRotateDeviceLgFillIcon';
 export { default as LabelPairedPlaceholderXlRegularIcon } from './LabelPairedPlaceholderXlRegularIcon';
 export { default as LabelPairedPlaceholderXlBoldIcon } from './LabelPairedPlaceholderXlBoldIcon';
 export { default as LabelPairedPlaceholderXlFillIcon } from './LabelPairedPlaceholderXlFillIcon';
@@ -4513,3 +4525,6 @@ export { default as LabelPairedShareNodesXlFillIcon } from './LabelPairedShareNo
 export { default as LabelPairedGraduationCapXlRegularIcon } from './LabelPairedGraduationCapXlRegularIcon';
 export { default as LabelPairedGraduationCapXlBoldIcon } from './LabelPairedGraduationCapXlBoldIcon';
 export { default as LabelPairedGraduationCapXlFillIcon } from './LabelPairedGraduationCapXlFillIcon';
+export { default as LabelPairedRotateDeviceXlRegularIcon } from './LabelPairedRotateDeviceXlRegularIcon';
+export { default as LabelPairedRotateDeviceXlBoldIcon } from './LabelPairedRotateDeviceXlBoldIcon';
+export { default as LabelPairedRotateDeviceXlFillIcon } from './LabelPairedRotateDeviceXlFillIcon';

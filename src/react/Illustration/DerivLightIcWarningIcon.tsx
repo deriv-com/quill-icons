@@ -18,7 +18,7 @@ const DerivLightIcWarningIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#213d9e3aed00f1050fc303c1f0c68646__a)'>
+    <g clipPath='url(#5e3bea98d729f8fb683b7d8f43118731__a)'>
       <path
         fill='#FFAD3A'
         fillRule='evenodd'
@@ -43,7 +43,7 @@ const DerivLightIcWarningIcon = (
       />
     </g>
     <defs>
-      <clipPath id='213d9e3aed00f1050fc303c1f0c68646__a'>
+      <clipPath id='5e3bea98d729f8fb683b7d8f43118731__a'>
         <path fill='#fff' d='M0 0h64v65H0z' />
       </clipPath>
     </defs>

@@ -20,7 +20,7 @@ export const MarketStocksAmericanInternationalGroupIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e753762d4088efed82c9cca3d6a78f1c__a)'>
+    <g clipPath='url(#6247ae6afee0af7ed973e4d6ed782b27__a)'>
       <path
         fill='#1BA3DD'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -44,7 +44,7 @@ export const MarketStocksAmericanInternationalGroupIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e753762d4088efed82c9cca3d6a78f1c__a'>
+      <clipPath id='6247ae6afee0af7ed973e4d6ed782b27__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

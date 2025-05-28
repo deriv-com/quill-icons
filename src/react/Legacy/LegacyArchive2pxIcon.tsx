@@ -28,7 +28,7 @@ export const LegacyArchive2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='aa57295cee6df3a52c85dbc88de9a8b8__a'>
+      <clipPath id='8ce0c8ed604595b87b38b60890ebd645__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>
