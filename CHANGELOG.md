@@ -1,3 +1,10 @@
+## [2.4.10](https://github.com/deriv-com/quill-icons/compare/v2.4.9...v2.4.10) (2025-07-23)
+
+
+### ♻️ 	 Chores
+
+* added wireframe mapping ([88fed65](https://github.com/deriv-com/quill-icons/commit/88fed65697eb066ddd7b53efdf9d360008a5312d))
+
 ## [2.4.9](https://github.com/deriv-com/quill-icons/compare/v2.4.8...v2.4.9) (2025-07-23)
 
 
