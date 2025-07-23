@@ -1,3 +1,10 @@
+## [2.4.9](https://github.com/deriv-com/quill-icons/compare/v2.4.8...v2.4.9) (2025-07-23)
+
+
+### ♻️ 	 Chores
+
+* updated md length ([a5d60b7](https://github.com/deriv-com/quill-icons/commit/a5d60b7cc008a541a6c686da538d0a21ce5f40d4))
+
 ## [2.4.8](https://github.com/deriv-com/quill-icons/compare/v2.4.7...v2.4.8) (2025-07-23)
 
 
