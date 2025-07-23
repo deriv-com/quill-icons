@@ -199,261 +199,6 @@ To avoid suggesting non-existent icons:
 <LabelPairedGoogleLgIcon />
 ```
 
-This guide ensures AI assistants can confidently suggest appropriate LabelPaired icons that actually exist in the Quill Icons library.
-
----
-
-## Complete List of Available LabelPaired Icon Names
-
-Total: **322 unique icon names**
-
-### A
-
-- Android, AppStore, AppStoreIos
-- Apple, ApplePay, ArrowDown
-- ArrowDownAZ, ArrowDownLeft, ArrowDownOneNine
-- ArrowDownRight, ArrowDownToBracket, ArrowDownToLine
-- ArrowLeft, ArrowLeftToLine, ArrowRight
-- ArrowRightArrowLeft, ArrowRightToLine, ArrowRotateLeft
-- ArrowRotateRight, ArrowUp, ArrowUpAZ
-- ArrowUpArrowDown, ArrowUpFromBracket, ArrowUpFromSquare
-- ArrowUpLeft, ArrowUpOneNine, ArrowUpRight
-- ArrowUpRightFromSquare, ArrowUpToLine, ArrowsRotate
-- At
-
-### B
-
-- Backward, BackwardStep, BadgeCheck
-- Bank, Barcode, Bars
-- BarsFilter, BasketShopping, Bell
-- BellOn, BellSlash, BookCircleQuestion
-- Bookmark, BoxArchiveCircleArrowDown, BoxArchiveCircleArrowUp
-- Briefcase, Bullhorn
-
-### C
-
-- Calendar, CalendarRange, Camera
-- CaretDown, CaretUp, CashRegister
-- ChartArea, ChartCandlestick, ChartLine
-- ChartLineUpDown, ChartMixed, ChartOhlc
-- ChartTradingview, ChartTrendDown, ChartTrendSideway
-- ChartTrendUp, Check, ChevronDown
-- ChevronLeft, ChevronRight, ChevronUp
-- ChevronsDown, ChevronsLeft, ChevronsRight
-- ChevronsUp, Circle, CircleArrowDown
-- CircleArrowDownLeft, CircleArrowDownRight, CircleArrowLeft
-- CircleArrowRight, CircleArrowUp, CircleArrowUpLeft
-- CircleArrowUpRight, CircleBookmark, CircleCalendar
-- CircleCaretDown, CircleCaretUp, CircleCheck
-- CircleChevronDown, CircleChevronLeft, CircleChevronRight
-- CircleChevronUp, CircleDollar, CircleDot
-- CircleEight, CircleEllipsis, CircleEnvelope
-- CircleEuro, CircleExclamation, CircleFive
-- CircleFour, CircleInfo, CircleMinus
-- CircleNine, CircleOne, CirclePlus
-- CircleQuestion, CircleSeven, CircleSix
-- CircleSort, CircleSortDown, CircleSortUp
-- CircleStar, CircleSterling, CircleThree
-- CircleTrash, CircleTwo, CircleUser
-- CircleUserSlash, CircleXmark, CircleZero
-- ClapperboardPlay, ClockThree, Clone
-- Compress, Computer, ComputerMouseScrollwheel
-- Copy, CreditCard
-
-### D
-
-- DealCancellation, DealProtection, Deriv
-- DerivP2p, Desktop, DollarSign
-
-### E
-
-- Eight, Ellipsis, EllipsisVertical
-- Envelope, EuroSign, Exclamation
-- Expand, Eye, EyeSlash
-
-### F
-
-- FaceViewfinder, Facebook, FacebookMessenger
-- FiatOfframp, FiatOnramp, FieldPassword
-- File, FileArrowDown, FileCertificate
-- FileChartColumn, FileCheck, FileCircleInfo
-- FileCsv, FileDoc, FileExcel
-- FileInvoiceDollar, FileLines, FilePdf
-- FileShield, FileXml, Filter
-- Fingerprint, Five, FlagCheckered
-- FloppyDisk, FloppyDiskPen, FolderOpen
-- Forward, ForwardStep, Four
-
-### G
-
-- GaugeMax, GaugeMin, Gear
-- Globe, Google, GooglePlay
-- GraduationCap, Grid, Grid2
-- GripDotsVertical
-
-### H
-
-- HandGestureSwipeLeftRight, HandGestureTapLeft, HandGestureTapRight
-- HandsHoldingDiamond, HarmonyOs, HorizontalRule
-- HorizontalRuleDashed, HouseBlank, Huawei
-- HuaweiAppGallery
-
-### I
-
-- Image, ImagePolaroidUser, Info
-- Instagram, Ios, Ipados
-
-### K
-
-- Keyboard
-
-### L
-
-- Language, Laptop, LaptopMobile
-- LifeRing, LightChartLineUpDownClock, LightUserTieCircleDollar
-- Lightbulb, LinkSimple, Linkedin
-- Linux, Loader, LocationCrosshairs
-- LocationCrosshairsSlash, LocationDot, Lock
-- LockPattern
-
-### M
-
-- Macos, MagnifyingGlassMinus, MagnifyingGlassPlus
-- Map, MemoCircleCheck, MemoPad
-- MessageLines, MessagesQuestion, Microphone
-- Microsoft, MicrosoftStore, Minus
-- MobileNotch, MobileNotchRotate, MobileScreenButton
-- MoneyBill, Moon
-
-### N
-
-- Nine
-
-### O
-
-- ObjectsAlignLeft, ObjectsColumn, One
-
-### P
-
-- PageCircleArrowRight, PaperPlaneTop, Paperclip
-- Passkey, Paste, Pause
-- Pen, PenCircle, PenLine
-- Percent, PersonChalkboard, Phone
-- Placeholder, Play, PlaybackSpeed
-- Plus, PresentationScreen, Puzzle
-- PuzzlePieceTwo
-
-### Q
-
-- Qrcode, Question
-
-### R
-
-- RectangleAd, RectangleBarcode, Reddit
-- RightFromBracket, RightToBracket, RotateDevice
-
-### S
-
-- Scissors, Search, Seven
-- ShareFromSquare, ShareNodes, ShieldCheck
-- Signal, Six, Sliders
-- Sort, SortDown, SortUp
-- Square, SquareCheck, SquareList
-- SquareMinus, Star, SterlingSign
-- StopLoss, Stopwatch, SunBright
-
-### T
-
-- TableLayout, Tablet, TabletScreen
-- TakeProfit, Telegram, Three
-- ThumbsDown, ThumbsUp, Tiktok
-- Trash, TriangleExclamation, Trustpilot
-- Two
-
-### U
-
-- Ubuntu, Unlock, User
-- UserCheck, UserMinus, UserPlus
-- UserSlash, Users
-
-### V
-
-- Video, VolumeHigh, VolumeXmark
-
-### W
-
-- Wallet, WalletCircleMinus, WalletCirclePlus
-- WalletSignal, Whatsapp, Wifi
-- WindowMaximize, WindowMinimize, Windows
-
-### X
-
-- XTwitter, Xmark
-
-### Y
-
-- Youtube
-
-### Z
-
-- Zero
-
-## Usage Examples with All Available Names
-
-```jsx
-// Navigation Icons
-<LabelPairedArrowDownMdRegularIcon />
-<LabelPairedArrowUpLgBoldIcon />
-<LabelPairedChevronRightSmFillIcon />
-<LabelPairedChevronsUpXlRegularIcon />
-
-// Action Icons
-<LabelPairedPlayMdFillIcon />
-<LabelPairedPauseLgRegularIcon />
-<LabelPairedStopMdBoldIcon />
-<LabelPairedForwardStepSmRegularIcon />
-
-// Interface Icons
-<LabelPairedBarsLgRegularIcon />
-<LabelPairedXmarkMdRegularIcon />
-<LabelPairedPlusCaptionBoldIcon />
-<LabelPairedMinusSmFillIcon />
-
-// File Icons
-<LabelPairedFileMdRegularIcon />
-<LabelPairedFolderOpenLgFillIcon />
-<LabelPairedDownloadXlBoldIcon />
-<LabelPairedUploadSmRegularIcon />
-
-// Communication Icons
-<LabelPairedEnvelopeMdRegularIcon />
-<LabelPairedPhoneLgFillIcon />
-<LabelPairedMessageLinesSmBoldIcon />
-
-// User Icons
-<LabelPairedUserMdRegularIcon />
-<LabelPairedUserGroupLgFillIcon />
-<LabelPairedCircleUserXlBoldIcon />
-
-// Brand Icons (no weight variants)
-<LabelPairedAppleMdIcon />
-<LabelPairedGoogleLgIcon />
-<LabelPairedMicrosoftSmIcon />
-<LabelPairedInstagramXlIcon />
-
-// Financial Icons
-<LabelPairedCreditCardMdRegularIcon />
-<LabelPairedWalletLgFillIcon />
-<LabelPairedCircleDollarXlBoldIcon />
-
-// Device Icons
-<LabelPairedMobileScreenButtonMdRegularIcon />
-<LabelPairedLaptopLgFillIcon />
-<LabelPairedTabletScreenSmBoldIcon />
-```
-
-This comprehensive list ensures AI can reference any of the 322 available LabelPaired icon names with confidence.
-
 ---
 
 # Standalone Icons Usage Guide
@@ -510,430 +255,87 @@ Standalone icons work differently from LabelPaired icons. Instead of having size
 | **Color Control**   | CSS/props                                     | `fill` prop                     |
 | **Usage**           | Fixed size per component                      | Dynamic size with prop          |
 
-## Complete List of Available Standalone Icon Names
+## Common Standalone Icons and Examples
 
-Total: **322 unique icon names** (same icons as LabelPaired but different usage)
+Based on our analysis of 906 Standalone icons representing 322 unique icon names (same as LabelPaired), here are the most commonly used categories:
 
-### A
+### Navigation & Arrows
 
-- **Android** - (brand icon - no weight)
-- **Apple** - (brand icon - no weight)
-- **ApplePay** - (brand icon - no weight)
-- **AppStore** - (brand icon - no weight)
-- **AppStoreIos** - (brand icon - no weight)
-- **ArrowDown** - [Bold, Fill, Regular]
-- **ArrowDownAZ** - [Bold, Fill, Regular]
-- **ArrowDownLeft** - [Bold, Fill, Regular]
-- **ArrowDownOneNine** - [Bold, Fill, Regular]
-- **ArrowDownRight** - [Bold, Fill, Regular]
-- **ArrowDownToBracket** - [Bold, Fill, Regular]
-- **ArrowDownToLine** - [Bold, Fill, Regular]
-- **ArrowLeft** - [Bold, Fill, Regular]
-- **ArrowLeftToLine** - [Bold, Fill, Regular]
-- **ArrowRight** - [Bold, Fill, Regular]
-- **ArrowRightArrowLeft** - [Bold, Fill, Regular]
-- **ArrowRightToLine** - [Bold, Fill, Regular]
-- **ArrowRotateLeft** - [Bold, Fill, Regular]
-- **ArrowRotateRight** - [Bold, Fill, Regular]
-- **ArrowsRotate** - [Bold, Fill, Regular]
-- **ArrowUp** - [Bold, Fill, Regular]
-- **ArrowUpArrowDown** - [Bold, Fill, Regular]
-- **ArrowUpAZ** - [Bold, Fill, Regular]
-- **ArrowUpFromBracket** - [Bold, Fill, Regular]
-- **ArrowUpFromSquare** - [Bold, Fill, Regular]
-- **ArrowUpLeft** - [Bold, Fill, Regular]
-- **ArrowUpOneNine** - [Bold, Fill, Regular]
-- **ArrowUpRight** - [Bold, Fill, Regular]
-- **ArrowUpRightFromSquare** - [Bold, Fill, Regular]
-- **ArrowUpToLine** - [Bold, Fill, Regular]
-- **At** - [Bold, Fill, Regular]
+- `ArrowDown`, `ArrowUp`, `ArrowLeft`, `ArrowRight`
+- `ArrowDownAZ`, `ArrowUpAZ`, `ArrowDownOneNine`
+- `ChevronUp`, `ChevronDown`, `ChevronLeft`, `ChevronRight`
+- `ChevronsUp`, `ChevronsDown`
 
-### B
+### Interface Elements
 
-- **Backward** - [Bold, Fill, Regular]
-- **BackwardStep** - [Bold, Fill, Regular]
-- **BadgeCheck** - [Bold, Fill, Regular]
-- **Bank** - [Bold, Fill, Regular]
-- **Barcode** - [Bold, Fill, Regular]
-- **Bars** - [Bold, Fill, Regular]
-- **BarsFilter** - [Bold, Fill, Regular]
-- **BasketShopping** - [Bold, Fill, Regular]
-- **Bell** - [Bold, Fill, Regular]
-- **BellOn** - [Bold, Fill, Regular]
-- **BellSlash** - [Bold, Fill, Regular]
-- **BookCircleQuestion** - [Bold, Fill, Regular]
-- **Bookmark** - [Bold, Fill, Regular]
-- **BoxArchiveCircleArrowDown** - [Bold, Fill, Regular]
-- **BoxArchiveCircleArrowUp** - [Bold, Fill, Regular]
-- **Briefcase** - [Bold, Fill, Regular]
-- **Bullhorn** - [Bold, Fill, Regular]
+- `Bars`, `BarsFilter` (menu icons)
+- `Xmark` (close icons)
+- `Plus`, `Minus`
+- `Expand`, `Compress`
+- `WindowMinimize`, `WindowMaximize`
 
-### C
+### Actions & Controls
 
-- **Calendar** - [Bold, Fill, Regular]
-- **CalendarRange** - [Bold, Fill, Regular]
-- **Camera** - [Bold, Fill, Regular]
-- **CaretDown** - [Bold, Fill, Regular]
-- **CaretUp** - [Bold, Fill, Regular]
-- **CashRegister** - [Bold, Fill, Regular]
-- **ChartArea** - [Bold, Fill, Regular]
-- **ChartCandlestick** - [Bold, Fill, Regular]
-- **ChartLine** - [Bold, Fill, Regular]
-- **ChartLineUpDown** - [Bold, Fill, Regular]
-- **ChartMixed** - [Bold, Fill, Regular]
-- **ChartOhlc** - [Bold, Fill, Regular]
-- **ChartTradingview** - [Bold, Fill, Regular]
-- **ChartTrendDown** - [Bold, Fill, Regular]
-- **ChartTrendSideway** - [Bold, Fill, Regular]
-- **ChartTrendUp** - [Bold, Fill, Regular]
-- **Check** - [Bold, Fill, Regular]
-- **ChevronDown** - [Bold, Fill, Regular]
-- **ChevronLeft** - [Bold, Fill, Regular]
-- **ChevronRight** - [Bold, Fill, Regular]
-- **ChevronsDown** - [Bold, Fill, Regular]
-- **ChevronsLeft** - [Bold, Fill, Regular]
-- **ChevronsRight** - [Bold, Fill, Regular]
-- **ChevronsUp** - [Bold, Fill, Regular]
-- **ChevronUp** - [Bold, Fill, Regular]
-- **Circle** - [Bold, Fill, Regular]
-- **CircleArrowDown** - [Bold, Fill, Regular]
-- **CircleArrowDownLeft** - [Bold, Fill, Regular]
-- **CircleArrowDownRight** - [Bold, Fill, Regular]
-- **CircleArrowLeft** - [Bold, Fill, Regular]
-- **CircleArrowRight** - [Bold, Fill, Regular]
-- **CircleArrowUp** - [Bold, Fill, Regular]
-- **CircleArrowUpLeft** - [Bold, Fill, Regular]
-- **CircleArrowUpRight** - [Bold, Fill, Regular]
-- **CircleBookmark** - [Bold, Fill, Regular]
-- **CircleCalendar** - [Bold, Fill, Regular]
-- **CircleCaretDown** - [Bold, Fill, Regular]
-- **CircleCaretUp** - [Bold, Fill, Regular]
-- **CircleCheck** - [Bold, Fill, Regular]
-- **CircleChevronDown** - [Bold, Fill, Regular]
-- **CircleChevronLeft** - [Bold, Fill, Regular]
-- **CircleChevronRight** - [Bold, Fill, Regular]
-- **CircleChevronUp** - [Bold, Fill, Regular]
-- **CircleDollar** - [Bold, Fill, Regular]
-- **CircleDot** - [Bold, Fill, Regular]
-- **CircleEight** - [Bold, Fill, Regular]
-- **CircleEllipsis** - [Bold, Fill, Regular]
-- **CircleEnvelope** - [Bold, Fill, Regular]
-- **CircleEuro** - [Bold, Fill, Regular]
-- **CircleExclamation** - [Bold, Fill, Regular]
-- **CircleFive** - [Bold, Fill, Regular]
-- **CircleFour** - [Bold, Fill, Regular]
-- **CircleInfo** - [Bold, Fill, Regular]
-- **CircleMinus** - [Bold, Fill, Regular]
-- **CircleNine** - [Bold, Fill, Regular]
-- **CircleOne** - [Bold, Fill, Regular]
-- **CirclePlus** - [Bold, Fill, Regular]
-- **CircleQuestion** - [Bold, Fill, Regular]
-- **CircleSeven** - [Bold, Fill, Regular]
-- **CircleSix** - [Bold, Fill, Regular]
-- **CircleSort** - [Bold, Fill, Regular]
-- **CircleSortDown** - [Bold, Fill, Regular]
-- **CircleSortUp** - [Bold, Fill, Regular]
-- **CircleStar** - [Bold, Fill, Regular]
-- **CircleSterling** - [Bold, Fill, Regular]
-- **CircleThree** - [Bold, Fill, Regular]
-- **CircleTrash** - [Bold, Fill, Regular]
-- **CircleTwo** - [Bold, Fill, Regular]
-- **CircleUser** - [Bold, Fill, Regular]
-- **CircleUserSlash** - [Bold, Fill, Regular]
-- **CircleXmark** - [Bold, Fill, Regular]
-- **CircleZero** - [Bold, Fill, Regular]
-- **ClapperboardPlay** - [Bold, Fill, Regular]
-- **ClockThree** - [Bold, Fill, Regular]
-- **Clone** - [Bold, Fill, Regular]
-- **Compress** - [Bold, Fill, Regular]
-- **Computer** - [Bold, Fill, Regular]
-- **ComputerMouseScrollwheel** - [Bold, Fill, Regular]
-- **Copy** - [Bold, Fill, Regular]
-- **CreditCard** - [Bold, Fill, Regular]
+- `Play`, `Pause`
+- `ForwardStep`, `BackwardStep`
+- `VolumeHigh`, `VolumeXmark`
+- `Sliders` (settings/controls)
+- `Gear` (settings)
 
-### D
+### Files & Documents
 
-- **DealCancellation** - [Bold, Fill, Regular]
-- **DealProtection** - [Bold, Fill, Regular]
-- **Deriv** - (brand icon - no weight)
-- **DerivP2p** - [Bold, Fill, Regular]
-- **Desktop** - [Bold, Fill, Regular]
-- **DollarSign** - [Bold, Fill, Regular]
+- `File`, `FileLines`, `FileCircleInfo`
+- `FileCertificate`, `FileChartColumn`
+- `FolderOpen`
+- `Upload`, `ArrowUpFromBracket`
 
-### E
+### Communication
 
-- **Eight** - [Bold, Fill, Regular]
-- **Ellipsis** - [Bold, Fill, Regular]
-- **EllipsisVertical** - [Bold, Fill, Regular]
-- **Envelope** - [Bold, Fill, Regular]
-- **EuroSign** - [Bold, Fill, Regular]
-- **Exclamation** - [Bold, Fill, Regular]
-- **Expand** - [Bold, Fill, Regular]
-- **Eye** - [Bold, Fill, Regular]
-- **EyeSlash** - [Bold, Fill, Regular]
+- `Envelope`
+- `Phone`
+- `MessageLines`
+- `Bullhorn` (announcements)
 
-### F
+### User & Account
 
-- **Facebook** - (brand icon - no weight)
-- **FacebookMessenger** - (brand icon - no weight)
-- **FaceViewfinder** - [Bold, Fill, Regular]
-- **FiatOfframp** - [Bold, Fill, Regular]
-- **FiatOnramp** - [Bold, Fill, Regular]
-- **FieldPassword** - [Bold, Fill, Regular]
-- **File** - [Bold, Fill, Regular]
-- **FileArrowDown** - [Bold, Fill, Regular]
-- **FileCertificate** - [Bold, Fill, Regular]
-- **FileChartColumn** - [Bold, Fill, Regular]
-- **FileCheck** - [Bold, Fill, Regular]
-- **FileCircleInfo** - [Bold, Fill, Regular]
-- **FileCsv** - [Bold, Fill, Regular]
-- **FileDoc** - [Bold, Fill, Regular]
-- **FileExcel** - [Bold, Fill, Regular]
-- **FileInvoiceDollar** - [Bold, Fill, Regular]
-- **FileLines** - [Bold, Fill, Regular]
-- **FilePdf** - [Bold, Fill, Regular]
-- **FileShield** - [Bold, Fill, Regular]
-- **FileXml** - [Bold, Fill, Regular]
-- **Filter** - [Bold, Fill, Regular]
-- **Fingerprint** - [Bold, Fill, Regular]
-- **Five** - [Bold, Fill, Regular]
-- **FlagCheckered** - [Bold, Fill, Regular]
-- **FloppyDisk** - [Bold, Fill, Regular]
-- **FloppyDiskPen** - [Bold, Fill, Regular]
-- **FolderOpen** - [Bold, Fill, Regular]
-- **Forward** - [Bold, Fill, Regular]
-- **ForwardStep** - [Bold, Fill, Regular]
-- **Four** - [Bold, Fill, Regular]
+- `User`, `Users`, `UserCheck`
+- `CircleUser`
+- `Lock`, `Unlock`
+- `Shield`, `ShieldCheck`
 
-### G
+### Technology & Devices
 
-- **GaugeMax** - [Bold, Fill, Regular]
-- **GaugeMin** - [Bold, Fill, Regular]
-- **Gear** - [Bold, Fill, Regular]
-- **Globe** - [Bold, Fill, Regular]
-- **Google** - (brand icon - no weight)
-- **GooglePlay** - (brand icon - no weight)
-- **GraduationCap** - [Bold, Fill, Regular]
-- **Grid** - [Bold, Fill, Regular]
-- **Grid2** - [Bold, Fill, Regular]
-- **GripDotsVertical** - [Bold, Fill, Regular]
+- `Computer`, `Desktop`, `Laptop`
+- `MobileScreenButton`
+- `TabletScreen`
+- `Wifi`, `Signal`
 
-### H
+### E-commerce & Finance
 
-- **HandGestureSwipeLeftRight** - [Bold, Fill, Regular]
-- **HandGestureTapLeft** - [Bold, Fill, Regular]
-- **HandGestureTapRight** - [Bold, Fill, Regular]
-- **HandsHoldingDiamond** - [Bold, Fill, Regular]
-- **HarmonyOs** - (brand icon - no weight)
-- **HorizontalRule** - [Bold, Fill, Regular]
-- **HorizontalRuleDashed** - [Bold, Fill, Regular]
-- **HouseBlank** - [Bold, Fill, Regular]
-- **Huawei** - (brand icon - no weight)
-- **HuaweiAppGallery** - (brand icon - no weight)
+- `CreditCard`, `Wallet`
+- `CircleDollar`, `EuroSign`
+- `MoneyBill`
 
-### I
+### Brand Icons (No Weight Variants)
 
-- **Image** - [Bold, Fill, Regular]
-- **ImagePolaroidUser** - [Bold, Fill, Regular]
-- **Info** - [Bold, Fill, Regular]
-- **Instagram** - (brand icon - no weight)
-- **Ios** - (brand icon - no weight)
-- **Ipados** - (brand icon - no weight)
+These icons typically don't have Bold/Fill/Regular variants:
 
-### K
+- `Android`, `Apple`, `ApplePay`
+- `Google`, `GooglePlay`
+- `Microsoft`, `MicrosoftStore`
+- `Facebook`, `Instagram`, `XTwitter`
+- `Youtube`, `Linkedin`
 
-- **Keyboard** - [Bold, Fill, Regular]
-
-### L
-
-- **Language** - [Bold, Fill, Regular]
-- **Laptop** - [Bold, Fill, Regular]
-- **LaptopMobile** - [Bold, Fill, Regular]
-- **LifeRing** - [Bold, Fill, Regular]
-- **Lightbulb** - [Bold, Fill, Regular]
-- **LightChartLineUpDownClock** - [Bold, Fill, Regular]
-- **LightUserTieCircleDollar** - [Bold, Fill, Regular]
-- **Linkedin** - (brand icon - no weight)
-- **LinkSimple** - [Bold, Fill, Regular]
-- **Linux** - (brand icon - no weight)
-- **Loader** - [Bold, Fill, Regular]
-- **LocationCrosshairs** - [Bold, Fill, Regular]
-- **LocationCrosshairsSlash** - [Bold, Fill, Regular]
-- **LocationDot** - [Bold, Fill, Regular]
-- **Lock** - [Bold, Fill, Regular]
-- **LockPattern** - [Bold, Fill, Regular]
-
-### M
-
-- **Macos** - (brand icon - no weight)
-- **MagnifyingGlassMinus** - [Bold, Fill, Regular]
-- **MagnifyingGlassPlus** - [Bold, Fill, Regular]
-- **Map** - [Bold, Fill, Regular]
-- **MemoCircleCheck** - [Bold, Fill, Regular]
-- **MemoPad** - [Bold, Fill, Regular]
-- **MessageLines** - [Bold, Fill, Regular]
-- **MessagesQuestion** - [Bold, Fill, Regular]
-- **Microphone** - [Bold, Fill, Regular]
-- **Microsoft** - (brand icon - no weight)
-- **MicrosoftStore** - (brand icon - no weight)
-- **Minus** - [Bold, Fill, Regular]
-- **MobileNotch** - [Bold, Fill, Regular]
-- **MobileNotchRotate** - [Bold, Fill, Regular]
-- **MobileScreenButton** - [Bold, Fill, Regular]
-- **MoneyBill** - [Bold, Fill, Regular]
-- **Moon** - [Bold, Fill, Regular]
-
-### N
-
-- **Nine** - [Bold, Fill, Regular]
-
-### O
-
-- **ObjectsAlignLeft** - [Bold, Fill, Regular]
-- **ObjectsColumn** - [Bold, Fill, Regular]
-- **One** - [Bold, Fill, Regular]
-
-### P
-
-- **PageCircleArrowRight** - [Bold, Fill, Regular]
-- **Paperclip** - [Bold, Fill, Regular]
-- **PaperPlaneTop** - [Bold, Fill, Regular]
-- **Passkey** - [Bold, Fill, Regular]
-- **Paste** - [Bold, Fill, Regular]
-- **Pause** - [Bold, Fill, Regular]
-- **Pen** - [Bold, Fill, Regular]
-- **PenCircle** - [Bold, Fill, Regular]
-- **PenLine** - [Bold, Fill, Regular]
-- **Percent** - [Bold, Fill, Regular]
-- **PersonChalkboard** - [Bold, Fill, Regular]
-- **Phone** - [Bold, Fill, Regular]
-- **Placeholder** - [Bold, Fill, Regular]
-- **Play** - [Bold, Fill, Regular]
-- **PlaybackSpeed** - [Bold, Fill, Regular]
-- **Plus** - [Bold, Fill, Regular]
-- **PresentationScreen** - [Bold, Fill, Regular]
-- **Puzzle** - [Bold, Fill, Regular]
-- **PuzzlePieceTwo** - [Bold, Fill, Regular]
-
-### Q
-
-- **Qrcode** - [Bold, Fill, Regular]
-- **Question** - [Bold, Fill, Regular]
-
-### R
-
-- **RectangleAd** - [Bold, Fill, Regular]
-- **RectangleBarcode** - [Bold, Fill, Regular]
-- **Reddit** - (brand icon - no weight)
-- **RightFromBracket** - [Bold, Fill, Regular]
-- **RightToBracket** - [Bold, Fill, Regular]
-- **RotateDevice** - [Bold, Fill, Regular]
-
-### S
-
-- **Scissors** - [Bold, Fill, Regular]
-- **Search** - [Bold, Fill, Regular]
-- **Seven** - [Bold, Fill, Regular]
-- **ShareFromSquare** - [Bold, Fill, Regular]
-- **ShareNodes** - [Bold, Fill, Regular]
-- **ShieldCheck** - [Bold, Fill, Regular]
-- **Signal** - [Bold, Fill, Regular]
-- **Six** - [Bold, Fill, Regular]
-- **Sliders** - [Bold, Fill, Regular]
-- **Sort** - [Bold, Fill, Regular]
-- **SortDown** - [Bold, Fill, Regular]
-- **SortUp** - [Bold, Fill, Regular]
-- **Square** - [Bold, Fill, Regular]
-- **SquareCheck** - [Bold, Fill, Regular]
-- **SquareList** - [Bold, Fill, Regular]
-- **SquareMinus** - [Bold, Fill, Regular]
-- **Star** - [Bold, Fill, Regular]
-- **SterlingSign** - [Bold, Fill, Regular]
-- **StopLoss** - [Bold, Fill, Regular]
-- **Stopwatch** - [Bold, Fill, Regular]
-- **SunBright** - [Bold, Fill, Regular]
-
-### T
-
-- **TableLayout** - [Bold, Fill, Regular]
-- **Tablet** - [Bold, Fill, Regular]
-- **TabletScreen** - [Bold, Fill, Regular]
-- **TakeProfit** - [Bold, Fill, Regular]
-- **Telegram** - (brand icon - no weight)
-- **Three** - [Bold, Fill, Regular]
-- **ThumbsDown** - [Bold, Fill, Regular]
-- **ThumbsUp** - [Bold, Fill, Regular]
-- **Tiktok** - (brand icon - no weight)
-- **Trash** - [Bold, Fill, Regular]
-- **TriangleExclamation** - [Bold, Fill, Regular]
-- **Trustpilot** - (brand icon - no weight)
-- **Two** - [Bold, Fill, Regular]
-
-### U
-
-- **Ubuntu** - (brand icon - no weight)
-- **Unlock** - [Bold, Fill, Regular]
-- **User** - [Bold, Fill, Regular]
-- **UserCheck** - [Bold, Fill, Regular]
-- **UserMinus** - [Bold, Fill, Regular]
-- **UserPlus** - [Bold, Fill, Regular]
-- **Users** - [Bold, Fill, Regular]
-- **UserSlash** - [Bold, Fill, Regular]
-
-### V
-
-- **Video** - [Bold, Fill, Regular]
-- **VolumeHigh** - [Bold, Fill, Regular]
-- **VolumeXmark** - [Bold, Fill, Regular]
-
-### W
-
-- **Wallet** - [Bold, Fill, Regular]
-- **WalletCircleMinus** - [Bold, Fill, Regular]
-- **WalletCirclePlus** - [Bold, Fill, Regular]
-- **WalletSignal** - [Bold, Fill, Regular]
-- **Whatsapp** - (brand icon - no weight)
-- **Wifi** - [Bold, Fill, Regular]
-- **WindowMaximize** - [Bold, Fill, Regular]
-- **WindowMinimize** - [Bold, Fill, Regular]
-- **Windows** - (brand icon - no weight)
-
-### X
-
-- **Xmark** - [Bold, Fill, Regular]
-- **XTwitter** - (brand icon - no weight)
-
-### Y
-
-- **Youtube** - (brand icon - no weight)
-
-### Z
-
-- **Zero** - [Bold, Fill, Regular]
-
-## Usage Examples
+## Usage Examples with Common Icons
 
 ```jsx
-// Basic usage with different sizes
-<StandalonePlayFillIcon fill='#1890ff' iconSize='xs' />    // 16px
-<StandalonePlayFillIcon fill='#1890ff' iconSize='sm' />    // 24px
-<StandalonePlayFillIcon fill='#1890ff' iconSize='md' />    // 32px (default)
-<StandalonePlayFillIcon fill='#1890ff' iconSize='lg' />    // 48px
-<StandalonePlayFillIcon fill='#1890ff' iconSize='xl' />    // 64px
-<StandalonePlayFillIcon fill='#1890ff' iconSize='2xl' />   // 96px
-
-// Different weights
-<StandaloneHeartRegularIcon fill='#ff4d4f' iconSize='lg' />  // Outline
-<StandaloneHeartBoldIcon fill='#ff4d4f' iconSize='lg' />     // Bold outline
-<StandaloneHeartFillIcon fill='#ff4d4f' iconSize='lg' />     // Filled
-
-// Brand icons (no weight variants)
-<StandaloneAppleIcon fill='#000000' iconSize='md' />
-<StandaloneGoogleIcon fill='#4285f4' iconSize='lg' />
-
 // Navigation
 <StandaloneArrowLeftRegularIcon fill='#595959' iconSize='sm' />
 <StandaloneChevronDownBoldIcon fill='#262626' iconSize='xs' />
+
+// Actions
+<StandalonePlayFillIcon fill='#1890ff' iconSize='lg' />
+<StandalonePauseFillIcon fill='#1890ff' iconSize='lg' />
 
 // Interface elements
 <StandaloneBarsRegularIcon fill='#434343' iconSize='md' />
@@ -941,7 +343,15 @@ Total: **322 unique icon names** (same icons as LabelPaired but different usage)
 
 // User actions
 <StandaloneUserRegularIcon fill='#1890ff' iconSize='lg' />
-<StandalonePlusCircleFillIcon fill='#52c41a' iconSize='xl' />
+<StandalonePlusRegularIcon fill='#52c41a' iconSize='md' />
+
+// Files
+<StandaloneFileRegularIcon fill='#1890ff' iconSize='md' />
+<StandaloneUploadBoldIcon fill='#52c41a' iconSize='lg' />
+
+// Brand icons (no weight variants)
+<StandaloneAppleIcon fill='#000000' iconSize='md' />
+<StandaloneGoogleIcon fill='#4285f4' iconSize='lg' />
 ```
 
 ## Size Guidelines
