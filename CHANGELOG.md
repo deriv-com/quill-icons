@@ -1,3 +1,11 @@
+## [2.4.8](https://github.com/deriv-com/quill-icons/compare/v2.4.7...v2.4.8) (2025-07-23)
+
+
+### ♻️ 	 Chores
+
+* added ai instrunction md file ([e4d1f00](https://github.com/deriv-com/quill-icons/commit/e4d1f00ffa612a610b137ffb2415a3b964325bbb))
+* update md location ([110eb88](https://github.com/deriv-com/quill-icons/commit/110eb886055233df67a822031920eb97e48bcce3))
+
 ## [2.4.7](https://github.com/deriv-com/quill-icons/compare/v2.4.6...v2.4.7) (2025-05-28)
 
 
