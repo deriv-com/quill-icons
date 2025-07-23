@@ -555,3 +555,175 @@ TradeTypes icons are specifically designed for:
 5. **Pair with labels** - trading terminology can be complex for users
 
 This specialized set ensures AI can suggest appropriate trading-specific icons for financial applications.
+
+---
+
+# HTML Wireframe Usage Guide
+
+## Wireframe with Fallback Icons + Quill Mapping
+
+**Important:** The `@deriv/quill-icons` npm package does NOT include raw SVG files, only React components.
+
+For HTML wireframes, use fallback icons (like Font Awesome) with data attributes that map to Quill Icons components for development implementation.
+
+### Wireframe Strategy
+
+```html
+<i
+  class="fa fa-user"
+  data-component="StandaloneUserRegularIcon"
+  data-prop-iconSize="lg"
+  data-prop-fill="#333"
+></i>
+```
+
+**Data Attributes:**
+
+- `data-component` - Exact Quill Icons component name
+- `data-prop-{propName}` - Component props (iconSize, fill, etc.)
+
+### HTML Examples with Mapping
+
+```html
+<!-- LabelPaired Icons (size in component name) -->
+<i class="fa fa-user" data-component="LabelPairedUserMdRegularIcon"></i>
+
+<i class="fa fa-bars" data-component="LabelPairedBarsLgRegularIcon"></i>
+
+<i class="fa fa-play" data-component="LabelPairedPlayLgFillIcon"></i>
+
+<!-- Standalone Icons (size via iconSize prop) -->
+<i
+  class="fa fa-user"
+  data-component="StandaloneUserRegularIcon"
+  data-prop-iconSize="md"
+  data-prop-fill="#1890ff"
+></i>
+
+<i
+  class="fa fa-play"
+  data-component="StandalonePlayFillIcon"
+  data-prop-iconSize="lg"
+  data-prop-fill="#52c41a"
+></i>
+
+<i
+  class="fa fa-arrow-left"
+  data-component="StandaloneArrowLeftRegularIcon"
+  data-prop-iconSize="sm"
+  data-prop-fill="#595959"
+></i>
+
+<!-- TradeTypes Icons (no weight, size via iconSize) -->
+<i class="fa fa-chart-line" data-component="TradeTypesVanillaCallIcon" data-prop-iconSize="lg"></i>
+
+<i
+  class="fa fa-chart-bar"
+  data-component="TradeTypesAccumulatorBreakOutIcon"
+  data-prop-iconSize="md"
+></i>
+
+<i class="fa fa-calculator" data-component="TradeTypesDigitsEvenIcon" data-prop-iconSize="sm"></i>
+```
+
+### Component Mapping Patterns
+
+**LabelPaired Components:**
+
+```html
+<!-- Pattern: LabelPaired{IconName}{Size}{Weight}Icon -->
+<i class="fa fa-user" data-component="LabelPairedUserMdRegularIcon"></i>
+<i class="fa fa-user" data-component="LabelPairedUserLgBoldIcon"></i>
+<i class="fa fa-heart" data-component="LabelPairedHeartSmFillIcon"></i>
+```
+
+**Standalone Components:**
+
+```html
+<!-- Pattern: Standalone{IconName}{Weight}Icon + iconSize prop -->
+<i
+  class="fa fa-user"
+  data-component="StandaloneUserRegularIcon"
+  data-prop-iconSize="md"
+  data-prop-fill="#333"
+></i>
+
+<i
+  class="fa fa-heart"
+  data-component="StandaloneHeartFillIcon"
+  data-prop-iconSize="lg"
+  data-prop-fill="#ff4d4f"
+></i>
+```
+
+**TradeTypes Components:**
+
+```html
+<!-- Pattern: TradeTypes{Category}{Type}Icon + iconSize prop (no weight) -->
+<i class="fa fa-chart-line" data-component="TradeTypesVanillaCallIcon" data-prop-iconSize="lg"></i>
+
+<i class="fa fa-calculator" data-component="TradeTypesDigitsEvenIcon" data-prop-iconSize="md"></i>
+```
+
+### Development Conversion Guide
+
+When converting wireframes to React components, use the data attributes:
+
+```javascript
+// Read wireframe data attributes
+const element = document.querySelector('[data-component]');
+const componentName = element.getAttribute('data-component');
+const iconSize = element.getAttribute('data-prop-iconSize');
+const fill = element.getAttribute('data-prop-fill');
+
+// Convert to Quill Icons import
+import { StandaloneUserRegularIcon } from '@deriv/quill-icons/Standalone';
+
+// Use with props
+<StandaloneUserRegularIcon iconSize={iconSize} fill={fill} />;
+```
+
+### Common Fallback Icon Mappings
+
+**Navigation:**
+
+- `fa-arrow-left` → `StandaloneArrowLeftRegularIcon` / `LabelPairedArrowLeftMdRegularIcon`
+- `fa-arrow-right` → `StandaloneArrowRightRegularIcon` / `LabelPairedArrowRightMdRegularIcon`
+- `fa-chevron-down` → `StandaloneChevronDownRegularIcon` / `LabelPairedChevronDownMdRegularIcon`
+- `fa-bars` → `StandaloneBarsRegularIcon` / `LabelPairedBarsLgRegularIcon`
+
+**Actions:**
+
+- `fa-play` → `StandalonePlayFillIcon` / `LabelPairedPlayLgFillIcon`
+- `fa-pause` → `StandalonePauseFillIcon` / `LabelPairedPauseLgFillIcon`
+- `fa-plus` → `StandalonePlusRegularIcon` / `LabelPairedPlusLgRegularIcon`
+- `fa-times` → `StandaloneXmarkRegularIcon` / `LabelPairedXmarkLgRegularIcon`
+
+**User & Account:**
+
+- `fa-user` → `StandaloneUserRegularIcon` / `LabelPairedUserMdRegularIcon`
+- `fa-users` → `StandaloneUsersRegularIcon` / `LabelPairedUsersLgRegularIcon`
+- `fa-lock` → `StandaloneLockRegularIcon` / `LabelPairedLockMdRegularIcon`
+
+**Files & Documents:**
+
+- `fa-file` → `StandaloneFileRegularIcon` / `LabelPairedFileMdRegularIcon`
+- `fa-download` → `StandaloneArrowDownToBracketRegularIcon` / `LabelPairedArrowDownToBracketMdRegularIcon`
+- `fa-upload` → `StandaloneArrowUpFromBracketRegularIcon` / `LabelPairedArrowUpFromBracketMdRegularIcon`
+
+**Trading (TradeTypes):**
+
+- `fa-chart-line` → `TradeTypesVanillaCallIcon`
+- `fa-chart-bar` → `TradeTypesAccumulatorBreakOutIcon`
+- `fa-calculator` → `TradeTypesDigitsEvenIcon`
+- `fa-trending-up` → `TradeTypesUpsAndDownsRiseIcon`
+- `fa-trending-down` → `TradeTypesUpsAndDownsFallIcon`
+
+### Wireframe Best Practices
+
+1. **Always include `data-component`** - Exact Quill Icons component name
+2. **Use `data-prop-iconSize`** for Standalone and TradeTypes icons
+3. **Use `data-prop-fill`** for color specifications when needed
+4. **Choose appropriate fallback icons** that visually represent the intended Quill icon
+5. **Keep consistent sizing** - use iconSize values (xs, sm, md, lg, xl, 2xl)
+6. **Document mappings** when using custom/uncommon fallback icons
