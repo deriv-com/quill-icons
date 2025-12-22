@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedChevronsUpCaptionBoldIcon = (
       <path d='m6.398 4.602 4.477 4.523a.513.513 0 0 1 0 .773.513.513 0 0 1-.773 0L5.977 5.797 1.875 9.898a.513.513 0 0 1-.773 0c-.235-.21-.235-.562 0-.796l4.5-4.5c.21-.211.562-.211.796 0m4.5 9-.023.023a.513.513 0 0 1 0 .773.513.513 0 0 1-.773 0l-4.125-4.101-4.102 4.101a.513.513 0 0 1-.773 0c-.235-.21-.235-.562 0-.796l4.5-4.5c.21-.211.562-.211.796 0z' />
     </g>
     <defs>
-      <clipPath id='b424491b84b204c5a37b648a973a1b2a__a'>
+      <clipPath id='6bd7563b5173b3246f94b7eb20976253__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

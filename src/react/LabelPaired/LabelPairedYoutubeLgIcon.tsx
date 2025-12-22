@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedYoutubeLgIcon = (
       <path d='M21.695 10.383c.47 1.64.47 5.156.47 5.156s0 3.477-.47 5.156a2.6 2.6 0 0 1-1.875 1.875c-1.68.43-8.32.43-8.32.43s-6.68 0-8.36-.43a2.6 2.6 0 0 1-1.874-1.875c-.47-1.68-.47-5.156-.47-5.156s0-3.516.47-5.156A2.66 2.66 0 0 1 3.14 8.469C4.82 8 11.5 8 11.5 8s6.64 0 8.32.469c.899.234 1.64.976 1.875 1.914m-12.382 8.32 5.546-3.164-5.546-3.164z' />
     </g>
     <defs>
-      <clipPath id='0472a59ec4d23395ad4d5e32a7385bad__a'>
+      <clipPath id='cf1567ffbe43dc500929a34155539e04__a'>
         <path d='M0 0h23v30H0z' />
       </clipPath>
     </defs>

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightIcPoaLockDemoIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#b636a5c2f7e3bb36ba5eefb423b767c2__a)'>
+    <g clipPath='url(#677e0b892492b40d8d475a1cd24858b8__a)'>
       <path
         fill='#85ACB0'
         fillOpacity={0.6}
@@ -44,7 +45,7 @@ const DerivLightIcPoaLockDemoIcon = (
       />
     </g>
     <defs>
-      <clipPath id='b636a5c2f7e3bb36ba5eefb423b767c2__a'>
+      <clipPath id='677e0b892492b40d8d475a1cd24858b8__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

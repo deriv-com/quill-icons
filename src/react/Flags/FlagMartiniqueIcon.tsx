@@ -20,7 +20,7 @@ export const FlagMartiniqueIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#88d72f09d8776bbf7fd1e2e0f4504a99__a)'>
+    <g clipPath='url(#8f7dc3ec32f5e72e6fce92ca7ba87abb__a)'>
       <path fill='#EF1923' d='M0 2v12c0 .612.275 1.16.709 1.527L12 8 .709.473A2 2 0 0 0 0 2' />
       <path fill='#00A650' d='M2 0A2 2 0 0 0 .709.473L12 8h12V2a2 2 0 0 0-2-2z' />
       <path fill='#231F1E' d='M24 8H12L.709 15.527A2 2 0 0 1 2 16h20a2 2 0 0 0 2-2z' />
@@ -33,7 +33,7 @@ export const FlagMartiniqueIcon = (
       />
     </g>
     <defs>
-      <clipPath id='88d72f09d8776bbf7fd1e2e0f4504a99__a'>
+      <clipPath id='8f7dc3ec32f5e72e6fce92ca7ba87abb__a'>
         <path fill='#fff' d='M0 0h24v16H0z' />
       </clipPath>
     </defs>

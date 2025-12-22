@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCompressXlRegularIcon = (
       <path d='M7.5 8.25v6c0 .422-.375.75-.75.75h-6a.74.74 0 0 1-.75-.75c0-.375.328-.75.75-.75H6V8.25c0-.375.328-.75.75-.75.375 0 .75.375.75.75M.75 21h6c.375 0 .75.375.75.75v6c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75V22.5H.75a.74.74 0 0 1-.75-.75c0-.375.328-.75.75-.75M15 8.25v5.25h5.25c.375 0 .75.375.75.75 0 .422-.375.75-.75.75h-6a.74.74 0 0 1-.75-.75v-6c0-.375.328-.75.75-.75.375 0 .75.375.75.75M14.25 21h6c.375 0 .75.375.75.75 0 .422-.375.75-.75.75H15v5.25c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75v-6c0-.375.328-.75.75-.75' />
     </g>
     <defs>
-      <clipPath id='474369b517d13c9f833df7be8ba9548d__a'>
+      <clipPath id='687294778544a83d30b5ac6e8b0d96cf__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

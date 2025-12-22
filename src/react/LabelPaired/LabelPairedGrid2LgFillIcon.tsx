@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedGrid2LgFillIcon = (
       <path d='M8.75 8.625v3.75c0 1.055-.86 1.875-1.875 1.875h-3.75a1.85 1.85 0 0 1-1.875-1.875v-3.75c0-1.016.82-1.875 1.875-1.875h3.75c1.016 0 1.875.86 1.875 1.875m0 10v3.75c0 1.055-.86 1.875-1.875 1.875h-3.75a1.85 1.85 0 0 1-1.875-1.875v-3.75c0-1.016.82-1.875 1.875-1.875h3.75c1.016 0 1.875.86 1.875 1.875m2.5-10c0-1.016.82-1.875 1.875-1.875h3.75c1.016 0 1.875.86 1.875 1.875v3.75c0 1.055-.86 1.875-1.875 1.875h-3.75a1.85 1.85 0 0 1-1.875-1.875zm7.5 10v3.75c0 1.055-.86 1.875-1.875 1.875h-3.75a1.85 1.85 0 0 1-1.875-1.875v-3.75c0-1.016.82-1.875 1.875-1.875h3.75c1.016 0 1.875.86 1.875 1.875' />
     </g>
     <defs>
-      <clipPath id='635a2dcc6073a80c55630a1063d5a79a__a'>
+      <clipPath id='6b845a44c2329fc10a9451ab332202d0__a'>
         <path d='M0 0h20v30H0z' />
       </clipPath>
     </defs>

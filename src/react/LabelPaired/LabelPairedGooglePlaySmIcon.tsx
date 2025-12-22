@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedGooglePlaySmIcon = (
       <path d='m8.887 10.176 1.64-1.64-7.683-4.43zM1.285 3.75l7 7-7 7a1.04 1.04 0 0 1-.601-.957V4.734c0-.437.246-.793.601-.984m11.621 6.18c.52.383.52 1.285.028 1.668l-1.641.93-1.805-1.778L11.293 9zM2.844 17.395l6.043-6.043 1.64 1.64z' />
     </g>
     <defs>
-      <clipPath id='4ee442ce2244d8d84666ee5213e55a71__a'>
+      <clipPath id='fbf58c597bb9e0fe54bd79cd15c600e7__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

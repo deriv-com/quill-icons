@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedPauseXlBoldIcon = (
       <path d='M2.25 11.25v13.5H4.5v-13.5zm-2.25 0A2.25 2.25 0 0 1 2.25 9H4.5c1.219 0 2.25 1.031 2.25 2.25v13.5A2.25 2.25 0 0 1 4.5 27H2.25A2.22 2.22 0 0 1 0 24.75zm10.5 0v13.5h2.25v-13.5zm-2.25 0A2.25 2.25 0 0 1 10.5 9h2.25C13.969 9 15 10.031 15 11.25v13.5A2.25 2.25 0 0 1 12.75 27H10.5a2.22 2.22 0 0 1-2.25-2.25z' />
     </g>
     <defs>
-      <clipPath id='a853c003245ef5d9ef1b390dae94c048__a'>
+      <clipPath id='2bde0e346a079a81f7f3df53650c370f__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

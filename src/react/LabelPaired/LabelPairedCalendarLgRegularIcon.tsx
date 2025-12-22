@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCalendarLgRegularIcon = (
       <path d='M4.625 5.5c.313 0 .625.313.625.625V8h7.5V6.125c0-.312.273-.625.625-.625.313 0 .625.313.625.625V8h1.25c1.367 0 2.5 1.133 2.5 2.5V23c0 1.406-1.133 2.5-2.5 2.5H2.75A2.47 2.47 0 0 1 .25 23V10.5C.25 9.133 1.344 8 2.75 8H4V6.125c0-.312.273-.625.625-.625M16.5 13h-15v10c0 .703.547 1.25 1.25 1.25h12.5c.664 0 1.25-.547 1.25-1.25zm-1.25-3.75H2.75c-.703 0-1.25.586-1.25 1.25v1.25h15V10.5c0-.664-.586-1.25-1.25-1.25' />
     </g>
     <defs>
-      <clipPath id='b9931a9e5ce79ceac93b9a7a8232f013__a'>
+      <clipPath id='0ec5beaa263ef2c961cae4eef8cd17a5__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>

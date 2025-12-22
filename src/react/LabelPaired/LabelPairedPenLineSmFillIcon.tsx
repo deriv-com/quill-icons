@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedPenLineSmFillIcon = (
       <path d='m12.512 4.297 1.066 1.066a1.766 1.766 0 0 1 0 2.489l-1.312 1.312L8.71 5.61l1.312-1.312a1.766 1.766 0 0 1 2.489 0M1.71 12.609l6.371-6.37 3.555 3.554-6.371 6.371a2.4 2.4 0 0 1-1.012.602l-3.309.957a.56.56 0 0 1-.629-.164.56.56 0 0 1-.164-.63l.957-3.308c.11-.383.329-.738.602-1.012m5.195 3.829h8.313c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H6.906a.63.63 0 0 1-.656-.656c0-.356.273-.657.656-.657' />
     </g>
     <defs>
-      <clipPath id='0d30a40291c7432db5a5f28e2953a63b__a'>
+      <clipPath id='0175fe4183a84184d40f063f25dc592d__a'>
         <path d='M0 0h16v22H0z' />
       </clipPath>
     </defs>

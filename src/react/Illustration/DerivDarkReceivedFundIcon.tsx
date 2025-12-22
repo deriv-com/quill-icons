@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,9 +19,9 @@ const DerivDarkReceivedFundIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#1efb2b1b40c27a7d3197a0c0cb64976a__a)'>
+    <g clipPath='url(#0255196af86c4f7132ba959f3601bc6d__a)'>
       <mask
-        id='1efb2b1b40c27a7d3197a0c0cb64976a__b'
+        id='0255196af86c4f7132ba959f3601bc6d__b'
         width={96}
         height={96}
         x={0}
@@ -32,7 +33,7 @@ const DerivDarkReceivedFundIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#1efb2b1b40c27a7d3197a0c0cb64976a__b)'>
+      <g mask='url(#0255196af86c4f7132ba959f3601bc6d__b)'>
         <path fill='#5C616D' d='M15.74 51.13H0v36.41h15.74z' />
         <path
           fill='#CED0D6'
@@ -50,7 +51,7 @@ const DerivDarkReceivedFundIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='1efb2b1b40c27a7d3197a0c0cb64976a__a'>
+      <clipPath id='0255196af86c4f7132ba959f3601bc6d__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

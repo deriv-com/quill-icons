@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedSignalLgRegularIcon = (
       <path d='M23.125 6.125v18.75a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625V6.125c0-.312.273-.625.625-.625.313 0 .625.313.625.625M17.5 9.25c.313 0 .625.313.625.625v15a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625v-15c0-.312.273-.625.625-.625m-4.375 4.375v11.25a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625v-11.25c0-.312.273-.625.625-.625.313 0 .625.313.625.625M7.5 16.75c.313 0 .625.313.625.625v7.5a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625v-7.5c0-.312.273-.625.625-.625m-5 3.75c.313 0 .625.313.625.625v3.75a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625v-3.75c0-.312.273-.625.625-.625' />
     </g>
     <defs>
-      <clipPath id='f17ee7812090256646574c4bfe1feb15__a'>
+      <clipPath id='59b8977b49cc6c10fd191bcd310c2501__a'>
         <path d='M0 0h25v30H0z' />
       </clipPath>
     </defs>

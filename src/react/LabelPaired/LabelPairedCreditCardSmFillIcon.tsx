@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCreditCardSmFillIcon = (
       <path d='M1.875 4.625h12.25c.957 0 1.75.793 1.75 1.75v.875H.125v-.875c0-.957.766-1.75 1.75-1.75m14 5.25v5.25c0 .984-.793 1.75-1.75 1.75H1.875c-.984 0-1.75-.766-1.75-1.75v-5.25zm-12.687 3.5a.45.45 0 0 0-.438.438c0 .246.191.437.438.437h1.75a.45.45 0 0 0 .437-.437.47.47 0 0 0-.437-.438zm3.062.438c0 .246.191.437.438.437h3.5a.45.45 0 0 0 .437-.437.47.47 0 0 0-.437-.438h-3.5a.45.45 0 0 0-.438.438' />
     </g>
     <defs>
-      <clipPath id='12ff1c9a737dabbc36567c86f60e3a3a__a'>
+      <clipPath id='e2f4b9c5a3be96e4392c47bfc78451b4__a'>
         <path d='M0 0h16v22H0z' />
       </clipPath>
     </defs>

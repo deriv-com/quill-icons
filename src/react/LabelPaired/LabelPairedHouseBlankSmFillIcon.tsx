@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedHouseBlankSmFillIcon = (
       <path d='M15.848 10.75c0 .492-.41.875-.875.875h-.875L14.125 16c0 .984-.766 1.777-1.75 1.777h-8.75c-.984 0-1.75-.793-1.75-1.75v-4.402H1a.864.864 0 0 1-.875-.875c0-.246.082-.465.273-.656l7-6.125c.192-.192.41-.219.602-.219.191 0 .41.055.574.191l6.973 6.153c.219.191.328.41.3.656' />
     </g>
     <defs>
-      <clipPath id='778223354e23b63c75bf164daa994d86__a'>
+      <clipPath id='4ab991ca087d2101a5f6c42666e2d675__a'>
         <path d='M0 0h16v22H0z' />
       </clipPath>
     </defs>

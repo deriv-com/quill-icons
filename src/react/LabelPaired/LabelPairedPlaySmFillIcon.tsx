@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedPlaySmFillIcon = (
       <path d='m2.246 4.816 7.875 4.813c.383.246.629.684.629 1.121 0 .465-.246.902-.629 1.121l-7.875 4.813c-.41.246-.93.273-1.34.027-.41-.219-.656-.656-.656-1.148V5.938c0-.465.246-.903.656-1.122.41-.246.93-.246 1.34 0' />
     </g>
     <defs>
-      <clipPath id='6a27eda3de87ea6d0b19f00b1077d960__a'>
+      <clipPath id='8170c2595236678f1e8aa7a6f8f321ad__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

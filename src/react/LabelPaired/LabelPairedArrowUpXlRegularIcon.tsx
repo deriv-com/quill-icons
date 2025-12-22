@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedArrowUpXlRegularIcon = (
       <path d='m9.516 7.734 8.25 8.25c.28.282.28.797 0 1.079-.282.28-.797.28-1.078 0L9.75 10.078V27.75c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75V10.078l-6.984 6.985c-.282.28-.797.28-1.078 0-.282-.282-.282-.797 0-1.079l8.25-8.25c.28-.28.796-.28 1.078 0' />
     </g>
     <defs>
-      <clipPath id='ce2ffb88ba4d63b8db9a8f15c850c4a3__a'>
+      <clipPath id='5edf0d6fb441b1479a9bd05f03ba1ba4__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

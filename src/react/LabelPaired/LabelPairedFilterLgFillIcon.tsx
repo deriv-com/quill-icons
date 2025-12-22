@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedFilterLgFillIcon = (
       <path d='M.117 7.648c.274-.546.82-.898 1.446-.898h16.875c.585 0 1.132.352 1.406.898a1.64 1.64 0 0 1-.235 1.68L12.5 18.04V23c0 .508-.273.938-.703 1.133s-.938.156-1.328-.117l-2.5-1.875c-.313-.235-.469-.586-.469-1.016v-3.086L.352 9.33a1.64 1.64 0 0 1-.235-1.68' />
     </g>
     <defs>
-      <clipPath id='57fe80075fe654f569f763eee588050d__a'>
+      <clipPath id='2a344357e96f49b1c2d5bf9ae30c87aa__a'>
         <path d='M0 0h20v30H0z' />
       </clipPath>
     </defs>

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedTrashCaptionFillIcon = (
       <path d='M3.414 3.922A.72.72 0 0 1 4.07 3.5h2.836c.282 0 .54.164.657.422l.187.328H10c.398 0 .75.352.75.75 0 .422-.352.75-.75.75H1A.74.74 0 0 1 .25 5c0-.398.328-.75.75-.75h2.25zM10 6.5l-.516 7.945c-.023.61-.515 1.055-1.125 1.055H2.617c-.61 0-1.101-.445-1.125-1.055L1 6.5z' />
     </g>
     <defs>
-      <clipPath id='c8add5847f965115a33d02a2476a4ff2__a'>
+      <clipPath id='4c3743fc11f960cec95920210f080003__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedPaperPlaneTopCaptionFillIcon = (
       <path d='m1.648 4.156 10.36 4.5a.932.932 0 0 1 0 1.711l-10.36 4.5c-.796.352-1.617-.539-1.195-1.312l1.64-3.024a.64.64 0 0 1 .516-.351l4.125-.516c.07 0 .141-.07.141-.164 0-.07-.07-.14-.14-.14l-4.126-.516c-.234-.047-.421-.164-.515-.352L.454 5.47C.03 4.695.851 3.805 1.647 4.156' />
     </g>
     <defs>
-      <clipPath id='9a693409212cc8dbd18290cb2ad2c938__a'>
+      <clipPath id='8beb0c6afc921f787d2ea36f957f7d45__a'>
         <path d='M0 0h13v18H0z' />
       </clipPath>
     </defs>

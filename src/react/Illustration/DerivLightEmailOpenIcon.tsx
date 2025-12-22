@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightEmailOpenIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#a533c62ac9fb9dc996c703fc49d5f665__a)'>
+    <g clipPath='url(#2abb67b9612d672df3e55f83ef0de0fd__a)'>
       <path
         fill='#EBECEE'
         d='m114.71 76.922-14.467-4.475h-.004l-1.645.667.32-1.074 3.34-11.216 1.957-6.575c1.447-4.858-1.294-9.975-6.126-11.44l-2.79-.844-31.915-9.667 21.295-15.876c4.93-3.676 11.996-1.295 13.725 4.624l16.31 55.877z'
@@ -91,7 +92,7 @@ const DerivLightEmailOpenIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a533c62ac9fb9dc996c703fc49d5f665__a'>
+      <clipPath id='2abb67b9612d672df3e55f83ef0de0fd__a'>
         <path fill='#fff' d='M0 0h120v152H0z' />
       </clipPath>
     </defs>

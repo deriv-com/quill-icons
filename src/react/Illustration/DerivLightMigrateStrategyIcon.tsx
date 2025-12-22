@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightMigrateStrategyIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0d4c4876dc7a38e07b94db89ca6bfe23__a)'>
+    <g clipPath='url(#90e1f1a73e80dcd30ae9a9bb36676bb2__a)'>
       <path
         fill='#fff'
         d='m110.089 16.688-8.444 65.744-.044.346-.186 1.447-.112.871-.017.136a4.55 4.55 0 0 1-.618 1.772 4.54 4.54 0 0 1-2.227 1.868h-.002c-.8.314-1.7.402-2.608.202L68.072 82.97a5.6 5.6 0 0 1-4.352-6.15l8.405-68.662a4.635 4.635 0 0 1 3.47-3.938l.235-.052a4.6 4.6 0 0 1 1.913.026l1.55.347 1.622.365 1.712.384.97.217 1.806.406 3.822.859 16.517 3.708a5.63 5.63 0 0 1 4.347 6.21'
@@ -113,7 +114,7 @@ const DerivLightMigrateStrategyIcon = (
       />
     </g>
     <defs>
-      <clipPath id='0d4c4876dc7a38e07b94db89ca6bfe23__a'>
+      <clipPath id='90e1f1a73e80dcd30ae9a9bb36676bb2__a'>
         <path fill='#fff' d='M0 0h140v100H0z' />
       </clipPath>
     </defs>

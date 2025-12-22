@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedEllipsisVerticalCaptionFillIcon = (
       <path d='M1.5 11.938a1.312 1.312 0 0 1 1.125 1.969 1.26 1.26 0 0 1-1.125.656c-.492 0-.914-.235-1.148-.657A1.313 1.313 0 0 1 1.5 11.937m0-3.75a1.313 1.313 0 0 1 1.125 1.969 1.26 1.26 0 0 1-1.125.656c-.492 0-.914-.235-1.148-.657A1.313 1.313 0 0 1 1.5 8.187M2.813 5.75A1.313 1.313 0 0 1 .843 6.898C.422 6.664.187 6.242.187 5.75c0-.469.235-.89.657-1.125A1.313 1.313 0 0 1 2.813 5.75' />
     </g>
     <defs>
-      <clipPath id='9189b3269d757e81632b0d0a1344c44d__a'>
+      <clipPath id='a369d33ea086f4313cdc98b68a63b88d__a'>
         <path d='M0 0h3v18H0z' />
       </clipPath>
     </defs>

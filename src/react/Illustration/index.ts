@@ -219,3 +219,7 @@ export { default as DerivLightRemoveBiometricsIcon } from './DerivLightRemoveBio
 export { default as DerivLightRemoveSuccessBiometricsIcon } from './DerivLightRemoveSuccessBiometricsIcon';
 export { default as DerivLightEditBiometricsIcon } from './DerivLightEditBiometricsIcon';
 export { default as DerivLightSuccessBiometricsIcon } from './DerivLightSuccessBiometricsIcon';
+export { default as DerivLightWalletSuccessIcon } from './DerivLightWalletSuccessIcon';
+export { default as DerivLightWalletMaintenanceIcon } from './DerivLightWalletMaintenanceIcon';
+export { default as DerivLightExchangeErrorIcon } from './DerivLightExchangeErrorIcon';
+export { default as DerivLightWalletUnavailableIcon } from './DerivLightWalletUnavailableIcon';

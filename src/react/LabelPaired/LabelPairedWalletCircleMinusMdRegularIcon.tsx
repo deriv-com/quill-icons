@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedWalletCircleMinusMdRegularIcon = (
       <path d='M0 7.5C0 6.125 1.094 5 2.5 5h12c.25 0 .5.25.5.5 0 .281-.25.5-.5.5h-12A1.5 1.5 0 0 0 1 7.5v9c0 .844.656 1.5 1.5 1.5h8.094c.187.375.406.719.656 1H2.5A2.47 2.47 0 0 1 0 16.5zm3 0c0-.25.219-.5.5-.5h10C14.875 7 16 8.125 16 9.5v.531c-.187 0-.344-.031-.5-.031-.187 0-.344.031-.5.031V9.5c0-.812-.687-1.5-1.5-1.5h-10a.494.494 0 0 1-.5-.5m8 8c0-2.469 2-4.5 4.5-4.5 2.469 0 4.5 2.031 4.5 4.5 0 2.5-2.031 4.5-4.5 4.5-2.5 0-4.5-2-4.5-4.5m1 0c0 1.938 1.563 3.5 3.5 3.5 1.906 0 3.5-1.562 3.5-3.5 0-1.906-1.594-3.5-3.5-3.5-1.937 0-3.5 1.594-3.5 3.5m1 0c0-.25.219-.5.5-.5h4c.25 0 .5.25.5.5 0 .281-.25.5-.5.5h-4a.494.494 0 0 1-.5-.5' />
     </g>
     <defs>
-      <clipPath id='f468e1fd6494fdcf0ce404af624cf6aa__a'>
+      <clipPath id='e6d3abca7631f901586236e02ab85a8b__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

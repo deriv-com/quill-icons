@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedTabletScreenSmFillIcon = (
       <path d='M.375 5.5c0-.957.766-1.75 1.75-1.75h8.75c.957 0 1.75.793 1.75 1.75V16c0 .984-.793 1.75-1.75 1.75h-8.75c-.984 0-1.75-.766-1.75-1.75zM4.75 16c0 .246.191.438.438.438h2.625A.45.45 0 0 0 8.25 16a.47.47 0 0 0-.437-.437H5.188A.45.45 0 0 0 4.75 16m6.125-10.5h-8.75v8.75h8.75z' />
     </g>
     <defs>
-      <clipPath id='3aa2f146d9ec54c2010830282178bbc7__a'>
+      <clipPath id='65e3944d777ea0fe108e2c0f6775ddf0__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

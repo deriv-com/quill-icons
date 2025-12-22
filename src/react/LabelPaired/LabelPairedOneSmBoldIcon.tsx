@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedOneSmBoldIcon = (
       <path d='M4.156 5.281v10.282h2.188c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H.656A.63.63 0 0 1 0 16.219c0-.356.273-.657.656-.657h2.188V6.458L.984 7.605c-.3.192-.71.082-.902-.218-.191-.301-.082-.711.219-.903l2.844-1.75a.63.63 0 0 1 .656-.027c.219.137.355.356.355.574' />
     </g>
     <defs>
-      <clipPath id='6000b64bd6244c73521f8ec431ea0123__a'>
+      <clipPath id='9f6eb8d08b1c886c8028ae88973b375a__a'>
         <path d='M0 0h7v22H0z' />
       </clipPath>
     </defs>

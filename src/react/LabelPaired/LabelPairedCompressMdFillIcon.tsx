@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCompressMdFillIcon = (
       <path d='M5 6v3c0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1 0-.531.438-1 1-1h2V6c0-.531.438-1 1-1 .531 0 1 .469 1 1m-4 8h3c.531 0 1 .469 1 1v3c0 .563-.469 1-1 1-.562 0-1-.437-1-1v-2H1c-.562 0-1-.437-1-1 0-.531.438-1 1-1m10-8v2h2c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-3c-.562 0-1-.437-1-1V6c0-.531.438-1 1-1 .531 0 1 .469 1 1m-1 8h3c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-2v2c0 .563-.469 1-1 1-.562 0-1-.437-1-1v-3c0-.531.438-1 1-1' />
     </g>
     <defs>
-      <clipPath id='58f8e71662b5f36e3026e250eabde326__a'>
+      <clipPath id='7d31cace847c9a6e94c881b350bb24ae__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

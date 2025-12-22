@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedGoogleCaptionIcon = (
       <path d='M11.719 9.64c0 3.329-2.274 5.672-5.625 5.672A5.78 5.78 0 0 1 .28 9.5a5.797 5.797 0 0 1 5.813-5.812c1.547 0 2.883.585 3.89 1.523L8.391 6.734C6.328 4.742 2.484 6.242 2.484 9.5c0 2.04 1.618 3.68 3.61 3.68 2.297 0 3.164-1.64 3.281-2.508H6.094V8.68h5.531c.047.304.094.586.094.96' />
     </g>
     <defs>
-      <clipPath id='1870b9a678cf39e8b366fa1dc0fe7ff8__a'>
+      <clipPath id='e4bd2f5064525325e2c0d187030841a3__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

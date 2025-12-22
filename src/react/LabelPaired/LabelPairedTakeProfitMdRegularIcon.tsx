@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedTakeProfitMdRegularIcon = (
       <path d='M7 9.031v7.156H5.625V9.032h-2.5V7.812h6.344v1.22zm3.813 7.156V7.813h3.593c.781 0 1.375.25 1.813.688.406.469.625 1.094.625 1.844 0 .781-.219 1.375-.625 1.844-.438.468-1.032.687-1.813.687h-2.25v3.313zm1.343-4.5h2.156c.344 0 .626-.093.813-.28.188-.188.281-.438.281-.782v-.562c0-.344-.094-.594-.281-.782-.187-.187-.469-.281-.812-.281h-2.157z' />
     </g>
     <defs>
-      <clipPath id='5be19aab2fa8ec59e7301dcb428cea41__a'>
+      <clipPath id='7ab3e59ed061ff23be4426b94773e1d1__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

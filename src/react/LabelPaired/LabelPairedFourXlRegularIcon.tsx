@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedFourXlRegularIcon = (
       <path d='M8.156 8.625 1.922 21H13.5v-8.25c0-.375.328-.75.75-.75.375 0 .75.375.75.75V21h2.25c.375 0 .75.375.75.75 0 .422-.375.75-.75.75H15v5.25c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75v-5.203H.703c-.234 0-.469-.14-.61-.375a.85.85 0 0 1-.046-.75l6.75-13.5a.77.77 0 0 1 1.031-.328.77.77 0 0 1 .328 1.031' />
     </g>
     <defs>
-      <clipPath id='ddcb7c8380f4ce147816738552ee2669__a'>
+      <clipPath id='da079f785c9a3c5ef343724add241607__a'>
         <path d='M0 0h18v36H0z' />
       </clipPath>
     </defs>

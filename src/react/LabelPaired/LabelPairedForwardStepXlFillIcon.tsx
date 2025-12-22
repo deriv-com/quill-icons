@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedForwardStepXlFillIcon = (
       <path d='M2.438 26.672a1.42 1.42 0 0 1-1.594.187C.328 26.625 0 26.11 0 25.5v-15c0-.562.328-1.078.844-1.36.515-.234 1.125-.14 1.594.235l9 7.5.562.422V10.5c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5v15c0 .844-.703 1.5-1.5 1.5a1.48 1.48 0 0 1-1.5-1.5v-6.797l-.562.469z' />
     </g>
     <defs>
-      <clipPath id='3e82eaab345b913696d532ecc1ead86d__a'>
+      <clipPath id='28fdc634e837ad821fbaec9baf73cd70__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

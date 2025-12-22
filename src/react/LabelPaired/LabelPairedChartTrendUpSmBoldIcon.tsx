@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedChartTrendUpSmBoldIcon = (
       <path d='M17.148 4.05a.647.647 0 0 1 .301.876l-2.625 5.25a.65.65 0 0 1-.601.355h-3.965l-3.309 6.645a.647.647 0 0 1-.875.3l-5.25-2.624a.647.647 0 0 1-.3-.875.647.647 0 0 1 .874-.301L6.074 16l3.2-6.398a.67.67 0 0 1 .601-.383h3.965l2.433-4.867a.647.647 0 0 1 .875-.301' />
     </g>
     <defs>
-      <clipPath id='846d420e1bcd217e3e6bb50e4bd67ef6__a'>
+      <clipPath id='31161e271d81e38f49b241d2a4670714__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

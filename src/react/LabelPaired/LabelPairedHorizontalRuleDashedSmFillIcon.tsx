@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedHorizontalRuleDashedSmFillIcon = (
       <path d='M.25 10.75c0-.465.383-.875.875-.875h1.75a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875h-1.75a.864.864 0 0 1-.875-.875m4.648 0a.9.9 0 0 1 .875-.875h1.75c.493 0 .875.41.875.875a.864.864 0 0 1-.875.875h-1.75a.88.88 0 0 1-.875-.875m4.676 0c0-.465.383-.875.875-.875h1.75c.492 0 .875.41.875.875a.864.864 0 0 1-.875.875h-1.75a.864.864 0 0 1-.875-.875m4.676 0c0-.465.383-.875.875-.875h1.75a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875h-1.75a.864.864 0 0 1-.875-.875' />
     </g>
     <defs>
-      <clipPath id='e855f60ea8e02b54c13a6724ed315045__a'>
+      <clipPath id='b9b52b8317ca2729eed01b0ff01e4c3b__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

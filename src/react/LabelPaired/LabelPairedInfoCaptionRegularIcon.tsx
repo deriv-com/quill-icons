@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedInfoCaptionRegularIcon = (
       <path d='M1.75 5c0-.398.328-.75.75-.75.398 0 .75.352.75.75 0 .422-.352.75-.75.75A.74.74 0 0 1 1.75 5M.625 7.625c0-.187.164-.375.375-.375h1.5c.188 0 .375.188.375.375V14h1.5c.188 0 .375.188.375.375 0 .21-.187.375-.375.375H.625a.37.37 0 0 1-.375-.375c0-.187.164-.375.375-.375h1.5V8H1a.37.37 0 0 1-.375-.375' />
     </g>
     <defs>
-      <clipPath id='c4e0154336fcf378e4c876e2e80e3177__a'>
+      <clipPath id='1567f9e30b772890bff2aa91d7b3c847__a'>
         <path d='M0 0h5v18H0z' />
       </clipPath>
     </defs>

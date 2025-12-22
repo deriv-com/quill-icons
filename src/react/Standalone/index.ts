@@ -904,3 +904,15 @@ export { default as StandaloneGraduationCapFillIcon } from './StandaloneGraduati
 export { default as StandaloneRotateDeviceRegularIcon } from './StandaloneRotateDeviceRegularIcon';
 export { default as StandaloneRotateDeviceBoldIcon } from './StandaloneRotateDeviceBoldIcon';
 export { default as StandaloneRotateDeviceFillIcon } from './StandaloneRotateDeviceFillIcon';
+export { default as StandaloneLinkRegularIcon } from './StandaloneLinkRegularIcon';
+export { default as StandaloneLinkBoldIcon } from './StandaloneLinkBoldIcon';
+export { default as StandaloneLinkFillIcon } from './StandaloneLinkFillIcon';
+export { default as StandaloneTrophyRegularIcon } from './StandaloneTrophyRegularIcon';
+export { default as StandaloneTrophyBoldIcon } from './StandaloneTrophyBoldIcon';
+export { default as StandaloneTrophyFillIcon } from './StandaloneTrophyFillIcon';
+export { default as StandaloneHandshakeRegularIcon } from './StandaloneHandshakeRegularIcon';
+export { default as StandaloneHandshakeBoldIcon } from './StandaloneHandshakeBoldIcon';
+export { default as StandaloneHandshakeFillIcon } from './StandaloneHandshakeFillIcon';
+export { default as StandaloneHouseUserRegularIcon } from './StandaloneHouseUserRegularIcon';
+export { default as StandaloneHouseUserBoldIcon } from './StandaloneHouseUserBoldIcon';
+export { default as StandaloneHouseUserFillIcon } from './StandaloneHouseUserFillIcon';

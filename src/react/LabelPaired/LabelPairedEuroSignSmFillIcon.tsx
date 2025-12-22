@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedEuroSignSmFillIcon = (
       <path d='M1.438 10.313H1a.864.864 0 0 1-.875-.876c0-.464.383-.874.875-.874h.766c.793-2.27 3.007-3.938 5.578-3.938H8a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875h-.656c-1.586 0-2.98.902-3.664 2.188h3.445A.9.9 0 0 1 8 9.437c0 .493-.41.876-.875.876H3.188v.875h3.937a.9.9 0 0 1 .875.874c0 .493-.41.876-.875.876H3.68c.683 1.312 2.078 2.187 3.664 2.187H8a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875h-.656c-2.57 0-4.785-1.64-5.578-3.937H1a.864.864 0 0 1-.875-.876c0-.464.383-.874.875-.874h.438v-.876' />
     </g>
     <defs>
-      <clipPath id='8e11019a92b9e2f57e21f52b35b36861__a'>
+      <clipPath id='a1f05be673bba60b1923dd48edd5586d__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>
