@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedEllipsisVerticalSmRegularIcon = (
       <path d='M2 14.25a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875a.864.864 0 0 1-.875-.875c0-.465.383-.875.875-.875m0-4.375a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875a.864.864 0 0 1-.875-.875c0-.465.383-.875.875-.875m.875-3.5c0 .492-.41.875-.875.875a.864.864 0 0 1-.875-.875c0-.465.383-.875.875-.875a.9.9 0 0 1 .875.875' />
     </g>
     <defs>
-      <clipPath id='b202494b3f6567b513a26379c2576cf8__a'>
+      <clipPath id='d54b35ee4976a010b58b31d99f214a77__a'>
         <path d='M0 0h4v22H0z' />
       </clipPath>
     </defs>

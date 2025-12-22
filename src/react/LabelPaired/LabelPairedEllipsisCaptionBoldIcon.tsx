@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedEllipsisCaptionBoldIcon = (
       <path d='M10.375 9.5c0 .422-.234.773-.562.984a1.08 1.08 0 0 1-1.126 0 1.122 1.122 0 0 1 0-1.945c.329-.21.774-.21 1.126 0 .328.211.562.563.562.961m-3.75 0c0 .422-.234.773-.562.984a1.08 1.08 0 0 1-1.125 0 1.122 1.122 0 0 1 0-1.945c.328-.21.773-.21 1.125 0 .328.211.562.563.562.961M1.75 10.625c-.422 0-.773-.21-.984-.562a1.08 1.08 0 0 1 0-1.126c.21-.328.562-.562.984-.562.398 0 .75.234.96.563.212.351.212.796 0 1.124-.21.352-.562.563-.96.563' />
     </g>
     <defs>
-      <clipPath id='a059490dcbb8212a18939eb17cf03666__a'>
+      <clipPath id='002cb20838d87684939544aa660a3cd9__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

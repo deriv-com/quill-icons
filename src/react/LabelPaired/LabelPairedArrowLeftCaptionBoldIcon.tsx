@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedArrowLeftCaptionBoldIcon = (
       <path d='M.414 9.922A.56.56 0 0 1 .25 9.5c0-.14.047-.281.164-.398L4.54 5.164c.234-.21.586-.21.797.024a.56.56 0 0 1-.024.796L2.196 8.938h7.993a.57.57 0 0 1 .562.562.555.555 0 0 1-.562.563H2.194l3.118 2.976c.234.211.234.563.023.797s-.563.234-.797.023z' />
     </g>
     <defs>
-      <clipPath id='fe4d35e78713824e79986af1d35172c6__a'>
+      <clipPath id='f16e39523f46a5ec8277378f2dd730a7__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

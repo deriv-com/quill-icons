@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedMoneyBillLgBoldIcon = (
       <path d='M4.625 9.875c0 1.406-1.133 2.5-2.5 2.5v6.25c1.367 0 2.5 1.133 2.5 2.5h13.75c0-1.367 1.094-2.5 2.5-2.5v-6.25a2.47 2.47 0 0 1-2.5-2.5zM.25 10.5C.25 9.133 1.344 8 2.75 8h17.5c1.367 0 2.5 1.133 2.5 2.5v10c0 1.406-1.133 2.5-2.5 2.5H2.75a2.47 2.47 0 0 1-2.5-2.5zm11.25 1.25c1.328 0 2.54.742 3.242 1.875.664 1.172.664 2.617 0 3.75-.703 1.172-1.914 1.875-3.242 1.875-1.367 0-2.578-.703-3.281-1.875-.664-1.133-.664-2.578 0-3.75.703-1.133 1.914-1.875 3.281-1.875' />
     </g>
     <defs>
-      <clipPath id='785b9835ca02387cb39d15ca46ccc322__a'>
+      <clipPath id='6a5e83c34aa671840c404a031663fe75__a'>
         <path d='M0 0h23v30H0z' />
       </clipPath>
     </defs>

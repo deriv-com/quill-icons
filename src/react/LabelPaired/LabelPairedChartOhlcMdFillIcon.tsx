@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedChartOhlcMdFillIcon = (
       <path d='M10 4c.531 0 1 .469 1 1v1h1c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-1v9c0 .563-.469 1-1 1-.562 0-1-.437-1-1v-1H8c-.562 0-1-.437-1-1 0-.531.438-1 1-1h1V5c0-.531.438-1 1-1m-6.5 6c.531 0 1 .469 1 1v5h1c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-1v1c0 .563-.469 1-1 1-.562 0-1-.437-1-1v-5h-1c-.562 0-1-.437-1-1 0-.531.438-1 1-1h1v-1c0-.531.438-1 1-1m13-4c.531 0 1 .469 1 1v5h1c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-1v1c0 .563-.469 1-1 1-.562 0-1-.437-1-1v-5h-1c-.562 0-1-.437-1-1 0-.531.438-1 1-1h1V7c0-.531.438-1 1-1' />
     </g>
     <defs>
-      <clipPath id='3fbb476b4572e953d2d05d96316f7d71__a'>
+      <clipPath id='a927ce2b892bbae0b139be1acdc010ab__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

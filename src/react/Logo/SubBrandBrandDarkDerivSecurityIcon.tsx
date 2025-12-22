@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -33,7 +34,7 @@ const SubBrandBrandDarkDerivSecurityIcon = (
       />
     </g>
     <defs>
-      <clipPath id='d3515f6eec58541a0c45bee698feeb20__a'>
+      <clipPath id='12e6ad786f099e79ba017888b1a41329__a'>
         <path fill='#fff' d='M0 0h426v72H0z' />
       </clipPath>
     </defs>

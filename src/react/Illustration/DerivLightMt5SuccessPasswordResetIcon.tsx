@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,9 +19,9 @@ const DerivLightMt5SuccessPasswordResetIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#0e0a051b1133217e1ea5cacce0155891__a)'>
+    <g clipPath='url(#9e4827fff62967f0ca2102ab7f3ac4b2__a)'>
       <mask
-        id='0e0a051b1133217e1ea5cacce0155891__b'
+        id='9e4827fff62967f0ca2102ab7f3ac4b2__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +33,7 @@ const DerivLightMt5SuccessPasswordResetIcon = (
       >
         <path fill='#fff' d='M128 0H0v128h128z' />
       </mask>
-      <g mask='url(#0e0a051b1133217e1ea5cacce0155891__b)'>
+      <g mask='url(#9e4827fff62967f0ca2102ab7f3ac4b2__b)'>
         <path
           fill='#85ACB0'
           fillRule='evenodd'
@@ -53,7 +54,7 @@ const DerivLightMt5SuccessPasswordResetIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='0e0a051b1133217e1ea5cacce0155891__a'>
+      <clipPath id='9e4827fff62967f0ca2102ab7f3ac4b2__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

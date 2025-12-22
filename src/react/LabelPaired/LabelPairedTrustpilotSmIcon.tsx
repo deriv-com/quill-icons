@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedTrustpilotSmIcon = (
       <path d='M12.2 13.621 9 14.47l4.54 3.281zm4.156-4.512L9 14.47 4.434 17.75l1.75-5.332-4.567-3.309H7.25L9 3.75l1.723 5.36z' />
     </g>
     <defs>
-      <clipPath id='524897f8f93cf982ce27cbfd58528358__a'>
+      <clipPath id='9299816f02a9888d44f650376975a849__a'>
         <path d='M0 0h18v22H0z' />
       </clipPath>
     </defs>

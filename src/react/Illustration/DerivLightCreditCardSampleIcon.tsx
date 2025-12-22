@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -19,8 +20,8 @@ const DerivLightCreditCardSampleIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <g
-      clipPath='url(#0b83f2b296e8ba451903739707d15c84__a)'
-      filter='url(#0b83f2b296e8ba451903739707d15c84__b)'
+      clipPath='url(#bc3a19571b6e8544226c2a1d955b4fd2__a)'
+      filter='url(#bc3a19571b6e8544226c2a1d955b4fd2__b)'
     >
       <path
         fill='#fff'
@@ -37,11 +38,11 @@ const DerivLightCreditCardSampleIcon = (
       <path fill='#231F20' d='M208 188h152v36H208z' />
     </g>
     <defs>
-      <clipPath id='0b83f2b296e8ba451903739707d15c84__a'>
+      <clipPath id='bc3a19571b6e8544226c2a1d955b4fd2__a'>
         <path fill='#fff' d='M0 0h518v330H0z' />
       </clipPath>
       <filter
-        id='0b83f2b296e8ba451903739707d15c84__b'
+        id='bc3a19571b6e8544226c2a1d955b4fd2__b'
         width={526}
         height={338}
         x={-4}

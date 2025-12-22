@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,9 +19,9 @@ const DerivLightMobileVerifiedIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#822c56fac62c4eea5cda14e4b51d66a1__a)'>
+    <g clipPath='url(#6045948212eb303a66017b1800fc5955__a)'>
       <mask
-        id='822c56fac62c4eea5cda14e4b51d66a1__b'
+        id='6045948212eb303a66017b1800fc5955__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +33,7 @@ const DerivLightMobileVerifiedIcon = (
       >
         <path fill='#fff' d='M128 0H0v128h128z' />
       </mask>
-      <g mask='url(#822c56fac62c4eea5cda14e4b51d66a1__b)'>
+      <g mask='url(#6045948212eb303a66017b1800fc5955__b)'>
         <path
           fill='#E0F0F0'
           d='M0 32a8 8 0 0 1 8-8h32a8 8 0 0 1 8 8v64a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z'
@@ -71,7 +72,7 @@ const DerivLightMobileVerifiedIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='822c56fac62c4eea5cda14e4b51d66a1__a'>
+      <clipPath id='6045948212eb303a66017b1800fc5955__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

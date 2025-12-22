@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivDarkUnreadEmailIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#c1ca44fb64b6e04cf9051cc7ef14c78f__a)'>
+    <g clipPath='url(#8a8366a9781ff16dde3656aa9181212f__a)'>
       <path fill='#323738' d='M0 12V2l11 6 11-6v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2' />
       <path
         fill='#242828'
@@ -37,7 +38,7 @@ const DerivDarkUnreadEmailIcon = (
       />
     </g>
     <defs>
-      <clipPath id='c1ca44fb64b6e04cf9051cc7ef14c78f__a'>
+      <clipPath id='8a8366a9781ff16dde3656aa9181212f__a'>
         <path fill='#fff' d='M0 0h22v14H0z' />
       </clipPath>
     </defs>

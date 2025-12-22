@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -39,7 +40,7 @@ const PaymentMethodLocalPaymentMethodsBrandDarkIcon = (
       />
     </g>
     <defs>
-      <clipPath id='5b4856cdbac25ec49f63a9f0a0f2b3f7__a'>
+      <clipPath id='00bb327cbfa4f3c6572834f1078ab6e7__a'>
         <path fill='#fff' d='M8 17h53v46H8z' />
       </clipPath>
     </defs>

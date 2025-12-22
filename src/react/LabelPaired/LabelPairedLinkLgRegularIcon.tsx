@@ -1,0 +1,34 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedLinkLgRegularIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={25}
+    height={30}
+    viewBox='0 0 25 30'
+    role='img'
+    ref={ref}
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g>
+      <path d='m23.086 15.5-4.883 4.883c-1.953 1.953-5.117 1.953-7.031 0-1.875-1.875-1.992-4.844-.274-6.797l.235-.234c.195-.274.625-.313.86-.079a.63.63 0 0 1 .077.899l-.195.234c-1.29 1.485-1.21 3.711.156 5.078a3.726 3.726 0 0 0 5.313 0l4.843-4.843a3.725 3.725 0 0 0 0-5.313c-1.445-1.445-3.828-1.445-5.273 0l-.898.899c-.235.234-.625.234-.899 0-.234-.274-.234-.665 0-.899l.899-.898a5 5 0 0 1 7.07 0 5 5 0 0 1 0 7.07m-21.211 0 4.883-4.844c1.953-1.953 5.078-1.953 7.07 0 1.836 1.836 1.953 4.805.235 6.797l-.235.235c-.195.273-.586.312-.86.078a.63.63 0 0 1-.077-.899l.234-.234c1.25-1.485 1.172-3.711-.195-5.078a3.725 3.725 0 0 0-5.313 0l-4.844 4.843a3.725 3.725 0 0 0 0 5.313c1.446 1.445 3.829 1.445 5.274 0l.898-.898c.235-.235.625-.235.899 0a.66.66 0 0 1 0 .898l-.899.86a5 5 0 0 1-7.07 0 5 5 0 0 1 0-7.071' />
+    </g>
+    <defs>
+      <clipPath id='5ee3b7e87639946d74b2e2bb48f318be__a'>
+        <path d='M0 0h25v30H0z' />
+      </clipPath>
+    </defs>
+  </svg>
+);
+const ForwardRef = forwardRef(LabelPairedLinkLgRegularIcon);
+export default ForwardRef;

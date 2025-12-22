@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedWindowMinimizeMdRegularIcon = (
       <path d='M.5 18h15c.25 0 .5.25.5.5 0 .281-.25.5-.5.5H.5a.494.494 0 0 1-.5-.5c0-.25.219-.5.5-.5' />
     </g>
     <defs>
-      <clipPath id='a6c4ffca829d43557bd4cc10063a9018__a'>
+      <clipPath id='3747d9c0bbef2c2a6540f5e44a125d7d__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

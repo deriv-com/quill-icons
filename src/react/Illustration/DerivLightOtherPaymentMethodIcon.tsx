@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightOtherPaymentMethodIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#245fcfd96fae0678e27f12025d5f5d76__a)'>
+    <g clipPath='url(#eb6ed27413067c382a9a15cd195d52b0__a)'>
       <path fill='#84AAAE' d='M8.379 13.452h4.748V9.774H8.379z' />
       <path
         fill='#84AAAE'
@@ -34,7 +35,7 @@ const DerivLightOtherPaymentMethodIcon = (
       />
     </g>
     <defs>
-      <clipPath id='245fcfd96fae0678e27f12025d5f5d76__a'>
+      <clipPath id='eb6ed27413067c382a9a15cd195d52b0__a'>
         <path fill='#fff' d='M0 0h58v48H0z' />
       </clipPath>
     </defs>

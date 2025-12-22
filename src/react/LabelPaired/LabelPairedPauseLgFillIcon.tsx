@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedPauseLgFillIcon = (
       <path d='M2.125 8h1.25c1.016 0 1.875.86 1.875 1.875v11.25C5.25 22.18 4.39 23 3.375 23h-1.25A1.85 1.85 0 0 1 .25 21.125V9.875C.25 8.859 1.07 8 2.125 8m7.5 0h1.25c1.016 0 1.875.86 1.875 1.875v11.25c0 1.055-.86 1.875-1.875 1.875h-1.25a1.85 1.85 0 0 1-1.875-1.875V9.875C7.75 8.859 8.57 8 9.625 8' />
     </g>
     <defs>
-      <clipPath id='1bd19298afa7e69722f77fd1215ac6cb__a'>
+      <clipPath id='b715a0b66af9777cf03579c3134c6998__a'>
         <path d='M0 0h13v30H0z' />
       </clipPath>
     </defs>

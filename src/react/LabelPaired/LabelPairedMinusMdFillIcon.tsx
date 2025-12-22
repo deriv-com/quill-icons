@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedMinusMdFillIcon = (
       <path d='M13.5 12c0 .563-.469 1-1 1h-11c-.562 0-1-.437-1-1 0-.531.438-1 1-1h11c.531 0 1 .469 1 1' />
     </g>
     <defs>
-      <clipPath id='429d9b46666b4ad5077c1a6a2db3ccf8__a'>
+      <clipPath id='604be4f30e4f1dd83128ed909b8c1072__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

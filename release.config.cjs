@@ -1,5 +1,5 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const transformer = require('./release.utils.js');
+/* eslint-disable @typescript-eslint/no-require-imports */
+const transformer = require('./release.utils.cjs');
 
 module.exports = {
   branches: [
@@ -16,34 +16,13 @@ module.exports = {
       '@semantic-release/commit-analyzer',
       {
         releaseRules: [
-          {
-            type: 'build',
-            release: 'patch',
-          },
-          {
-            type: 'ci',
-            release: 'patch',
-          },
-          {
-            type: 'chore',
-            release: 'patch',
-          },
-          {
-            type: 'docs',
-            release: 'patch',
-          },
-          {
-            type: 'refactor',
-            release: 'minor',
-          },
-          {
-            type: 'style',
-            release: 'patch',
-          },
-          {
-            type: 'test',
-            release: 'patch',
-          },
+          { type: 'build', release: 'patch' },
+          { type: 'ci', release: 'patch' },
+          { type: 'chore', release: 'patch' },
+          { type: 'docs', release: 'patch' },
+          { type: 'refactor', release: 'minor' },
+          { type: 'style', release: 'patch' },
+          { type: 'test', release: 'patch' },
         ],
       },
     ],

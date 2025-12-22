@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedMagnifyingGlassPlusMdBoldIcon = (
       <path d='M6.5 5.5c-1.812 0-3.437.969-4.344 2.5a4.94 4.94 0 0 0 0 5A4.97 4.97 0 0 0 6.5 15.5a4.96 4.96 0 0 0 4.313-2.5 4.94 4.94 0 0 0 0-5C9.906 6.469 8.28 5.5 6.5 5.5m0 11.5A6.495 6.495 0 0 1 0 10.5C0 6.938 2.906 4 6.5 4c3.563 0 6.5 2.938 6.5 6.5a6.6 6.6 0 0 1-1.406 4.063l4.156 4.187a.684.684 0 0 1 0 1.031.684.684 0 0 1-1.031 0l-4.188-4.156A6.55 6.55 0 0 1 6.5 17m-.75-3.75v-2h-2A.72.72 0 0 1 3 10.5a.74.74 0 0 1 .75-.75h2v-2A.74.74 0 0 1 6.5 7a.76.76 0 0 1 .75.75v2h2a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-2v2a.74.74 0 0 1-.75.75.72.72 0 0 1-.75-.75' />
     </g>
     <defs>
-      <clipPath id='76082d187bbb5ea0eedfb47fee9b880f__a'>
+      <clipPath id='b3b865fce3d373f869a15b0d67314886__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

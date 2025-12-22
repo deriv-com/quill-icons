@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedBookmarkLgFillIcon = (
       <path d='M0 7.375C0 6.359.82 5.5 1.875 5.5h11.25C14.141 5.5 15 6.36 15 7.375v17.188c0 .546-.43.937-.977.937a.9.9 0 0 1-.546-.156L7.5 21.125l-6.016 4.219a.9.9 0 0 1-.546.156C.39 25.5 0 25.11 0 24.563z' />
     </g>
     <defs>
-      <clipPath id='33cf17357989e76f012ec910cd2252d1__a'>
+      <clipPath id='2df29548be860b1f25b7ddca61cdf77b__a'>
         <path d='M0 0h15v30H0z' />
       </clipPath>
     </defs>

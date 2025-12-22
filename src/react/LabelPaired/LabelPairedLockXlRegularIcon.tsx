@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedLockXlRegularIcon = (
       <path d='M6 12v3h9v-3a4.501 4.501 0 0 0-9 0m-1.5 3v-3c0-3.281 2.672-6 6-6 3.281 0 6 2.719 6 6v3h.75A3.76 3.76 0 0 1 21 18.75v7.5c0 2.11-1.687 3.75-3.75 3.75H3.75C1.64 30 0 28.36 0 26.25v-7.5C0 16.688 1.64 15 3.75 15zm-3 3.75v7.5c0 1.266.984 2.25 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25v-7.5c0-1.219-1.031-2.25-2.25-2.25H3.75a2.25 2.25 0 0 0-2.25 2.25' />
     </g>
     <defs>
-      <clipPath id='904a76168cc1f3c7e52771a5142e8b72__a'>
+      <clipPath id='b8d99f5b2b1ac669934d9411692ece6e__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>

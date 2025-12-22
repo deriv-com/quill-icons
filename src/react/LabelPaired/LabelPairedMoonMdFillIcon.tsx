@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedMoonMdFillIcon = (
       <path d='M6.969 5v.031h.593c.22.032.407.188.438.407a.45.45 0 0 1-.219.53A5.488 5.488 0 0 0 10.47 16.25c.312.001.625.001.937-.062.219-.03.438.063.531.25.094.22.063.438-.093.594A6.95 6.95 0 0 1 6.969 19C3.125 19 0 15.875 0 12c0-3.844 3.125-7 6.969-7' />
     </g>
     <defs>
-      <clipPath id='1f955f04c067157d277c0e797e877b5d__a'>
+      <clipPath id='5826f794f9481cb8a922dbaf6897b667__a'>
         <path d='M0 0h12v24H0z' />
       </clipPath>
     </defs>

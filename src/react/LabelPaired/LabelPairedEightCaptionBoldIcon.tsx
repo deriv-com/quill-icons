@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedEightCaptionBoldIcon = (
       <path d='M7.375 7.156c0 .89-.398 1.688-1.031 2.227a2.87 2.87 0 0 1 1.406 2.46 2.906 2.906 0 0 1-2.906 2.907H3.156A2.89 2.89 0 0 1 .25 11.844c0-1.031.54-1.969 1.383-2.461A2.9 2.9 0 0 1 .625 7.156 2.906 2.906 0 0 1 3.531 4.25h.938a2.92 2.92 0 0 1 2.906 2.906m-2.906 2.907H3.156a1.78 1.78 0 1 0 0 3.562h1.688a1.78 1.78 0 1 0 0-3.562zm0-1.126a1.78 1.78 0 1 0 0-3.562H3.53a1.78 1.78 0 1 0 0 3.563z' />
     </g>
     <defs>
-      <clipPath id='a96d5aa74141f09d0098f8acf771387d__a'>
+      <clipPath id='46f52cc2e0887eafcf21ebad71f840e0__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -19,7 +20,7 @@ const PaymentMethodPseBrandIcon = (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      fill='url(#1d79a3eb3389d69ce982e96ab553cc46__a)'
+      fill='url(#74b57a39ec5a865d9cc4e30bff480fd9__a)'
       d='M64 71.997c17.673 0 32-14.326 32-31.998S81.673 8 64 8 32 22.326 32 39.999s14.327 31.998 32 31.998'
     />
     <path
@@ -42,7 +43,7 @@ const PaymentMethodPseBrandIcon = (
     />
     <defs>
       <radialGradient
-        id='1d79a3eb3389d69ce982e96ab553cc46__a'
+        id='74b57a39ec5a865d9cc4e30bff480fd9__a'
         cx={0}
         cy={0}
         r={1}

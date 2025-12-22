@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,9 +19,9 @@ const DerivLightOrderIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#2e466f535bf3c9431a266cca8f401c0e__a)'>
+    <g clipPath='url(#a8553c505401f148359a19581d54339c__a)'>
       <mask
-        id='2e466f535bf3c9431a266cca8f401c0e__b'
+        id='a8553c505401f148359a19581d54339c__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +33,7 @@ const DerivLightOrderIcon = (
       >
         <path fill='#fff' d='M128 0H0v128h128z' />
       </mask>
-      <g mask='url(#2e466f535bf3c9431a266cca8f401c0e__b)'>
+      <g mask='url(#a8553c505401f148359a19581d54339c__b)'>
         <path
           fill='#C7E5E5'
           d='M31.36 17.83V17A12.12 12.12 0 0 0 20 5q.455-.022.91 0H18.1a9.291 9.291 0 0 0 0 18.58h13.26z'
@@ -52,7 +53,7 @@ const DerivLightOrderIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='2e466f535bf3c9431a266cca8f401c0e__a'>
+      <clipPath id='a8553c505401f148359a19581d54339c__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

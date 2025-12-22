@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedChartTrendSidewayLgFillIcon = (
       <path d='M0 15.5c0-.664.547-1.25 1.25-1.25h22.5c.664 0 1.25.586 1.25 1.25 0 .703-.586 1.25-1.25 1.25H1.25C.547 16.75 0 16.203 0 15.5' />
     </g>
     <defs>
-      <clipPath id='fff1b7d7dc56744d999f2df67b7a1ba0__a'>
+      <clipPath id='21fc8f2abb903fc9f5ca9b6b42e5c11d__a'>
         <path d='M0 0h25v30H0z' />
       </clipPath>
     </defs>

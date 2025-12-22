@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedExclamationLgBoldIcon = (
       <path d='M2.438 7.688v11.25c0 .546-.43.937-.938.937-.547 0-.937-.39-.937-.937V7.688c0-.508.39-.938.937-.938a.95.95 0 0 1 .938.938M1.5 24.25C.797 24.25.25 23.703.25 23c0-.664.547-1.25 1.25-1.25.664 0 1.25.586 1.25 1.25 0 .703-.586 1.25-1.25 1.25' />
     </g>
     <defs>
-      <clipPath id='72958061b8cdcc5a91d2feaf93935f15__a'>
+      <clipPath id='e1c097efbe42d38fba094117aa657c32__a'>
         <path d='M0 0h3v30H0z' />
       </clipPath>
     </defs>

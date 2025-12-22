@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightEmptyCardboardBoxIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#bf071138a498b5a9ce2fea119df8f141__a)'>
+    <g clipPath='url(#b66f6918738e4621f41b4e2728bc464a__a)'>
       <path
         fill='#000'
         fillOpacity={0.48}
@@ -26,7 +27,7 @@ const DerivLightEmptyCardboardBoxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='bf071138a498b5a9ce2fea119df8f141__a'>
+      <clipPath id='b66f6918738e4621f41b4e2728bc464a__a'>
         <path fill='#fff' d='M0 0h64v64H0z' />
       </clipPath>
     </defs>

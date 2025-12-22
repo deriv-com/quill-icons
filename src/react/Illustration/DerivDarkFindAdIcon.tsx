@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,9 +19,9 @@ const DerivDarkFindAdIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#d0b5b5642d0853cb69bf5d909a3677fd__a)'>
+    <g clipPath='url(#b140c8d0feef8da040f03073a2bec461__a)'>
       <mask
-        id='d0b5b5642d0853cb69bf5d909a3677fd__b'
+        id='b140c8d0feef8da040f03073a2bec461__b'
         width={96}
         height={96}
         x={0}
@@ -32,7 +33,7 @@ const DerivDarkFindAdIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#d0b5b5642d0853cb69bf5d909a3677fd__b)'>
+      <g mask='url(#b140c8d0feef8da040f03073a2bec461__b)'>
         <path
           fill='#9498A2'
           d='M59.73 21.7a6 6 0 0 0-6-6H6a6 6 0 0 0-6 6V90a6 6 0 0 0 6 6h47.73a6 6 0 0 0 6-6z'
@@ -65,7 +66,7 @@ const DerivDarkFindAdIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='d0b5b5642d0853cb69bf5d909a3677fd__a'>
+      <clipPath id='b140c8d0feef8da040f03073a2bec461__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

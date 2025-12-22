@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedBackwardStepXlBoldIcon = (
       <path d='M3.75 10.125v4.969L12 9.28c.234-.187.516-.281.797-.281a1.46 1.46 0 0 1 1.453 1.453v15.14A1.41 1.41 0 0 1 12.844 27c-.328 0-.61-.047-.844-.234l-8.25-5.813v4.922A1.11 1.11 0 0 1 2.625 27c-.656 0-1.125-.469-1.125-1.125v-15.75C1.5 9.515 1.969 9 2.625 9c.61 0 1.125.516 1.125 1.125m0 8.11L12 24V12.047l-8.25 5.765z' />
     </g>
     <defs>
-      <clipPath id='3ffa864ee4b123c9c86f6bb2dd4c656c__a'>
+      <clipPath id='4b86f858254c4bdf334e076a30765582__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

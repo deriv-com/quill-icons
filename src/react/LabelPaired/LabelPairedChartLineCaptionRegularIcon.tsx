@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedChartLineCaptionRegularIcon = (
       <path d='M.75 4.625v8.25A1.11 1.11 0 0 0 1.875 14h9.75c.188 0 .375.188.375.375 0 .21-.187.375-.375.375h-9.75A1.85 1.85 0 0 1 0 12.875v-8.25c0-.187.164-.375.375-.375.188 0 .375.188.375.375m10.383 2.531-3.375 3.375a.397.397 0 0 1-.54 0L5.25 8.54l-2.367 2.367a.397.397 0 0 1-.54 0 .397.397 0 0 1 0-.539L4.97 7.742c.14-.14.398-.14.539 0L7.5 9.734l3.094-3.117c.14-.14.398-.14.539 0 .14.14.14.399 0 .54' />
     </g>
     <defs>
-      <clipPath id='3fd00383cac5da6a3586f2a181cccc92__a'>
+      <clipPath id='b16c2af6029a529a9e81a2c10aa3893c__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

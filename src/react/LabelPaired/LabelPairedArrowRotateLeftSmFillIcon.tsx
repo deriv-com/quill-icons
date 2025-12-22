@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedArrowRotateLeftSmFillIcon = (
       <path d='M3.418 8.125h1.394A.9.9 0 0 1 5.688 9c0 .492-.41.875-.875.875h-3.5A.864.864 0 0 1 .439 9V5.5c0-.465.382-.875.875-.875a.9.9 0 0 1 .875.875v1.422l.464-.492a6.156 6.156 0 0 1 8.668 0 6.156 6.156 0 0 1 0 8.668 6.156 6.156 0 0 1-8.668 0c-.328-.356-.328-.903 0-1.23.356-.356.903-.356 1.23 0a4.423 4.423 0 0 0 6.208 0 4.423 4.423 0 0 0 0-6.208 4.423 4.423 0 0 0-6.207 0z' />
     </g>
     <defs>
-      <clipPath id='174bdd0e254e8b3e593fc986703db04b__a'>
+      <clipPath id='6033cfda0bc114862a5d67384e3b7044__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

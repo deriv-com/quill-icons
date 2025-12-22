@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedWindowMaximizeSmBoldIcon = (
       <path d='M0 6.21c.027-.245.082-.464.191-.655.164-.274.383-.52.684-.684.191-.11.438-.191.684-.219.054 0 .109-.027.191-.027h10.5c.957 0 1.75.793 1.75 1.75v8.75c0 .984-.793 1.75-1.75 1.75H1.75c-.984 0-1.75-.766-1.75-1.75V6.211m1.313 3.665v5.25c0 .246.19.438.437.438h10.5a.45.45 0 0 0 .438-.438v-5.25z' />
     </g>
     <defs>
-      <clipPath id='9ddf585bf486e6f9b984c5c06a16ff57__a'>
+      <clipPath id='f88c78948b42e65d6b05752333fa465a__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

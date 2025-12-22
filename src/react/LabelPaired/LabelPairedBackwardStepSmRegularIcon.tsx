@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedBackwardStepSmRegularIcon = (
       <path d='M1.875 5.938v3.718l4.867-3.965c.137-.109.301-.191.492-.191.41 0 .766.355.766.766v8.996c0 .41-.355.738-.766.738a.76.76 0 0 1-.492-.164L1.875 11.87v3.691a.45.45 0 0 1-.437.438.43.43 0 0 1-.438-.437V5.937a.45.45 0 0 1 .438-.437.47.47 0 0 1 .437.438m5.25.574L1.902 10.75l5.223 4.266z' />
     </g>
     <defs>
-      <clipPath id='8dcc93ca7679c63417a2466b2b53ef49__a'>
+      <clipPath id='904c161917b2d70703970ae554442cf6__a'>
         <path d='M0 0h9v22H0z' />
       </clipPath>
     </defs>

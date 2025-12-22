@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCalendarMdFillIcon = (
       <path d='M3 5c0-.531.438-1 1-1 .531 0 1 .469 1 1v1h4V5c0-.531.438-1 1-1 .531 0 1 .469 1 1v1h1.5c.813 0 1.5.688 1.5 1.5V9H0V7.5A1.5 1.5 0 0 1 1.5 6H3zm11 5v8.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.48 1.48 0 0 1 0 18.5V10z' />
     </g>
     <defs>
-      <clipPath id='2e36f31741d4c6f19fc6b9f63b1e0ce4__a'>
+      <clipPath id='0e03a48a8e9355642df2be5e8fac5f1c__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

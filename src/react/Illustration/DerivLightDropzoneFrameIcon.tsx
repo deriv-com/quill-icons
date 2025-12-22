@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightDropzoneFrameIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#a562854772b635bc214ee111911c1b97__a)'>
+    <g clipPath='url(#e68c7ec332c5b8fbec137fdbe0129e3d__a)'>
       <path
         fill='#BCCDCE'
         fillRule='evenodd'
@@ -27,7 +28,7 @@ const DerivLightDropzoneFrameIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a562854772b635bc214ee111911c1b97__a'>
+      <clipPath id='e68c7ec332c5b8fbec137fdbe0129e3d__a'>
         <path fill='#fff' d='M0 0h278v168H0z' />
       </clipPath>
     </defs>

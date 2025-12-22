@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedChevronsRightMdBoldIcon = (
       <path d='M14.531 11.469c.281.312.281.781 0 1.062l-6 6c-.312.313-.781.313-1.062 0a.684.684 0 0 1 0-1.031l5.469-5.469-5.47-5.5a.684.684 0 0 1 0-1.031.684.684 0 0 1 1.032 0zm-12-6 6 6c.281.312.281.781 0 1.062l-6 6c-.312.313-.781.313-1.062 0a.684.684 0 0 1 0-1.031l5.469-5.469-5.47-5.5a.684.684 0 0 1 0-1.031.684.684 0 0 1 1.032 0z' />
     </g>
     <defs>
-      <clipPath id='09e12145ff2e99740913865dfe1ea20c__a'>
+      <clipPath id='8e02691154c395cd197e138eb7feae2b__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

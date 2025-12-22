@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCircleExclamationXlFillIcon = (
       <path d='M12 30c-4.312 0-8.25-2.25-10.406-6-2.157-3.703-2.157-8.25 0-12C3.75 8.297 7.688 6 12 6c4.266 0 8.203 2.297 10.36 6 2.156 3.75 2.156 8.297 0 12A11.91 11.91 0 0 1 12 30m0-18a1.11 1.11 0 0 0-1.125 1.125v5.25c0 .656.469 1.125 1.125 1.125a1.11 1.11 0 0 0 1.125-1.125v-5.25A1.14 1.14 0 0 0 12 12m-1.5 10.5c0 .844.656 1.5 1.5 1.5.797 0 1.5-.656 1.5-1.5 0-.797-.703-1.5-1.5-1.5-.844 0-1.5.703-1.5 1.5' />
     </g>
     <defs>
-      <clipPath id='31303cadd71bc0a82a2d52da734484de__a'>
+      <clipPath id='feffe6e0737ea1e84931e91f8d7351a4__a'>
         <path d='M0 0h24v36H0z' />
       </clipPath>
     </defs>

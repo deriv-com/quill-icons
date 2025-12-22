@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightIcCashierNoAdsIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#92da1069c2cc7f2d835517d284e8cd04__a)'>
+    <g clipPath='url(#ec61b8e52dfb8be2aa987cc7645f1ad4__a)'>
       <path
         fill='#E0F0F0'
         d='M30.4 5.33a9.16 9.16 0 0 0-9 9.3v98.74a9.16 9.16 0 0 0 9 9.3h67.2a9.16 9.16 0 0 0 9-9.3V33.55L80.06 5.33z'
@@ -34,7 +35,7 @@ const DerivLightIcCashierNoAdsIcon = (
       />
     </g>
     <defs>
-      <clipPath id='92da1069c2cc7f2d835517d284e8cd04__a'>
+      <clipPath id='ec61b8e52dfb8be2aa987cc7645f1ad4__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

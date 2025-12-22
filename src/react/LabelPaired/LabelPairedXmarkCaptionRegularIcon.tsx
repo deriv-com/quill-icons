@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedXmarkCaptionRegularIcon = (
       <path d='M7.594 13.156 4.5 10.04l-3.117 3.117c-.14.14-.375.14-.54 0-.14-.164-.14-.398 0-.539L3.962 9.5.844 6.406c-.14-.14-.14-.375 0-.539.164-.14.398-.14.539 0L4.5 8.984l3.094-3.117c.14-.14.375-.14.539 0 .14.164.14.399 0 .54L5.016 9.5l3.117 3.117c.14.14.14.375 0 .54-.164.14-.399.14-.54 0' />
     </g>
     <defs>
-      <clipPath id='523b83a5b70773a0fccdad20e6004294__a'>
+      <clipPath id='1c6d3beb0d760c2da214636184acaac3__a'>
         <path d='M0 0h9v18H0z' />
       </clipPath>
     </defs>

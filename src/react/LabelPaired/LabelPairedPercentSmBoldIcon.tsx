@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedPercentSmBoldIcon = (
       <path d='m10.34 6.84-8.777 8.75a.6.6 0 0 1-.903 0c-.273-.246-.273-.656 0-.93l8.75-8.722c.246-.274.656-.274.93 0a.644.644 0 0 1 0 .902m-7.027.41c0 .492-.274.902-.657 1.148-.41.247-.93.247-1.312 0A1.31 1.31 0 0 1 .687 7.25c0-.465.247-.875.657-1.121.383-.246.902-.246 1.312 0 .383.246.656.656.656 1.121m7 7c0 .492-.274.902-.657 1.148-.41.247-.93.247-1.312 0a1.31 1.31 0 0 1-.656-1.148c0-.465.246-.875.656-1.121.383-.246.902-.246 1.312 0 .383.246.656.656.656 1.121' />
     </g>
     <defs>
-      <clipPath id='135f290504b9070fb3cac9a776011f50__a'>
+      <clipPath id='b1f57ff96da1b7e62306c305dfb6e420__a'>
         <path d='M0 0h11v22H0z' />
       </clipPath>
     </defs>

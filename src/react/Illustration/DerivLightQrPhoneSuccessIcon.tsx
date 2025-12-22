@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,7 +19,7 @@ const DerivLightQrPhoneSuccessIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#91bee1304f77d5cc5fa6f99e633d0acc__a)'>
+    <g clipPath='url(#e7adbbfb28ea518acfebb657fbd4ac65__a)'>
       <path
         fill='#F5F5F5'
         d='M55.7.33H6.53a6 6 0 0 0-6 6v105.33a6 6 0 0 0 6 6H55.7a6 6 0 0 0 6-6V6.33a6 6 0 0 0-6-6'
@@ -54,7 +55,7 @@ const DerivLightQrPhoneSuccessIcon = (
       />
     </g>
     <defs>
-      <clipPath id='91bee1304f77d5cc5fa6f99e633d0acc__a'>
+      <clipPath id='e7adbbfb28ea518acfebb657fbd4ac65__a'>
         <path fill='#fff' d='M0 0h83v123H0z' />
       </clipPath>
     </defs>

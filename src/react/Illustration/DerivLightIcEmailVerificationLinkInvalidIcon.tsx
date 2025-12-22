@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -18,9 +19,9 @@ const DerivLightIcEmailVerificationLinkInvalidIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e13b4d12061e85a490152c8fc18b884b__a)'>
+    <g clipPath='url(#1e4fefe6c278bff61cea492095d4647a__a)'>
       <mask
-        id='e13b4d12061e85a490152c8fc18b884b__b'
+        id='1e4fefe6c278bff61cea492095d4647a__b'
         width={128}
         height={128}
         x={0}
@@ -32,7 +33,7 @@ const DerivLightIcEmailVerificationLinkInvalidIcon = (
       >
         <path fill='#fff' d='M0 0h128v128H0z' />
       </mask>
-      <g mask='url(#e13b4d12061e85a490152c8fc18b884b__b)'>
+      <g mask='url(#1e4fefe6c278bff61cea492095d4647a__b)'>
         <path
           fill='#BBCCCE'
           d='M13 44.626v14.087l37.62 31.59 6.565-5.582 6.565-5.583 6.46 5.831 6.46 5.831L115 58.048V45.063a1.985 1.985 0 0 0-.94-1.688L66.11 13.602a4.02 4.02 0 0 0-4.23 0L14 42.93c-.612.35-.992.995-1 1.697'
@@ -75,7 +76,7 @@ const DerivLightIcEmailVerificationLinkInvalidIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='e13b4d12061e85a490152c8fc18b884b__a'>
+      <clipPath id='1e4fefe6c278bff61cea492095d4647a__a'>
         <path fill='#fff' d='M0 0h128v128H0z' />
       </clipPath>
     </defs>

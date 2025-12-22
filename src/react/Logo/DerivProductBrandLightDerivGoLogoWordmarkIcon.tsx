@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -47,7 +48,7 @@ const DerivProductBrandLightDerivGoLogoWordmarkIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='2478f3f99fd625f3dd8e2573abdf4456__a'>
+      <clipPath id='fc05556b82d165453817b9f237e2f0fe__a'>
         <path fill='#fff' d='M0 0h261v72H0z' />
       </clipPath>
     </defs>

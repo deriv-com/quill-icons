@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { SVGProps, Ref, forwardRef } from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
 interface SVGRProps {
   title?: string;
   titleId?: string;
@@ -23,7 +24,7 @@ const LabelPairedCircleSortUpXlFillIcon = (
       <path d='M0 18A11.91 11.91 0 0 1 6 7.64c3.703-2.156 8.25-2.156 12 0 3.703 2.157 6 6.094 6 10.36 0 4.313-2.297 8.25-6 10.406-3.75 2.157-8.297 2.157-12 0C2.25 26.25 0 22.313 0 18m12.516-7.266c-.282-.28-.797-.28-1.078 0l-4.5 4.5c-.188.235-.282.563-.141.844.094.235.375.422.703.422h9c.281 0 .563-.14.656-.422.14-.281.047-.61-.14-.844zm0 14.579 4.5-4.5c.187-.235.28-.563.14-.844a.705.705 0 0 0-.656-.469h-9c-.328 0-.61.188-.703.469-.14.281-.047.61.14.843l4.5 4.5c.282.282.797.282 1.079 0M14.672 21 12 23.719 9.281 21z' />
     </g>
     <defs>
-      <clipPath id='4024cf818a1331324ab32328d381aeb5__a'>
+      <clipPath id='f5bdf6a882dbf09b516c0139c24facb0__a'>
         <path d='M0 0h24v36H0z' />
       </clipPath>
     </defs>
