@@ -30,7 +30,7 @@ const SubBrandBrandLightDerivCareersIcon = (
       />
     </g>
     <defs>
-      <clipPath id='f27410c9e85a8b702f27f3bbbbc33dbf__a'>
+      <clipPath id='adcbce289ba3f3d25a45d874b1374cb2__a'>
         <path fill='#fff' d='M0 0h414v60H0z' />
       </clipPath>
     </defs>

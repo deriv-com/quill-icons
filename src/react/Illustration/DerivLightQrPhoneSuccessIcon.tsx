@@ -19,7 +19,7 @@ const DerivLightQrPhoneSuccessIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#e7adbbfb28ea518acfebb657fbd4ac65__a)'>
+    <g clipPath='url(#2810f9f9f7bb599982346553052963e7__a)'>
       <path
         fill='#F5F5F5'
         d='M55.7.33H6.53a6 6 0 0 0-6 6v105.33a6 6 0 0 0 6 6H55.7a6 6 0 0 0 6-6V6.33a6 6 0 0 0-6-6'
@@ -55,7 +55,7 @@ const DerivLightQrPhoneSuccessIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e7adbbfb28ea518acfebb657fbd4ac65__a'>
+      <clipPath id='2810f9f9f7bb599982346553052963e7__a'>
         <path fill='#fff' d='M0 0h83v123H0z' />
       </clipPath>
     </defs>
