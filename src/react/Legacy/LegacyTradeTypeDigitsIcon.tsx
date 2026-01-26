@@ -23,7 +23,7 @@ export const LegacyTradeTypeDigitsIcon = (
       <path d='M15 0a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1zm0 1H1v14h14zm-4 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M5 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4m0 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2' />
     </g>
     <defs>
-      <clipPath id='f880e086de612934cbffb3b30ced3db0__a'>
+      <clipPath id='fdbba8b2ff2f4cb12b6d77a3811c0e73__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

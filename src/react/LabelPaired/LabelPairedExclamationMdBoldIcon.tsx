@@ -24,7 +24,7 @@ const LabelPairedExclamationMdBoldIcon = (
       <path d='M1.75 5.75v9a.74.74 0 0 1-.75.75.72.72 0 0 1-.75-.75v-9A.74.74 0 0 1 1 5a.76.76 0 0 1 .75.75M1 19c-.562 0-1-.437-1-1 0-.531.438-1 1-1 .531 0 1 .469 1 1 0 .563-.469 1-1 1' />
     </g>
     <defs>
-      <clipPath id='1cdf3cee2b2ab5bf13f1e8301bbb861f__a'>
+      <clipPath id='0cfa664595e1edd15b7fcb6625acab08__a'>
         <path d='M0 0h2v24H0z' />
       </clipPath>
     </defs>
