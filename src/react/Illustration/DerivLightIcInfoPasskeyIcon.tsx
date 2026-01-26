@@ -19,7 +19,7 @@ const DerivLightIcInfoPasskeyIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#f2b1aa3ac6f92d253dfa4183f08181fb__a)'>
+    <g clipPath='url(#c5d79bae0e95296544870cc66a1fda38__a)'>
       <path
         fill='#FF444F'
         d='M111.016 85.215c-.009 1.698-.073 5.143-2.145 8.468a13 13 0 0 1-1.339 1.785l-10.778 10.314a13 13 0 0 0 2.633-3.659c1.675-3.485 1.32-6.746 1.074-8.995-.69-6.324-3.965-10.574-5.418-12.41-1.45-1.832-5.3-6.566-11.934-8.428-2.318-.649-6.17-1.728-10.371.097a13.6 13.6 0 0 0-3.822 2.523L80.235 63.77c1.428-.89 4.29-2.393 8.106-2.492 3.18-.083 5.523.846 7.1 1.495 1.097.45 6.521 2.777 10.807 8.91 1.254 1.796 4.807 6.882 4.768 13.533'
@@ -99,7 +99,7 @@ const DerivLightIcInfoPasskeyIcon = (
       />
     </g>
     <defs>
-      <clipPath id='f2b1aa3ac6f92d253dfa4183f08181fb__a'>
+      <clipPath id='c5d79bae0e95296544870cc66a1fda38__a'>
         <path fill='#fff' d='M0 0h120v152H0z' />
       </clipPath>
     </defs>
