@@ -24,7 +24,7 @@ const LabelPairedHorizontalRuleLgBoldIcon = (
       <path d='M0 15.5c0-.508.39-.937.938-.937h23.125A.95.95 0 0 1 25 15.5c0 .547-.43.938-.937.938H.938C.39 16.438 0 16.047 0 15.5' />
     </g>
     <defs>
-      <clipPath id='495ef45bb9a72953fa36ef5a1d8714f9__a'>
+      <clipPath id='9a764ceb9a07b07ea0a594fed9d9387d__a'>
         <path d='M0 0h25v30H0z' />
       </clipPath>
     </defs>

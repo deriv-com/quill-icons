@@ -24,7 +24,7 @@ const LabelPairedTableLayoutSmFillIcon = (
       <path d='M1.75 4.625h10.5c.957 0 1.75.793 1.75 1.75v8.75c0 .984-.793 1.75-1.75 1.75H1.75c-.984 0-1.75-.766-1.75-1.75v-8.75c0-.957.766-1.75 1.75-1.75m10.5 1.75H1.75v1.75h10.5zm-10.5 3.5v5.25H3.5v-5.25zm10.5 0h-7v5.25h7z' />
     </g>
     <defs>
-      <clipPath id='464b32e6209baeee305875c4c16e9f1f__a'>
+      <clipPath id='384ec6cff2a2975a1c352467c54de3c9__a'>
         <path d='M0 0h14v22H0z' />
       </clipPath>
     </defs>

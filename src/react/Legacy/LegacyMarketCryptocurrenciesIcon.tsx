@@ -27,7 +27,7 @@ export const LegacyMarketCryptocurrenciesIcon = (
       />
     </g>
     <defs>
-      <clipPath id='92355c62fd0b6da82fd94ec3c97d025b__a'>
+      <clipPath id='fadc20380298ab86c3af1452fc5540f1__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

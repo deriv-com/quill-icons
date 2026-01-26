@@ -20,7 +20,7 @@ export const MarketStocksMicroStrategyIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#8e30b51c5723bd8b880512cdf8e515b2__a)'>
+    <g clipPath='url(#b79239f0bd21bea89af49cf30c955138__a)'>
       <path
         fill='#D9232E'
         d='M15.992 31.998c-8.843 0-15.99-7.147-15.99-15.99 0-8.84 7.147-15.99 15.99-15.99 8.841 0 15.99 7.15 15.99 15.99 0 8.843-7.149 15.99-15.99 15.99'
@@ -33,7 +33,7 @@ export const MarketStocksMicroStrategyIcon = (
       />
     </g>
     <defs>
-      <clipPath id='8e30b51c5723bd8b880512cdf8e515b2__a'>
+      <clipPath id='b79239f0bd21bea89af49cf30c955138__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
