@@ -24,7 +24,7 @@ const LabelPairedSortDownCaptionBoldIcon = (
       <path d='m4 13.484 2.086-2.109H1.89zm-.54 1.055-3-3a.76.76 0 0 1-.163-.82A.77.77 0 0 1 1 10.25h6c.305 0 .563.188.68.469a.76.76 0 0 1-.164.82l-3 3a.723.723 0 0 1-1.055 0' />
     </g>
     <defs>
-      <clipPath id='453667a99728fd7e98010e88b7f75381__a'>
+      <clipPath id='6c96489bc07ca4a1a819146b4b7ecc6c__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

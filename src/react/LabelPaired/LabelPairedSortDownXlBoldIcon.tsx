@@ -24,7 +24,7 @@ const LabelPairedSortDownXlBoldIcon = (
       <path d='m7.5 25.969 4.172-4.219h-8.39zm-1.078 2.11-6-6a1.52 1.52 0 0 1-.328-1.642A1.54 1.54 0 0 1 1.5 19.5h12c.61 0 1.125.375 1.36.938a1.52 1.52 0 0 1-.329 1.64l-6 6c-.562.61-1.547.61-2.11 0' />
     </g>
     <defs>
-      <clipPath id='a0467c8f62900b5784de3aff0d02e61b__a'>
+      <clipPath id='a4d61ac93154b48589cb9ec79bcb606b__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

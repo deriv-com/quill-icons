@@ -24,7 +24,7 @@ const LabelPairedChartTrendDownMdFillIcon = (
       <path d='M6.531 4.125a.99.99 0 0 1 1.344.438L11.594 12H16c.375 0 .719.219.875.563l3 6a.99.99 0 0 1-.437 1.343.99.99 0 0 1-1.344-.437L15.375 14H11c-.406 0-.75-.187-.906-.531L6.53 6.344 1.438 8.906A.99.99 0 0 1 .093 8.47.99.99 0 0 1 .53 7.125z' />
     </g>
     <defs>
-      <clipPath id='7e38fda0c9ead6dfd74d262b75ddba9d__a'>
+      <clipPath id='b05e96e795a0b39487051601e349afdc__a'>
         <path d='M0 0h20v24H0z' />
       </clipPath>
     </defs>

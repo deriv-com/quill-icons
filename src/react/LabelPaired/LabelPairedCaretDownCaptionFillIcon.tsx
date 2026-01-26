@@ -24,7 +24,7 @@ const LabelPairedCaretDownCaptionFillIcon = (
       <path d='m3.46 12.29-3-3a.76.76 0 0 1-.163-.821A.77.77 0 0 1 1 8h6c.305 0 .563.188.68.469a.76.76 0 0 1-.164.82l-3 3a.723.723 0 0 1-1.055 0' />
     </g>
     <defs>
-      <clipPath id='a7b2cedb61379634fbf5b3790638b027__a'>
+      <clipPath id='06c6e5e1aecebe5860fe98d71c4da18e__a'>
         <path d='M0 0h8v18H0z' />
       </clipPath>
     </defs>

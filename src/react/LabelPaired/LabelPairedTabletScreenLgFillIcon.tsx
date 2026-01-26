@@ -24,7 +24,7 @@ const LabelPairedTabletScreenLgFillIcon = (
       <path d='M.25 8c0-1.367 1.094-2.5 2.5-2.5h12.5c1.367 0 2.5 1.133 2.5 2.5v15c0 1.406-1.133 2.5-2.5 2.5H2.75A2.47 2.47 0 0 1 .25 23zM6.5 23c0 .352.273.625.625.625h3.75A.64.64 0 0 0 11.5 23c0-.312-.312-.625-.625-.625h-3.75A.64.64 0 0 0 6.5 23m8.75-15H2.75v12.5h12.5z' />
     </g>
     <defs>
-      <clipPath id='d6b5a90bbe1e35e73a9b9185a20dd1ca__a'>
+      <clipPath id='2c623105134f81080ee6d50238e388b3__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>
