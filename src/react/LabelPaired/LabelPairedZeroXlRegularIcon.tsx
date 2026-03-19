@@ -24,7 +24,7 @@ const LabelPairedZeroXlRegularIcon = (
       <path d='M0 15c0-4.125 3.328-7.5 7.5-7.5 4.125 0 7.5 3.375 7.5 7.5v6c0 4.172-3.375 7.5-7.5 7.5A7.46 7.46 0 0 1 0 21zm7.5-6c-3.328 0-6 2.719-6 6v6c0 3.328 2.672 6 6 6 3.281 0 6-2.672 6-6v-6c0-3.281-2.719-6-6-6' />
     </g>
     <defs>
-      <clipPath id='63aaaed064119bbf46c8562b8a1f11ce__a'>
+      <clipPath id='53fd499f32ea9b3a0b4e59fb7159124a__a'>
         <path d='M0 0h15v36H0z' />
       </clipPath>
     </defs>

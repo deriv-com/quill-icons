@@ -19,9 +19,9 @@ const DerivDarkScamAdvancePaymentIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#417ca96f6e382e6ce6886d884d85a50d__a)'>
+    <g clipPath='url(#e30612f97cd4bfc3cd2ccf23c8bd9613__a)'>
       <mask
-        id='417ca96f6e382e6ce6886d884d85a50d__b'
+        id='e30612f97cd4bfc3cd2ccf23c8bd9613__b'
         width={96}
         height={96}
         x={0}
@@ -33,7 +33,7 @@ const DerivDarkScamAdvancePaymentIcon = (
       >
         <path fill='#fff' d='M96 0H0v96h96z' />
       </mask>
-      <g mask='url(#417ca96f6e382e6ce6886d884d85a50d__b)'>
+      <g mask='url(#e30612f97cd4bfc3cd2ccf23c8bd9613__b)'>
         <path fill='#414652' d='M96 0H16v45.71h80z' />
         <path fill='#5C616D' d='M88 14.21H8v45.71h80z' />
         <path fill='#9498A2' d='M80 28.41H0v45.71h80z' />
@@ -52,7 +52,7 @@ const DerivDarkScamAdvancePaymentIcon = (
       </g>
     </g>
     <defs>
-      <clipPath id='417ca96f6e382e6ce6886d884d85a50d__a'>
+      <clipPath id='e30612f97cd4bfc3cd2ccf23c8bd9613__a'>
         <path fill='#fff' d='M0 0h96v96H0z' />
       </clipPath>
     </defs>

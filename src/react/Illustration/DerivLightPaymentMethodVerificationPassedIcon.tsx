@@ -19,7 +19,7 @@ const DerivLightPaymentMethodVerificationPassedIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#9a0eaa669550c27b5ace17783f4db5e7__a)'>
+    <g clipPath='url(#291364e208468e01da1176385df0cbd5__a)'>
       <path
         fill='#C6E3E3'
         d='M76.083 0H4a4 4 0 0 0-4 4v92.173a4 4 0 0 0 4 4h72.083a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4'
@@ -38,7 +38,7 @@ const DerivLightPaymentMethodVerificationPassedIcon = (
       />
     </g>
     <defs>
-      <clipPath id='9a0eaa669550c27b5ace17783f4db5e7__a'>
+      <clipPath id='291364e208468e01da1176385df0cbd5__a'>
         <path fill='#fff' d='M0 0h96v116H0z' />
       </clipPath>
     </defs>
