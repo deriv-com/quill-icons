@@ -24,7 +24,7 @@ const LabelPairedSquareMdBoldIcon = (
       <path d='M12 6.5H2c-.281 0-.5.25-.5.5v10c0 .281.219.5.5.5h10c.25 0 .5-.219.5-.5V7c0-.25-.25-.5-.5-.5M2 5h10c1.094 0 2 .906 2 2v10c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2' />
     </g>
     <defs>
-      <clipPath id='9e1403ca76f1e0b70b4a4c3c4d10f73c__a'>
+      <clipPath id='4f8f889fa1835b5808fac03eda063b22__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

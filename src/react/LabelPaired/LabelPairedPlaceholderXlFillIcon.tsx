@@ -24,7 +24,7 @@ const LabelPairedPlaceholderXlFillIcon = (
       <path d='M4.5 7.5H6v3H4.5c-.844 0-1.5.703-1.5 1.5v1.5H0V12c0-2.484 2.016-4.5 4.5-4.5M0 15h3v6H0zm18 0h3v6h-3zm3-1.5h-3V12c0-.797-.703-1.5-1.5-1.5H15v-3h1.5c2.484 0 4.5 2.016 4.5 4.5zm0 9V24c0 2.484-2.016 4.5-4.5 4.5H15v-3h1.5c.797 0 1.5-.656 1.5-1.5v-1.5zm-18 0V24c0 .844.656 1.5 1.5 1.5H6v3H4.5A4.5 4.5 0 0 1 0 24v-1.5zm4.5 6v-3h6v3zm0-18v-3h6v3z' />
     </g>
     <defs>
-      <clipPath id='611ba40d72964657c662fc0071bc8d1d__a'>
+      <clipPath id='2f9227041dac3bdd29c326ab6a567825__a'>
         <path d='M0 0h21v36H0z' />
       </clipPath>
     </defs>
