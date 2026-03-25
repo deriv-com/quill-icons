@@ -1,3 +1,11 @@
+## [2.4.16](https://github.com/deriv-com/quill-icons/compare/v2.4.15...v2.4.16) (2026-03-25)
+
+
+### ♻️ 	 Chores
+
+* added new icons collection ([67afcf8](https://github.com/deriv-com/quill-icons/commit/67afcf812e28c100d6950716a45d990ed34b6711))
+* added new icons collection ([bbed27e](https://github.com/deriv-com/quill-icons/commit/bbed27ee9e11386d548837a5a8348b1818ac488b))
+
 ## [2.4.15](https://github.com/deriv-com/quill-icons/compare/v2.4.14...v2.4.15) (2026-03-19)
 
 
