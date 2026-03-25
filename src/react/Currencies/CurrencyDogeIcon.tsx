@@ -20,7 +20,7 @@ export const CurrencyDogeIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#42d42fb35caf85472b92740a7d2862e8__a)'>
+    <g clipPath='url(#ccf13ed04935f2bfca3bb3cc78053e44__a)'>
       <path
         fill='#C2A633'
         d='M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16'
@@ -754,7 +754,7 @@ export const CurrencyDogeIcon = (
       />
     </g>
     <defs>
-      <clipPath id='42d42fb35caf85472b92740a7d2862e8__a'>
+      <clipPath id='ccf13ed04935f2bfca3bb3cc78053e44__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>

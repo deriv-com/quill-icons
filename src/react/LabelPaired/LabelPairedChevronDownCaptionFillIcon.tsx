@@ -24,7 +24,7 @@ const LabelPairedChevronDownCaptionFillIcon = (
       <path d='m5.46 13.04-4.5-4.5a.723.723 0 0 1 0-1.056.723.723 0 0 1 1.056 0L6 11.445l3.96-3.96a.723.723 0 0 1 1.056 0 .723.723 0 0 1 0 1.054l-4.5 4.5a.723.723 0 0 1-1.055 0' />
     </g>
     <defs>
-      <clipPath id='dd231eb3e7ec20f7e6c14664faf7cf5a__a'>
+      <clipPath id='c638c0c9e3917da678a7578102bb5327__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

@@ -24,7 +24,7 @@ const LabelPairedCheckMdBoldIcon = (
       <path d='M13.781 7.219c.281.312.281.781 0 1.062l-8.25 8.25c-.312.313-.781.313-1.062 0l-4.25-4.25a.684.684 0 0 1 0-1.031.684.684 0 0 1 1.031 0l3.719 3.719 7.75-7.75a.736.736 0 0 1 1.031 0z' />
     </g>
     <defs>
-      <clipPath id='5d583fc71e873eaf2236fd5589f248d4__a'>
+      <clipPath id='b1c2613ec03db3d19f06426a0d32db13__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>
