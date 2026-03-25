@@ -23,7 +23,7 @@ export const LegacyFavoriteOnIcon = (
       <path d='M8 12.815 3.824 15.01a.5.5 0 0 1-.725-.527l.797-4.65L.518 6.54a.5.5 0 0 1 .277-.852l4.669-.679L7.552.78a.5.5 0 0 1 .896 0l2.088 4.23 4.669.679a.5.5 0 0 1 .277.852l-3.378 3.293.797 4.65a.5.5 0 0 1-.725.527z' />
     </g>
     <defs>
-      <clipPath id='9f650c72679cdba851c02cc0e14f5a3e__a'>
+      <clipPath id='d9a2d6c03c6fe8137a6ce79c473e7393__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

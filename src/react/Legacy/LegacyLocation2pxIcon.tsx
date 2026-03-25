@@ -24,7 +24,7 @@ export const LegacyLocation2pxIcon = (
       <path d='M8 0a6 6 0 0 0-6 6c0 3.186 1.776 5.69 5.247 9.659a1 1 0 0 0 1.506 0C12.224 11.69 14 9.186 14 6a6 6 0 0 0-6-6M4 6a4 4 0 1 1 8 0c0 2.162-1.048 4.012-4 7.471C5.048 10.012 4 8.162 4 6' />
     </g>
     <defs>
-      <clipPath id='6338f577074d31f9e1d79b00a6e8dc23__a'>
+      <clipPath id='444b111bb276c6bc7d73b1176ddd86d5__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

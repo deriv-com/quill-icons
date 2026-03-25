@@ -27,7 +27,7 @@ export const LegacyVisibilityOff2pxIcon = (
       />
     </g>
     <defs>
-      <clipPath id='a8893b82a80baab729bcc9c6ce9dd9db__a'>
+      <clipPath id='4eb3a8ee7a10d0d16ea6e1a0e744bfc3__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

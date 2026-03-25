@@ -24,7 +24,7 @@ export const LegacyLogout2pxIcon = (
       <path d='M5.25 8A.75.75 0 0 1 6 7.25h7.19l-1.22-1.22a.75.75 0 0 1 1.06-1.06l2.5 2.5a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 1 1-1.06-1.06l1.22-1.22H6A.75.75 0 0 1 5.25 8' />
     </g>
     <defs>
-      <clipPath id='d481b6dd1680e486f342a852fdad3f7f__a'>
+      <clipPath id='d78a6af40a43d531236a7b6e60c6fe19__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

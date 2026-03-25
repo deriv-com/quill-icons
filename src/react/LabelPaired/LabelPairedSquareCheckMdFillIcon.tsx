@@ -24,7 +24,7 @@ const LabelPairedSquareCheckMdFillIcon = (
       <path d='M2 5h10c1.094 0 2 .906 2 2v10c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2m8.531 5.531H10.5c.313-.281.313-.75 0-1.062a.736.736 0 0 0-1.031 0L6 12.969 4.531 11.5c-.312-.312-.781-.312-1.062 0a.684.684 0 0 0 0 1.031l2 2c.281.313.75.313 1.062 0z' />
     </g>
     <defs>
-      <clipPath id='b83cb7aa7ebcd6fa5c7856089cce7f9c__a'>
+      <clipPath id='5b8037de975589b2717af48dc5f3d31e__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>
