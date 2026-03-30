@@ -151,6 +151,9 @@
     "react": ">= 16",
     "react-dom": ">= 16"
   },
+  "overrides": {
+    "handlebars": "^4.7.9"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
