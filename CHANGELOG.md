@@ -1,3 +1,11 @@
+## [2.4.18](https://github.com/deriv-com/quill-icons/compare/v2.4.17...v2.4.18) (2026-04-07)
+
+
+### 🐛 	 Bug Fixes
+
+* security issue ([7483c59](https://github.com/deriv-com/quill-icons/commit/7483c59e53ac684b2d3273af2341ee749c4332d1))
+* security issue ([026ea47](https://github.com/deriv-com/quill-icons/commit/026ea47aff3518a4abdd47c2c994faffd2141fee))
+
 ## [2.4.17](https://github.com/deriv-com/quill-icons/compare/v2.4.16...v2.4.17) (2026-04-07)
 
 
