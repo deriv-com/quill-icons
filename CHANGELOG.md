@@ -1,3 +1,15 @@
+## [2.4.17](https://github.com/deriv-com/quill-icons/compare/v2.4.16...v2.4.17) (2026-04-07)
+
+
+### ♻️ 	 Chores
+
+* new icons collection ([550bc7b](https://github.com/deriv-com/quill-icons/commit/550bc7ba301589825a485eb9259bd3f6bdaa72ad))
+
+
+### 🐛 	 Bug Fixes
+
+* security issue ([dfc3084](https://github.com/deriv-com/quill-icons/commit/dfc308482392ba6bd9cd9416b57c9aeb18242461))
+
 ## [2.4.16](https://github.com/deriv-com/quill-icons/compare/v2.4.15...v2.4.16) (2026-03-25)
 
 
