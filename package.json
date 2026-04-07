@@ -167,5 +167,8 @@
   "bugs": {
     "url": "https://github.com/deriv-com/quill-icons/issues"
   },
-  "homepage": "https://github.com/deriv-com/quill-icons#readme"
+  "homepage": "https://github.com/deriv-com/quill-icons#readme",
+  "overrides": {
+    "picomatch": ">=4.0.4"
+  }
 }
