@@ -24,7 +24,7 @@ const LabelPairedMapLgFillIcon = (
       <path d='m15.25 24.133-7.5-2.149V6.906l7.5 2.149zm1.25-.078V8.977l4.96-1.993c.587-.234 1.29.196 1.29.86V20.93c0 .39-.234.742-.625.86zM.836 9.25 6.5 6.984v15.079l-5 1.992a.916.916 0 0 1-1.25-.86V10.11c0-.39.234-.742.586-.859' />
     </g>
     <defs>
-      <clipPath id='8a94bbdf6459690f24edce6ec57dffdd__a'>
+      <clipPath id='88cd8cb1a6431c22035488f1f2026262__a'>
         <path d='M0 0h23v30H0z' />
       </clipPath>
     </defs>

@@ -23,7 +23,7 @@ export const LegacyFullscreen2pxIcon = (
       <path d='M2 3a1 1 0 0 1 1-1h2a1 1 0 0 0 0-2H3a3 3 0 0 0-3 3v2a1 1 0 0 0 2 0zM11 0a1 1 0 1 0 0 2h2a1 1 0 0 1 1 1v2a1 1 0 1 0 2 0V3a3 3 0 0 0-3-3zM1 10a1 1 0 0 1 1 1v2a1 1 0 0 0 1 1h2a1 1 0 1 1 0 2H3a3 3 0 0 1-3-3v-2a1 1 0 0 1 1-1M16 11a1 1 0 1 0-2 0v2a1 1 0 0 1-1 1h-2a1 1 0 1 0 0 2h2a3 3 0 0 0 3-3z' />
     </g>
     <defs>
-      <clipPath id='97a3db9df234ef46980c4ccf1b591a14__a'>
+      <clipPath id='f88d90c2d25324b65ecaf02021c627d1__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

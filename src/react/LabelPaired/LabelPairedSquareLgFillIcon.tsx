@@ -24,7 +24,7 @@ const LabelPairedSquareLgFillIcon = (
       <path d='M.25 9.25c0-1.367 1.094-2.5 2.5-2.5h12.5c1.367 0 2.5 1.133 2.5 2.5v12.5c0 1.406-1.133 2.5-2.5 2.5H2.75a2.47 2.47 0 0 1-2.5-2.5z' />
     </g>
     <defs>
-      <clipPath id='c23d3abca75c86d31c39eab1a696d5ae__a'>
+      <clipPath id='d7e63ae33b7bd8844ff6cd12343fa43e__a'>
         <path d='M0 0h18v30H0z' />
       </clipPath>
     </defs>

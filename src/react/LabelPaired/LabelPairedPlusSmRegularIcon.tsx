@@ -24,7 +24,7 @@ const LabelPairedPlusSmRegularIcon = (
       <path d='M6.938 5.5v4.813h4.812a.47.47 0 0 1 .438.437.45.45 0 0 1-.438.438H6.938V16a.45.45 0 0 1-.438.438.43.43 0 0 1-.437-.438v-4.812H1.25a.43.43 0 0 1-.437-.438.45.45 0 0 1 .437-.437h4.813V5.5a.45.45 0 0 1 .437-.437.47.47 0 0 1 .438.437' />
     </g>
     <defs>
-      <clipPath id='17b34c0f8727e3a4a0e1fa44add3ed1f__a'>
+      <clipPath id='3795fd7fe1a4b5b80d51ad6a63cf5ae4__a'>
         <path d='M0 0h13v22H0z' />
       </clipPath>
     </defs>

@@ -27,7 +27,7 @@ export const LegacyAnnouncementIcon = (
       />
     </g>
     <defs>
-      <clipPath id='2baa1bff6d21301ead7c862fbbc6b299__a'>
+      <clipPath id='dc740a3467597da44e581fc787074068__a'>
         <path d='M0 0h16v16H0z' />
       </clipPath>
     </defs>

@@ -1,0 +1,34 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedDerivBrandLogoLgFillIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={20}
+    height={30}
+    viewBox='0 0 20 30'
+    role='img'
+    ref={ref}
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g>
+      <path d='m14.61 20.422-.04.195c-.468 1.953-2.304 3.516-4.297 3.633H7.187c-2.773-.156-4.609-2.46-4.101-5.273l.234-1.25c.508-2.813 3.125-5.157 5.938-5.274l.273-.039h3.125l.938-5.078 3.398-.586zm-5.47-4.844c-1.25.117-2.343 1.172-2.578 2.383l-.117.781c-.234 1.29.625 2.383 1.953 2.383H10c.625 0 1.21-.547 1.367-1.172l.742-4.375H9.141' />
+    </g>
+    <defs>
+      <clipPath id='f961e09bd2493c9e472833ad3cde8aed__a'>
+        <path d='M0 0h20v30H0z' />
+      </clipPath>
+    </defs>
+  </svg>
+);
+const ForwardRef = forwardRef(LabelPairedDerivBrandLogoLgFillIcon);
+export default ForwardRef;

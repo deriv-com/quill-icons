@@ -20,7 +20,7 @@ export const MarketEnergyBrentCrudeOilukIcon = (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath='url(#8429796f3536a2eb7508178d7530d819__a)'>
+    <g clipPath='url(#b66753ec60226da4cd73c61bf762bdd8__a)'>
       <path
         fill='#282C38'
         d='M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16'
@@ -68,7 +68,7 @@ export const MarketEnergyBrentCrudeOilukIcon = (
       />
     </g>
     <defs>
-      <clipPath id='8429796f3536a2eb7508178d7530d819__a'>
+      <clipPath id='b66753ec60226da4cd73c61bf762bdd8__a'>
         <path fill='#fff' d='M0 0h32v32H0z' />
       </clipPath>
     </defs>
