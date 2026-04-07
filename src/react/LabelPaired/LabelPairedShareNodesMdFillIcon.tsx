@@ -24,7 +24,7 @@ const LabelPairedShareNodesMdFillIcon = (
       <path d='M11 11a3.07 3.07 0 0 1-2.094-.812L5.97 11.656c0 .094.031.219.031.344 0 .156-.031.25-.031.375l2.937 1.469A3.1 3.1 0 0 1 11 13a3 3 0 1 1-3 3v-.344l-2.937-1.469C4.53 14.688 3.78 15 3 15a3 3 0 0 1 0-6c.781 0 1.531.344 2.063.844L8 8.375V8a3 3 0 1 1 3 3' />
     </g>
     <defs>
-      <clipPath id='4137888f00ca9f4251a9958c53dcc9b1__a'>
+      <clipPath id='3f2010aeef5005d92b6abe9696038dc7__a'>
         <path d='M0 0h14v24H0z' />
       </clipPath>
     </defs>

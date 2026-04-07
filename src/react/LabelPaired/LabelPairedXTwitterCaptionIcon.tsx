@@ -24,7 +24,7 @@ const LabelPairedXTwitterCaptionIcon = (
       <path d='M9.117 4.625h1.64L7.149 8.773l4.266 5.602H8.086L5.46 10.977l-2.977 3.398H.82l3.868-4.406L.609 4.625h3.422l2.344 3.117zm-.586 8.766h.914L3.54 5.563h-.984z' />
     </g>
     <defs>
-      <clipPath id='53dcf98a4b8088be8bfc09a3d9a620f3__a'>
+      <clipPath id='679cfc98fa9db888d69d73517bd41a71__a'>
         <path d='M0 0h12v18H0z' />
       </clipPath>
     </defs>

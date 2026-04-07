@@ -24,7 +24,7 @@ const LabelPairedCloneMdFillIcon = (
       <path d='M9 18v-2h2v2c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2v-7c0-1.094.875-2 2-2h2v2H2v7zm-2-3c-1.125 0-2-.875-2-2V6c0-1.094.875-2 2-2h7c1.094 0 2 .906 2 2v7c0 1.125-.906 2-2 2z' />
     </g>
     <defs>
-      <clipPath id='a588ebaf51d0f4cae44de48bc89c9e7d__a'>
+      <clipPath id='295c0b0cd742b051b8dcff6607dc5a2d__a'>
         <path d='M0 0h16v24H0z' />
       </clipPath>
     </defs>

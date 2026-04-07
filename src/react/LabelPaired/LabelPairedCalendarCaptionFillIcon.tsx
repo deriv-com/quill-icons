@@ -24,7 +24,7 @@ const LabelPairedCalendarCaptionFillIcon = (
       <path d='M2.5 4.25c0-.398.328-.75.75-.75.398 0 .75.352.75.75V5h3v-.75c0-.398.328-.75.75-.75.398 0 .75.352.75.75V5h1.125c.61 0 1.125.516 1.125 1.125V7.25H.25V6.125C.25 5.515.742 5 1.375 5H2.5zM10.75 8v6.375c0 .633-.516 1.125-1.125 1.125h-8.25A1.11 1.11 0 0 1 .25 14.375V8z' />
     </g>
     <defs>
-      <clipPath id='12bfd7a7dd98348d81ba3b6b4e14da18__a'>
+      <clipPath id='985ec5d173a0b32fa5fd65d5b18e0a16__a'>
         <path d='M0 0h11v18H0z' />
       </clipPath>
     </defs>

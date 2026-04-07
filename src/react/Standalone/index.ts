@@ -916,3 +916,10 @@ export { default as StandaloneHandshakeFillIcon } from './StandaloneHandshakeFil
 export { default as StandaloneHouseUserRegularIcon } from './StandaloneHouseUserRegularIcon';
 export { default as StandaloneHouseUserBoldIcon } from './StandaloneHouseUserBoldIcon';
 export { default as StandaloneHouseUserFillIcon } from './StandaloneHouseUserFillIcon';
+export { default as StandaloneSparklesRegularIcon } from './StandaloneSparklesRegularIcon';
+export { default as StandaloneSparklesBoldIcon } from './StandaloneSparklesBoldIcon';
+export { default as StandaloneSparklesFillIcon } from './StandaloneSparklesFillIcon';
+export { default as StandaloneDerivBrandLogoRegularIcon } from './StandaloneDerivBrandLogoRegularIcon';
+export { default as StandaloneDerivBrandLogoFillIcon } from './StandaloneDerivBrandLogoFillIcon';
+export { default as StandaloneOptionsRegularIcon } from './StandaloneOptionsRegularIcon';
+export { default as StandaloneOptionsFillIcon } from './StandaloneOptionsFillIcon';

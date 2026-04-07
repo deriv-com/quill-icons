@@ -38,7 +38,7 @@ const DerivProductBrandLightDerivXLogoIcon = (
       />
     </g>
     <defs>
-      <clipPath id='e89a782d633487a4504766631cd0f255__a'>
+      <clipPath id='4c84c5480c0cc529c0e686226f5fd631__a'>
         <path fill='#fff' d='M0 0h72v72H0z' />
       </clipPath>
     </defs>

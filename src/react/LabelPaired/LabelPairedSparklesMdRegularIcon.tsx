@@ -1,0 +1,34 @@
+import * as React from 'react';
+import type { SVGProps } from 'react';
+import { Ref, forwardRef } from 'react';
+interface SVGRProps {
+  title?: string;
+  titleId?: string;
+}
+const LabelPairedSparklesMdRegularIcon = (
+  { title, titleId, ...props }: SVGProps<SVGSVGElement> & SVGRProps,
+  ref: Ref<SVGSVGElement>,
+) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={16}
+    height={24}
+    viewBox='0 0 16 24'
+    role='img'
+    ref={ref}
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <g>
+      <path d='M13.5 5c.25 0 .5.25.5.5V7h1.5c.25 0 .5.25.5.5 0 .281-.25.5-.5.5H14v1.5c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5V8h-1.5a.494.494 0 0 1-.5-.5c0-.25.219-.5.5-.5H13V5.5c0-.25.219-.5.5-.5m0 9c.25 0 .5.25.5.5V16h1.5c.25 0 .5.25.5.5 0 .281-.25.5-.5.5H14v1.5c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5V17h-1.5a.494.494 0 0 1-.5-.5c0-.25.219-.5.5-.5H13v-1.5c0-.25.219-.5.5-.5m-9.25-3.219L1.688 11.97l2.562 1.187a.98.98 0 0 1 .5.5l1.188 2.563 1.187-2.563a.98.98 0 0 1 .5-.5l2.563-1.187-2.563-1.188a.98.98 0 0 1-.5-.5L5.938 7.72 4.75 10.28a.98.98 0 0 1-.5.5m-.406 3.281L.28 12.439a.52.52 0 0 1-.281-.47c0-.187.094-.374.281-.437l3.563-1.656L5.5 6.313A.47.47 0 0 1 5.938 6c.187 0 .375.125.468.313l1.625 3.562 3.563 1.625a.55.55 0 0 1 .312.469.47.47 0 0 1-.312.437L8.03 14.062l-1.625 3.563a.55.55 0 0 1-.468.313.47.47 0 0 1-.438-.313z' />
+    </g>
+    <defs>
+      <clipPath id='85dbaccc12e78f9deeef52d0c4b0c5b7__a'>
+        <path d='M0 0h16v24H0z' />
+      </clipPath>
+    </defs>
+  </svg>
+);
+const ForwardRef = forwardRef(LabelPairedSparklesMdRegularIcon);
+export default ForwardRef;
