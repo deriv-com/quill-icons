@@ -169,6 +169,6 @@
   },
   "homepage": "https://github.com/deriv-com/quill-icons#readme",
   "overrides": {
-    "picomatch": ">=4.0.4"
+    "picomatch": "4.0.4"
   }
 }
